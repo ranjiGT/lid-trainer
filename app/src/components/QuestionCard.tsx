@@ -47,7 +47,7 @@ export default function QuestionCard({
               className="rounded-xl border border-gray-200 dark:border-gray-600 max-w-full h-auto mx-auto"
             />
           </div>
-          {question.options.length === 4 && (
+          {question.options.length === 4 && !question.hideOptionLabels && (
             <div className="flex justify-between max-w-md mx-auto mb-6">
               {[1, 2, 3, 4].map((n) => (
                 <span

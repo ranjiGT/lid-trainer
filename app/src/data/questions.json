@@ -360,6 +360,7 @@
       ],
       "correct": 0,
       "image": "/images/questions/general_21.png",
+      "hideOptionLabels": true,
         "explanation": {
           "de": "Das Wappen der Bundesrepublik Deutschland zeigt einen schwarzen Adler auf goldenem Grund. Der Bundesadler ist das älteste Staatswappen Europas und das Symbol der deutschen Souveränität.",
           "en": "The coat of arms of the Federal Republic of Germany shows a black eagle on a golden background. The federal eagle is the oldest state emblem in Europe and the symbol of German sovereignty."
@@ -930,7 +931,8 @@
       "id": "general_55",
       "number": 55,
       "category": "general",
-      "question": "Was zeigt dieses Bild? © Deutscher Bundestag/Achim Melde",
+      "question": "Was zeigt dieses Bild?",
+      "copyright": "© Deutscher Bundestag/Achim Melde",
       "options": [
         "den Bundestagssitz in Berlin",
         "das Bundesverfassungsgericht in Karlsruhe",
@@ -1186,7 +1188,8 @@
       "id": "general_70",
       "number": 70,
       "category": "general",
-      "question": "Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben der deutschen Bundespräsidentin/des deutschen Bundespräsidenten? © Bundesregierung/Engelbert Reineke",
+      "question": "Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben der deutschen Bundespräsidentin/des deutschen Bundespräsidenten?",
+      "copyright": "© Bundesregierung/Engelbert Reineke",
       "options": [
         "Sie/Er führt die Regierungsgeschäfte.",
         "Sie/Er kontrolliert die Regierungspartei.",
@@ -3076,7 +3079,8 @@
       "id": "general_181",
       "number": 181,
       "category": "general",
-      "question": "Was wollte Willy Brandt mit seinem Kniefall 1970 im ehemaligen jüdischen Ghetto in Warschau ausdrücken? © Bundesregierung/Engelbert Reineke",
+      "question": "Was wollte Willy Brandt mit seinem Kniefall 1970 im ehemaligen jüdischen Ghetto in Warschau ausdrücken?",
+      "copyright": "© Bundesregierung/Engelbert Reineke",
       "options": [
         "Er hat sich den ehemaligen Alliierten unterworfen.",
         "Er bat Polen und die polnischen Juden um Vergebung.",
@@ -3674,7 +3678,8 @@
       "id": "general_216",
       "number": 216,
       "category": "general",
-      "question": "Welches Symbol ist im Plenarsaal des Deutschen Bundestages zu sehen? © Deutscher Bundestag/Janine Schmitz",
+      "question": "Welches Symbol ist im Plenarsaal des Deutschen Bundestages zu sehen?",
+      "copyright": "© Deutscher Bundestag/Janine Schmitz",
       "options": [
         "der Bundesadler",
         "die Fahne der Stadt Berlin",
@@ -3999,7 +4004,8 @@
       "id": "general_235",
       "number": 235,
       "category": "general",
-      "question": "Der damalige französische Staatspräsident François Mitterrand und der damalige deutsche Bundeskanzler Helmut Kohl gedenken in Verdun gemeinsam der Toten beider Weltkriege. Welches Ziel der Europäischen Union wird bei diesem Treffen deutlich? © Bundesregierung/Richard Schulze-Vorberg",
+      "question": "Der damalige französische Staatspräsident François Mitterrand und der damalige deutsche Bundeskanzler Helmut Kohl gedenken in Verdun gemeinsam der Toten beider Weltkriege. Welches Ziel der Europäischen Union wird bei diesem Treffen deutlich?",
+      "copyright": "© Bundesregierung/Richard Schulze-Vorberg",
       "options": [
         "Freundschaft zwischen England und Deutschland",
         "Reisefreiheit in alle Länder der EU",

@@ -3,7 +3,7 @@
 
 import { Topic } from "../data/topics";
 import { Language } from "../lib/types";
-import { useRouter } from "next/navigation";
+import { basePath } from "../lib/basePath";
 
 interface TopicDetailProps {
   topic: Topic;
@@ -19,7 +19,6 @@ export default function TopicDetail({
   onPractice,
 }: TopicDetailProps) {
   const details = topic.details;
-  const { basePath } = useRouter();
 
   return (
     <div className="max-w-3xl mx-auto">

@@ -7,6 +7,7 @@ export interface Question {
   correct: number;
   image?: string;
   explanation?: { de: string; en: string };
+  hideOptionLabels?: boolean;
 }
 
 export interface QuestionsData {

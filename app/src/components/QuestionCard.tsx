@@ -1,6 +1,7 @@
 "use client";
 
 import { Question } from "../lib/types";
+import { basePath } from "../lib/basePath";
 import { useLanguage } from "./LanguageProvider";
 
 interface QuestionCardProps {
@@ -39,7 +40,7 @@ export default function QuestionCard({
       {question.image && (
         <div className="mb-6">
           <img
-            src={question.image}
+            src={`${basePath}${question.image}`}
             alt="Question image"
             className="rounded-xl border border-gray-200 dark:border-gray-600 max-w-full h-auto mx-auto"
           />

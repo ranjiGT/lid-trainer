@@ -20,8 +20,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
+        "de": "Das Wappen von Niedersachsen zeigt ein weißes, aufsteigendes Pferd auf rotem Grund. Dieses sogenannte Sachsenross ist ein historisches Symbol und steht für die Tradition und Geschichte des Landes Niedersachsen.",
+        "en": "The coat of arms of Lower Saxony (Niedersachsen) features a white horse rearing on a red background. This so-called Saxon Steed is a historic symbol representing the tradition and history of the state of Lower Saxony."
       }
     },
     {
@@ -37,8 +37,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
+        "de": "Altötting ist ein Landkreis in Bayern. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
+        "en": "Altötting is a district in Bavaria. The other districts listed are located in other federal states."
       }
     },
     {
@@ -139,8 +139,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
+        "de": "Berlin ist ein Stadtstaat und zugleich ein Bundesland der Bundesrepublik Deutschland. Es ist die Hauptstadt Deutschlands und hat sowohl Landes- als auch Kommunalaufgaben.",
+        "en": "Berlin is a city-state and at the same time a federal state of the Federal Republic of Germany. It is the capital of Germany and fulfills both state and municipal functions."
       }
     },
     {
@@ -360,10 +360,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/general_21.png",
-      "explanation": {
-        "de": "Der Bundestag ist das Parlament Deutschlands und wird vom Volk gewählt. Er beschließt die Bundesgesetze.",
-        "en": "The Bundestag is Germany's parliament and is elected by the people. It passes federal laws."
-      }
+        "explanation": {
+          "de": "Das Wappen der Bundesrepublik Deutschland zeigt einen schwarzen Adler auf goldenem Grund. Der Bundesadler ist das älteste Staatswappen Europas und das Symbol der deutschen Souveränität.",
+          "en": "The coat of arms of the Federal Republic of Germany shows a black eagle on a golden background. The federal eagle is the oldest state emblem in Europe and the symbol of German sovereignty."
+        }
     },
     {
       "id": "general_22",
@@ -939,10 +939,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/general_55.png",
-      "explanation": {
-        "de": "Der Bundestag beschließt die Bundesgesetze. Er ist das wichtigste gesetzgebende Organ in Deutschland.",
-        "en": "The Bundestag passes federal laws. It is the most important legislative body in Germany."
-      }
+        "explanation": {
+          "de": "Das Bild zeigt den Plenarsaal des Deutschen Bundestages im Reichstagsgebäude in Berlin. Hier tagt das Parlament und werden die Bundesgesetze beschlossen.",
+          "en": "The image shows the plenary chamber of the German Bundestag in the Reichstag building in Berlin. This is where the parliament meets and federal laws are passed."
+        }
     },
     {
       "id": "general_56",
@@ -2216,10 +2216,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/general_130.png",
-      "explanation": {
-        "de": "Die richtige Antwort ist: 1.",
-        "en": "The correct answer is: 1."
-      }
+        "explanation": {
+          "de": "Ein Stimmzettel ist gültig, wenn eindeutig erkennbar ist, für welche Partei oder Kandidatin/Kandidaten die Stimme abgegeben wurde und nur jeweils ein Kreuz pro Spalte gemacht wurde. Unleserliche, mehrfach angekreuzte oder beschriftete Stimmzettel sind ungültig. Im Beispiel ist Stimmzettel 1 gültig.",
+          "en": "A ballot paper is valid if it is clearly marked for one party or candidate in each column and only one cross is made per column. Illegible, multiply marked, or annotated ballots are invalid. In the example, ballot 1 is valid."
+        }
     },
     {
       "id": "general_131",
@@ -2999,10 +2999,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/general_176.png",
-      "explanation": {
-        "de": "1=Großbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich.",
-        "en": "The correct answer is: 1=Großbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich."
-      }
+        "explanation": {
+          "de": "Nach 1945 wurde Deutschland in vier Besatzungszonen aufgeteilt: 1=Großbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich. Jede Zone wurde von einer der Siegermächte des Zweiten Weltkriegs verwaltet.",
+          "en": "After 1945, Germany was divided into four occupation zones: 1=Great Britain, 2=Soviet Union, 3=USA, 4=France. Each zone was administered by one of the victorious powers of World War II."
+        }
     },
     {
       "id": "general_177",
@@ -3085,10 +3085,10 @@
       ],
       "correct": 1,
       "image": "/images/questions/general_181.png",
-      "explanation": {
-        "de": "Er bat Polen und die polnischen Juden um Vergebung.",
-        "en": "The correct answer is: Er bat Polen und die polnischen Juden um Vergebung."
-      }
+        "explanation": {
+          "de": "Mit seinem Kniefall im ehemaligen jüdischen Ghetto in Warschau bat Willy Brandt stellvertretend für Deutschland um Vergebung für die Verbrechen der Nationalsozialisten und setzte ein Zeichen für Versöhnung und Erinnerung.",
+          "en": "With his kneeling in the former Jewish ghetto in Warsaw, Willy Brandt asked for forgiveness on behalf of Germany for the crimes of the National Socialists and set a sign for reconciliation and remembrance."
+        }
     },
     {
       "id": "general_182",
@@ -3188,10 +3188,10 @@
       ],
       "correct": 3,
       "image": "/images/questions/general_187.png",
-      "explanation": {
-        "de": "Die richtige Antwort ist: DDR.",
-        "en": "The correct answer is: DDR."
-      }
+        "explanation": {
+          "de": "Die Deutsche Demokratische Republik (DDR) hatte eine schwarz-rot-goldene Flagge mit Hammer, Zirkel und Ährenkranz als Staatswappen. Hammer und Zirkel standen für Arbeiter und Intelligenz, der Ährenkranz für die Bauern.",
+          "en": "The German Democratic Republic (GDR/DDR) had a black-red-gold flag with a hammer, compass, and wreath of grain as its state emblem. The hammer and compass represented workers and intellectuals, the wreath of grain represented farmers."
+        }
     },
     {
       "id": "general_188",
@@ -3563,10 +3563,10 @@
       ],
       "correct": 3,
       "image": "/images/questions/general_209.png",
-      "explanation": {
-        "de": "Die richtige Antwort ist: Bild 4.",
-        "en": "The correct answer is: Bild 4."
-      }
+        "explanation": {
+          "de": "Das Wappen der Deutschen Demokratischen Republik (DDR) zeigte Hammer und Zirkel, umgeben von einem Ährenkranz. Hammer und Zirkel standen für die Arbeiter und die Intelligenz, der Ährenkranz für die Bauern.",
+          "en": "The coat of arms of the German Democratic Republic (GDR) showed a hammer and a compass, surrounded by a wreath of ears of grain. The hammer and compass represented workers and intellectuals, the wreath of grain represented farmers."
+        }
     },
     {
       "id": "general_210",
@@ -3684,8 +3684,8 @@
       "correct": 0,
       "image": "/images/questions/general_216.png",
       "explanation": {
-        "de": "Die Berliner Mauer fiel am 9. November 1989. Dieses Datum ist ein Wendepunkt in der deutschen Geschichte.",
-        "en": "The Berlin Wall fell on November 9, 1989. This date is a turning point in German history."
+        "de": "Im Plenarsaal des Deutschen Bundestages ist der Bundesadler zu sehen. Der Bundesadler ist das Wappentier der Bundesrepublik Deutschland und ein zentrales Staatssymbol.",
+        "en": "The symbol visible in the plenary chamber of the German Bundestag is the Federal Eagle (Bundesadler). The Federal Eagle is the coat of arms animal of the Federal Republic of Germany and a central national symbol."
       }
     },
     {
@@ -3854,10 +3854,10 @@
       ],
       "correct": 1,
       "image": "/images/questions/general_226.png",
-      "explanation": {
-        "de": "Die UN (Vereinte Nationen) wurde 1945 gegründet, um den Weltfrieden zu sichern und die Menschenrechte zu schützen.",
-        "en": "The UN (United Nations) was founded in 1945 to maintain world peace and protect human rights."
-      }
+        "explanation": {
+          "de": "Die Flagge der Europäischen Union ist blau mit einem Kreis aus zwölf goldenen Sternen. Sie steht für Einheit, Solidarität und Harmonie in Europa.",
+          "en": "The flag of the European Union is blue with a circle of twelve golden stars. It stands for unity, solidarity, and harmony in Europe."
+        }
     },
     {
       "id": "general_227",
@@ -4008,10 +4008,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/general_235.png",
-      "explanation": {
-        "de": "Die richtige Antwort ist: Frieden und Sicherheit in den Ländern der EU.",
-        "en": "The correct answer is: Frieden und Sicherheit in den Ländern der EU."
-      }
+        "explanation": {
+          "de": "Das Treffen von Mitterrand und Kohl in Verdun steht symbolisch für die Aussöhnung und die enge Zusammenarbeit zwischen Frankreich und Deutschland nach den Weltkriegen. Es verdeutlicht das Ziel der Europäischen Union, Frieden und Sicherheit in Europa zu sichern und ehemalige Feinde zu Partnern zu machen.",
+          "en": "The meeting of Mitterrand and Kohl in Verdun symbolizes reconciliation and close cooperation between France and Germany after the world wars. It highlights the European Union's goal of securing peace and security in Europe and turning former enemies into partners."
+        }
     },
     {
       "id": "general_236",
@@ -5131,10 +5131,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/BW_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen von Baden-Württemberg zeigt drei schreitende schwarze Löwen auf goldenem Grund. Es ist das traditionelle Symbol des Landes Baden-Württemberg.",
+          "en": "The coat of arms of Baden-Württemberg shows three black lions passant on a golden background. It is the traditional symbol of the state of Baden-Württemberg."
+        }
     },
     {
       "id": "BW_2",
@@ -5149,10 +5149,10 @@
       ],
       "correct": 1,
       "image": "/images/questions/BW_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Der Neckar-Odenwald-Kreis ist ein Landkreis in Baden-Württemberg. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
+          "en": "The Neckar-Odenwald district (Neckar-Odenwald-Kreis) is a district in Baden-Württemberg. The other districts listed are located in other federal states."
+        }
     },
     {
       "id": "BW_3",
@@ -5252,10 +5252,10 @@
       ],
       "correct": 1,
       "image": "/images/questions/BW_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Baden-Württemberg ist eines der 16 Bundesländer Deutschlands und ein Flächenland im Südwesten der Bundesrepublik.",
+          "en": "Baden-Württemberg is one of the 16 federal states of Germany and a territorial state (Flächenland) in the southwest of the Federal Republic."
+        }
     },
     {
       "id": "BW_9",
@@ -5305,8 +5305,8 @@
       "correct": 1,
       "image": "/images/questions/BY_1.png",
       "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
+        "de": "Das bayerische Staatswappen zeigt einen goldenen Löwen, einen blauen Panther, drei schwarze Löwen und das weiß-blaue Rautenmuster. Es symbolisiert die Regionen und die Geschichte des Freistaates Bayern.",
+        "en": "The Bavarian state coat of arms features a golden lion, a blue panther, three black lions, and the white-blue lozenge pattern. It symbolizes the regions and history of the Free State of Bavaria."
       }
     },
     {
@@ -5323,8 +5323,8 @@
       "correct": 3,
       "image": "/images/questions/BY_2.png",
       "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
+        "de": "Der Landkreis Börde ist ein Landkreis im Bundesland Sachsen-Anhalt. Er liegt im Westen des Landes und hat seinen Verwaltungssitz in Haldensleben. Landkreise sind wichtige Verwaltungseinheiten in den deutschen Bundesländern.",
+        "en": "The district of Börde is a county (Landkreis) in the federal state of Saxony-Anhalt. It is located in the west of the state and its administrative center is Haldensleben. Counties are important administrative units in the German federal states."
       }
     },
     {
@@ -5425,10 +5425,10 @@
       ],
       "correct": 3,
       "image": "/images/questions/BY_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Bayern ist eines der 16 Bundesländer Deutschlands und ein Freistaat im Südosten der Bundesrepublik.",
+          "en": "Bavaria is one of the 16 federal states of Germany and a Free State (Freistaat) in the southeast of the Federal Republic."
+        }
     },
     {
       "id": "BY_9",
@@ -5477,10 +5477,10 @@
       ],
       "correct": 3,
       "image": "/images/questions/BE_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen von Berlin zeigt einen aufrecht stehenden schwarzen Bären auf weißem Schild mit einer goldenen Krone. Der Bär ist das Symbol der Stadt Berlin.",
+          "en": "The coat of arms of Berlin shows a black bear rampant on a white shield with a golden crown. The bear is the symbol of the city of Berlin."
+        }
     },
     {
       "id": "BE_2",
@@ -5495,10 +5495,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/BE_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Pankow ist ein Bezirk von Berlin. Die anderen genannten Gebiete gehören zu anderen Städten oder Bundesländern: Altona zu Hamburg, Prignitz zu Brandenburg und Mecklenburgische Seenplatte zu Mecklenburg-Vorpommern.",
+          "en": "Pankow is a district (Bezirk) of Berlin. The other areas listed belong to other cities or federal states: Altona to Hamburg, Prignitz to Brandenburg, and Mecklenburgische Seenplatte to Mecklenburg-Western Pomerania."
+        }
     },
     {
       "id": "BE_3",
@@ -5650,10 +5650,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/BB_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen von Brandenburg zeigt einen roten Adler auf silbernem (weißem) Grund. Der rote Adler ist das traditionelle Symbol des Landes Brandenburg.",
+          "en": "The coat of arms of Brandenburg shows a red eagle on a silver (white) background. The red eagle is the traditional symbol of the state of Brandenburg."
+        }
     },
     {
       "id": "BB_2",
@@ -5668,10 +5668,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/BB_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Prignitz ist ein Landkreis in Brandenburg. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
+          "en": "Prignitz is a district in Brandenburg. The other districts listed are located in other federal states."
+        }
     },
     {
       "id": "BB_3",
@@ -5771,10 +5771,10 @@
       ],
       "correct": 3,
       "image": "/images/questions/BB_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Brandenburg ist eines der 16 Bundesländer Deutschlands und ein Flächenland im Osten der Bundesrepublik.",
+          "en": "Brandenburg is one of the 16 federal states of Germany and a territorial state (Flächenland) in the east of the Federal Republic."
+        }
     },
     {
       "id": "BB_9",
@@ -5823,10 +5823,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/HB_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen der Freien Hansestadt Bremen zeigt einen silbernen Schlüssel auf rotem Grund. Der Schlüssel ist das traditionelle Symbol der Stadt Bremen.",
+          "en": "The coat of arms of the Free Hanseatic City of Bremen shows a silver key on a red background. The key is the traditional symbol of the city of Bremen."
+        }
     },
     {
       "id": "HB_2",
@@ -5841,10 +5841,10 @@
       ],
       "correct": 1,
       "image": "/images/questions/HB_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Hemelingen ist ein Stadtteil von Bremen. Die anderen genannten Stadtteile gehören zu anderen Städten: Altona zu Hamburg, Pankow zu Berlin und Babelsberg zu Potsdam.",
+          "en": "Hemelingen is a district of Bremen. The other districts listed belong to other cities: Altona to Hamburg, Pankow to Berlin, and Babelsberg to Potsdam."
+        }
     },
     {
       "id": "HB_3",
@@ -5944,10 +5944,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/HB_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Bremen ist eines der 16 Bundesländer Deutschlands und einer der drei Stadtstaaten (neben Berlin und Hamburg). Es besteht aus den Städten Bremen und Bremerhaven.",
+          "en": "Bremen is one of the 16 federal states of Germany and one of the three city states (along with Berlin and Hamburg). It consists of the cities of Bremen and Bremerhaven."
+        }
     },
     {
       "id": "HB_9",
@@ -5996,10 +5996,10 @@
       ],
       "correct": 1,
       "image": "/images/questions/HH_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen der Freien und Hansestadt Hamburg zeigt eine weiße Burg mit drei Türmen auf rotem Grund. Die Burg ist das traditionelle Symbol der Stadt Hamburg.",
+          "en": "The coat of arms of the Free and Hanseatic City of Hamburg shows a white castle with three towers on a red background. The castle is the traditional symbol of the city of Hamburg."
+        }
     },
     {
       "id": "HH_2",
@@ -6015,8 +6015,8 @@
       "correct": 0,
       "image": "/images/questions/HH_2.png",
       "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
+        "de": "Altona ist einer der sieben Bezirke der Freien und Hansestadt Hamburg. Die Bezirke sind Verwaltungseinheiten und unterteilen die Stadt in verschiedene Regionen mit eigenen Bezirksämtern.",
+        "en": "Altona is one of the seven districts (Bezirke) of the Free and Hanseatic City of Hamburg. The districts are administrative units that divide the city into different regions, each with its own district office."
       }
     },
     {
@@ -6117,10 +6117,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/HH_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Hamburg ist eines der 16 Bundesländer Deutschlands und einer der drei Stadtstaaten (neben Berlin und Bremen).",
+          "en": "Hamburg is one of the 16 federal states of Germany and one of the three city states (along with Berlin and Bremen)."
+        }
     },
     {
       "id": "HH_9",
@@ -6169,10 +6169,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/HE_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen von Hessen zeigt einen rot-weiß gestreiften Löwen auf blauem Grund. Der Löwe ist das traditionelle Symbol des Landes Hessen.",
+          "en": "The coat of arms of Hesse shows a red and white striped lion on a blue background. The lion is the traditional symbol of the state of Hesse."
+        }
     },
     {
       "id": "HE_2",
@@ -6187,10 +6187,10 @@
       ],
       "correct": 3,
       "image": "/images/questions/HE_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Der Main-Taunus-Kreis ist ein Landkreis in Hessen. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
+          "en": "The Main-Taunus district (Main-Taunus-Kreis) is a district in Hesse. The other districts listed are located in other federal states."
+        }
     },
     {
       "id": "HE_3",
@@ -6290,10 +6290,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/HE_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Hessen ist eines der 16 Bundesländer Deutschlands und ein Flächenland in der Mitte der Bundesrepublik.",
+          "en": "Hesse is one of the 16 federal states of Germany and a territorial state (Flächenland) in the center of the Federal Republic."
+        }
     },
     {
       "id": "HE_9",
@@ -6342,10 +6342,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/MV_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen von Mecklenburg-Vorpommern zeigt einen Stierkopf, einen Greif und einen Adler. Es symbolisiert die historischen Landesteile Mecklenburg und Vorpommern.",
+          "en": "The coat of arms of Mecklenburg-Western Pomerania shows a bull's head, a griffin, and an eagle. It symbolizes the historical regions of Mecklenburg and Western Pomerania."
+        }
     },
     {
       "id": "MV_2",
@@ -6360,10 +6360,10 @@
       ],
       "correct": 1,
       "image": "/images/questions/MV_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Die Mecklenburgische Seenplatte ist ein Landkreis in Mecklenburg-Vorpommern. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
+          "en": "The Mecklenburg Lake District (Mecklenburgische Seenplatte) is a district in Mecklenburg-Western Pomerania. The other districts listed are located in other federal states."
+        }
     },
     {
       "id": "MV_3",
@@ -6463,10 +6463,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/MV_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Mecklenburg-Vorpommern ist eines der 16 Bundesländer Deutschlands und ein Flächenland im Nordosten der Bundesrepublik.",
+          "en": "Mecklenburg-Western Pomerania is one of the 16 federal states of Germany and a territorial state (Flächenland) in the northeast of the Federal Republic."
+        }
     },
     {
       "id": "MV_9",
@@ -6533,10 +6533,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/NI_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Ammerland ist ein Landkreis in Niedersachsen. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
+          "en": "Ammerland is a district in Lower Saxony. The other districts listed are located in other federal states."
+        }
     },
     {
       "id": "NI_3",
@@ -6636,10 +6636,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/NI_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Niedersachsen ist eines der 16 Bundesländer Deutschlands und ein Flächenland im Nordwesten der Bundesrepublik.",
+          "en": "Lower Saxony is one of the 16 federal states of Germany and a territorial state (Flächenland) in the northwest of the Federal Republic."
+        }
     },
     {
       "id": "NI_9",
@@ -6688,10 +6688,10 @@
       ],
       "correct": 1,
       "image": "/images/questions/NW_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen von Nordrhein-Westfalen zeigt drei Felder: eine weiße Welle auf grünem Grund (Rheinland), ein rotes Ross auf weißem Grund (Westfalen) und eine rote Rose auf goldenem Grund (Lippe).",
+          "en": "The coat of arms of North Rhine-Westphalia shows three fields: a white wave on a green background (Rhineland), a red horse on a white background (Westphalia), and a red rose on a golden background (Lippe)."
+        }
     },
     {
       "id": "NW_2",
@@ -6706,10 +6706,10 @@
       ],
       "correct": 1,
       "image": "/images/questions/NW_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Der Rhein-Sieg-Kreis ist ein Landkreis in Nordrhein-Westfalen. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
+          "en": "The Rhein-Sieg district (Rhein-Sieg-Kreis) is a district in North Rhine-Westphalia. The other districts listed are located in other federal states."
+        }
     },
     {
       "id": "NW_3",
@@ -6809,10 +6809,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/NW_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Nordrhein-Westfalen ist eines der 16 Bundesländer Deutschlands und das bevölkerungsreichste Flächenland im Westen der Bundesrepublik.",
+          "en": "North Rhine-Westphalia is one of the 16 federal states of Germany and the most populous territorial state (Flächenland) in the west of the Federal Republic."
+        }
     },
     {
       "id": "NW_9",
@@ -6861,10 +6861,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/RP_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen von Rheinland-Pfalz zeigt ein rotes Kreuz (Erzbistum Trier), einen silbernen Rad (Mainz) und einen goldenen Löwen (Pfalz) auf schwarzem Grund. Es symbolisiert die historischen Landesteile.",
+          "en": "The coat of arms of Rhineland-Palatinate shows a red cross (Archbishopric of Trier), a silver wheel (Mainz), and a golden lion (Palatinate) on a black background. It symbolizes the historical regions of the state."
+        }
     },
     {
       "id": "RP_2",
@@ -6879,10 +6879,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/RP_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Der Westerwaldkreis ist ein Landkreis in Rheinland-Pfalz. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
+          "en": "The Westerwald district (Westerwaldkreis) is a district in Rhineland-Palatinate. The other districts listed are located in other federal states."
+        }
     },
     {
       "id": "RP_3",
@@ -6982,10 +6982,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/RP_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Rheinland-Pfalz ist eines der 16 Bundesländer Deutschlands und ein Flächenland im Westen der Bundesrepublik.",
+          "en": "Rhineland-Palatinate is one of the 16 federal states of Germany and a territorial state (Flächenland) in the west of the Federal Republic."
+        }
     },
     {
       "id": "RP_9",
@@ -7034,10 +7034,10 @@
       ],
       "correct": 3,
       "image": "/images/questions/SL_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen des Saarlandes ist geviertelt und zeigt Symbole für die historischen Landesteile: Nassau, Pfalz, Lothringen und Trier. Es ist das offizielle Landeswappen des Saarlandes.",
+          "en": "The coat of arms of Saarland is quartered and shows symbols for the historical regions: Nassau, Palatinate, Lorraine, and Trier. It is the official state coat of arms of Saarland."
+        }
     },
     {
       "id": "SL_2",
@@ -7052,10 +7052,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/SL_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Neunkirchen ist ein Landkreis im Saarland. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
+          "en": "Neunkirchen is a district in Saarland. The other districts listed are located in other federal states."
+        }
     },
     {
       "id": "SL_3",
@@ -7207,10 +7207,10 @@
       ],
       "correct": 3,
       "image": "/images/questions/SN_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen des Freistaats Sachsen zeigt einen neunmal geteilten gold-schwarzen Schild mit einem grünen Rautenkranz (Kranz von Rauten) schräg von links oben nach rechts unten. Es ist das traditionelle Symbol Sachsens.",
+          "en": "The coat of arms of the Free State of Saxony shows a shield divided nine times gold and black with a green crancelin (diagonal band) from top left to bottom right. It is the traditional symbol of Saxony."
+        }
     },
     {
       "id": "SN_2",
@@ -7225,10 +7225,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/SN_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Der Vogtlandkreis ist ein Landkreis in Sachsen. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
+          "en": "The Vogtland district (Vogtlandkreis) is a district in Saxony. The other districts listed are located in other federal states."
+        }
     },
     {
       "id": "SN_3",
@@ -7328,10 +7328,10 @@
       ],
       "correct": 3,
       "image": "/images/questions/SN_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Sachsen ist eines der 16 Bundesländer Deutschlands und ein Freistaat im Osten der Bundesrepublik.",
+          "en": "Saxony is one of the 16 federal states of Germany and a Free State (Freistaat) in the east of the Federal Republic."
+        }
     },
     {
       "id": "SN_9",
@@ -7380,10 +7380,10 @@
       ],
       "correct": 3,
       "image": "/images/questions/ST_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen von Sachsen-Anhalt zeigt oben einen schwarzen Bären auf einer Mauer und unten einen grünen Rautenkranz auf goldenem Grund mit einem schwarzen Adler. Es ist das offizielle Landeswappen von Sachsen-Anhalt.",
+          "en": "The coat of arms of Saxony-Anhalt shows a black bear on a wall at the top and a green crancelin (diagonal band) on a golden field with a black eagle at the bottom. It is the official state coat of arms of Saxony-Anhalt."
+        }
     },
     {
       "id": "ST_2",
@@ -7501,10 +7501,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/ST_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Sachsen-Anhalt ist eines der 16 Bundesländer Deutschlands und ein Flächenland im Osten der Bundesrepublik.",
+          "en": "Saxony-Anhalt is one of the 16 federal states of Germany and a territorial state (Flächenland) in the east of the Federal Republic."
+        }
     },
     {
       "id": "ST_9",
@@ -7553,10 +7553,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/SH_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen von Schleswig-Holstein zeigt zwei Felder: einen nach links schreitenden roten Löwen auf goldenem Grund (Schleswig) und einen silbernen Nesselblatt auf rotem Grund (Holstein).",
+          "en": "The coat of arms of Schleswig-Holstein shows two fields: a red lion passant to the left on a golden background (Schleswig) and a silver nettle leaf on a red background (Holstein)."
+        }
     },
     {
       "id": "SH_2",
@@ -7571,10 +7571,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/SH_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Nordfriesland ist ein Landkreis in Schleswig-Holstein. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
+          "en": "Nordfriesland is a district in Schleswig-Holstein. The other districts listed are located in other federal states."
+        }
     },
     {
       "id": "SH_3",
@@ -7674,10 +7674,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/SH_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Schleswig-Holstein ist eines der 16 Bundesländer Deutschlands und das nördlichste Flächenland der Bundesrepublik.",
+          "en": "Schleswig-Holstein is one of the 16 federal states of Germany and the northernmost territorial state (Flächenland) of the Federal Republic."
+        }
     },
     {
       "id": "SH_9",
@@ -7726,10 +7726,10 @@
       ],
       "correct": 3,
       "image": "/images/questions/TH_1.png",
-      "explanation": {
-        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
-        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
-      }
+        "explanation": {
+          "de": "Das Wappen des Freistaats Thüringen zeigt einen rot-weiß gestreiften Löwen mit goldener Krone auf blauem Grund, umgeben von acht Sternen. Der Löwe ist das traditionelle Symbol Thüringens.",
+          "en": "The coat of arms of the Free State of Thuringia shows a red and white striped lion with a golden crown on a blue background, surrounded by eight stars. The lion is the traditional symbol of Thuringia."
+        }
     },
     {
       "id": "TH_2",
@@ -7744,10 +7744,10 @@
       ],
       "correct": 3,
       "image": "/images/questions/TH_2.png",
-      "explanation": {
-        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
-        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
-      }
+        "explanation": {
+          "de": "Der Wartburgkreis ist ein Landkreis in Thüringen. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
+          "en": "The Wartburg district (Wartburgkreis) is a district in Thuringia. The other districts listed are located in other federal states."
+        }
     },
     {
       "id": "TH_3",
@@ -7847,10 +7847,10 @@
       ],
       "correct": 1,
       "image": "/images/questions/TH_8.png",
-      "explanation": {
-        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
-        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
-      }
+        "explanation": {
+          "de": "Thüringen ist eines der 16 Bundesländer Deutschlands und ein Freistaat im Zentrum der Bundesrepublik.",
+          "en": "Thuringia is one of the 16 federal states of Germany and a Free State (Freistaat) in the center of the Federal Republic."
+        }
     },
     {
       "id": "TH_9",

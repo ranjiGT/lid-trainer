@@ -37,14 +37,30 @@ export default function QuestionCard({
         {question.question}
       </h2>
 
+
       {question.image && (
-        <div className="mb-6">
-          <img
-            src={`${basePath}${question.image}`}
-            alt="Question image"
-            className="rounded-xl border border-gray-200 dark:border-gray-600 max-w-full h-auto mx-auto"
-          />
-        </div>
+        <>
+          <div className="mb-2">
+            <img
+              src={`${basePath}${question.image}`}
+              alt="Question image"
+              className="rounded-xl border border-gray-200 dark:border-gray-600 max-w-full h-auto mx-auto"
+            />
+          </div>
+          {question.options.length === 4 && (
+            <div className="flex justify-between max-w-md mx-auto mb-6">
+              {[1, 2, 3, 4].map((n) => (
+                <span
+                  key={n}
+                  className="text-sm md:text-base font-semibold text-gray-700 dark:text-gray-200"
+                  style={{ minWidth: 0 }}
+                >
+                  {`Bild ${n}`}
+                </span>
+              ))}
+            </div>
+          )}
+        </>
       )}
 
       <div className="space-y-3">

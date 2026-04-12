@@ -152,6 +152,19 @@ export default function ImageQuestionsPage() {
             />
 
             <div className="flex justify-center mt-6 gap-4">
+              {/* Previous question button, only enabled if not on first question */}
+              {showResult && currentIndex > 0 && (
+                <button
+                  onClick={() => {
+                    setCurrentIndex(currentIndex - 1);
+                    setSelectedAnswer(null);
+                    setShowResult(false);
+                  }}
+                  className="px-8 py-3 bg-gray-200 text-gray-800 font-semibold rounded-xl hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-600 transition-colors"
+                >
+                  ← {lang === "de" ? "Vorherige Frage" : "Previous question"}
+                </button>
+              )}
               {!showResult ? (
                 <button
                   onClick={checkAnswer}

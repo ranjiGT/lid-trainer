@@ -1,7 +1,9 @@
 "use client";
 
+
 import { Topic } from "../data/topics";
 import { Language } from "../lib/types";
+import { useRouter } from "next/navigation";
 
 interface TopicDetailProps {
   topic: Topic;
@@ -17,6 +19,7 @@ export default function TopicDetail({
   onPractice,
 }: TopicDetailProps) {
   const details = topic.details;
+  const { basePath } = useRouter();
 
   return (
     <div className="max-w-3xl mx-auto">
@@ -75,7 +78,7 @@ export default function TopicDetail({
           <div className="mb-6 flex flex-col items-center">
             <div className="rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50">
               <img
-                src={details.image.src}
+                src={`${basePath}${details.image.src}`}
                 alt={details.image.alt[lang]}
                 className="max-w-full max-h-[400px] object-contain"
               />

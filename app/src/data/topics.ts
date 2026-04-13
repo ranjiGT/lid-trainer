@@ -214,6 +214,17 @@ export const topics: Topic[] = [
         de: "Eine Partei muss mindestens 5 % der Zweitstimmen erreichen, um in den Bundestag zu kommen. Diese 5 %-H\u00fcrde soll verhindern, dass zu viele kleine Parteien ins Parlament einziehen. Dies w\u00fcrde die Bildung stabiler Mehrheiten und damit eine handlungsf\u00e4hige Regierung erschweren.",
         en: "A party must achieve at least 5% of the second votes to enter the Bundestag. This 5% hurdle is intended to prevent too many small parties from entering parliament. This would make it difficult to form stable majorities and thus an effective government.",
       },
+      image: {
+        src: "/images/topics/fuenf-prozent-huerde.svg",
+        alt: {
+          de: "Balkendiagramm zur 5%-Hürde im Bundestag",
+          en: "Bar chart showing the 5% hurdle in the Bundestag",
+        },
+        caption: {
+          de: "Parteien müssen mindestens 5% der Zweitstimmen erreichen, um in den Bundestag einzuziehen.",
+          en: "Parties must achieve at least 5% of second votes to enter the Bundestag.",
+        },
+      },
       keyFacts: {
         title: { de: "Wichtige Fakten", en: "Key Facts" },
         items: [

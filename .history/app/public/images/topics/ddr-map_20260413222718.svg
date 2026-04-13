@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="600" viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="600" fill="#f8f8f8" />
+  <!-- DDR region (East Germany, highlighted) -->
+  <ellipse cx="220" cy="300" rx="80" ry="180" fill="#b3c6e7" stroke="#3a5ba0" stroke-width="3" />
+  <!-- Germany outline (simple) -->
+  <ellipse cx="200" cy="300" rx="150" ry="250" fill="none" stroke="#888" stroke-width="4" />
+  <!-- Berlin -->
+  <circle cx="250" cy="200" r="12" fill="#3a5ba0" stroke="#fff" stroke-width="2" />
+  <text x="250" y="205" font-family="Arial" font-size="16" fill="#fff" text-anchor="middle">Berlin</text>
+  <!-- Labels -->
+  <text x="220" y="130" font-family="Arial" font-size="24" fill="#3a5ba0" text-anchor="middle" font-weight="bold">DDR</text>
+  <text x="200" y="580" font-family="Arial" font-size="18" fill="#888" text-anchor="middle">BRD</text>
+  <!-- Legend -->
+  <rect x="20" y="520" width="20" height="14" rx="2" fill="#b3c6e7" stroke="#3a5ba0" stroke-width="2" />
+  <text x="48" y="532" font-family="Arial" font-size="14" fill="#333">DDR (Ostdeutschland)</text>
+  <rect x="20" y="540" width="20" height="14" rx="2" fill="#e0e0e0" stroke="#888" stroke-width="2" />
+  <text x="48" y="552" font-family="Arial" font-size="14" fill="#333">BRD (Westdeutschland)</text>
+  <rect x="20" y="560" width="20" height="14" rx="2" fill="#3a5ba0" stroke="#fff" stroke-width="2" />
+  <text x="48" y="572" font-family="Arial" font-size="14" fill="#333">Berlin</text>
+</svg>
+  <text class="label-ddr" x="240" y="192">Anhalt</text>
+
+  <!-- Nordrhein-Westfalen -->
+  <path class="west" d="M60,155 L90,130 L110,145 L130,160 L140,180 L145,200 L140,220 L125,235 L100,240 L75,230 L55,210 L50,185 Z"/>
+  <text class="label" x="100" y="195">Nordrhein-</text>
+  <text class="label" x="100" y="207">Westfalen</text>
+
+  <!-- Hessen -->
+  <path class="west" d="M130,160 L160,155 L190,160 L210,155 L210,180 L215,200 L200,225 L185,245 L165,250 L145,245 L140,220 L145,200 L140,180 Z"/>
+  <text class="label" x="172" y="210">Hessen</text>
+
+  <!-- Thüringen (DDR) -->
+  <path class="ddr" d="M210,180 L215,200 L220,220 L240,225 L255,215 L260,230 L250,250 L230,255 L210,250 L195,240 L200,225 Z"/>
+  <text class="label-ddr" x="228" y="235">Thüringen</text>
+
+  <!-- Sachsen (DDR) -->
+  <path class="ddr" d="M260,195 L275,205 L300,210 L320,200 L340,210 L345,235 L335,260 L310,270 L285,265 L260,260 L250,250 L260,230 L255,215 Z"/>
+  <text class="label-ddr" x="300" y="245">Sachsen</text>
+
+  <!-- Rheinland-Pfalz -->
+  <path class="west" d="M50,235 L75,230 L100,240 L125,235 L140,250 L135,275 L120,300 L100,310 L80,305 L60,290 L45,270 Z"/>
+  <text class="label" x="92" y="275">Rheinland-</text>
+  <text class="label" x="92" y="287">Pfalz</text>
+
+  <!-- Saarland -->
+  <path class="west" d="M45,290 L60,290 L65,305 L55,320 L40,315 Z"/>
+  <text class="label" x="52" y="310">Saar-</text>
+  <text class="label" x="52" y="322">land</text>
+
+  <!-- Baden-Württemberg -->
+  <path class="west" d="M100,310 L120,300 L135,275 L145,265 L165,260 L185,265 L195,280 L200,310 L195,340 L185,370 L165,390 L140,395 L115,385 L95,365 L85,340 Z"/>
+  <text class="label" x="148" y="340">Baden-</text>
+  <text class="label" x="148" y="352">Württemberg</text>
+
+  <!-- Bayern -->
+  <path class="west" d="M185,265 L195,250 L210,250 L230,255 L250,250 L260,260 L285,265 L310,270 L320,290 L325,320 L315,360 L300,390 L275,410 L250,420 L220,415 L195,400 L175,395 L165,390 L185,370 L195,340 L200,310 L195,280 Z"/>
+  <text class="label" x="250" y="350">Bayern</text>
+
+  <!-- Legend -->
+  <rect x="20" y="445" width="20" height="14" rx="2" class="ddr"/>
+  <text class="legend-text" x="48" y="457">DDR-Bundesländer / GDR states</text>
+  <rect x="20" y="467" width="20" height="14" rx="2" class="west"/>
+  <text class="legend-text" x="48" y="479">Westdeutschland / West Germany</text>
+  <rect x="20" y="489" width="20" height="14" rx="2" class="berlin"/>
+  <text class="legend-text" x="48" y="501">Berlin (geteilt / divided)</text>
+</svg>

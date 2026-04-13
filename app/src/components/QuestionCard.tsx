@@ -3,6 +3,7 @@
 import { Question } from "../lib/types";
 import { basePath } from "../lib/basePath";
 import { useLanguage } from "./LanguageProvider";
+import { useState } from "react";
 
 interface QuestionCardProps {
   question: Question;
@@ -13,15 +14,23 @@ interface QuestionCardProps {
   totalQuestions: number;
 }
 
-export default function QuestionCard({
-  question,
-  selectedAnswer,
-  onSelectAnswer,
-  showResult,
-  questionNumber,
-  totalQuestions,
-}: QuestionCardProps) {
+export default function QuestionCard(props: QuestionCardProps) {
+  const { question, selectedAnswer, onSelectAnswer, showResult, questionNumber, totalQuestions } = props;
   const { lang } = useLanguage();
+  const [showReport, setShowReport] = useState(false);
+  const [reportText, setReportText] = useState("");
+  const [reportSent, setReportSent] = useState(false);
+
+  // Helper to open mailto with prefilled subject/body
+  const handleReportSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const subject = encodeURIComponent(`LID: Fehler in Frage #${question.number}`);
+    const body = encodeURIComponent(
+      `Frage: ${question.question}\n\nBeschreibung des Problems:\n${reportText}\n\nFragen-ID: ${question.id}`
+    );
+    window.open(`mailto:ranjiraj4141@gmail.com?subject=${subject}&body=${body}`);
+    setReportSent(true);
+  };
   return (
     <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 md:p-8 max-w-3xl mx-auto">
       <div className="flex items-center justify-between mb-4">
@@ -145,6 +154,65 @@ export default function QuestionCard({
           <p className="text-sm text-blue-800 dark:text-blue-200 leading-relaxed">
             {question.explanation[lang]}
           </p>
+        </div>
+      )}
+
+      {/* Report incorrect info button */}
+      <div className="mt-6 flex justify-end">
+        <button
+          className="text-xs text-red-600 dark:text-red-400 underline hover:text-red-800 dark:hover:text-red-300"
+          onClick={() => setShowReport(true)}
+        >
+          {lang === "de" ? "Fehler melden" : "Report incorrect info"}
+        </button>
+      </div>
+
+      {/* Modal for reporting */}
+      {showReport && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
+          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6 max-w-md w-full relative">
+            <button
+              className="absolute top-2 right-2 text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
+              onClick={() => {
+                setShowReport(false);
+                setReportText("");
+                setReportSent(false);
+              }}
+              aria-label="Close"
+            >
+              ×
+            </button>
+            <h3 className="text-lg font-bold mb-2 text-gray-900 dark:text-white">
+              {lang === "de" ? "Fehler in dieser Frage melden" : "Report incorrect info"}
+            </h3>
+            {reportSent ? (
+              <div className="text-green-600 dark:text-green-400 py-4 text-center">
+                {lang === "de"
+                  ? "Danke für Ihre Rückmeldung! Ihr E-Mail-Programm sollte sich geöffnet haben."
+                  : "Thank you for your feedback! Your email client should have opened."}
+              </div>
+            ) : (
+              <form onSubmit={handleReportSubmit} className="space-y-4">
+                <textarea
+                  className="w-full border border-gray-300 dark:border-gray-700 rounded-lg p-2 min-h-[80px] bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white"
+                  placeholder={
+                    lang === "de"
+                      ? "Beschreiben Sie das Problem (z.B. falsche Antwort, veraltete Information, etc.)"
+                      : "Describe the issue (e.g. wrong answer, outdated info, etc.)"
+                  }
+                  value={reportText}
+                  onChange={(e) => setReportText(e.target.value)}
+                  required
+                />
+                <button
+                  type="submit"
+                  className="bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-2 rounded-lg w-full"
+                >
+                  {lang === "de" ? "E-Mail senden" : "Send Email"}
+                </button>
+              </form>
+            )}
+          </div>
         </div>
       )}
     </div>

@@ -47,18 +47,7 @@ export default function QuestionCard({
               className="rounded-xl border border-gray-200 dark:border-gray-600 max-w-full h-auto mx-auto"
             />
           </div>
-          {question.options.length === 4 && !question.hideOptionLabels && (
-            <div className="grid grid-cols-4 gap-4 max-w-3xl mx-auto mb-6 mt-2">
-              {[1, 2, 3, 4].map((n) => (
-                <span
-                  key={n}
-                  className="text-base md:text-lg font-bold text-gray-900 dark:text-white text-center w-full"
-                >
-                  {`Bild ${n}`}
-                </span>
-              ))}
-            </div>
-          )}
+          {/* Removed Bild 1-4 labels below map images for 'Welches Bundesland ist...' questions */}
         </>
       )}
 

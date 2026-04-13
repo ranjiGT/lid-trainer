@@ -4,6 +4,7 @@ import { Question } from "../lib/types";
 import { calculateScore } from "../lib/questions";
 import { useLanguage } from "./LanguageProvider";
 import { t } from "../lib/i18n";
+import { basePath } from "../lib/basePath";
 
 interface ResultsProps {
   questions: Question[];
@@ -155,7 +156,7 @@ export default function Results({
                     </p>
                     {q.image && (
                       <img
-                        src={q.image}
+                        src={`${basePath}${q.image}`}
                         alt="Question image"
                         className="rounded-lg border border-gray-200 dark:border-gray-600 max-w-xs h-auto my-2"
                       />

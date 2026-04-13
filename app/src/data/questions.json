@@ -5140,6 +5140,7 @@
       ],
       "correct": 0,
       "image": "/images/questions/BW_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen von Baden-Württemberg zeigt drei schreitende schwarze Löwen auf goldenem Grund. Es ist das traditionelle Symbol des Landes Baden-Württemberg.",
           "en": "The coat of arms of Baden-Württemberg shows three black lions passant on a golden background. It is the traditional symbol of the state of Baden-Württemberg."
@@ -5313,6 +5314,7 @@
       ],
       "correct": 1,
       "image": "/images/questions/BY_1.png",
+        "showImageLabels": true,
       "explanation": {
         "de": "Das bayerische Staatswappen zeigt einen goldenen Löwen, einen blauen Panther, drei schwarze Löwen und das weiß-blaue Rautenmuster. Es symbolisiert die Regionen und die Geschichte des Freistaates Bayern.",
         "en": "The Bavarian state coat of arms features a golden lion, a blue panther, three black lions, and the white-blue lozenge pattern. It symbolizes the regions and history of the Free State of Bavaria."
@@ -5486,6 +5488,7 @@
       ],
       "correct": 3,
       "image": "/images/questions/BE_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen von Berlin zeigt einen aufrecht stehenden schwarzen Bären auf weißem Schild mit einer goldenen Krone. Der Bär ist das Symbol der Stadt Berlin.",
           "en": "The coat of arms of Berlin shows a black bear rampant on a white shield with a golden crown. The bear is the symbol of the city of Berlin."
@@ -5659,6 +5662,7 @@
       ],
       "correct": 0,
       "image": "/images/questions/BB_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen von Brandenburg zeigt einen roten Adler auf silbernem (weißem) Grund. Der rote Adler ist das traditionelle Symbol des Landes Brandenburg.",
           "en": "The coat of arms of Brandenburg shows a red eagle on a silver (white) background. The red eagle is the traditional symbol of the state of Brandenburg."
@@ -5832,6 +5836,7 @@
       ],
       "correct": 2,
       "image": "/images/questions/HB_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen der Freien Hansestadt Bremen zeigt einen silbernen Schlüssel auf rotem Grund. Der Schlüssel ist das traditionelle Symbol der Stadt Bremen.",
           "en": "The coat of arms of the Free Hanseatic City of Bremen shows a silver key on a red background. The key is the traditional symbol of the city of Bremen."
@@ -6005,6 +6010,7 @@
       ],
       "correct": 1,
       "image": "/images/questions/HH_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen der Freien und Hansestadt Hamburg zeigt eine weiße Burg mit drei Türmen auf rotem Grund. Die Burg ist das traditionelle Symbol der Stadt Hamburg.",
           "en": "The coat of arms of the Free and Hanseatic City of Hamburg shows a white castle with three towers on a red background. The castle is the traditional symbol of the city of Hamburg."
@@ -6178,6 +6184,7 @@
       ],
       "correct": 0,
       "image": "/images/questions/HE_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen von Hessen zeigt einen rot-weiß gestreiften Löwen auf blauem Grund. Der Löwe ist das traditionelle Symbol des Landes Hessen.",
           "en": "The coat of arms of Hesse shows a red and white striped lion on a blue background. The lion is the traditional symbol of the state of Hesse."
@@ -6351,6 +6358,7 @@
       ],
       "correct": 2,
       "image": "/images/questions/MV_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen von Mecklenburg-Vorpommern zeigt einen Stierkopf, einen Greif und einen Adler. Es symbolisiert die historischen Landesteile Mecklenburg und Vorpommern.",
           "en": "The coat of arms of Mecklenburg-Western Pomerania shows a bull's head, a griffin, and an eagle. It symbolizes the historical regions of Mecklenburg and Western Pomerania."
@@ -6524,6 +6532,7 @@
       ],
       "correct": 2,
       "image": "/images/questions/NI_1.png",
+        "showImageLabels": true,
       "explanation": {
         "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
         "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
@@ -6697,6 +6706,7 @@
       ],
       "correct": 1,
       "image": "/images/questions/NW_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen von Nordrhein-Westfalen zeigt drei Felder: eine weiße Welle auf grünem Grund (Rheinland), ein rotes Ross auf weißem Grund (Westfalen) und eine rote Rose auf goldenem Grund (Lippe).",
           "en": "The coat of arms of North Rhine-Westphalia shows three fields: a white wave on a green background (Rhineland), a red horse on a white background (Westphalia), and a red rose on a golden background (Lippe)."
@@ -6870,6 +6880,7 @@
       ],
       "correct": 0,
       "image": "/images/questions/RP_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen von Rheinland-Pfalz zeigt ein rotes Kreuz (Erzbistum Trier), einen silbernen Rad (Mainz) und einen goldenen Löwen (Pfalz) auf schwarzem Grund. Es symbolisiert die historischen Landesteile.",
           "en": "The coat of arms of Rhineland-Palatinate shows a red cross (Archbishopric of Trier), a silver wheel (Mainz), and a golden lion (Palatinate) on a black background. It symbolizes the historical regions of the state."
@@ -7043,6 +7054,7 @@
       ],
       "correct": 3,
       "image": "/images/questions/SL_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen des Saarlandes ist geviertelt und zeigt Symbole für die historischen Landesteile: Nassau, Pfalz, Lothringen und Trier. Es ist das offizielle Landeswappen des Saarlandes.",
           "en": "The coat of arms of Saarland is quartered and shows symbols for the historical regions: Nassau, Palatinate, Lorraine, and Trier. It is the official state coat of arms of Saarland."
@@ -7216,6 +7228,7 @@
       ],
       "correct": 3,
       "image": "/images/questions/SN_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen des Freistaats Sachsen zeigt einen neunmal geteilten gold-schwarzen Schild mit einem grünen Rautenkranz (Kranz von Rauten) schräg von links oben nach rechts unten. Es ist das traditionelle Symbol Sachsens.",
           "en": "The coat of arms of the Free State of Saxony shows a shield divided nine times gold and black with a green crancelin (diagonal band) from top left to bottom right. It is the traditional symbol of Saxony."
@@ -7389,6 +7402,7 @@
       ],
       "correct": 3,
       "image": "/images/questions/ST_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen von Sachsen-Anhalt zeigt oben einen schwarzen Bären auf einer Mauer und unten einen grünen Rautenkranz auf goldenem Grund mit einem schwarzen Adler. Es ist das offizielle Landeswappen von Sachsen-Anhalt.",
           "en": "The coat of arms of Saxony-Anhalt shows a black bear on a wall at the top and a green crancelin (diagonal band) on a golden field with a black eagle at the bottom. It is the official state coat of arms of Saxony-Anhalt."
@@ -7562,6 +7576,7 @@
       ],
       "correct": 2,
       "image": "/images/questions/SH_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen von Schleswig-Holstein zeigt zwei Felder: einen nach links schreitenden roten Löwen auf goldenem Grund (Schleswig) und einen silbernen Nesselblatt auf rotem Grund (Holstein).",
           "en": "The coat of arms of Schleswig-Holstein shows two fields: a red lion passant to the left on a golden background (Schleswig) and a silver nettle leaf on a red background (Holstein)."
@@ -7735,6 +7750,7 @@
       ],
       "correct": 3,
       "image": "/images/questions/TH_1.png",
+        "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen des Freistaats Thüringen zeigt einen rot-weiß gestreiften Löwen mit goldener Krone auf blauem Grund, umgeben von acht Sternen. Der Löwe ist das traditionelle Symbol Thüringens.",
           "en": "The coat of arms of the Free State of Thuringia shows a red and white striped lion with a golden crown on a blue background, surrounded by eight stars. The lion is the traditional symbol of Thuringia."

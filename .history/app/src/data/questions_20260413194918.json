@@ -2213,10 +2213,10 @@
       "category": "general",
       "question": "Welcher Stimmzettel wäre bei einer Bundestagswahl gültig? In Anlehnung an Bundeswahlordnung (BWO), Anlage 26",
       "options": [
-        "Option 1",
-        "Option 2",
-        "Option 3",
-        "Option 4"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "correct": 0,
       "image": "/images/questions/general_130.png",
@@ -5252,10 +5252,10 @@
       "category": "BW",
       "question": "Welches Bundesland ist Baden-Württemberg?",
       "options": [
-        "Option 1",
-        "Option 2",
-        "Option 3",
-        "Option 4"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "correct": 1,
       "image": "/images/questions/BW_8.png",

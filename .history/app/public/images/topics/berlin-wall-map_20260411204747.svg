@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 380" width="400" height="380">
+  <defs>
+    <style>
+      .title { font-family: sans-serif; font-size: 16px; font-weight: bold; fill: #111; text-anchor: middle; }
+      .ddr-bg { fill: #4b5563; }
+      .west-berlin { fill: #e5e7eb; stroke: #dc2626; stroke-width: 3; }
+      .east-berlin { fill: #374151; stroke: #fff; stroke-width: 1; }
+      .label { font-family: sans-serif; font-size: 13px; font-weight: bold; text-anchor: middle; }
+      .label-w { fill: #111; }
+      .label-e { fill: #fff; }
+      .wall-line { stroke: #dc2626; stroke-width: 3; fill: none; }
+      .legend-text { font-family: sans-serif; font-size: 11px; fill: #333; }
+      .legend-line { stroke: #dc2626; stroke-width: 3; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text class="title" x="200" y="25">Berliner Mauer Karte</text>
+
+  <!-- DDR territory (surrounding area) -->
+  <rect x="30" y="40" width="340" height="280" rx="8" class="ddr-bg"/>
+
+  <!-- Outer Berlin shape (entire Berlin) -->
+  <!-- East Berlin - the larger eastern portion -->
+  <path class="east-berlin" d="
+    M130,120 L155,105 L185,100 L215,95 L245,100 L270,110 L290,130 
+    L300,155 L305,185 L300,215 L290,240 L275,260 L255,275 
+    L230,282 L205,285 L180,282 L155,275 L135,260 L120,240 
+    L110,215 L108,185 L112,155 L120,135 Z
+  "/>
+
+  <!-- West Berlin - the western island portion -->
+  <path class="west-berlin" d="
+    M130,120 L155,105 L175,102 L185,110 L190,125 L195,150
+    L200,170 L198,195 L192,220 L185,240 L175,258 L165,270
+    L155,275 L135,260 L120,240 L110,215 L108,185 L112,155 
+    L120,135 Z
+  "/>
+
+  <!-- Wall line (red border between West and East) already shown by stroke on west-berlin -->
+
+  <!-- Labels -->
+  <text class="label label-w" x="155" y="195">Westberlin</text>
+  <text class="label label-e" x="255" y="185">Ostberlin</text>
+
+  <!-- Compass arrow hint -->
+  <text font-family="sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle" x="350" y="60">N ↑</text>
+
+  <!-- Legend -->
+  <line x1="50" y1="345" x2="72" y2="345" class="legend-line"/>
+  <text class="legend-text" x="80" y="349">Berliner Mauer 1961</text>
+
+  <rect x="210" y="338" width="14" height="14" rx="2" fill="#e5e7eb" stroke="#dc2626" stroke-width="1.5"/>
+  <text class="legend-text" x="230" y="349">Westberlin</text>
+
+  <rect x="300" y="338" width="14" height="14" rx="2" fill="#374151"/>
+  <text class="legend-text" x="320" y="349">Ostberlin</text>
+</svg>

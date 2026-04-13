@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 500" width="540" height="500">
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .title-bar { fill: #1e3a5f; }
+      .title { font-family: 'Segoe UI', sans-serif; font-size: 17px; font-weight: bold; fill: white; text-anchor: middle; }
+      .section-title { font-family: 'Segoe UI', sans-serif; font-size: 12px; font-weight: 700; text-anchor: middle; }
+      .label { font-family: 'Segoe UI', sans-serif; font-size: 10px; fill: #334155; text-anchor: middle; font-weight: 600; }
+      .sublabel { font-family: 'Segoe UI', sans-serif; font-size: 9px; fill: #64748b; text-anchor: middle; }
+      .info { font-family: 'Segoe UI', sans-serif; font-size: 10px; fill: #475569; }
+      .stat-num { font-family: 'Segoe UI', sans-serif; font-size: 22px; font-weight: bold; text-anchor: middle; }
+      .stat-label { font-family: 'Segoe UI', sans-serif; font-size: 9px; fill: #64748b; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="540" height="500" rx="12" class="bg"/>
+  <rect x="0" y="0" width="540" height="50" rx="12" class="title-bar"/>
+  <rect x="0" y="12" width="540" height="38" class="title-bar"/>
+  <text x="270" y="32" class="title">🏛️  Der Deutsche Bundestag</text>
+
+  <!-- === Reichstag Building (larger, centered) === -->
+  <g transform="translate(270,130)">
+    <!-- Steps/base platform -->
+    <rect x="-120" y="48" width="240" height="10" rx="2" fill="#e2e8f0"/>
+    <!-- Building body -->
+    <rect x="-105" y="0" width="210" height="48" rx="4" fill="#d1d5db" stroke="#9ca3af" stroke-width="1"/>
+    <!-- Inscription -->
+    <text x="0" y="16" font-family="'Segoe UI', sans-serif" font-size="7" fill="#64748b" text-anchor="middle" letter-spacing="3">DEM DEUTSCHEN VOLKE</text>
+    <!-- Columns -->
+    <rect x="-95" y="-28" width="9" height="76" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.7"/>
+    <rect x="-70" y="-28" width="9" height="76" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.7"/>
+    <rect x="-45" y="-28" width="9" height="76" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.7"/>
+    <rect x="-20" y="-28" width="9" height="76" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.7"/>
+    <rect x="11" y="-28" width="9" height="76" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.7"/>
+    <rect x="36" y="-28" width="9" height="76" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.7"/>
+    <rect x="61" y="-28" width="9" height="76" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.7"/>
+    <rect x="86" y="-28" width="9" height="76" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.7"/>
+    <!-- Pediment -->
+    <polygon points="-105,-28 0,-55 105,-28" fill="#cbd5e1" stroke="#9ca3af" stroke-width="1"/>
+    <!-- Glass dome -->
+    <ellipse cx="0" cy="-58" rx="28" ry="20" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1.2" opacity="0.7"/>
+    <ellipse cx="0" cy="-58" rx="18" ry="13" fill="#dbeafe" stroke="#93c5fd" stroke-width="0.5" opacity="0.5"/>
+    <!-- Flag -->
+    <line x1="92" y1="-55" x2="92" y2="-75" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="92" y="-75" width="15" height="3.5" fill="#000"/>
+    <rect x="92" y="-71.5" width="15" height="3.5" fill="#dd0000"/>
+    <rect x="92" y="-68" width="15" height="3.5" fill="#ffcc00"/>
+    <!-- Label -->
+    <text x="0" y="72" class="label">Reichstagsgebäude, Berlin</text>
+    <text x="0" y="84" class="sublabel">Sitz des Deutschen Bundestages</text>
+  </g>
+
+  <!-- === Stats Row === -->
+  <rect x="30" y="225" width="480" height="70" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Stat 1: Members -->
+  <g transform="translate(90,240)">
+    <text x="0" y="20" class="stat-num" fill="#2563eb">598+</text>
+    <text x="0" y="38" class="stat-label">Abgeordnete</text>
+    <text x="0" y="49" class="stat-label">(Mindestgröße)</text>
+  </g>
+
+  <!-- Stat 2: Election cycle -->
+  <g transform="translate(210,240)">
+    <text x="0" y="20" class="stat-num" fill="#059669">4 J.</text>
+    <text x="0" y="38" class="stat-label">Wahlperiode</text>
+    <text x="0" y="49" class="stat-label">(Legislaturperiode)</text>
+  </g>
+
+  <!-- Stat 3: Two votes -->
+  <g transform="translate(330,240)">
+    <text x="0" y="20" class="stat-num" fill="#d97706">2</text>
+    <text x="0" y="38" class="stat-label">Stimmen pro Wähler</text>
+    <text x="0" y="49" class="stat-label">(Erst- &amp; Zweitstimme)</text>
+  </g>
+
+  <!-- Stat 4: Passing threshold -->
+  <g transform="translate(450,240)">
+    <text x="0" y="20" class="stat-num" fill="#dc2626">5%</text>
+    <text x="0" y="38" class="stat-label">Sperrklausel</text>
+    <text x="0" y="49" class="stat-label">(Hürde für Parteien)</text>
+  </g>
+
+  <!-- === Main Functions Section === -->
+  <text x="270" y="325" class="section-title" fill="#1e3a5f">Aufgaben des Bundestages</text>
+
+  <!-- Function 1: Legislation -->
+  <g transform="translate(55,340)">
+    <rect x="0" y="0" width="140" height="75" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+    <text x="70" y="22" font-family="'Segoe UI', sans-serif" font-size="22" text-anchor="middle">📜</text>
+    <text x="70" y="40" class="label" fill="#1e40af">Gesetzgebung</text>
+    <text x="70" y="53" class="sublabel">Gesetze beraten</text>
+    <text x="70" y="64" class="sublabel">und beschließen</text>
+  </g>
+
+  <!-- Function 2: Election of Chancellor -->
+  <g transform="translate(200,340)">
+    <rect x="0" y="0" width="140" height="75" rx="8" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+    <text x="70" y="22" font-family="'Segoe UI', sans-serif" font-size="22" text-anchor="middle">🗳️</text>
+    <text x="70" y="40" class="label" fill="#065f46">Kanzlerwahl</text>
+    <text x="70" y="53" class="sublabel">Bundeskanzler</text>
+    <text x="70" y="64" class="sublabel">wählen</text>
+  </g>
+
+  <!-- Function 3: Budget -->
+  <g transform="translate(345,340)">
+    <rect x="0" y="0" width="140" height="75" rx="8" fill="#fefce8" stroke="#fde68a" stroke-width="1"/>
+    <text x="70" y="22" font-family="'Segoe UI', sans-serif" font-size="22" text-anchor="middle">💰</text>
+    <text x="70" y="40" class="label" fill="#854d0e">Haushaltsrecht</text>
+    <text x="70" y="53" class="sublabel">Über den Bundeshaushalt</text>
+    <text x="70" y="64" class="sublabel">entscheiden</text>
+  </g>
+
+  <!-- === Bottom: Control function === -->
+  <rect x="30" y="430" width="480" height="55" rx="8" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="50" y="455" font-family="'Segoe UI', sans-serif" font-size="18">🔍</text>
+  <text x="75" y="452" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#991b1b">Kontrolle der Bundesregierung</text>
+  <text x="75" y="468" font-family="'Segoe UI', sans-serif" font-size="9" fill="#64748b">Parlamentarische Anfragen • Untersuchungsausschüsse • Misstrauensvotum • Aktuelle Stunde</text>
+</svg>

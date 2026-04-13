@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 470" width="520" height="470">
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .title-bar { fill: #1e3a5f; }
+      .title { font-family: 'Segoe UI', sans-serif; font-size: 17px; font-weight: bold; fill: white; text-anchor: middle; }
+      .section-title { font-family: 'Segoe UI', sans-serif; font-size: 12px; font-weight: 700; text-anchor: middle; }
+      .label { font-family: 'Segoe UI', sans-serif; font-size: 10px; fill: #334155; text-anchor: middle; font-weight: 600; }
+      .sublabel { font-family: 'Segoe UI', sans-serif; font-size: 9px; fill: #64748b; text-anchor: middle; }
+      .info { font-family: 'Segoe UI', sans-serif; font-size: 10px; fill: #475569; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="520" height="470" rx="12" class="bg"/>
+  <rect x="0" y="0" width="520" height="50" rx="12" class="title-bar"/>
+  <rect x="0" y="12" width="520" height="38" class="title-bar"/>
+  <text x="260" y="32" class="title">🧑‍⚖️  Abgeordnete im Deutschen Bundestag</text>
+
+  <!-- === TOP SECTION: Reichstag Building === -->
+  <g transform="translate(260,125)">
+    <!-- Building base -->
+    <rect x="-90" y="0" width="180" height="45" rx="4" fill="#d1d5db" stroke="#9ca3af" stroke-width="1"/>
+    <!-- Columns -->
+    <rect x="-75" y="-22" width="8" height="67" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.8"/>
+    <rect x="-48" y="-22" width="8" height="67" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.8"/>
+    <rect x="-21" y="-22" width="8" height="67" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.8"/>
+    <rect x="13" y="-22" width="8" height="67" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.8"/>
+    <rect x="40" y="-22" width="8" height="67" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.8"/>
+    <rect x="67" y="-22" width="8" height="67" rx="2" fill="#e5e7eb" stroke="#9ca3af" stroke-width="0.8"/>
+    <!-- Pediment (triangle roof) -->
+    <polygon points="-90,-22 0,-45 90,-22" fill="#cbd5e1" stroke="#9ca3af" stroke-width="1"/>
+    <!-- Dome -->
+    <ellipse cx="0" cy="-48" rx="22" ry="16" fill="#bfdbfe" stroke="#93c5fd" stroke-width="1" opacity="0.8"/>
+    <!-- Flag -->
+    <line x1="75" y1="-45" x2="75" y2="-62" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="75" y="-62" width="14" height="3.5" fill="#000"/>
+    <rect x="75" y="-58.5" width="14" height="3.5" fill="#dd0000"/>
+    <rect x="75" y="-55" width="14" height="3.5" fill="#ffcc00"/>
+    <!-- Label -->
+    <text x="0" y="60" class="label">Reichstagsgebäude, Berlin</text>
+  </g>
+
+  <!-- === MIDDLE SECTION: How representatives get elected === -->
+  <rect x="30" y="200" width="460" height="115" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="260" y="218" class="section-title" fill="#1e3a5f">Vom Volk gewählt → ins Parlament</text>
+
+  <!-- Step 1: Voters -->
+  <g transform="translate(80,250)">
+    <circle cx="0" cy="0" r="22" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+    <text x="-10" y="-2" font-family="'Segoe UI', sans-serif" font-size="14">👤</text>
+    <text x="6" y="6" font-family="'Segoe UI', sans-serif" font-size="14">👤</text>
+    <text x="-3" y="-10" font-family="'Segoe UI', sans-serif" font-size="14">👤</text>
+    <text x="0" y="38" class="label">Bürger</text>
+    <text x="0" y="48" class="sublabel">wählen</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <g transform="translate(115,247)">
+    <line x1="0" y1="0" x2="35" y2="0" stroke="#94a3b8" stroke-width="1.5"/>
+    <polygon points="35,-4 43,0 35,4" fill="#94a3b8"/>
+    <text x="21" y="-8" font-family="'Segoe UI', sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle">Wahl</text>
+  </g>
+
+  <!-- Step 2: Ballot -->
+  <g transform="translate(185,250)">
+    <rect x="-20" y="-22" width="40" height="44" rx="4" fill="white" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="18" text-anchor="middle">🗳️</text>
+    <text x="0" y="38" class="label">Erststimme</text>
+    <text x="0" y="48" class="sublabel">+ Zweitstimme</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <g transform="translate(218,247)">
+    <line x1="0" y1="0" x2="35" y2="0" stroke="#94a3b8" stroke-width="1.5"/>
+    <polygon points="35,-4 43,0 35,4" fill="#94a3b8"/>
+  </g>
+
+  <!-- Step 3: Abgeordnete -->
+  <g transform="translate(295,250)">
+    <circle cx="0" cy="0" r="22" fill="#ecfdf5" stroke="#34d399" stroke-width="1.5"/>
+    <text x="0" y="5" font-family="'Segoe UI', sans-serif" font-size="22" text-anchor="middle">🧑‍⚖️</text>
+    <text x="0" y="38" class="label">Abgeordnete</text>
+    <text x="0" y="48" class="sublabel">mind. 598</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <g transform="translate(330,247)">
+    <line x1="0" y1="0" x2="35" y2="0" stroke="#94a3b8" stroke-width="1.5"/>
+    <polygon points="35,-4 43,0 35,4" fill="#94a3b8"/>
+  </g>
+
+  <!-- Step 4: Parliament -->
+  <g transform="translate(410,250)">
+    <circle cx="0" cy="0" r="22" fill="#fef3c7" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="0" y="5" font-family="'Segoe UI', sans-serif" font-size="22" text-anchor="middle">🏛️</text>
+    <text x="0" y="38" class="label">Bundestag</text>
+    <text x="0" y="48" class="sublabel">Gesetze beschließen</text>
+  </g>
+
+  <!-- === BOTTOM SECTION: Key principles === -->
+  <rect x="30" y="330" width="220" height="120" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Left box: Freies Mandat -->
+  <g transform="translate(40,340)">
+    <rect x="0" y="0" width="200" height="100" rx="6" fill="#eff6ff"/>
+    <text x="100" y="18" class="section-title" fill="#1e40af">📜 Freies Mandat</text>
+    <text x="20" y="38" class="info" text-anchor="start">• Nur dem Gewissen verpflichtet</text>
+    <text x="20" y="54" class="info" text-anchor="start">• Nicht an Weisungen gebunden</text>
+    <text x="20" y="70" class="info" text-anchor="start">• Vertreten das ganze Volk</text>
+    <text x="20" y="86" class="info" text-anchor="start">• Können nicht abberufen werden</text>
+  </g>
+
+  <!-- Right box: Immunität & Rechte -->
+  <rect x="270" y="330" width="220" height="120" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <g transform="translate(280,340)">
+    <rect x="0" y="0" width="200" height="100" rx="6" fill="#fefce8"/>
+    <text x="100" y="18" class="section-title" fill="#854d0e">🛡️ Rechte &amp; Schutz</text>
+    <text x="20" y="38" class="info" text-anchor="start">• Immunität (Strafverfolgung)</text>
+    <text x="20" y="54" class="info" text-anchor="start">• Indemnität (Redefreiheit)</text>
+    <text x="20" y="70" class="info" text-anchor="start">• Zeugnisverweigerungsrecht</text>
+    <text x="20" y="86" class="info" text-anchor="start">• Diäten (Entschädigung)</text>
+  </g>
+</svg>

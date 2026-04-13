@@ -20,8 +20,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Das Wappen von Niedersachsen zeigt ein weißes, aufsteigendes Pferd auf rotem Grund. Dieses sogenannte Sachsenross ist ein historisches Symbol und steht für die Tradition und Geschichte des Landes Niedersachsen.",
-        "en": "The coat of arms of Lower Saxony (Niedersachsen) features a white horse rearing on a red background. This so-called Saxon Steed is a historic symbol representing the tradition and history of the state of Lower Saxony."
+        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
+        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
       }
     },
     {
@@ -139,8 +139,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Berlin ist ein Stadtstaat und zugleich ein Bundesland der Bundesrepublik Deutschland. Es ist die Hauptstadt Deutschlands und hat sowohl Landes- als auch Kommunalaufgaben.",
-        "en": "Berlin is a city-state and at the same time a federal state of the Federal Republic of Germany. It is the capital of Germany and fulfills both state and municipal functions."
+        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
+        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
       }
     },
     {
@@ -351,7 +351,7 @@
       "id": "general_21",
       "number": 21,
       "category": "general",
-      "question": "Welches ist das Wappen der Bundesrepublik Deutschland?",
+      "question": "Welches ist das Wappen der Bundesrepublik Deutschland? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -360,7 +360,6 @@
       ],
       "correct": 0,
       "image": "/images/questions/general_21.png",
-      "hideOptionLabels": true,
         "explanation": {
           "de": "Das Wappen der Bundesrepublik Deutschland zeigt einen schwarzen Adler auf goldenem Grund. Der Bundesadler ist das älteste Staatswappen Europas und das Symbol der deutschen Souveränität.",
           "en": "The coat of arms of the Federal Republic of Germany shows a black eagle on a golden background. The federal eagle is the oldest state emblem in Europe and the symbol of German sovereignty."
@@ -386,7 +385,7 @@
     {
       "id": "general_23",
       "number": 23,
-      "hideOptionLabels": true,
+      "category": "general",
       "question": "In Deutschland sind die meisten Erwerbstätigen …",
       "options": [
         "in kleinen Familienunternehmen beschäftigt.",
@@ -931,8 +930,7 @@
       "id": "general_55",
       "number": 55,
       "category": "general",
-      "question": "Was zeigt dieses Bild?",
-      "copyright": "© Deutscher Bundestag/Achim Melde",
+      "question": "Was zeigt dieses Bild? © Deutscher Bundestag/Achim Melde",
       "options": [
         "den Bundestagssitz in Berlin",
         "das Bundesverfassungsgericht in Karlsruhe",
@@ -1188,8 +1186,7 @@
       "id": "general_70",
       "number": 70,
       "category": "general",
-      "question": "Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben der deutschen Bundespräsidentin/des deutschen Bundespräsidenten?",
-      "copyright": "© Bundesregierung/Engelbert Reineke",
+      "question": "Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben der deutschen Bundespräsidentin/des deutschen Bundespräsidenten? © Bundesregierung/Engelbert Reineke",
       "options": [
         "Sie/Er führt die Regierungsgeschäfte.",
         "Sie/Er kontrolliert die Regierungspartei.",
@@ -3002,10 +2999,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/general_176.png",
-        "explanation": {
-          "de": "Nach 1945 wurde Deutschland in vier Besatzungszonen aufgeteilt: 1=Großbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich. Jede Zone wurde von einer der Siegermächte des Zweiten Weltkriegs verwaltet.",
-          "en": "After 1945, Germany was divided into four occupation zones: 1=Great Britain, 2=Soviet Union, 3=USA, 4=France. Each zone was administered by one of the victorious powers of World War II."
-        }
+      "explanation": {
+        "de": "1=Großbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich.",
+        "en": "The correct answer is: 1=Großbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich."
+      }
     },
     {
       "id": "general_177",
@@ -3079,8 +3076,7 @@
       "id": "general_181",
       "number": 181,
       "category": "general",
-      "question": "Was wollte Willy Brandt mit seinem Kniefall 1970 im ehemaligen jüdischen Ghetto in Warschau ausdrücken?",
-      "copyright": "© Bundesregierung/Engelbert Reineke",
+      "question": "Was wollte Willy Brandt mit seinem Kniefall 1970 im ehemaligen jüdischen Ghetto in Warschau ausdrücken? © Bundesregierung/Engelbert Reineke",
       "options": [
         "Er hat sich den ehemaligen Alliierten unterworfen.",
         "Er bat Polen und die polnischen Juden um Vergebung.",
@@ -3558,7 +3554,7 @@
       "id": "general_209",
       "number": 209,
       "category": "general",
-      "question": "Welches war das Wappen der Deutschen Demokratischen Republik?",
+      "question": "Welches war das Wappen der Deutschen Demokratischen Republik? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -3678,8 +3674,7 @@
       "id": "general_216",
       "number": 216,
       "category": "general",
-      "question": "Welches Symbol ist im Plenarsaal des Deutschen Bundestages zu sehen?",
-      "copyright": "© Deutscher Bundestag/Janine Schmitz",
+      "question": "Welches Symbol ist im Plenarsaal des Deutschen Bundestages zu sehen? © Deutscher Bundestag/Janine Schmitz",
       "options": [
         "der Bundesadler",
         "die Fahne der Stadt Berlin",
@@ -3689,8 +3684,8 @@
       "correct": 0,
       "image": "/images/questions/general_216.png",
       "explanation": {
-        "de": "Im Plenarsaal des Deutschen Bundestages ist der Bundesadler zu sehen. Der Bundesadler ist das Wappentier der Bundesrepublik Deutschland und ein zentrales Staatssymbol.",
-        "en": "The symbol visible in the plenary chamber of the German Bundestag is the Federal Eagle (Bundesadler). The Federal Eagle is the coat of arms animal of the Federal Republic of Germany and a central national symbol."
+        "de": "Die Berliner Mauer fiel am 9. November 1989. Dieses Datum ist ein Wendepunkt in der deutschen Geschichte.",
+        "en": "The Berlin Wall fell on November 9, 1989. This date is a turning point in German history."
       }
     },
     {
@@ -3850,7 +3845,7 @@
       "id": "general_226",
       "number": 226,
       "category": "general",
-      "question": "Welche ist die Flagge der Europäischen Union?",
+      "question": "Welche ist die Flagge der Europäischen Union? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -4004,8 +3999,7 @@
       "id": "general_235",
       "number": 235,
       "category": "general",
-      "question": "Der damalige französische Staatspräsident François Mitterrand und der damalige deutsche Bundeskanzler Helmut Kohl gedenken in Verdun gemeinsam der Toten beider Weltkriege. Welches Ziel der Europäischen Union wird bei diesem Treffen deutlich?",
-      "copyright": "© Bundesregierung/Richard Schulze-Vorberg",
+      "question": "Der damalige französische Staatspräsident François Mitterrand und der damalige deutsche Bundeskanzler Helmut Kohl gedenken in Verdun gemeinsam der Toten beider Weltkriege. Welches Ziel der Europäischen Union wird bei diesem Treffen deutlich? © Bundesregierung/Richard Schulze-Vorberg",
       "options": [
         "Freundschaft zwischen England und Deutschland",
         "Reisefreiheit in alle Länder der EU",
@@ -5128,7 +5122,7 @@
       "id": "BW_1",
       "number": 1,
       "category": "BW",
-      "question": "Welches Wappen gehört zum Bundesland Baden-Württemberg?",
+      "question": "Welches Wappen gehört zum Bundesland Baden-Württemberg? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -5137,10 +5131,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/BW_1.png",
-        "explanation": {
-          "de": "Das Wappen von Baden-Württemberg zeigt drei schreitende schwarze Löwen auf goldenem Grund. Es ist das traditionelle Symbol des Landes Baden-Württemberg.",
-          "en": "The coat of arms of Baden-Württemberg shows three black lions passant on a golden background. It is the traditional symbol of the state of Baden-Württemberg."
-        }
+      "explanation": {
+        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
+        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
+      }
     },
     {
       "id": "BW_2",
@@ -5301,7 +5295,7 @@
       "id": "BY_1",
       "number": 1,
       "category": "BY",
-      "question": "Welches Wappen gehört zum Freistaat Bayern?",
+      "question": "Welches Wappen gehört zum Freistaat Bayern? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -5311,8 +5305,8 @@
       "correct": 1,
       "image": "/images/questions/BY_1.png",
       "explanation": {
-        "de": "Das bayerische Staatswappen zeigt einen goldenen Löwen, einen blauen Panther, drei schwarze Löwen und das weiß-blaue Rautenmuster. Es symbolisiert die Regionen und die Geschichte des Freistaates Bayern.",
-        "en": "The Bavarian state coat of arms features a golden lion, a blue panther, three black lions, and the white-blue lozenge pattern. It symbolizes the regions and history of the Free State of Bavaria."
+        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
+        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
       }
     },
     {
@@ -5329,8 +5323,8 @@
       "correct": 3,
       "image": "/images/questions/BY_2.png",
       "explanation": {
-        "de": "Der Landkreis Börde ist ein Landkreis im Bundesland Sachsen-Anhalt. Er liegt im Westen des Landes und hat seinen Verwaltungssitz in Haldensleben. Landkreise sind wichtige Verwaltungseinheiten in den deutschen Bundesländern.",
-        "en": "The district of Börde is a county (Landkreis) in the federal state of Saxony-Anhalt. It is located in the west of the state and its administrative center is Haldensleben. Counties are important administrative units in the German federal states."
+        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
+        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
       }
     },
     {
@@ -5474,7 +5468,7 @@
       "id": "BE_1",
       "number": 1,
       "category": "BE",
-      "question": "Welches Wappen gehört zum Bundesland Berlin?",
+      "question": "Welches Wappen gehört zum Bundesland Berlin? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -5647,7 +5641,7 @@
       "id": "BB_1",
       "number": 1,
       "category": "BB",
-      "question": "Welches Wappen gehört zum Bundesland Brandenburg?",
+      "question": "Welches Wappen gehört zum Bundesland Brandenburg? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -5656,10 +5650,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/BB_1.png",
-        "explanation": {
-          "de": "Das Wappen von Brandenburg zeigt einen roten Adler auf silbernem (weißem) Grund. Der rote Adler ist das traditionelle Symbol des Landes Brandenburg.",
-          "en": "The coat of arms of Brandenburg shows a red eagle on a silver (white) background. The red eagle is the traditional symbol of the state of Brandenburg."
-        }
+      "explanation": {
+        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
+        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
+      }
     },
     {
       "id": "BB_2",
@@ -5674,10 +5668,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/BB_2.png",
-        "explanation": {
-          "de": "Prignitz ist ein Landkreis in Brandenburg. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
-          "en": "Prignitz is a district in Brandenburg. The other districts listed are located in other federal states."
-        }
+      "explanation": {
+        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
+        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
+      }
     },
     {
       "id": "BB_3",
@@ -5820,7 +5814,7 @@
       "id": "HB_1",
       "number": 1,
       "category": "HB",
-      "question": "Welches Wappen gehört zur Freien Hansestadt Bremen?",
+      "question": "Welches Wappen gehört zur Freien Hansestadt Bremen? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -5993,7 +5987,7 @@
       "id": "HH_1",
       "number": 1,
       "category": "HH",
-      "question": "Welches Wappen gehört zur Freien und Hansestadt Hamburg?",
+      "question": "Welches Wappen gehört zur Freien und Hansestadt Hamburg? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -6021,8 +6015,8 @@
       "correct": 0,
       "image": "/images/questions/HH_2.png",
       "explanation": {
-        "de": "Altona ist einer der sieben Bezirke der Freien und Hansestadt Hamburg. Die Bezirke sind Verwaltungseinheiten und unterteilen die Stadt in verschiedene Regionen mit eigenen Bezirksämtern.",
-        "en": "Altona is one of the seven districts (Bezirke) of the Free and Hanseatic City of Hamburg. The districts are administrative units that divide the city into different regions, each with its own district office."
+        "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
+        "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
       }
     },
     {
@@ -6166,7 +6160,7 @@
       "id": "HE_1",
       "number": 1,
       "category": "HE",
-      "question": "Welches Wappen gehört zum Bundesland Hessen?",
+      "question": "Welches Wappen gehört zum Bundesland Hessen? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -6339,7 +6333,7 @@
       "id": "MV_1",
       "number": 1,
       "category": "MV",
-      "question": "Welches Wappen gehört zum Bundesland Mecklenburg-Vorpommern?",
+      "question": "Welches Wappen gehört zum Bundesland Mecklenburg-Vorpommern? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -6512,7 +6506,7 @@
       "id": "NI_1",
       "number": 1,
       "category": "NI",
-      "question": "Welches Wappen gehört zum Bundesland Niedersachsen?",
+      "question": "Welches Wappen gehört zum Bundesland Niedersachsen? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -6642,10 +6636,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/NI_8.png",
-        "explanation": {
-          "de": "Niedersachsen ist eines der 16 Bundesländer Deutschlands und ein Flächenland im Nordwesten der Bundesrepublik.",
-          "en": "Lower Saxony is one of the 16 federal states of Germany and a territorial state (Flächenland) in the northwest of the Federal Republic."
-        }
+      "explanation": {
+        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
+        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
+      }
     },
     {
       "id": "NI_9",
@@ -6685,7 +6679,7 @@
       "id": "NW_1",
       "number": 1,
       "category": "NW",
-      "question": "Welches Wappen gehört zum Bundesland Nordrhein-Westfalen?",
+      "question": "Welches Wappen gehört zum Bundesland Nordrhein-Westfalen? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -6815,10 +6809,10 @@
       ],
       "correct": 2,
       "image": "/images/questions/NW_8.png",
-        "explanation": {
-          "de": "Nordrhein-Westfalen ist eines der 16 Bundesländer Deutschlands und das bevölkerungsreichste Flächenland im Westen der Bundesrepublik.",
-          "en": "North Rhine-Westphalia is one of the 16 federal states of Germany and the most populous territorial state (Flächenland) in the west of the Federal Republic."
-        }
+      "explanation": {
+        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
+        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
+      }
     },
     {
       "id": "NW_9",
@@ -6858,7 +6852,7 @@
       "id": "RP_1",
       "number": 1,
       "category": "RP",
-      "question": "Welches Wappen gehört zum Bundesland Rheinland-Pfalz?",
+      "question": "Welches Wappen gehört zum Bundesland Rheinland-Pfalz? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -6867,10 +6861,10 @@
       ],
       "correct": 0,
       "image": "/images/questions/RP_1.png",
-        "explanation": {
-          "de": "Das Wappen von Rheinland-Pfalz zeigt ein rotes Kreuz (Erzbistum Trier), einen silbernen Rad (Mainz) und einen goldenen Löwen (Pfalz) auf schwarzem Grund. Es symbolisiert die historischen Landesteile.",
-          "en": "The coat of arms of Rhineland-Palatinate shows a red cross (Archbishopric of Trier), a silver wheel (Mainz), and a golden lion (Palatinate) on a black background. It symbolizes the historical regions of the state."
-        }
+      "explanation": {
+        "de": "In Deutschland können die Menschen ihre Meinung offen äußern, auch gegen die Regierung. Möglich macht das Artikel 5 des Grundgesetzes zur Meinungsfreiheit.",
+        "en": "In Germany, people can openly express their opinions, even against the government. This is made possible by Article 5 of the Basic Law on freedom of expression."
+      }
     },
     {
       "id": "RP_2",
@@ -7031,7 +7025,7 @@
       "id": "SL_1",
       "number": 1,
       "category": "SL",
-      "question": "Welches Wappen gehört zum Bundesland Saarland?",
+      "question": "Welches Wappen gehört zum Bundesland Saarland? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -7204,7 +7198,7 @@
       "id": "SN_1",
       "number": 1,
       "category": "SN",
-      "question": "Welches Wappen gehört zum Freistaat Sachsen?",
+      "question": "Welches Wappen gehört zum Freistaat Sachsen? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -7377,7 +7371,7 @@
       "id": "ST_1",
       "number": 1,
       "category": "ST",
-      "question": "Welches Wappen gehört zum Bundesland Sachsen-Anhalt?",
+      "question": "Welches Wappen gehört zum Bundesland Sachsen-Anhalt? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -7550,7 +7544,7 @@
       "id": "SH_1",
       "number": 1,
       "category": "SH",
-      "question": "Welches Wappen gehört zum Bundesland Schleswig-Holstein?",
+      "question": "Welches Wappen gehört zum Bundesland Schleswig-Holstein? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -7723,7 +7717,7 @@
       "id": "TH_1",
       "number": 1,
       "category": "TH",
-      "question": "Welches Wappen gehört zum Freistaat Thüringen?",
+      "question": "Welches Wappen gehört zum Freistaat Thüringen? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",

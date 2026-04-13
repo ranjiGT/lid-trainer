@@ -386,7 +386,7 @@
     {
       "id": "general_23",
       "number": 23,
-      "hideOptionLabels": true,
+      "category": "general",
       "question": "In Deutschland sind die meisten Erwerbstätigen …",
       "options": [
         "in kleinen Familienunternehmen beschäftigt.",

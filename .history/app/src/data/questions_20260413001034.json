@@ -351,7 +351,7 @@
       "id": "general_21",
       "number": 21,
       "category": "general",
-      "question": "Welches ist das Wappen der Bundesrepublik Deutschland?",
+      "question": "Welches ist das Wappen der Bundesrepublik Deutschland? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -386,7 +386,7 @@
     {
       "id": "general_23",
       "number": 23,
-      "hideOptionLabels": true,
+      "category": "general",
       "question": "In Deutschland sind die meisten Erwerbstätigen …",
       "options": [
         "in kleinen Familienunternehmen beschäftigt.",
@@ -3558,7 +3558,7 @@
       "id": "general_209",
       "number": 209,
       "category": "general",
-      "question": "Welches war das Wappen der Deutschen Demokratischen Republik?",
+      "question": "Welches war das Wappen der Deutschen Demokratischen Republik? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -3850,7 +3850,7 @@
       "id": "general_226",
       "number": 226,
       "category": "general",
-      "question": "Welche ist die Flagge der Europäischen Union?",
+      "question": "Welche ist die Flagge der Europäischen Union? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -5128,7 +5128,7 @@
       "id": "BW_1",
       "number": 1,
       "category": "BW",
-      "question": "Welches Wappen gehört zum Bundesland Baden-Württemberg?",
+      "question": "Welches Wappen gehört zum Bundesland Baden-Württemberg? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -5301,7 +5301,7 @@
       "id": "BY_1",
       "number": 1,
       "category": "BY",
-      "question": "Welches Wappen gehört zum Freistaat Bayern?",
+      "question": "Welches Wappen gehört zum Freistaat Bayern? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -5474,7 +5474,7 @@
       "id": "BE_1",
       "number": 1,
       "category": "BE",
-      "question": "Welches Wappen gehört zum Bundesland Berlin?",
+      "question": "Welches Wappen gehört zum Bundesland Berlin? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -5647,7 +5647,7 @@
       "id": "BB_1",
       "number": 1,
       "category": "BB",
-      "question": "Welches Wappen gehört zum Bundesland Brandenburg?",
+      "question": "Welches Wappen gehört zum Bundesland Brandenburg? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -5820,7 +5820,7 @@
       "id": "HB_1",
       "number": 1,
       "category": "HB",
-      "question": "Welches Wappen gehört zur Freien Hansestadt Bremen?",
+      "question": "Welches Wappen gehört zur Freien Hansestadt Bremen? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -5993,7 +5993,7 @@
       "id": "HH_1",
       "number": 1,
       "category": "HH",
-      "question": "Welches Wappen gehört zur Freien und Hansestadt Hamburg?",
+      "question": "Welches Wappen gehört zur Freien und Hansestadt Hamburg? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -6166,7 +6166,7 @@
       "id": "HE_1",
       "number": 1,
       "category": "HE",
-      "question": "Welches Wappen gehört zum Bundesland Hessen?",
+      "question": "Welches Wappen gehört zum Bundesland Hessen? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -6339,7 +6339,7 @@
       "id": "MV_1",
       "number": 1,
       "category": "MV",
-      "question": "Welches Wappen gehört zum Bundesland Mecklenburg-Vorpommern?",
+      "question": "Welches Wappen gehört zum Bundesland Mecklenburg-Vorpommern? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -6512,7 +6512,7 @@
       "id": "NI_1",
       "number": 1,
       "category": "NI",
-      "question": "Welches Wappen gehört zum Bundesland Niedersachsen?",
+      "question": "Welches Wappen gehört zum Bundesland Niedersachsen? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -6685,7 +6685,7 @@
       "id": "NW_1",
       "number": 1,
       "category": "NW",
-      "question": "Welches Wappen gehört zum Bundesland Nordrhein-Westfalen?",
+      "question": "Welches Wappen gehört zum Bundesland Nordrhein-Westfalen? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -6858,7 +6858,7 @@
       "id": "RP_1",
       "number": 1,
       "category": "RP",
-      "question": "Welches Wappen gehört zum Bundesland Rheinland-Pfalz?",
+      "question": "Welches Wappen gehört zum Bundesland Rheinland-Pfalz? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -7031,7 +7031,7 @@
       "id": "SL_1",
       "number": 1,
       "category": "SL",
-      "question": "Welches Wappen gehört zum Bundesland Saarland?",
+      "question": "Welches Wappen gehört zum Bundesland Saarland? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -7204,7 +7204,7 @@
       "id": "SN_1",
       "number": 1,
       "category": "SN",
-      "question": "Welches Wappen gehört zum Freistaat Sachsen?",
+      "question": "Welches Wappen gehört zum Freistaat Sachsen? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -7377,7 +7377,7 @@
       "id": "ST_1",
       "number": 1,
       "category": "ST",
-      "question": "Welches Wappen gehört zum Bundesland Sachsen-Anhalt?",
+      "question": "Welches Wappen gehört zum Bundesland Sachsen-Anhalt? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -7550,7 +7550,7 @@
       "id": "SH_1",
       "number": 1,
       "category": "SH",
-      "question": "Welches Wappen gehört zum Bundesland Schleswig-Holstein?",
+      "question": "Welches Wappen gehört zum Bundesland Schleswig-Holstein? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",
@@ -7723,7 +7723,7 @@
       "id": "TH_1",
       "number": 1,
       "category": "TH",
-      "question": "Welches Wappen gehört zum Freistaat Thüringen?",
+      "question": "Welches Wappen gehört zum Freistaat Thüringen? Bild 1 Bild 2 Bild 3 Bild 4",
       "options": [
         "Bild 1",
         "Bild 2",

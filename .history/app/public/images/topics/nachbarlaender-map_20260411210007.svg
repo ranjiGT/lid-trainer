@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 720" width="700" height="720">
+  <defs>
+    <style>
+      .de { fill: #f59e0b; stroke: #78350f; stroke-width: 1; stroke-linejoin: round; }
+      .nb { fill: #d1d5db; stroke: #6b7280; stroke-width: 0.7; stroke-linejoin: round; }
+      .sea { fill: #93c5fd; fill-opacity: 0.35; }
+      .lbl { font-family: -apple-system, system-ui, sans-serif; font-size: 14px; font-weight: 700; fill: #1f2937; }
+      .lbl-sm { font-family: -apple-system, system-ui, sans-serif; font-size: 11px; font-weight: 600; fill: #374151; }
+      .lbl-bg { fill: #fff; fill-opacity: 0.9; rx: 3; ry: 3; }
+      .de-lbl { font-family: -apple-system, system-ui, sans-serif; font-size: 20px; font-weight: 800; fill: #78350f; text-anchor: middle; }
+      .legend { font-family: -apple-system, system-ui, sans-serif; font-size: 12px; fill: #374151; }
+    </style>
+  </defs>
+
+  <rect width="700" height="720" fill="#f0f4f8"/>
+
+  <!-- North Sea -->
+  <path class="sea" d="M0,0 L280,0 L280,60 L240,85 L200,95 L170,80 L130,72 L100,80 L60,70 L28,90 L0,110 Z"/>
+  <!-- Baltic Sea -->
+  <path class="sea" d="M340,0 L700,0 L700,170 L630,120 L580,100 L550,115 L525,95 L500,108 L480,85 L460,75 L430,62 L400,40 L370,25 L340,10 Z"/>
+
+  <!-- ===== NEIGHBORING COUNTRIES (simplified real outlines) ===== -->
+
+  <!-- Denmark (Jutland + islands) -->
+  <path class="nb" d="M310,5 L320,10 L328,20 L332,35 L330,55 L325,70 L318,82 L312,92 L305,100 L298,108 L290,118 L282,125 L275,118 L270,105 L268,90 L272,72 L278,55 L285,38 L292,22 L300,10 Z"/>
+  <!-- Zealand -->
+  <path class="nb" d="M340,30 L355,25 L368,32 L375,45 L370,58 L358,65 L345,60 L338,48 L340,35 Z"/>
+  <!-- Funen -->
+  <path class="nb" d="M325,42 L335,38 L342,45 L338,55 L328,58 L322,50 Z"/>
+
+  <!-- Netherlands -->
+  <path class="nb" d="M95,125 L120,118 L140,112 L160,108 L178,115 L192,125 L200,140 L205,158 L200,175 L192,192 L182,205 L168,218 L155,228 L142,232 L128,228 L115,222 L108,210 L102,195 L98,178 L95,158 L93,140 Z"/>
+
+  <!-- Belgium -->
+  <path class="nb" d="M55,235 L70,225 L85,218 L100,215 L115,222 L128,228 L142,232 L148,245 L145,260 L138,278 L130,295 L120,308 L110,318 L100,322 L85,315 L72,305 L60,290 L52,272 L50,255 Z"/>
+
+  <!-- Luxembourg -->
+  <path class="nb" d="M118,322 L130,315 L142,320 L148,335 L142,348 L130,352 L118,345 L114,332 Z"/>
+
+  <!-- France (northeast portion visible) -->
+  <path class="nb" d="M0,230 L30,215 L55,235 L50,255 L52,272 L60,290 L72,305 L85,315 L100,322 L118,322 L114,332 L118,345 L130,352 L142,348 L152,360 L160,378 L165,395 L170,415 L172,435 L168,455 L158,470 L140,478 L115,480 L88,475 L62,462 L40,445 L22,422 L10,395 L2,365 L0,335 Z"/>
+
+  <!-- Switzerland -->
+  <path class="nb" d="M170,455 L185,442 L205,432 L228,425 L252,422 L270,428 L280,440 L275,455 L262,468 L245,475 L225,478 L205,475 L188,468 L175,460 Z"/>
+
+  <!-- Austria -->
+  <path class="nb" d="M252,422 L275,415 L300,408 L328,402 L358,398 L385,395 L412,392 L438,395 L462,400 L485,408 L505,418 L520,432 L525,448 L515,462 L498,472 L475,475 L448,470 L420,465 L390,462 L358,458 L325,455 L295,452 L270,450 L262,468 L275,455 L280,440 L270,428 Z"/>
+
+  <!-- Czech Republic (Bohemia shape - distinct western bulge) -->
+  <path class="nb" d="M365,310 L385,302 L408,298 L430,300 L452,305 L472,315 L488,328 L498,342 L502,358 L498,375 L488,388 L472,398 L452,405 L438,395 L412,392 L385,395 L358,398 L340,395 L328,385 L325,370 L330,352 L342,335 L355,322 Z"/>
+
+  <!-- Poland (western portion visible) -->
+  <path class="nb" d="M430,62 L460,75 L490,82 L520,92 L545,105 L565,120 L580,140 L590,165 L595,192 L592,222 L585,252 L575,278 L562,302 L545,322 L525,338 L505,348 L498,342 L488,328 L472,315 L452,305 L430,300 L408,298 L400,288 L398,268 L402,248 L410,228 L415,208 L412,188 L405,168 L398,150 L395,132 L398,115 L405,98 L415,80 Z"/>
+
+  <!-- ===== GERMANY ===== -->
+  <path class="de" d="
+    M282,125 L290,118 L298,108 L305,100 L312,92 L325,95 L340,100
+    L355,105 L370,108 L382,112 L395,118 L398,115 L405,98 L415,80 L430,62
+    L405,68 L398,75
+    L398,115 L395,132 L398,150 L405,168 L412,188 L415,208
+    L410,228 L402,248 L398,268 L400,288 L408,298
+    L385,302 L365,310 L355,322 L342,335 L330,352 L325,370 L328,385 L340,395 L358,398
+    L328,402 L300,408 L275,415 L252,422
+    L228,425 L205,432 L185,442 L170,455 L168,455
+    L165,435 L162,415 L158,395 L152,378 L152,360
+    L142,348 L148,335 L142,320 L130,315
+    L120,308 L130,295 L138,278 L145,260 L148,245
+    L142,232 L155,228 L168,218 L182,205 L192,192
+    L200,175 L205,158 L200,140 L192,125 L200,118
+    L220,112 L242,108 L260,112 L270,118 Z
+  "/>
+
+  <!-- Water bodies inside Germany coast line -->
+  <!-- Small sea inlet hint -->
+
+  <!-- ===== LABELS ===== -->
+
+  <!-- Germany -->
+  <text class="de-lbl" x="310" y="260">Deutschland</text>
+
+  <!-- Denmark -->
+  <rect x="262" y="30" width="82" height="22" class="lbl-bg"/>
+  <text class="lbl" x="270" y="47">Dänemark</text>
+
+  <!-- Poland -->
+  <rect x="500" y="195" width="52" height="22" class="lbl-bg"/>
+  <text class="lbl" x="508" y="212">Polen</text>
+
+  <!-- Czech Republic -->
+  <rect x="430" y="350" width="92" height="22" class="lbl-bg"/>
+  <text class="lbl" x="438" y="367">Tschechien</text>
+
+  <!-- Austria -->
+  <rect x="420" y="440" width="85" height="22" class="lbl-bg"/>
+  <text class="lbl" x="428" y="457">Österreich</text>
+
+  <!-- Switzerland -->
+  <rect x="198" y="458" width="68" height="22" class="lbl-bg"/>
+  <text class="lbl" x="206" y="475">Schweiz</text>
+
+  <!-- France -->
+  <rect x="40" y="375" width="82" height="22" class="lbl-bg"/>
+  <text class="lbl" x="48" y="392">Frankreich</text>
+
+  <!-- Luxembourg -->
+  <rect x="68" y="332" width="45" height="18" class="lbl-bg"/>
+  <text class="lbl-sm" x="72" y="346">Lux.</text>
+
+  <!-- Belgium -->
+  <rect x="32" y="262" width="65" height="22" class="lbl-bg"/>
+  <text class="lbl" x="40" y="279">Belgien</text>
+
+  <!-- Netherlands -->
+  <rect x="82" y="155" width="95" height="22" class="lbl-bg"/>
+  <text class="lbl" x="90" y="172">Niederlande</text>
+
+  <!-- Caption -->
+  <text class="legend" x="175" y="610" text-anchor="middle">
+    <tspan>
+      <tspan fill="#f59e0b" font-size="16">&#9632;</tspan> Deutschland
+    </tspan>
+  </text>
+  <text class="legend" x="420" y="610" text-anchor="middle">
+    <tspan>
+      <tspan fill="#d1d5db" font-size="16">&#9632;</tspan> 9 Nachbarländer / 9 Neighbors
+    </tspan>
+  </text>
+
+  <!-- Italic caption -->
+  <text font-family="-apple-system, sans-serif" font-size="13" fill="#6b7280" font-style="italic" text-anchor="middle" x="350" y="640">
+    Deutschland (gelb) und seine 9 Nachbarländer (grau)
+  </text>
+</svg>

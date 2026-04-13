@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320">
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .title-bar { fill: #1e3a5f; }
+      .title { font-family: 'Segoe UI', sans-serif; font-size: 16px; font-weight: bold; fill: white; text-anchor: middle; }
+      .label { font-family: 'Segoe UI', sans-serif; font-size: 11px; fill: #334155; text-anchor: middle; font-weight: 600; }
+      .sublabel { font-family: 'Segoe UI', sans-serif; font-size: 9px; fill: #64748b; text-anchor: middle; }
+      .bar { fill: #d1d5db; }
+      .bar-pass { fill: #22c55e; }
+      .bar-fail { fill: #f87171; }
+      .bar-small { fill: #fca5a5; }
+      .hurdle { stroke: #f59e42; stroke-width: 3; stroke-dasharray: 6 4; }
+      .percent-label { font-family: 'Segoe UI', sans-serif; font-size: 12px; font-weight: bold; fill: #f59e42; text-anchor: middle; }
+      .party-label { font-family: 'Segoe UI', sans-serif; font-size: 10px; fill: #64748b; text-anchor: middle; }
+      .explain { font-family: 'Segoe UI', sans-serif; font-size: 10px; fill: #475569; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="320" rx="12" class="bg"/>
+  <rect x="0" y="0" width="500" height="44" rx="12" class="title-bar"/>
+  <text x="250" y="28" class="title">5%-Hürde im Bundestag</text>
+
+  <!-- Bar chart area -->
+  <rect x="60" y="60" width="380" height="170" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Hurdle line -->
+  <line x1="100" y1="170" x2="420" y2="170" class="hurdle"/>
+  <text x="440" y="174" class="percent-label">5%</text>
+
+  <!-- Bars: 3 parties below, 2 above -->
+  <!-- Party A: 3% (fail) -->
+  <rect x="110" y="210" width="30" height="60" class="bar-fail"/>
+  <text x="125" y="205" class="party-label">A</text>
+  <text x="125" y="285" class="sublabel">3%</text>
+
+  <!-- Party B: 4.5% (fail) -->
+  <rect x="170" y="185" width="30" height="85" class="bar-fail"/>
+  <text x="185" y="180" class="party-label">B</text>
+  <text x="185" y="285" class="sublabel">4,5%</text>
+
+  <!-- Party C: 5% (pass) -->
+  <rect x="230" y="120" width="30" height="150" class="bar-pass"/>
+  <text x="245" y="115" class="party-label">C</text>
+  <text x="245" y="285" class="sublabel">5%</text>
+
+  <!-- Party D: 8% (pass) -->
+  <rect x="290" y="80" width="30" height="190" class="bar-pass"/>
+  <text x="305" y="75" class="party-label">D</text>
+  <text x="305" y="285" class="sublabel">8%</text>
+
+  <!-- Party E: 25% (pass) -->
+  <rect x="350" y="30" width="30" height="240" class="bar-pass"/>
+  <text x="365" y="25" class="party-label">E</text>
+  <text x="365" y="285" class="sublabel">25%</text>
+
+  <!-- Arrow and explanation for hurdle -->
+  <polygon points="210,170 210,160 220,165" fill="#f59e42"/>
+  <text x="210" y="155" class="explain">Nur Parteien ab 5% ziehen ein</text>
+
+  <!-- Explanation below -->
+  <text x="250" y="310" class="explain">Parteien unter 5% der Zweitstimmen erhalten keine Sitze im Bundestag.</text>
+</svg>

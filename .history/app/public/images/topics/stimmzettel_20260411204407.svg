@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 340" width="460" height="340">
+  <defs>
+    <style>
+      .ballot-bg { fill: #f9f9f5; stroke: #333; stroke-width: 1.5; }
+      .header { font-family: sans-serif; font-size: 10px; fill: #333; text-anchor: middle; }
+      .header-bold { font-family: sans-serif; font-size: 12px; font-weight: bold; fill: #111; text-anchor: middle; }
+      .section-label { font-family: sans-serif; font-size: 10px; fill: #333; text-anchor: middle; }
+      .section-bold { font-family: sans-serif; font-size: 11px; font-weight: bold; fill: #111; text-anchor: center; }
+      .cell-text { font-family: sans-serif; font-size: 10px; fill: #333; }
+      .cell-bold { font-family: sans-serif; font-size: 10px; font-weight: bold; fill: #111; }
+      .x-mark { font-family: sans-serif; font-size: 22px; font-weight: bold; fill: #111; text-anchor: middle; }
+      .grid-line { stroke: #666; stroke-width: 0.75; }
+      .divider { stroke: #333; stroke-width: 1.5; }
+      .circle { fill: none; stroke: #333; stroke-width: 1; }
+      .caption { font-family: sans-serif; font-size: 11px; fill: #333; }
+      .caption-bold { font-family: sans-serif; font-size: 11px; font-weight: bold; fill: #111; }
+    </style>
+  </defs>
+
+  <!-- Ballot paper background -->
+  <rect x="30" y="10" width="400" height="260" rx="3" class="ballot-bg"/>
+
+  <!-- Header text -->
+  <text class="header-bold" x="230" y="30">Stimmzettel</text>
+  <text class="header" x="230" y="43">für die Wahl zum Deutschen Bundestag</text>
+
+  <!-- "Sie haben 2 Stimmen" -->
+  <text class="header-bold" x="230" y="62">Sie haben 2 Stimmen</text>
+  
+  <!-- Two X marks at top -->
+  <text class="x-mark" x="200" y="63">✕</text>
+  <text class="x-mark" x="260" y="63">✕</text>
+
+  <!-- Left section header: Erststimme -->
+  <text class="section-bold" x="140" y="82">hier 1 Stimme</text>
+  <text class="section-label" x="140" y="93">für die Wahl</text>
+  <text class="section-label" x="140" y="103">eines/einer Wahlkreisabgeordneten</text>
+
+  <!-- Right section header: Zweitstimme -->
+  <text class="section-bold" x="330" y="82">hier 1 Stimme</text>
+  <text class="section-label" x="330" y="93">für die Wahl</text>
+  <text class="section-label" x="330" y="103">einer Landesliste (Partei)</text>
+
+  <!-- Column labels -->
+  <text class="section-bold" x="140" y="118">Erststimme</text>
+  <text class="section-bold" x="330" y="118">Zweitstimme</text>
+
+  <!-- Center divider -->
+  <line x1="230" y1="70" x2="230" y2="260" class="divider"/>
+
+  <!-- Grid lines for left side -->
+  <line x1="35" y1="125" x2="225" y2="125" class="grid-line"/>
+  <line x1="35" y1="165" x2="225" y2="165" class="grid-line"/>
+  <line x1="35" y1="205" x2="225" y2="205" class="grid-line"/>
+  <line x1="35" y1="245" x2="225" y2="245" class="grid-line"/>
+
+  <!-- Grid lines for right side -->
+  <line x1="235" y1="125" x2="425" y2="125" class="grid-line"/>
+  <line x1="235" y1="165" x2="425" y2="165" class="grid-line"/>
+  <line x1="235" y1="205" x2="425" y2="205" class="grid-line"/>
+  <line x1="235" y1="245" x2="425" y2="245" class="grid-line"/>
+
+  <!-- Left side: Candidates + Parties with circles -->
+  <!-- Row 1 -->
+  <text class="cell-bold" x="42" y="140">1</text>
+  <text class="cell-bold" x="58" y="140">Kandidat X</text>
+  <text class="cell-text" x="145" y="140">Partei A</text>
+  <circle cx="204" cy="136" r="8" class="circle"/>
+  <text class="x-mark" x="204" y="143">✕</text>
+
+  <!-- Row 2 -->
+  <text class="cell-bold" x="42" y="180">2</text>
+  <text class="cell-bold" x="58" y="180">Kandidat Y</text>
+  <text class="cell-text" x="145" y="180">Partei B</text>
+  <circle cx="204" cy="176" r="8" class="circle"/>
+
+  <!-- Row 3 -->
+  <text class="cell-bold" x="42" y="220">3</text>
+  <text class="cell-bold" x="58" y="220">Kandidat Z</text>
+  <text class="cell-text" x="145" y="220">Partei C</text>
+  <circle cx="204" cy="216" r="8" class="circle"/>
+
+  <!-- Right side: Parties with circles -->
+  <!-- Row 1 -->
+  <circle cx="249" cy="136" r="8" class="circle"/>
+  <rect x="265" y="128" width="70" height="4" rx="1" fill="#4b85c5"/>
+  <text class="cell-text" x="265" y="147">Partei A</text>
+  <rect x="340" y="128" width="75" height="16" rx="2" fill="#e5e7eb"/>
+
+  <!-- Row 2 -->
+  <circle cx="249" cy="176" r="8" class="circle"/>
+  <text class="x-mark" x="249" y="183">✕</text>
+  <rect x="265" y="168" width="70" height="4" rx="1" fill="#dc2626"/>
+  <text class="cell-text" x="265" y="187">Partei B</text>
+  <rect x="340" y="168" width="75" height="16" rx="2" fill="#e5e7eb"/>
+
+  <!-- Row 3 -->
+  <circle cx="249" cy="216" r="8" class="circle"/>
+  <rect x="265" y="208" width="70" height="4" rx="1" fill="#16a34a"/>
+  <text class="cell-text" x="265" y="227">Partei C</text>
+  <rect x="340" y="208" width="75" height="16" rx="2" fill="#e5e7eb"/>
+
+  <!-- Caption below ballot -->
+  <text class="caption" x="55" y="290">Links: </text>
+  <text class="caption-bold" x="90" y="290">Erststimme</text>
+  <text class="caption" x="230" y="290">Rechts: </text>
+  <text class="caption-bold" x="273" y="290">Zweitstimme</text>
+  <text class="caption" x="55" y="308">Left: </text>
+  <text class="caption-bold" x="82" y="308">First vote</text>
+  <text class="caption" x="230" y="308">Right: </text>
+  <text class="caption-bold" x="265" y="308">Second vote</text>
+</svg>

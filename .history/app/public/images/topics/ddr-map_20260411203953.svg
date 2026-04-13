@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <defs>
+    <style>
+      .west { fill: #d1d5db; stroke: #fff; stroke-width: 1.5; }
+      .ddr { fill: #4b5563; stroke: #fff; stroke-width: 1.5; }
+      .berlin { fill: #374151; stroke: #fff; stroke-width: 1.5; }
+      .label { font-family: sans-serif; font-size: 11px; fill: #111; text-anchor: middle; }
+      .label-ddr { font-family: sans-serif; font-size: 11px; fill: #fff; text-anchor: middle; }
+      .title { font-family: sans-serif; font-size: 14px; font-weight: bold; fill: #111; text-anchor: middle; }
+      .legend-text { font-family: sans-serif; font-size: 11px; fill: #333; }
+    </style>
+  </defs>
+
+  <!-- Schleswig-Holstein -->
+  <path class="west" d="M175,15 L195,10 L220,20 L230,45 L225,70 L210,80 L200,75 L195,85 L185,80 L175,85 L160,65 L155,40 Z"/>
+  <text class="label" x="192" y="52">Schleswig-</text>
+  <text class="label" x="192" y="64">Holstein</text>
+
+  <!-- Mecklenburg-Vorpommern (DDR) -->
+  <path class="ddr" d="M230,45 L260,35 L300,30 L330,40 L340,55 L335,75 L310,90 L280,95 L250,100 L230,95 L225,70 Z"/>
+  <text class="label-ddr" x="280" y="65">Mecklenburg-</text>
+  <text class="label-ddr" x="280" y="77">Vorpommern</text>
+
+  <!-- Hamburg -->
+  <path class="west" d="M185,80 L200,75 L210,80 L215,90 L205,100 L190,95 Z"/>
+  <text class="label" x="200" y="93">HH</text>
+
+  <!-- Bremen -->
+  <path class="west" d="M155,95 L170,90 L178,100 L172,110 L155,108 Z"/>
+  <text class="label" x="165" y="105">HB</text>
+
+  <!-- Niedersachsen -->
+  <path class="west" d="M100,80 L155,65 L175,85 L185,80 L190,95 L205,100 L215,90 L225,105 L230,95 L250,100 L240,120 L230,140 L210,155 L190,160 L160,155 L130,160 L110,145 L90,130 L85,105 Z"/>
+  <text class="label" x="165" y="130">Niedersachsen</text>
+
+  <!-- Brandenburg (DDR) -->
+  <path class="ddr" d="M250,100 L280,95 L310,90 L335,105 L340,140 L335,175 L320,200 L300,210 L275,205 L260,195 L255,175 L270,160 L275,145 L265,130 L250,125 L240,120 Z"/>
+  <text class="label-ddr" x="300" y="145">Brandenburg</text>
+
+  <!-- Berlin (DDR) -->
+  <path class="berlin" d="M275,145 L290,140 L300,148 L295,160 L280,162 L270,155 Z"/>
+  <text class="label-ddr" x="284" y="155">Berlin</text>
+
+  <!-- Sachsen-Anhalt (DDR) -->
+  <path class="ddr" d="M230,140 L250,125 L265,130 L275,145 L270,160 L255,175 L260,195 L255,215 L240,225 L220,220 L215,200 L210,180 L210,155 Z"/>
+  <text class="label-ddr" x="240" y="180">Sachsen-</text>
+  <text class="label-ddr" x="240" y="192">Anhalt</text>
+
+  <!-- Nordrhein-Westfalen -->
+  <path class="west" d="M60,155 L90,130 L110,145 L130,160 L140,180 L145,200 L140,220 L125,235 L100,240 L75,230 L55,210 L50,185 Z"/>
+  <text class="label" x="100" y="195">Nordrhein-</text>
+  <text class="label" x="100" y="207">Westfalen</text>
+
+  <!-- Hessen -->
+  <path class="west" d="M130,160 L160,155 L190,160 L210,155 L210,180 L215,200 L200,225 L185,245 L165,250 L145,245 L140,220 L145,200 L140,180 Z"/>
+  <text class="label" x="172" y="210">Hessen</text>
+
+  <!-- Thüringen (DDR) -->
+  <path class="ddr" d="M210,180 L215,200 L220,220 L240,225 L255,215 L260,230 L250,250 L230,255 L210,250 L195,240 L200,225 Z"/>
+  <text class="label-ddr" x="228" y="235">Thüringen</text>
+
+  <!-- Sachsen (DDR) -->
+  <path class="ddr" d="M260,195 L275,205 L300,210 L320,200 L340,210 L345,235 L335,260 L310,270 L285,265 L260,260 L250,250 L260,230 L255,215 Z"/>
+  <text class="label-ddr" x="300" y="245">Sachsen</text>
+
+  <!-- Rheinland-Pfalz -->
+  <path class="west" d="M50,235 L75,230 L100,240 L125,235 L140,250 L135,275 L120,300 L100,310 L80,305 L60,290 L45,270 Z"/>
+  <text class="label" x="92" y="275">Rheinland-</text>
+  <text class="label" x="92" y="287">Pfalz</text>
+
+  <!-- Saarland -->
+  <path class="west" d="M45,290 L60,290 L65,305 L55,320 L40,315 Z"/>
+  <text class="label" x="52" y="310">Saar-</text>
+  <text class="label" x="52" y="322">land</text>
+
+  <!-- Baden-Württemberg -->
+  <path class="west" d="M100,310 L120,300 L135,275 L145,265 L165,260 L185,265 L195,280 L200,310 L195,340 L185,370 L165,390 L140,395 L115,385 L95,365 L85,340 Z"/>
+  <text class="label" x="148" y="340">Baden-</text>
+  <text class="label" x="148" y="352">Württemberg</text>
+
+  <!-- Bayern -->
+  <path class="west" d="M185,265 L195,250 L210,250 L230,255 L250,250 L260,260 L285,265 L310,270 L320,290 L325,320 L315,360 L300,390 L275,410 L250,420 L220,415 L195,400 L175,395 L165,390 L185,370 L195,340 L200,310 L195,280 Z"/>
+  <text class="label" x="250" y="350">Bayern</text>
+
+  <!-- Legend -->
+  <rect x="20" y="445" width="20" height="14" rx="2" class="ddr"/>
+  <text class="legend-text" x="48" y="457">DDR-Bundesländer / GDR states</text>
+  <rect x="20" y="467" width="20" height="14" rx="2" class="west"/>
+  <text class="legend-text" x="48" y="479">Westdeutschland / West Germany</text>
+  <rect x="20" y="489" width="20" height="14" rx="2" class="berlin"/>
+  <text class="legend-text" x="48" y="501">Berlin (geteilt / divided)</text>
+</svg>

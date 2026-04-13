@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" width="520" height="440">
+  <defs>
+    <style>
+      .bg { fill: #f0f9ff; }
+      .title { font-family: 'Segoe UI', sans-serif; font-size: 16px; font-weight: bold; fill: #1e3a5f; text-anchor: middle; }
+      .label { font-family: 'Segoe UI', sans-serif; font-size: 11px; fill: #334155; text-anchor: middle; font-weight: 600; }
+      .sublabel { font-family: 'Segoe UI', sans-serif; font-size: 9px; fill: #64748b; text-anchor: middle; }
+      .step-num { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: white; text-anchor: middle; font-weight: bold; }
+      .info-text { font-family: 'Segoe UI', sans-serif; font-size: 10px; fill: #475569; text-anchor: middle; }
+      .badge { font-family: 'Segoe UI', sans-serif; font-size: 9px; fill: white; font-weight: bold; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="420" rx="12" class="bg"/>
+  <rect x="0" y="0" width="480" height="50" rx="12" fill="#1e3a5f"/>
+  <rect x="0" y="12" width="480" height="38" fill="#1e3a5f"/>
+
+  <!-- Title bar -->
+  <text x="240" y="32" font-family="'Segoe UI', sans-serif" font-size="17" font-weight="bold" fill="white" text-anchor="middle">🗳️  Wahlhelfer – Ablauf am Wahltag</text>
+
+  <!-- === POLLING STATION SCENE === -->
+
+  <!-- Polling station building -->
+  <rect x="40" y="70" width="400" height="200" rx="8" fill="white" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="240" y="88" font-family="'Segoe UI', sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="600">Wahllokal</text>
+
+  <!-- German flag stripe on building -->
+  <rect x="40" y="95" width="400" height="3" fill="#000"/>
+  <rect x="40" y="98" width="400" height="3" fill="#dd0000"/>
+  <rect x="40" y="101" width="400" height="3" fill="#ffcc00"/>
+
+  <!-- === Person 1: Voter arriving (left) === -->
+  <g transform="translate(85,140)">
+    <!-- Body -->
+    <circle cx="0" cy="0" r="14" fill="#60a5fa" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="0" y="5" font-family="'Segoe UI', sans-serif" font-size="16" text-anchor="middle">🧑</text>
+    <!-- ID card -->
+    <rect x="10" y="-8" width="18" height="12" rx="2" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+    <text x="19" y="1" font-family="'Segoe UI', sans-serif" font-size="5" fill="#92400e" text-anchor="middle">ID</text>
+    <text x="0" y="30" class="sublabel">Wähler</text>
+    <text x="0" y="40" font-family="'Segoe UI', sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle">mit Ausweis</text>
+  </g>
+
+  <!-- Arrow -->
+  <line x1="118" y1="142" x2="148" y2="142" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <!-- === Station 1: Identity Check === -->
+  <g transform="translate(185,115)">
+    <!-- Desk -->
+    <rect x="-35" y="15" width="70" height="40" rx="5" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+    <!-- Step badge -->
+    <circle cx="-25" cy="8" r="9" fill="#2563eb"/>
+    <text x="-25" y="12" class="step-num">1</text>
+    <!-- Wahlhelfer icon -->
+    <circle cx="0" cy="-5" r="14" fill="#34d399" stroke="#10b981" stroke-width="1.5"/>
+    <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="14" text-anchor="middle">👤</text>
+    <!-- Badge -->
+    <rect x="10" y="-14" width="26" height="11" rx="3" fill="#10b981"/>
+    <text x="23" y="-6" class="badge">WHF</text>
+    <!-- Wählerverzeichnis (voter list) -->
+    <rect x="-28" y="22" width="56" height="26" rx="3" fill="white" stroke="#93c5fd" stroke-width="1"/>
+    <line x1="-22" y1="30" x2="22" y2="30" stroke="#cbd5e1" stroke-width="1"/>
+    <line x1="-22" y1="35" x2="22" y2="35" stroke="#cbd5e1" stroke-width="1"/>
+    <line x1="-22" y1="40" x2="12" y2="40" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="0" y="64" class="label">Identität prüfen</text>
+    <text x="0" y="74" class="sublabel">Wählerverzeichnis</text>
+  </g>
+
+  <!-- Arrow -->
+  <line x1="225" y1="142" x2="255" y2="142" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+
+  <!-- === Station 2: Ballot handout === -->
+  <g transform="translate(295,115)">
+    <!-- Desk -->
+    <rect x="-35" y="15" width="70" height="40" rx="5" fill="#fef9c3" stroke="#fde047" stroke-width="1.5"/>
+    <!-- Step badge -->
+    <circle cx="-25" cy="8" r="9" fill="#2563eb"/>
+    <text x="-25" y="12" class="step-num">2</text>
+    <!-- Wahlhelfer icon -->
+    <circle cx="0" cy="-5" r="14" fill="#34d399" stroke="#10b981" stroke-width="1.5"/>
+    <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="14" text-anchor="middle">👤</text>
+    <!-- Badge -->
+    <rect x="10" y="-14" width="26" height="11" rx="3" fill="#10b981"/>
+    <text x="23" y="-6" class="badge">WHF</text>
+    <!-- Ballot paper -->
+    <rect x="-20" y="22" width="40" height="28" rx="2" fill="white" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="0" y="40" font-family="'Segoe UI', sans-serif" font-size="8" fill="#92400e" text-anchor="middle">Stimmzettel</text>
+    <text x="0" y="64" class="label">Stimmzettel</text>
+    <text x="0" y="74" class="sublabel">ausgeben</text>
+  </g>
+
+  <!-- Arrow -->
+  <line x1="335" y1="142" x2="355" y2="155" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+
+  <!-- === Station 3: Voting booth === -->
+  <g transform="translate(390,145)">
+    <!-- Wahlkabine (booth) -->
+    <rect x="-25" y="0" width="50" height="55" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+    <!-- Curtain lines -->
+    <line x1="-25" y1="0" x2="-25" y2="55" stroke="#64748b" stroke-width="2"/>
+    <line x1="25" y1="0" x2="25" y2="55" stroke="#64748b" stroke-width="2"/>
+    <!-- Privacy curtain hint -->
+    <path d="M-22,0 Q-15,8 -8,0 Q0,8 8,0 Q15,8 22,0" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    <!-- Cross mark (voting) -->
+    <text x="0" y="35" font-family="'Segoe UI', sans-serif" font-size="20" text-anchor="middle" fill="#2563eb">✗</text>
+    <!-- Step badge -->
+    <circle cx="-18" cy="-8" r="9" fill="#2563eb"/>
+    <text x="-18" y="-4" class="step-num">3</text>
+    <text x="0" y="72" class="label">Wahlkabine</text>
+    <text x="0" y="82" class="sublabel">geheim wählen</text>
+  </g>
+
+  <!-- === BALLOT BOX (center bottom) === -->
+  <g transform="translate(295,210)">
+    <!-- Arrow from booth to box -->
+    <path d="M95,-30 Q80,0 30,10" fill="none" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+    <!-- Ballot box -->
+    <rect x="-22" y="0" width="44" height="40" rx="4" fill="#1e3a5f" stroke="#0f172a" stroke-width="1.5"/>
+    <rect x="-10" y="5" width="20" height="4" rx="2" fill="#334155"/>
+    <!-- Ballot going in -->
+    <rect x="-6" y="-8" width="12" height="16" rx="1" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <!-- Step badge -->
+    <circle cx="-16" cy="-6" r="9" fill="#2563eb"/>
+    <text x="-16" y="-2" class="step-num">4</text>
+    <text x="0" y="56" class="label">Wahlurne</text>
+    <text x="0" y="66" class="sublabel">einwerfen</text>
+  </g>
+
+  <!-- === Bottom info section === -->
+  <rect x="30" y="295" width="420" height="110" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Left: Wahlhelfer responsibilities -->
+  <g transform="translate(50,310)">
+    <rect x="-8" y="-4" width="190" height="90" rx="6" fill="#ecfdf5"/>
+    <text x="87" y="10" class="label" fill="#065f46">Aufgaben der Wahlhelfer</text>
+    <circle cx="8" cy="28" r="3" fill="#10b981"/>
+    <text x="15" y="31" class="info-text" text-anchor="start">Identität der Wähler prüfen</text>
+    <circle cx="8" cy="43" r="3" fill="#10b981"/>
+    <text x="15" y="46" class="info-text" text-anchor="start">Stimmzettel ausgeben</text>
+    <circle cx="8" cy="58" r="3" fill="#10b981"/>
+    <text x="15" y="61" class="info-text" text-anchor="start">Wahlurne beaufsichtigen</text>
+    <circle cx="8" cy="73" r="3" fill="#10b981"/>
+    <text x="15" y="76" class="info-text" text-anchor="start">Stimmen auszählen</text>
+  </g>
+
+  <!-- Right: Important note -->
+  <g transform="translate(265,310)">
+    <rect x="-8" y="-4" width="180" height="90" rx="6" fill="#fef2f2"/>
+    <text x="82" y="10" class="label" fill="#991b1b">⚠️ Wichtig</text>
+    <text x="82" y="30" class="info-text" fill="#dc2626">Ehrenamt – Pflicht!</text>
+    <text x="82" y="46" font-family="'Segoe UI', sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Wer aufgefordert wird,</text>
+    <text x="82" y="58" font-family="'Segoe UI', sans-serif" font-size="9" fill="#64748b" text-anchor="middle">muss die Aufgabe annehmen.</text>
+    <text x="82" y="74" font-family="'Segoe UI', sans-serif" font-size="9" fill="#64748b" text-anchor="middle">Ablehnung nur bei Krankheit.</text>
+  </g>
+</svg>

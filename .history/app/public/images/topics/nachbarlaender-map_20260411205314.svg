@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 520" width="500" height="520">
+  <defs>
+    <style>
+      .de { fill: #f59e0b; stroke: #fff; stroke-width: 1.5; }
+      .neighbor { fill: #9ca3af; stroke: #fff; stroke-width: 1; }
+      .sea { fill: #bfdbfe; }
+      .label { font-family: sans-serif; font-size: 12px; font-weight: bold; fill: #111; }
+      .label-box { fill: #fff; fill-opacity: 0.85; rx: 3; ry: 3; }
+      .de-label { font-family: sans-serif; font-size: 16px; font-weight: bold; fill: #78350f; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Sea / background -->
+  <rect width="500" height="520" fill="#f0f4f8"/>
+  <ellipse cx="200" cy="45" rx="180" ry="50" class="sea"/>
+
+  <!-- Denmark -->
+  <path class="neighbor" d="M180,20 L210,15 L240,18 L255,35 L250,60 L240,75 L225,70 L210,72 L195,65 L185,50 L175,35 Z"/>
+
+  <!-- Poland -->
+  <path class="neighbor" d="M340,90 L380,80 L420,85 L450,110 L460,150 L455,200 L450,250 L430,280 L400,285 L370,275 L345,260 L330,240 L325,210 L330,180 L335,150 L330,120 Z"/>
+
+  <!-- Czech Republic -->
+  <path class="neighbor" d="M280,275 L330,260 L370,275 L400,285 L410,310 L400,340 L370,350 L340,345 L310,335 L285,320 L275,300 Z"/>
+
+  <!-- Austria -->
+  <path class="neighbor" d="M200,365 L240,355 L280,345 L310,335 L340,345 L370,350 L400,355 L420,370 L430,395 L410,415 L380,420 L340,418 L300,415 L260,410 L230,400 L200,390 Z"/>
+
+  <!-- Switzerland -->
+  <path class="neighbor" d="M140,380 L175,370 L200,365 L200,390 L185,405 L165,415 L140,418 L120,410 L115,395 Z"/>
+
+  <!-- France -->
+  <path class="neighbor" d="M40,200 L70,180 L95,175 L100,200 L95,240 L88,280 L80,310 L85,340 L100,365 L115,380 L115,395 L100,400 L70,395 L40,370 L25,330 L20,290 L25,250 Z"/>
+
+  <!-- Luxembourg -->
+  <path class="neighbor" d="M85,270 L98,265 L105,275 L100,290 L88,292 Z"/>
+
+  <!-- Belgium -->
+  <path class="neighbor" d="M50,185 L70,180 L95,175 L100,195 L98,220 L95,245 L85,258 L70,255 L55,240 L45,215 Z"/>
+
+  <!-- Netherlands -->
+  <path class="neighbor" d="M80,105 L110,95 L140,100 L155,115 L148,140 L135,160 L115,170 L95,175 L70,180 L55,165 L60,140 L65,120 Z"/>
+
+  <!-- Germany (central, highlighted) -->
+  <path class="de" d="
+    M195,65 L210,72 L225,70 L240,75 L250,60 L255,72 L265,78
+    L290,82 L310,88 L330,95 L330,120 L335,150 L330,180 L325,210
+    L330,240 L340,260 L325,265 L310,275 L285,290 L275,310
+    L280,335 L265,345 L240,355 L215,362 L200,365 L175,370
+    L155,368 L140,360 L125,345 L115,325 L110,300 L105,285
+    L100,270 L100,250 L105,230 L105,210 L108,195 L115,175
+    L130,162 L145,145 L150,125 L155,115 L165,95 L180,80 Z
+  "/>
+
+  <!-- Country labels with background boxes -->
+  <!-- Denmark -->
+  <rect x="185" y="30" width="72" height="18" class="label-box"/>
+  <text class="label" x="190" y="44">Dänemark</text>
+
+  <!-- Netherlands -->
+  <rect x="60" y="118" width="85" height="18" class="label-box"/>
+  <text class="label" x="65" y="132">Niederlande</text>
+
+  <!-- Belgium -->
+  <rect x="35" y="212" width="55" height="18" class="label-box"/>
+  <text class="label" x="40" y="226">Belgien</text>
+
+  <!-- Luxembourg -->
+  <rect x="60" y="275" width="82" height="18" class="label-box"/>
+  <text class="label" x="65" y="289">Luxemburg</text>
+
+  <!-- France -->
+  <rect x="20" y="330" width="78" height="18" class="label-box"/>
+  <text class="label" x="25" y="344">Frankreich</text>
+
+  <!-- Switzerland -->
+  <rect x="120" y="398" width="65" height="18" class="label-box"/>
+  <text class="label" x="125" y="412">Schweiz</text>
+
+  <!-- Austria -->
+  <rect x="300" y="385" width="78" height="18" class="label-box"/>
+  <text class="label" x="305" y="399">Österreich</text>
+
+  <!-- Czech Republic -->
+  <rect x="350" y="305" width="82" height="18" class="label-box"/>
+  <text class="label" x="355" y="319">Tschechien</text>
+
+  <!-- Poland -->
+  <rect x="380" y="155" width="50" height="18" class="label-box"/>
+  <text class="label" x="385" y="169">Polen</text>
+
+  <!-- Germany label -->
+  <text class="de-label" x="220" y="220">Deutschland</text>
+
+  <!-- Legend -->
+  <rect x="30" y="470" width="16" height="14" rx="2" fill="#f59e0b"/>
+  <text font-family="sans-serif" font-size="11" fill="#333" x="52" y="482">Deutschland</text>
+  <rect x="160" y="470" width="16" height="14" rx="2" fill="#9ca3af"/>
+  <text font-family="sans-serif" font-size="11" fill="#333" x="182" y="482">9 Nachbarländer / 9 Neighbors</text>
+</svg>

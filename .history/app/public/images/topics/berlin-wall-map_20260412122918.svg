@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 480" width="520" height="480">
+  <defs>
+    <style>
+      .title { font-family: 'Segoe UI', sans-serif; font-size: 18px; font-weight: bold; fill: #1f2937; text-anchor: middle; }
+      .subtitle { font-family: 'Segoe UI', sans-serif; font-size: 11px; fill: #6b7280; text-anchor: middle; }
+      .ddr-bg { fill: #475569; }
+      .east-berlin { fill: #334155; }
+      .west-berlin { fill: #e2e8f0; }
+      .wall-stroke { stroke: #ef4444; stroke-width: 3.5; fill: none; stroke-linejoin: round; }
+      .border-outer { stroke: #94a3b8; stroke-width: 1; fill: none; }
+      .label { font-family: 'Segoe UI', sans-serif; font-weight: 700; text-anchor: middle; }
+      .label-w { fill: #1e293b; font-size: 14px; }
+      .label-e { fill: #e2e8f0; font-size: 14px; }
+      .label-ddr { fill: #94a3b8; font-size: 12px; font-style: italic; }
+      .sector-label { font-family: 'Segoe UI', sans-serif; font-size: 9px; fill: #64748b; text-anchor: middle; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+      .sector-label-e { fill: #94a3b8; }
+      .legend-text { font-family: 'Segoe UI', sans-serif; font-size: 11px; fill: #4b5563; }
+      .legend-line { stroke: #ef4444; stroke-width: 3.5; stroke-linecap: round; }
+      .landmark-dot { fill: #fbbf24; stroke: #f59e0b; stroke-width: 1; }
+      .landmark-text { font-family: 'Segoe UI', sans-serif; font-size: 8px; fill: #94a3b8; text-anchor: middle; }
+      .water { fill: #3b82f6; opacity: 0.2; }
+      .road { stroke: #64748b; stroke-width: 0.5; stroke-dasharray: 4,3; opacity: 0.4; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text class="title" x="260" y="28">Berliner Mauer Karte</text>
+  <text class="subtitle" x="260" y="44">Berlin 1961–1989</text>
+
+  <!-- DDR territory background -->
+  <rect x="20" y="55" width="480" height="350" rx="10" class="ddr-bg"/>
+
+  <!-- DDR labels in corners -->
+  <text class="label-ddr" x="65" y="80">DDR</text>
+  <text class="label-ddr" x="455" y="80">DDR</text>
+  <text class="label-ddr" x="65" y="390">DDR</text>
+  <text class="label-ddr" x="455" y="390">DDR</text>
+
+  <!-- Geographically accurate Berlin outer boundary (elongated E-W shape) -->
+  <!-- Full Berlin outline -->
+  <path class="east-berlin" d="
+    M135,155 C140,138 158,118 180,108 C195,102 215,95 240,90
+    C260,87 280,86 300,88 C320,90 340,96 358,106
+    C372,114 385,126 393,140 C400,153 405,170 407,188
+    C409,205 408,222 405,238 C402,252 396,268 387,282
+    C378,296 365,308 350,316 C338,322 322,328 305,332
+    C288,336 270,338 252,338 C234,338 215,336 198,332
+    C182,328 165,320 152,310 C140,300 130,288 124,274
+    C118,258 115,240 114,222 C113,205 114,188 118,172
+    C122,162 128,158 135,155 Z
+  "/>
+
+  <!-- Spree river suggestion -->
+  <path class="water" d="
+    M140,200 C160,195 180,205 200,210 C220,215 240,208 260,210
+    C280,212 300,225 320,220 C340,215 360,208 380,215
+    C395,220 405,225 407,230
+  " stroke="#3b82f6" stroke-width="6" fill="none" opacity="0.15"/>
+
+  <!-- West Berlin - accurate enclave shape (British, American, French sectors) -->
+  <!-- West Berlin was roughly the western 1/3, with an irregular eastern border -->
+  <path class="west-berlin" d="
+    M135,155 C140,138 158,118 180,108 C195,102 215,95 240,90
+    C248,89 255,88 262,88
+    L265,95 C268,105 270,115 268,128
+    C266,140 260,152 255,162
+    C250,172 248,180 250,190
+    C252,200 258,208 260,218
+    C262,230 258,242 252,254
+    C246,266 238,276 228,284
+    C220,294 212,300 205,310
+    C200,318 198,332
+    C182,328 165,320 152,310 C140,300 130,288 124,274
+    C118,258 115,240 114,222 C113,205 114,188 118,172
+    C122,162 128,158 135,155 Z
+  "/>
+
+  <!-- The Wall - red line along the border between West and East -->
+  <path class="wall-stroke" d="
+    M262,88
+    L265,95 C268,105 270,115 268,128
+    C266,140 260,152 255,162
+    C250,172 248,180 250,190
+    C252,200 258,208 260,218
+    C262,230 258,242 252,254
+    C246,266 238,276 228,284
+    C220,294 212,300 205,310
+    C200,318 198,332
+  "/>
+
+  <!-- Outer Berlin border -->
+  <path class="border-outer" d="
+    M135,155 C140,138 158,118 180,108 C195,102 215,95 240,90
+    C260,87 280,86 300,88 C320,90 340,96 358,106
+    C372,114 385,126 393,140 C400,153 405,170 407,188
+    C409,205 408,222 405,238 C402,252 396,268 387,282
+    C378,296 365,308 350,316 C338,322 322,328 305,332
+    C288,336 270,338 252,338 C234,338 215,336 198,332
+    C182,328 165,320 152,310 C140,300 130,288 124,274
+    C118,258 115,240 114,222 C113,205 114,188 118,172
+    C122,162 128,158 135,155 Z
+  "/>
+
+  <!-- Sector division hints (dashed lines within West Berlin) -->
+  <path class="road" d="M180,108 C190,160 185,210 170,280"/>
+  <path class="road" d="M135,190 C180,185 220,195 262,195"/>
+
+  <!-- Sector labels in West Berlin -->
+  <text class="sector-label" x="160" y="140">Franz.</text>
+  <text class="sector-label" x="210" y="160">Britisch</text>
+  <text class="sector-label" x="185" y="260">Amerik.</text>
+
+  <!-- Sector label in East Berlin -->
+  <text class="sector-label sector-label-e" x="340" y="175">Sowjet.</text>
+
+  <!-- Key landmarks -->
+  <!-- Brandenburg Gate -->
+  <circle cx="258" cy="190" r="3.5" class="landmark-dot"/>
+  <text class="landmark-text" x="258" y="183">Brandenburger Tor</text>
+
+  <!-- Checkpoint Charlie -->
+  <circle cx="252" cy="228" r="3" class="landmark-dot"/>
+  <text class="landmark-text" x="240" y="238">Checkpoint Charlie</text>
+
+  <!-- Alexanderplatz -->
+  <circle cx="300" cy="195" r="3" class="landmark-dot"/>
+  <text class="landmark-text" x="300" y="188">Alexanderplatz</text>
+
+  <!-- Tegel (West) -->
+  <circle cx="195" cy="120" r="2.5" fill="#94a3b8" stroke="#64748b" stroke-width="0.5"/>
+  <text class="landmark-text" x="195" y="114">Tegel ✈</text>
+
+  <!-- Main labels -->
+  <text class="label label-w" x="190" y="210">Westberlin</text>
+  <text class="label label-e" x="340" y="240">Ostberlin</text>
+
+  <!-- Compass -->
+  <g transform="translate(460,75)">
+    <circle cx="0" cy="0" r="14" fill="none" stroke="#94a3b8" stroke-width="0.5"/>
+    <text font-family="sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle" dominant-baseline="central" y="-5" font-weight="bold">N</text>
+    <line x1="0" y1="2" x2="0" y2="10" stroke="#94a3b8" stroke-width="1"/>
+    <polygon points="0,-12 -3,-6 3,-6" fill="#94a3b8"/>
+  </g>
+
+  <!-- Legend box -->
+  <rect x="30" y="418" width="460" height="48" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+
+  <line x1="50" y1="442" x2="78" y2="442" class="legend-line"/>
+  <text class="legend-text" x="84" y="446">Berliner Mauer 1961</text>
+
+  <rect x="220" y="434" width="16" height="16" rx="3" fill="#e2e8f0" stroke="#ef4444" stroke-width="2"/>
+  <text class="legend-text" x="242" y="446">Westberlin</text>
+
+  <rect x="320" y="434" width="16" height="16" rx="3" fill="#334155" stroke="#94a3b8" stroke-width="0.5"/>
+  <text class="legend-text" x="342" y="446">Ostberlin</text>
+
+  <circle cx="428" cy="442" r="3" class="landmark-dot"/>
+  <text class="legend-text" x="436" y="446">Wahrzeichen</text>
+</svg>

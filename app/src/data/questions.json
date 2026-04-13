@@ -5155,7 +5155,7 @@
         "Altötting"
       ],
       "correct": 1,
-      "image": "/images/questions/BW_2.png",
+      
         "explanation": {
           "de": "Der Neckar-Odenwald-Kreis ist ein Landkreis in Baden-Württemberg. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
           "en": "The Neckar-Odenwald district (Neckar-Odenwald-Kreis) is a district in Baden-Württemberg. The other districts listed are located in other federal states."
@@ -5328,7 +5328,7 @@
         "Altötting"
       ],
       "correct": 3,
-      "image": "/images/questions/BY_2.png",
+      
       "explanation": {
         "de": "Der Landkreis Börde ist ein Landkreis im Bundesland Sachsen-Anhalt. Er liegt im Westen des Landes und hat seinen Verwaltungssitz in Haldensleben. Landkreise sind wichtige Verwaltungseinheiten in den deutschen Bundesländern.",
         "en": "The district of Börde is a county (Landkreis) in the federal state of Saxony-Anhalt. It is located in the west of the state and its administrative center is Haldensleben. Counties are important administrative units in the German federal states."
@@ -5501,7 +5501,7 @@
         "Mecklenburgische Seenplatte"
       ],
       "correct": 2,
-      "image": "/images/questions/BE_2.png",
+      
         "explanation": {
           "de": "Pankow ist ein Bezirk von Berlin. Die anderen genannten Gebiete gehören zu anderen Städten oder Bundesländern: Altona zu Hamburg, Prignitz zu Brandenburg und Mecklenburgische Seenplatte zu Mecklenburg-Vorpommern.",
           "en": "Pankow is a district (Bezirk) of Berlin. The other areas listed belong to other cities or federal states: Altona to Hamburg, Prignitz to Brandenburg, and Mecklenburgische Seenplatte to Mecklenburg-Western Pomerania."
@@ -5674,7 +5674,7 @@
         "Amberg-Sulzbach"
       ],
       "correct": 0,
-      "image": "/images/questions/BB_2.png",
+      
         "explanation": {
           "de": "Prignitz ist ein Landkreis in Brandenburg. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
           "en": "Prignitz is a district in Brandenburg. The other districts listed are located in other federal states."
@@ -5847,7 +5847,7 @@
         "Babelsberg"
       ],
       "correct": 1,
-      "image": "/images/questions/HB_2.png",
+      
         "explanation": {
           "de": "Hemelingen ist ein Stadtteil von Bremen. Die anderen genannten Stadtteile gehören zu anderen Städten: Altona zu Hamburg, Pankow zu Berlin und Babelsberg zu Potsdam.",
           "en": "Hemelingen is a district of Bremen. The other districts listed belong to other cities: Altona to Hamburg, Pankow to Berlin, and Babelsberg to Potsdam."
@@ -6020,7 +6020,7 @@
         "Mecklenburgische Seenplatte"
       ],
       "correct": 0,
-      "image": "/images/questions/HH_2.png",
+      
       "explanation": {
         "de": "Altona ist einer der sieben Bezirke der Freien und Hansestadt Hamburg. Die Bezirke sind Verwaltungseinheiten und unterteilen die Stadt in verschiedene Regionen mit eigenen Bezirksämtern.",
         "en": "Altona is one of the seven districts (Bezirke) of the Free and Hanseatic City of Hamburg. The districts are administrative units that divide the city into different regions, each with its own district office."
@@ -6193,7 +6193,7 @@
         "Main-Taunus-Kreis"
       ],
       "correct": 3,
-      "image": "/images/questions/HE_2.png",
+      
         "explanation": {
           "de": "Der Main-Taunus-Kreis ist ein Landkreis in Hessen. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
           "en": "The Main-Taunus district (Main-Taunus-Kreis) is a district in Hesse. The other districts listed are located in other federal states."
@@ -6366,7 +6366,7 @@
         "Rhein-Sieg-Kreis"
       ],
       "correct": 1,
-      "image": "/images/questions/MV_2.png",
+      
         "explanation": {
           "de": "Die Mecklenburgische Seenplatte ist ein Landkreis in Mecklenburg-Vorpommern. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
           "en": "The Mecklenburg Lake District (Mecklenburgische Seenplatte) is a district in Mecklenburg-Western Pomerania. The other districts listed are located in other federal states."
@@ -6539,7 +6539,7 @@
         "Vogtlandkreis"
       ],
       "correct": 0,
-      "image": "/images/questions/NI_2.png",
+      
         "explanation": {
           "de": "Ammerland ist ein Landkreis in Niedersachsen. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
           "en": "Ammerland is a district in Lower Saxony. The other districts listed are located in other federal states."
@@ -6712,7 +6712,7 @@
         "Vogtlandkreis"
       ],
       "correct": 1,
-      "image": "/images/questions/NW_2.png",
+      
         "explanation": {
           "de": "Der Rhein-Sieg-Kreis ist ein Landkreis in Nordrhein-Westfalen. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
           "en": "The Rhein-Sieg district (Rhein-Sieg-Kreis) is a district in North Rhine-Westphalia. The other districts listed are located in other federal states."
@@ -6885,7 +6885,7 @@
         "Prignitz"
       ],
       "correct": 0,
-      "image": "/images/questions/RP_2.png",
+      
         "explanation": {
           "de": "Der Westerwaldkreis ist ein Landkreis in Rheinland-Pfalz. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
           "en": "The Westerwald district (Westerwaldkreis) is a district in Rhineland-Palatinate. The other districts listed are located in other federal states."
@@ -7058,7 +7058,7 @@
         "Rhein-Sieg-Kreis"
       ],
       "correct": 2,
-      "image": "/images/questions/SL_2.png",
+      
         "explanation": {
           "de": "Neunkirchen ist ein Landkreis im Saarland. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
           "en": "Neunkirchen is a district in Saarland. The other districts listed are located in other federal states."
@@ -7231,7 +7231,7 @@
         "Nordfriesland"
       ],
       "correct": 0,
-      "image": "/images/questions/SN_2.png",
+      
         "explanation": {
           "de": "Der Vogtlandkreis ist ein Landkreis in Sachsen. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
           "en": "The Vogtland district (Vogtlandkreis) is a district in Saxony. The other districts listed are located in other federal states."
@@ -7404,7 +7404,7 @@
         "Börde"
       ],
       "correct": 3,
-      "image": "/images/questions/ST_2.png",
+      
       "explanation": {
         "de": "Bis zum 14. Lebensjahr können Eltern entscheiden, ob ihr Kind am Religionsunterricht teilnimmt. Danach entscheidet das Kind selbst (Religionsmündigkeit).",
         "en": "Until the age of 14, parents can decide whether their child participates in religious education. After that, the child decides for themselves (religious maturity)."
@@ -7577,7 +7577,7 @@
         "Rhein-Sieg-Kreis"
       ],
       "correct": 2,
-      "image": "/images/questions/SH_2.png",
+      
         "explanation": {
           "de": "Nordfriesland ist ein Landkreis in Schleswig-Holstein. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
           "en": "Nordfriesland is a district in Schleswig-Holstein. The other districts listed are located in other federal states."
@@ -7750,7 +7750,7 @@
         "Wartburgkreis"
       ],
       "correct": 3,
-      "image": "/images/questions/TH_2.png",
+      
         "explanation": {
           "de": "Der Wartburgkreis ist ein Landkreis in Thüringen. Die anderen genannten Landkreise liegen in anderen Bundesländern.",
           "en": "The Wartburg district (Wartburgkreis) is a district in Thuringia. The other districts listed are located in other federal states."

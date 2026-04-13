@@ -5252,10 +5252,10 @@
       "category": "BW",
       "question": "Welches Bundesland ist Baden-Württemberg?",
       "options": [
-        "Option 1",
-        "Option 2",
-        "Option 3",
-        "Option 4"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "correct": 1,
       "image": "/images/questions/BW_8.png",

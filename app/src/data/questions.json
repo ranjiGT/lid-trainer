@@ -353,14 +353,14 @@
       "category": "general",
       "question": "Welches ist das Wappen der Bundesrepublik Deutschland?",
       "options": [
-        "Option 1",
-        "Option 2",
-        "Option 3",
-        "Option 4"
+        "Bild 1",
+        "Bild 2",
+        "Bild 3",
+        "Bild 4"
       ],
       "correct": 0,
       "image": "/images/questions/general_21.png",
-      "hideOptionLabels": true,
+      "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen der Bundesrepublik Deutschland zeigt einen schwarzen Adler auf goldenem Grund. Der Bundesadler ist das älteste Staatswappen Europas und das Symbol der deutschen Souveränität.",
           "en": "The coat of arms of the Federal Republic of Germany shows a black eagle on a golden background. The federal eagle is the oldest state emblem in Europe and the symbol of German sovereignty."
@@ -3568,6 +3568,7 @@
       ],
       "correct": 3,
       "image": "/images/questions/general_209.png",
+      "showImageLabels": true,
         "explanation": {
           "de": "Das Wappen der Deutschen Demokratischen Republik (DDR) zeigte Hammer und Zirkel, umgeben von einem Ährenkranz. Hammer und Zirkel standen für die Arbeiter und die Intelligenz, der Ährenkranz für die Bauern.",
           "en": "The coat of arms of the German Democratic Republic (GDR) showed a hammer and a compass, surrounded by a wreath of ears of grain. The hammer and compass represented workers and intellectuals, the wreath of grain represented farmers."
@@ -3860,6 +3861,7 @@
       ],
       "correct": 1,
       "image": "/images/questions/general_226.png",
+      "showImageLabels": true,
         "explanation": {
           "de": "Die Flagge der Europäischen Union ist blau mit einem Kreis aus zwölf goldenen Sternen. Sie steht für Einheit, Solidarität und Harmonie in Europa.",
           "en": "The flag of the European Union is blue with a circle of twelve golden stars. It stands for unity, solidarity, and harmony in Europe."

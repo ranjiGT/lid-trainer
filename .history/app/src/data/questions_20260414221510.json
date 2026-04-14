@@ -822,8 +822,8 @@
       ],
       "correct": 2,
       "explanation": {
-          "de": "Zu den Verfassungsorganen Deutschlands gehören der Bundestag, der Bundesrat, die Bundesregierung, der Bundespräsident/die Bundespräsidentin und das Bundesverfassungsgericht. Eine Bürgerversammlung ist kein Verfassungsorgan.",
-          "en": "The constitutional organs of Germany are the Bundestag, Bundesrat, Federal Government, Federal President, and the Federal Constitutional Court. A citizens' assembly is not a constitutional organ."
+        "de": "Petitionsrecht bedeutet, dass sich jeder mit Bitten oder Beschwerden an den Deutschen Bundestag (Petitionsausschuss) wenden kann.",
+        "en": "The right to petition means everyone can address requests or complaints to the German Bundestag (Petitions Committee)."
       }
     },
     {
@@ -1438,8 +1438,8 @@
       ],
       "correct": 2,
       "explanation": {
-          "de": "Die Hauptaufgabe der Bundespräsidentin oder des Bundespräsidenten ist es, Deutschland nach innen und außen zu repräsentieren. Sie oder er hat vor allem repräsentative und protokollarische Aufgaben, unterzeichnet Gesetze und ernennt die Bundeskanzlerin/den Bundeskanzler sowie Ministerinnen und Minister.",
-          "en": "The main task of the Federal President is to represent Germany both domestically and internationally. The president mainly has representative and ceremonial duties, signs laws, and appoints the Federal Chancellor as well as ministers."
+        "de": "Kommunalwahlen betreffen die Städte und Gemeinden (Bürgermeister, Stadträte). Sie finden alle paar Jahre statt.",
+        "en": "Local elections concern cities and municipalities (mayors, city councils). They take place every few years."
       }
     },
     {

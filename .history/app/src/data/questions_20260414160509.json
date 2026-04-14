@@ -1200,8 +1200,8 @@
       "correct": 3,
       "image": "/images/questions/general_70.png",
       "explanation": {
-        "de": "Zu den wichtigsten Aufgaben der Bundespräsidentin/des Bundespräsidenten gehört es, die Bundeskanzlerin/den Bundeskanzler dem Bundestag zur Wahl vorzuschlagen. Außerdem unterzeichnet sie/er Gesetze, ernennt und entlässt Bundesministerinnen und Bundesminister sowie Bundesrichterinnen und Bundesrichter. Die Rolle ist vor allem repräsentativ und staatsrechtlich bedeutsam.",
-        "en": "One of the main duties of the Federal President is to propose the Federal Chancellor to the Bundestag for election. The President also signs laws, appoints and dismisses federal ministers and federal judges. The role is mainly representative and of constitutional importance."
+        "de": "Die Bundespräsidentin/der Bundespräsident schlägt die Kanzlerin/den Kanzler zur Wahl vor. Der Bundestag wählt sie/ihn dann.",
+        "en": "The Federal President proposes the Chancellor for election. The Bundestag then elects them."
       }
     },
     {
@@ -1387,8 +1387,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Die Bundeskanzlerin/der Bundeskanzler wird vom Deutschen Bundestag gewählt. Die Abgeordneten des Bundestages stimmen in geheimer Wahl über die Kandidatin oder den Kandidaten ab.",
-        "en": "The Federal Chancellor is elected by the German Bundestag. The members of the Bundestag vote by secret ballot for the candidate."
+        "de": "Die Bundesminister/Bundesministerinnen werden auf Vorschlag der Bundeskanzlerin/des Bundeskanzlers ernannt.",
+        "en": "Federal ministers are appointed on the proposal of the Federal Chancellor."
       }
     },
     {
@@ -1404,8 +1404,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Das deutsche Bundeskabinett wird von der Bundeskanzlerin/dem Bundeskanzler geleitet. Sie oder er bestimmt die Richtlinien der Politik und koordiniert die Arbeit der Ministerinnen und Minister.",
-        "en": "The German Federal Cabinet is led by the Federal Chancellor. He or she sets the guidelines for policy and coordinates the work of the ministers."
+        "de": "Die Abgeordneten entscheiden nach ihrem Gewissen – sie sind nur dem Volk verantwortlich, nicht ihrer Partei (freies Mandat).",
+        "en": "Members of parliament decide according to their conscience – they are responsible only to the people, not to their party (free mandate)."
       }
     },
     {
@@ -2203,8 +2203,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "In Deutschland wird nur der Bundestag direkt vom Volk gewählt. Die Bürgerinnen und Bürger wählen die Abgeordneten des Deutschen Bundestages in allgemeinen, freien und geheimen Wahlen. Andere wichtige Ämter wie die Bundeskanzlerin/der Bundeskanzler oder die Bundespräsidentin/der Bundespräsident werden nicht direkt vom Volk gewählt.",
-        "en": "In Germany, only the Bundestag is directly elected by the people. Citizens elect the members of the German Bundestag in general, free, and secret elections. Other important offices, such as the Federal Chancellor or the Federal President, are not directly elected by the people."
+        "de": "Vom Volk gewählt wird in Deutschland der Bundestag.",
+        "en": "The correct answer is: der Bundestag."
       }
     },
     {
@@ -2612,8 +2612,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Am 8. Mai 1945 endete der Zweite Weltkrieg in Europa mit der bedingungslosen Kapitulation der deutschen Wehrmacht. Dieser Tag wird auch als Tag der Befreiung bezeichnet, da er das Ende der nationalsozialistischen Diktatur und des Krieges in Europa markiert.",
-        "en": "On May 8, 1945, World War II ended in Europe with the unconditional surrender of the German armed forces. This day is also known as the Day of Liberation, as it marks the end of the Nazi dictatorship and the war in Europe."
+        "de": "Ende des Zweiten Weltkriegs in Europa.",
+        "en": "The correct answer is: Ende des Zweiten Weltkriegs in Europa."
       }
     },
     {

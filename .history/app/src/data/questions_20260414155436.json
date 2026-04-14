@@ -1200,8 +1200,8 @@
       "correct": 3,
       "image": "/images/questions/general_70.png",
       "explanation": {
-        "de": "Zu den wichtigsten Aufgaben der Bundespräsidentin/des Bundespräsidenten gehört es, die Bundeskanzlerin/den Bundeskanzler dem Bundestag zur Wahl vorzuschlagen. Außerdem unterzeichnet sie/er Gesetze, ernennt und entlässt Bundesministerinnen und Bundesminister sowie Bundesrichterinnen und Bundesrichter. Die Rolle ist vor allem repräsentativ und staatsrechtlich bedeutsam.",
-        "en": "One of the main duties of the Federal President is to propose the Federal Chancellor to the Bundestag for election. The President also signs laws, appoints and dismisses federal ministers and federal judges. The role is mainly representative and of constitutional importance."
+        "de": "Die Bundespräsidentin/der Bundespräsident schlägt die Kanzlerin/den Kanzler zur Wahl vor. Der Bundestag wählt sie/ihn dann.",
+        "en": "The Federal President proposes the Chancellor for election. The Bundestag then elects them."
       }
     },
     {
@@ -1217,8 +1217,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Die deutsche Bundeskanzlerin/der deutsche Bundeskanzler arbeitet hauptsächlich in Berlin, da sich dort das Bundeskanzleramt und der Bundestag befinden. Berlin ist der Regierungssitz Deutschlands.",
-        "en": "The German Federal Chancellor mainly works in Berlin, as the Federal Chancellery and the Bundestag are located there. Berlin is the seat of government in Germany."
+        "de": "Die Bundeskanzlerin/der Bundeskanzler wird vom Bundestag gewählt – nicht direkt vom Volk.",
+        "en": "The Federal Chancellor is elected by the Bundestag – not directly by the people."
       }
     },
     {
@@ -1234,8 +1234,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Seit 2025 ist Friedrich Merz der Bundeskanzler von Deutschland. Er ist Mitglied der Christlich Demokratischen Union (CDU).",
-        "en": "Since 2025, Friedrich Merz has been the Chancellor of Germany. He is a member of the Christian Democratic Union (CDU)."
+        "de": "Die Länder werden im Bundesrat vertreten. Durch den Bundesrat wirken die Länder an der Gesetzgebung des Bundes mit.",
+        "en": "The federal states are represented in the Bundesrat. Through the Bundesrat, the states participate in federal legislation."
       }
     },
     {
@@ -1387,8 +1387,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Die Bundeskanzlerin/der Bundeskanzler wird vom Deutschen Bundestag gewählt. Die Abgeordneten des Bundestages stimmen in geheimer Wahl über die Kandidatin oder den Kandidaten ab.",
-        "en": "The Federal Chancellor is elected by the German Bundestag. The members of the Bundestag vote by secret ballot for the candidate."
+        "de": "Die Bundesminister/Bundesministerinnen werden auf Vorschlag der Bundeskanzlerin/des Bundeskanzlers ernannt.",
+        "en": "Federal ministers are appointed on the proposal of the Federal Chancellor."
       }
     },
     {
@@ -1404,8 +1404,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Das deutsche Bundeskabinett wird von der Bundeskanzlerin/dem Bundeskanzler geleitet. Sie oder er bestimmt die Richtlinien der Politik und koordiniert die Arbeit der Ministerinnen und Minister.",
-        "en": "The German Federal Cabinet is led by the Federal Chancellor. He or she sets the guidelines for policy and coordinates the work of the ministers."
+        "de": "Die Abgeordneten entscheiden nach ihrem Gewissen – sie sind nur dem Volk verantwortlich, nicht ihrer Partei (freies Mandat).",
+        "en": "Members of parliament decide according to their conscience – they are responsible only to the people, not to their party (free mandate)."
       }
     },
     {
@@ -1421,8 +1421,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Die Bundeskanzlerin/der Bundeskanzler wird vom Deutschen Bundestag gewählt. Die Abgeordneten des Bundestages stimmen in geheimer Wahl über die Kandidatin oder den Kandidaten ab.",
-        "en": "The Federal Chancellor is elected by the German Bundestag. The members of the Bundestag vote by secret ballot for the candidate."
+        "de": "Der Bundesrat ist die Vertretung der Bundesländer auf Bundesebene. Über ihn wirken die Länder an der Gesetzgebung mit.",
+        "en": "The Bundesrat represents the federal states at the national level. Through it, the states participate in federal legislation."
       }
     },
     {
@@ -1489,8 +1489,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Das Staatsoberhaupt der Bundesrepublik Deutschland ist die Bundespräsidentin/der Bundespräsident. Sie/er repräsentiert den Staat nach innen und außen und hat vor allem repräsentative Aufgaben.",
-        "en": "The head of state of the Federal Republic of Germany is the Federal President. He or she represents the country both internally and externally and mainly has representative duties."
+        "de": "Der Bundesadler ist ein Symbol der Bundesrepublik Deutschland und ziert das Wappen.",
+        "en": "The Federal Eagle is a symbol of the Federal Republic of Germany and adorns the coat of arms."
       }
     },
     {
@@ -2118,8 +2118,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Bei der Bundestagswahl wählen die Bürgerinnen und Bürger Deutschlands die Abgeordneten des Deutschen Bundestages. Der Bundestag ist das Parlament der Bundesrepublik Deutschland und wird alle vier Jahre neu gewählt. Die Bundestagswahl ist eine der wichtigsten Wahlen in Deutschland.",
-        "en": "In the federal election, the citizens of Germany elect the members of the German Bundestag. The Bundestag is the parliament of the Federal Republic of Germany and is newly elected every four years. The federal election is one of the most important elections in Germany."
+        "de": "Die Bundestagswahl in Deutschland ist die Wahl des Parlaments für Deutschland.",
+        "en": "The correct answer is: des Parlaments für Deutschland."
       }
     },
     {
@@ -2203,8 +2203,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "In Deutschland wird nur der Bundestag direkt vom Volk gewählt. Die Bürgerinnen und Bürger wählen die Abgeordneten des Deutschen Bundestages in allgemeinen, freien und geheimen Wahlen. Andere wichtige Ämter wie die Bundeskanzlerin/der Bundeskanzler oder die Bundespräsidentin/der Bundespräsident werden nicht direkt vom Volk gewählt.",
-        "en": "In Germany, only the Bundestag is directly elected by the people. Citizens elect the members of the German Bundestag in general, free, and secret elections. Other important offices, such as the Federal Chancellor or the Federal President, are not directly elected by the people."
+        "de": "Vom Volk gewählt wird in Deutschland der Bundestag.",
+        "en": "The correct answer is: der Bundestag."
       }
     },
     {
@@ -2612,8 +2612,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Am 8. Mai 1945 endete der Zweite Weltkrieg in Europa mit der bedingungslosen Kapitulation der deutschen Wehrmacht. Dieser Tag wird auch als Tag der Befreiung bezeichnet, da er das Ende der nationalsozialistischen Diktatur und des Krieges in Europa markiert.",
-        "en": "On May 8, 1945, World War II ended in Europe with the unconditional surrender of the German armed forces. This day is also known as the Day of Liberation, as it marks the end of the Nazi dictatorship and the war in Europe."
+        "de": "Ende des Zweiten Weltkriegs in Europa.",
+        "en": "The correct answer is: Ende des Zweiten Weltkriegs in Europa."
       }
     },
     {
@@ -2816,8 +2816,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Konrad Adenauer war von 1949 bis 1963 der erste Bundeskanzler der Bundesrepublik Deutschland. Er spielte eine entscheidende Rolle beim Wiederaufbau des Landes nach dem Zweiten Weltkrieg und bei der Westbindung Deutschlands. Unter seiner Führung wurde die Bundesrepublik ein fester Bestandteil der westlichen Staatengemeinschaft.",
-        "en": "Konrad Adenauer was the first Chancellor of the Federal Republic of Germany, serving from 1949 to 1963. He played a crucial role in rebuilding the country after World War II and in integrating Germany into the Western community of nations. Under his leadership, the Federal Republic became a key part of the Western alliance."
+        "de": "Konrad Adenauer.",
+        "en": "The correct answer is: Konrad Adenauer."
       }
     },
     {

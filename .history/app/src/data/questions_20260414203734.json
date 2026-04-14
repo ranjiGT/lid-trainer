@@ -1948,8 +1948,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "An demokratischen Wahlen in Deutschland teilzunehmen ist ein Recht. Das bedeutet, jede wahlberechtigte Bürgerin und jeder wahlberechtigte Bürger darf frei entscheiden, ob sie oder er wählen möchte. Es besteht keine Wahlpflicht, aber die Teilnahme an Wahlen ist ein wichtiger Bestandteil der Demokratie.",
-          "en": "Participating in democratic elections in Germany is a right. This means every eligible citizen can freely decide whether to vote. There is no compulsory voting, but participation in elections is an important part of democracy."
+        "de": "An demokratischen Wahlen in Deutschland teilzunehmen ist ein Recht.",
+        "en": "The correct answer is: ein Recht."
       }
     },
     {

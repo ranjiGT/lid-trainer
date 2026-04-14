@@ -88,8 +88,8 @@
       ],
       "correct": 2,
       "explanation": {
-          "de": "Freie Wahlen bedeuten, dass jede wahlberechtigte Person ihre Stimme ohne Zwang, Druck oder Beeinflussung abgeben kann. Niemand darf gezwungen werden, für eine bestimmte Partei oder Person zu stimmen oder an der Wahl teilzunehmen. Auch dürfen aus der Wahlentscheidung keine Nachteile entstehen. Die Wahlfreiheit ist ein zentrales Prinzip der Demokratie.",
-          "en": "Free elections mean that every eligible voter can cast their vote without coercion, pressure, or influence. No one can be forced to vote for a particular party or person, or to participate in the election. There must be no disadvantages resulting from one's voting decision. Freedom of election is a fundamental principle of democracy."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -258,8 +258,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Das deutsche Grundgesetz verbietet Zwangsarbeit. Niemand darf gegen seinen Willen zu einer Arbeit gezwungen werden, außer im Rahmen einer gerichtlich angeordneten Freiheitsentziehung (z. B. im Gefängnis) oder im Katastrophenfall. Dieses Verbot schützt die persönliche Freiheit und Würde jedes Menschen.",
-          "en": "The German Basic Law prohibits forced labor. No one may be forced to work against their will, except as part of a court-ordered deprivation of liberty (e.g., in prison) or in cases of disaster. This prohibition protects the personal freedom and dignity of every individual."
+        "de": "Wenn jemand in Deutschland ein Gesetz bricht, entscheidet ein Gericht über die Strafe. Nur die Justiz darf Strafen verhängen.",
+        "en": "If someone breaks a law in Germany, a court decides on the punishment. Only the judiciary may impose penalties."
       }
     },
     {
@@ -1795,8 +1795,8 @@
       ],
       "correct": 3,
       "explanation": {
-          "de": "Wahlhelferinnen und Wahlhelfer unterstützen den Ablauf der Wahl. Ihre wichtigste Aufgabe ist es, nach Schließung der Wahllokale die abgegebenen Stimmen auszuzählen und das Ergebnis festzustellen. Sie sorgen außerdem dafür, dass die Wahl ordnungsgemäß und fair abläuft.",
-          "en": "Election helpers support the conduct of the election. Their main task is to count the votes after the polling stations close and to determine the result. They also help ensure that the election is conducted properly and fairly."
+        "de": "Sie zählen die Stimmen nach dem Ende der Wahl.",
+        "en": "The correct answer is: Sie zählen die Stimmen nach dem Ende der Wahl."
       }
     },
     {
@@ -1914,8 +1914,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Wahlen in Deutschland sind geheim. Das bedeutet, dass niemand erfahren darf, wie eine Person gewählt hat. Die Stimmabgabe erfolgt unbeobachtet, damit jede Wählerin und jeder Wähler frei entscheiden kann, ohne Angst vor Nachteilen oder Druck.",
-          "en": "Elections in Germany are secret. This means that no one is allowed to know how a person voted. Voting takes place in private so that every voter can make their choice freely, without fear of disadvantages or pressure."
+        "de": "Die Wahlen in Deutschland sind geheim.",
+        "en": "The correct answer is: geheim."
       }
     },
     {
@@ -1931,8 +1931,8 @@
       ],
       "correct": 0,
       "explanation": {
-          "de": "Bei Wahlen in Deutschland gilt: Die Partei, die die meisten Stimmen erhält, hat die besten Chancen, die Regierung zu bilden. Allerdings bedeutet das nicht automatisch, dass sie allein regiert. Oft müssen Koalitionen mit anderen Parteien gebildet werden, um eine Mehrheit im Parlament zu erreichen. Die genaue Regierungsbildung hängt vom Wahlergebnis und den Koalitionsverhandlungen ab.",
-          "en": "In German elections, the party that receives the most votes has the best chance of forming the government. However, this does not automatically mean it will govern alone. Often, coalitions with other parties are necessary to achieve a majority in parliament. The exact process of forming a government depends on the election results and coalition negotiations."
+        "de": "Wahlen in Deutschland gewinnt die Partei, die die meisten Stimmen bekommt.",
+        "en": "The correct answer is: die meisten Stimmen bekommt."
       }
     },
     {
@@ -1948,8 +1948,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "An demokratischen Wahlen in Deutschland teilzunehmen ist ein Recht. Das bedeutet, jede wahlberechtigte Bürgerin und jeder wahlberechtigte Bürger darf frei entscheiden, ob sie oder er wählen möchte. Es besteht keine Wahlpflicht, aber die Teilnahme an Wahlen ist ein wichtiger Bestandteil der Demokratie.",
-          "en": "Participating in democratic elections in Germany is a right. This means every eligible citizen can freely decide whether to vote. There is no compulsory voting, but participation in elections is an important part of democracy."
+        "de": "An demokratischen Wahlen in Deutschland teilzunehmen ist ein Recht.",
+        "en": "The correct answer is: ein Recht."
       }
     },
     {
@@ -1965,8 +1965,8 @@
       ],
       "correct": 2,
       "explanation": {
-          "de": "Aktives Wahlrecht bedeutet, dass man das Recht hat, an einer Wahl teilzunehmen und seine Stimme abzugeben. In Deutschland besitzt jede wahlberechtigte Bürgerin und jeder wahlberechtigte Bürger ab einem bestimmten Alter das aktive Wahlrecht.",
-          "en": "Active suffrage means having the right to participate in an election and cast a vote. In Germany, every eligible citizen above a certain age has the right to vote (active suffrage)."
+        "de": "Man kann wählen.",
+        "en": "The correct answer is: Man kann wählen."
       }
     },
     {
@@ -2050,8 +2050,8 @@
       ],
       "correct": 2,
       "explanation": {
-          "de": "Das Wahlsystem in Deutschland ist eine Kombination aus Mehrheits- und Verhältniswahlrecht. Das bedeutet: Mit der Erststimme wählt man eine Person direkt (Mehrheitswahl), mit der Zweitstimme eine Partei (Verhältniswahl). So wird sichergestellt, dass sowohl einzelne Kandidaten als auch die Parteien entsprechend ihrer Stimmenanteile im Parlament vertreten sind.",
-          "en": "The electoral system in Germany is a combination of majority and proportional representation. This means: With the first vote, you elect a candidate directly (majority vote), and with the second vote, you choose a party (proportional representation). This ensures that both individual candidates and parties are represented in parliament according to their share of the votes."
+        "de": "Das Wahlsystem in Deutschland ist ein Mehrheits- und Verhältniswahlrecht.",
+        "en": "The correct answer is: Mehrheits- und Verhältniswahlrecht."
       }
     },
     {
@@ -2084,8 +2084,8 @@
       ],
       "correct": 0,
       "explanation": {
-          "de": "Wahlen in Deutschland unterliegen den Grundsätzen der Freiheit, Gleichheit und Geheimhaltung. Das bedeutet: Jede wahlberechtigte Person kann ohne Zwang wählen (frei), jede Stimme zählt gleich viel (gleich), und niemand darf erfahren, wie jemand gewählt hat (geheim). Diese Prinzipien schützen die Demokratie und die Rechte der Wählerinnen und Wähler.",
-          "en": "Elections in Germany are based on the principles of freedom, equality, and secrecy. This means every eligible person can vote without coercion (free), every vote has the same value (equal), and no one can find out how someone voted (secret). These principles protect democracy and the rights of voters."
+        "de": "Welchem Grundsatz unterliegen Wahlen in Deutschland? Wahlen in Deutschland sind frei, gleich, geheim.",
+        "en": "The correct answer is: frei, gleich, geheim."
       }
     },
     {
@@ -2135,8 +2135,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Regelmäßige Wahlen sind ein zentrales Element der Demokratie. Sie ermöglichen es den Bürgerinnen und Bürgern, die Regierung nach dem Mehrheitswillen abzuwählen oder zu bestätigen. So wird sichergestellt, dass die politische Macht vom Volk ausgeht und Regierungen für ihr Handeln verantwortlich bleiben.",
-          "en": "Regular elections are a central element of democracy. They allow citizens to remove or confirm the government according to the will of the majority. This ensures that political power comes from the people and that governments remain accountable for their actions."
+        "de": "In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen.",
+        "en": "The correct answer is: nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen."
       }
     },
     {
@@ -2152,8 +2152,8 @@
       ],
       "correct": 0,
       "explanation": {
-          "de": "Vor einer Wahl erhalten alle wahlberechtigten Bürgerinnen und Bürger eine Wahlbenachrichtigung von ihrer Gemeinde. Diese informiert über den Wahltag, das Wahllokal und die Wahlzeit. Mit der Wahlbenachrichtigung und einem Ausweis kann man am Wahltag seine Stimme abgeben.",
-          "en": "Before an election, all eligible citizens in Germany receive an election notification from their local municipality. This informs them about the election date, polling station, and voting hours. With the election notification and an ID, they can cast their vote on election day."
+        "de": "eine Wahlbenachrichtigung von der Gemeinde.",
+        "en": "The correct answer is: eine Wahlbenachrichtigung von der Gemeinde."
       }
     },
     {
@@ -2169,8 +2169,8 @@
       ],
       "correct": 2,
       "explanation": {
-          "de": "Die 5%-Hürde soll verhindern, dass zu viele kleine Parteien ins Parlament einziehen. Ohne diese Sperrklausel könnte es sehr viele Fraktionen geben, was die Regierungsbildung und stabile Mehrheiten erschweren würde. Die 5%-Hürde trägt dazu bei, die Arbeitsfähigkeit des Parlaments zu sichern.",
-          "en": "The 5% threshold is intended to prevent too many small parties from entering parliament. Without this rule, there could be many factions, making it difficult to form a government and achieve stable majorities. The 5% threshold helps ensure the parliament remains effective and functional."
+        "de": "Warum gibt es die 5%-Hürde im Wahlgesetz der Bundesrepublik Deutschland? Es gibt sie, weil viele kleine Parteien die Regierungsbildung erschweren.",
+        "en": "The correct answer is: viele kleine Parteien die Regierungsbildung erschweren."
       }
     },
     {
@@ -5211,8 +5211,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Baden-Württemberg besteht aus zwei waagerechten Streifen: Schwarz (oben) und Gold (unten). In der Mitte ist oft das Landeswappen abgebildet.",
-          "en": "The state flag of Baden-Württemberg consists of two horizontal stripes: black (top) and gold (bottom). The flag often features the state coat of arms in the center."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -5385,8 +5385,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Bayern besteht aus zwei gleich breiten Streifen in den Farben Weiß und Blau. Es gibt auch eine Rautenflagge mit weiß-blauen Rauten, die ein bekanntes Symbol für Bayern ist.",
-          "en": "The state flag of Bavaria consists of two equal horizontal stripes in white and blue. There is also a lozenge flag with white and blue lozenges, which is a well-known symbol of Bavaria."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -5559,8 +5559,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Berlin besteht aus drei waagerechten Streifen: Rot (oben), Weiß (mittig, breit) und Rot (unten). In der Mitte befindet sich oft der Berliner Bär als Wappentier.",
-          "en": "The state flag of Berlin consists of three horizontal stripes: red (top), white (broad middle), and red (bottom). The flag often features the Berlin Bear as the coat of arms in the center."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -5733,8 +5733,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Brandenburg besteht aus zwei waagerechten Streifen in den Farben Rot (oben) und Weiß (unten). In der Mitte befindet sich oft das Landeswappen mit dem roten Adler.",
-          "en": "The state flag of Brandenburg consists of two horizontal stripes: red (top) and white (bottom). The flag often features the state coat of arms with the red eagle in the center."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -5907,8 +5907,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Bremen besteht aus roten und weißen Streifen. Sie zeigt oft das Bremer Schlüsselwappen. Die Farben sind Rot und Weiß.",
-          "en": "The state flag of Bremen consists of red and white stripes. It often features the Bremen key coat of arms. The colors are red and white."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -6081,8 +6081,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Hamburg ist rot mit einer weißen Burg in der Mitte. Die Farben sind Rot und Weiß.",
-          "en": "The state flag of Hamburg is red with a white castle in the center. The colors are red and white."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -6255,8 +6255,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Hessen besteht aus zwei waagerechten Streifen in den Farben Rot (oben) und Weiß (unten). In der Mitte wird oft das Landeswappen mit dem hessischen Löwen gezeigt.",
-          "en": "The state flag of Hesse consists of two horizontal stripes: red (top) and white (bottom). The flag often features the state coat of arms with the Hessian lion in the center."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -6429,8 +6429,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Mecklenburg-Vorpommern besteht aus fünf waagerechten Streifen in den Farben Blau, Weiß, Gelb, Weiß und Rot. Diese Farben stehen für die historischen Regionen Mecklenburg (blau-gelb-rot) und Vorpommern (blau-weiß).",
-          "en": "The state flag of Mecklenburg-Vorpommern consists of five horizontal stripes in blue, white, yellow, white, and red. These colors represent the historical regions of Mecklenburg (blue-yellow-red) and Western Pomerania (blue-white)."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -6777,8 +6777,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Nordrhein-Westfalen besteht aus drei waagerechten Streifen in den Farben Grün, Weiß und Rot. In der Mitte ist oft das Landeswappen mit Pferd, Fluss und Rose abgebildet.",
-          "en": "The state flag of North Rhine-Westphalia consists of three horizontal stripes in green, white, and red. The flag often features the state coat of arms with a horse, river, and rose in the center."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -6951,8 +6951,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Rheinland-Pfalz besteht aus drei waagerechten Streifen in den Farben Schwarz, Rot und Gold – wie die deutsche Nationalflagge. Oft ist das Landeswappen mit Kreuz, Rad und Löwe in der Mitte abgebildet.",
-          "en": "The state flag of Rhineland-Palatinate consists of three horizontal stripes in black, red, and gold – like the German national flag. The flag often features the state coat of arms with a cross, wheel, and lion in the center."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -7125,8 +7125,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge des Saarlandes besteht aus drei waagerechten Streifen in den Farben Schwarz, Rot und Gold – wie die deutsche Nationalflagge. In der Mitte ist oft das Landeswappen mit den Symbolen der vier historischen Gebiete abgebildet.",
-          "en": "The state flag of Saarland consists of three horizontal stripes in black, red, and gold – like the German national flag. The flag often features the state coat of arms with symbols of the four historical regions in the center."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -7299,8 +7299,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Sachsen besteht aus zwei waagerechten Streifen: Weiß (oben) und Grün (unten). In der Mitte ist oft das Landeswappen abgebildet.",
-          "en": "The state flag of Saxony consists of two horizontal stripes: white (top) and green (bottom). The flag often features the state coat of arms in the center."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -7473,8 +7473,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Sachsen-Anhalt besteht aus zwei waagerechten Streifen in den Farben Gelb (oben) und Schwarz (unten). In der Mitte ist oft das Landeswappen abgebildet.",
-          "en": "The state flag of Saxony-Anhalt consists of two horizontal stripes: yellow (top) and black (bottom). The flag often features the state coat of arms in the center."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -7647,8 +7647,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Schleswig-Holstein besteht aus drei waagerechten Streifen in den Farben Blau, Weiß und Rot. Diese Farben symbolisieren die Verbundenheit der beiden Landesteile Schleswig und Holstein.",
-          "en": "The state flag of Schleswig-Holstein consists of three horizontal stripes in blue, white, and red. These colors represent the unity of the two regions, Schleswig and Holstein."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {
@@ -7821,8 +7821,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Die Landesflagge von Thüringen besteht aus zwei waagerechten Streifen: Weiß (oben) und Rot (unten). In der Mitte ist oft das Landeswappen mit dem Löwen abgebildet.",
-          "en": "The state flag of Thuringia consists of two horizontal stripes: white (top) and red (bottom). The flag often features the state coat of arms with the lion in the center."
+        "de": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf. Die Wahl muss ohne Druck und Nachteile stattfinden.",
+        "en": "Free elections mean that no one may be influenced or coerced when casting their vote. Elections must take place without pressure or disadvantages."
       }
     },
     {

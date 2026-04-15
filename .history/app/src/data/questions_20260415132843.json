@@ -583,10 +583,10 @@
         "ein Sozialstaat"
       ],
       "correct": 2,
-        "explanation": {
-          "de": "Deutschland ist keine Monarchie. Es ist eine Demokratie, ein Rechtsstaat und ein Sozialstaat. In einer Monarchie herrscht ein König oder eine Königin, das ist in Deutschland nicht der Fall.",
-          "en": "Germany is not a monarchy. It is a democracy, a state governed by the rule of law, and a welfare state. In a monarchy, a king or queen rules, which is not the case in Germany."
-        }
+      "explanation": {
+        "de": "Die gesetzliche Krankenversicherung ist eine der fünf Säulen der Sozialversicherung in Deutschland. Beiträge werden je zur Hälfte von Arbeitgeber und Arbeitnehmer gezahlt.",
+        "en": "Statutory health insurance is one of the five pillars of social insurance in Germany. Contributions are paid half by the employer and half by the employee."
+      }
     },
     {
       "id": "general_35",
@@ -702,10 +702,10 @@
         "um wirtschaftlichen Wettbewerb anzuregen"
       ],
       "correct": 0,
-        "explanation": {
-          "de": "In einer Demokratie gibt es mehrere Parteien, damit die unterschiedlichen Meinungen und Interessen der Bürgerinnen und Bürger vertreten werden. Parteienvielfalt ermöglicht politische Auswahl und Wettbewerb und ist ein Grundprinzip der Demokratie.",
-          "en": "In a democracy, there are multiple parties so that the different opinions and interests of citizens are represented. A diversity of parties allows for political choice and competition and is a fundamental principle of democracy."
-        }
+      "explanation": {
+        "de": "Koalitionsfreiheit bedeutet, dass Arbeitnehmer sich in Gewerkschaften organisieren dürfen, um gemeinsam ihre Interessen zu vertreten.",
+        "en": "Freedom of association means employees may organize in trade unions to collectively represent their interests."
+      }
     },
     {
       "id": "general_42",
@@ -1044,10 +1044,10 @@
         "Die Staatsgewalt geht vom Volke aus."
       ],
       "correct": 3,
-        "explanation": {
-          "de": "Volkssouveränität bedeutet, dass alle Staatsgewalt vom Volk ausgeht. Das Volk ist die höchste Quelle der politischen Macht und entscheidet in einer Demokratie durch Wahlen und Abstimmungen über die Ausübung der Staatsgewalt.",
-          "en": "Popular sovereignty means that all state authority comes from the people. The people are the highest source of political power and, in a democracy, decide through elections and referendums how state authority is exercised."
-        }
+      "explanation": {
+        "de": "Die Bundesregierung gehört zur Exekutive – sie setzt die Gesetze um und verwaltet den Staat.",
+        "en": "The Federal Government belongs to the executive branch – it implements laws and administers the state."
+      }
     },
     {
       "id": "general_62",
@@ -2696,10 +2696,10 @@
         "Räterepublik."
       ],
       "correct": 0,
-        "explanation": {
-          "de": "Das ‚Dritte Reich‘ (1933–1945) war eine Diktatur unter der Führung der Nationalsozialisten (NSDAP) und Adolf Hitler. In dieser Zeit gab es keine Demokratie, keine Meinungsfreiheit und massive Menschenrechtsverletzungen. Das Regime war verantwortlich für den Zweiten Weltkrieg und den Holocaust.",
-          "en": "The 'Third Reich' (1933–1945) was a dictatorship led by the National Socialists (NSDAP) and Adolf Hitler. During this period, there was no democracy, no freedom of opinion, and massive human rights violations. The regime was responsible for World War II and the Holocaust."
-        }
+      "explanation": {
+        "de": "Das \"Dritte Reich\" war eine Diktatur.",
+        "en": "The correct answer is: Diktatur."
+      }
     },
     {
       "id": "general_159",
@@ -2748,8 +2748,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Der NS-Staat (Nationalsozialistische Staat) war durch eine Politik des staatlichen Rassismus und der totalen Kontrolle gekennzeichnet. Die nationalsozialistische Regierung verfolgte und diskriminierte Menschen aufgrund ihrer Herkunft, Religion oder politischen Überzeugung, insbesondere Jüdinnen und Juden. Es gab keine Meinungsfreiheit, keine Gewaltenteilung und keine demokratischen Wahlen mehr. Die Macht lag allein bei Adolf Hitler und der NSDAP. Opposition wurde brutal unterdrückt, und die Gesellschaft wurde durch Propaganda und Überwachung kontrolliert.",
-        "en": "The Nazi state (National Socialist state) was characterized by a policy of state racism and total control. The National Socialist government persecuted and discriminated against people based on their origin, religion, or political beliefs, especially Jews. There was no freedom of opinion, no separation of powers, and no democratic elections. All power was concentrated in Adolf Hitler and the Nazi Party. Opposition was brutally suppressed, and society was controlled through propaganda and surveillance."
+        "de": "Was kennzeichnete den NS-Staat? Eine Politik des staatlichen Rassismus.",
+        "en": "The correct answer is: des staatlichen Rassismus."
       }
     },
     {
@@ -3346,10 +3346,10 @@
         "von einem religiösen Staat zu einem kommunistischen Staat."
       ],
       "correct": 0,
-        "explanation": {
-          "de": "Die Zeit im Herbst 1989 wird 'Die Wende' genannt, weil sich die DDR grundlegend veränderte. Das politische System wandelte sich von einer Diktatur zu einer Demokratie. Die friedlichen Proteste der Bevölkerung führten zum Fall der Mauer und zur Öffnung des Landes, was schließlich die deutsche Einheit ermöglichte.",
-          "en": "The period in autumn 1989 is called 'Die Wende' ('the turning point') because the GDR underwent a fundamental transformation. The political system changed from a dictatorship to a democracy. Peaceful protests by the population led to the fall of the Berlin Wall and the opening of the country, which ultimately made German reunification possible."
-        }
+      "explanation": {
+        "de": "Warum nennt man die Zeit im Herbst 1989 in der DDR \"Die Wende\"? In dieser Zeit veränderte sich die DDR politisch von einer Diktatur zur Demokratie.",
+        "en": "The correct answer is: von einer Diktatur zur Demokratie."
+      }
     },
     {
       "id": "general_197",

@@ -139,8 +139,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Im Grundgesetz steht nicht, dass alle Menschen gleich viel Geld haben sollen. Das Grundgesetz garantiert wichtige Grundrechte wie Menschenwürde, Meinungsfreiheit und Gleichheit vor dem Gesetz, aber es schreibt keine wirtschaftliche Gleichverteilung vor.",
-        "en": "The Basic Law does not state that everyone should have the same amount of money. It guarantees important fundamental rights such as human dignity, freedom of expression, and equality before the law, but it does not mandate economic equality."
+        "de": "Berlin ist ein Stadtstaat und zugleich ein Bundesland der Bundesrepublik Deutschland. Es ist die Hauptstadt Deutschlands und hat sowohl Landes- als auch Kommunalaufgaben.",
+        "en": "Berlin is a city-state and at the same time a federal state of the Federal Republic of Germany. It is the capital of Germany and fulfills both state and municipal functions."
       }
     },
     {
@@ -156,8 +156,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Das Grundrecht auf Asyl (Artikel 16a Grundgesetz) gilt in Deutschland ausschließlich für Ausländerinnen und Ausländer, die politisch verfolgt werden. Andere Grundrechte wie Meinungsfreiheit oder Schutz der Familie gelten für alle Menschen.",
-        "en": "The fundamental right to asylum (Article 16a of the Basic Law) in Germany applies only to foreigners who are politically persecuted. Other fundamental rights, such as freedom of expression or protection of the family, apply to everyone."
+        "de": "Eltern haben laut Grundgesetz sowohl das Recht als auch die Pflicht, ihre Kinder zu erziehen (Artikel 6 GG).",
+        "en": "According to the Basic Law, parents have both the right and the duty to raise their children (Article 6)."
       }
     },
     {
@@ -241,8 +241,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Meinungsfreiheit bedeutet, dass jeder in Deutschland seine Meinung frei äußern und verbreiten darf – zum Beispiel in Gesprächen, in den Medien oder im Internet. Diese Freiheit ist im Grundgesetz (Artikel 5) geschützt. Sie findet jedoch ihre Grenzen, wenn zum Beispiel die Rechte anderer verletzt oder strafbare Inhalte verbreitet werden.",
-        "en": "Freedom of expression means that everyone in Germany can freely express and share their opinions – for example, in conversations, in the media, or on the internet. This right is protected by the Basic Law (Article 5). However, it is limited if, for example, the rights of others are violated or criminal content is shared."
+        "de": "Gesetze gelten in Deutschland für alle gleich – für Politiker, Polizisten und alle Bürger. Niemand steht über dem Gesetz.",
+        "en": "In Germany, laws apply equally to everyone – politicians, police officers, and all citizens. No one is above the law."
       }
     },
     {
@@ -292,8 +292,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Die deutschen Gesetze verbieten die Ungleichbehandlung der Bürgerinnen und Bürger durch den Staat. Das bedeutet, alle Menschen müssen vom Staat gleich behandelt werden, unabhängig von Herkunft, Geschlecht, Religion oder anderen Merkmalen. Dieses Verbot steht im Grundgesetz (Artikel 3).",
-        "en": "German laws prohibit unequal treatment of citizens by the state. This means everyone must be treated equally by the state, regardless of origin, gender, religion, or other characteristics. This prohibition is enshrined in the Basic Law (Article 3)."
+        "de": "In einer Demokratie hat das Volk die Staatsgewalt. Die Bürger bestimmen durch Wahlen, wer regiert.",
+        "en": "In a democracy, the people hold state power. Citizens determine who governs through elections."
       }
     },
     {
@@ -326,8 +326,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Das Recht auf Freizügigkeit bedeutet, dass jeder Deutsche seinen Wohnort und Aufenthaltsort innerhalb Deutschlands frei wählen kann. Dieses Grundrecht ist in Artikel 11 des Grundgesetzes verankert und erlaubt es, überall in Deutschland zu wohnen oder sich niederzulassen.",
-        "en": "The right to freedom of movement means that every German can freely choose their place of residence and stay within Germany. This fundamental right is enshrined in Article 11 of the Basic Law and allows people to live or settle anywhere in Germany."
+        "de": "Deutschland ist ein Bundesstaat. Das bedeutet, dass das Land aus mehreren Ländern (Bundesländern) besteht, die eigene Zuständigkeiten haben.",
+        "en": "Germany is a federal state. This means the country consists of several states (Bundesländer) that have their own responsibilities."
       }
     },
     {
@@ -4800,8 +4800,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "In Deutschland ist das Recht auf Gleichbehandlung im Grundgesetz (Artikel 3) verankert. Niemand darf wegen seiner Hautfarbe, Herkunft oder aus anderen diskriminierenden Gründen benachteiligt werden. Wenn Menschen aufgrund ihrer Hautfarbe vom Zugang zu öffentlichen Einrichtungen ausgeschlossen werden, ist das eine Verletzung dieses Grundrechts.",
-        "en": "In Germany, the right to equal treatment is guaranteed by the Basic Law (Article 3). No one may be disadvantaged because of their skin color, origin, or other discriminatory reasons. If people are denied access to public facilities because of their skin color, this is a violation of this fundamental right."
+        "de": "Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser Situation verletzt? Das Recht auf Gleichbehandlung.",
+        "en": "The correct answer is: Gleichbehandlung."
       }
     },
     {
@@ -5194,8 +5194,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "In Baden-Württemberg dürfen Bürgerinnen und Bürger ab 16 Jahren an Kommunalwahlen teilnehmen. Das bedeutet, sie können ab diesem Alter bei Wahlen auf Gemeinde- und Kreisebene ihre Stimme abgeben.",
-        "en": "In Baden-Württemberg, citizens are allowed to vote in local elections from the age of 16. This means they can participate in municipal and district elections starting at this age."
+        "de": "Meinungsfreiheit ist ein Grundrecht nach Artikel 5 des Grundgesetzes. Waffenbesitz, Faustrecht und Selbstjustiz sind keine Grundrechte.",
+        "en": "Freedom of expression is a fundamental right under Article 5 of the Basic Law. Gun ownership, the law of the fist, and vigilante justice are not fundamental rights."
       }
     },
     {
@@ -5454,8 +5454,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "In Bayern heißt die Regierungschefin oder der Regierungschef 'Ministerpräsidentin' bzw. 'Ministerpräsident'. Diese Person steht an der Spitze der Landesregierung und vertritt das Bundesland nach außen.",
-        "en": "In Bavaria, the head of government is called the 'Ministerpräsidentin' (female) or 'Ministerpräsident' (male). This person leads the state government and represents the federal state externally."
+        "de": "Eltern haben laut Grundgesetz sowohl das Recht als auch die Pflicht, ihre Kinder zu erziehen (Artikel 6 GG).",
+        "en": "According to the Basic Law, parents have both the right and the duty to raise their children (Article 6)."
       }
     },
     {
@@ -5542,8 +5542,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "In Berlin darf man ab 16 Jahren an den Wahlen zur Bezirksverordnetenversammlung teilnehmen. Das bedeutet, das aktive Wahlrecht beginnt mit dem 16. Geburtstag.",
-        "en": "In Berlin, you are allowed to vote in the district assembly elections (Bezirksverordnetenversammlung) from the age of 16. This means the right to vote begins on your 16th birthday."
+        "de": "Meinungsfreiheit ist ein Grundrecht nach Artikel 5 des Grundgesetzes. Waffenbesitz, Faustrecht und Selbstjustiz sind keine Grundrechte.",
+        "en": "Freedom of expression is a fundamental right under Article 5 of the Basic Law. Gun ownership, the law of the fist, and vigilante justice are not fundamental rights."
       }
     },
     {
@@ -5628,8 +5628,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Im Stadtstaat Berlin heißt die Regierungschefin oder der Regierungschef 'Regierende Bürgermeisterin' bzw. 'Regierender Bürgermeister'. Diese Person steht an der Spitze der Landesregierung und vertritt das Bundesland nach außen.",
-        "en": "In the city-state of Berlin, the head of government is called the 'Regierende Bürgermeisterin' (female) or 'Regierender Bürgermeister' (male). This person leads the state government and represents the federal state externally."
+        "de": "Eltern haben laut Grundgesetz sowohl das Recht als auch die Pflicht, ihre Kinder zu erziehen (Artikel 6 GG).",
+        "en": "According to the Basic Law, parents have both the right and the duty to raise their children (Article 6)."
       }
     },
     {
@@ -5716,8 +5716,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "In Brandenburg dürfen Bürgerinnen und Bürger ab 16 Jahren an Kommunalwahlen teilnehmen. Das bedeutet, sie können ab diesem Alter bei Wahlen auf Gemeinde- und Kreisebene ihre Stimme abgeben.",
-        "en": "In Brandenburg, citizens are allowed to vote in local elections from the age of 16. This means they can participate in municipal and district elections starting at this age."
+        "de": "Meinungsfreiheit ist ein Grundrecht nach Artikel 5 des Grundgesetzes. Waffenbesitz, Faustrecht und Selbstjustiz sind keine Grundrechte.",
+        "en": "Freedom of expression is a fundamental right under Article 5 of the Basic Law. Gun ownership, the law of the fist, and vigilante justice are not fundamental rights."
       }
     },
     {
@@ -5802,8 +5802,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "In Brandenburg heißt die Regierungschefin oder der Regierungschef 'Ministerpräsidentin' bzw. 'Ministerpräsident'. Diese Person steht an der Spitze der Landesregierung und vertritt das Bundesland nach außen.",
-        "en": "In Brandenburg, the head of government is called the 'Ministerpräsidentin' (female) or 'Ministerpräsident' (male). This person leads the state government and represents the federal state externally."
+        "de": "Eltern haben laut Grundgesetz sowohl das Recht als auch die Pflicht, ihre Kinder zu erziehen (Artikel 6 GG).",
+        "en": "According to the Basic Law, parents have both the right and the duty to raise their children (Article 6)."
       }
     },
     {
@@ -5890,8 +5890,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "In Bremen darf man ab 16 Jahren an den Wahlen zur Bürgerschaft (Landtag) teilnehmen. Das bedeutet, das aktive Wahlrecht beginnt mit dem 16. Geburtstag.",
-        "en": "In Bremen, you are allowed to vote in the elections for the state parliament (Bürgerschaft) from the age of 16. This means the right to vote begins on your 16th birthday."
+        "de": "Meinungsfreiheit ist ein Grundrecht nach Artikel 5 des Grundgesetzes. Waffenbesitz, Faustrecht und Selbstjustiz sind keine Grundrechte.",
+        "en": "Freedom of expression is a fundamental right under Article 5 of the Basic Law. Gun ownership, the law of the fist, and vigilante justice are not fundamental rights."
       }
     },
     {
@@ -5941,8 +5941,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Ein deutscher Stadtstaat ist ein Bundesland, das nur aus einer Stadt besteht. In Deutschland gibt es drei Stadtstaaten: Berlin, Hamburg und Bremen. Sie sind sowohl Stadt als auch eigenständiges Bundesland.",
-        "en": "A German city-state is a federal state that consists of only one city. In Germany, there are three city-states: Berlin, Hamburg, and Bremen. They are both a city and an independent federal state."
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
       }
     },
     {
@@ -5976,8 +5976,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Im Stadtstaat Bremen heißt die Regierungschefin oder der Regierungschef 'Präsidentin des Senats' bzw. 'Präsident des Senats'. Diese Person steht an der Spitze der Landesregierung und vertritt das Bundesland nach außen.",
-        "en": "In the city-state of Bremen, the head of government is called the 'President of the Senate' ('Präsidentin des Senats' for females, 'Präsident des Senats' for males). This person leads the state government and represents the federal state externally."
+        "de": "Eltern haben laut Grundgesetz sowohl das Recht als auch die Pflicht, ihre Kinder zu erziehen (Artikel 6 GG).",
+        "en": "According to the Basic Law, parents have both the right and the duty to raise their children (Article 6)."
       }
     },
     {
@@ -6150,8 +6150,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Im Stadtstaat Hamburg heißt die Regierungschefin oder der Regierungschef \"Erste Bürgermeisterin\" bzw. \"Erster Bürgermeister\". Diese Person steht an der Spitze des Senats und vertritt die Stadt nach außen.",
-        "en": "In the city state of Hamburg, the head of government is called the ‘Erste Bürgermeisterin’ (female) or ‘Erster Bürgermeister’ (male). This person leads the Senate and represents the city externally."
+        "de": "Eltern haben laut Grundgesetz sowohl das Recht als auch die Pflicht, ihre Kinder zu erziehen (Artikel 6 GG).",
+        "en": "According to the Basic Law, parents have both the right and the duty to raise their children (Article 6)."
       }
     },
     {
@@ -6324,8 +6324,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "In Hessen heißt die Regierungschefin oder der Regierungschef 'Ministerpräsidentin' bzw. 'Ministerpräsident'. Diese Person steht an der Spitze der Landesregierung und vertritt das Bundesland nach außen.",
-        "en": "In Hesse, the head of government is called the 'Ministerpräsidentin' (female) or 'Ministerpräsident' (male). This person leads the state government and represents the federal state externally."
+        "de": "Eltern haben laut Grundgesetz sowohl das Recht als auch die Pflicht, ihre Kinder zu erziehen (Artikel 6 GG).",
+        "en": "According to the Basic Law, parents have both the right and the duty to raise their children (Article 6)."
       }
     },
     {
@@ -6463,8 +6463,8 @@
       ],
       "correct": 1,
         "explanation": {
-          "de": "Die Landeshauptstadt von Mecklenburg-Vorpommern ist Schwerin. Schwerin ist das politische Zentrum des Bundeslandes und bekannt für das Schweriner Schloss.",
-          "en": "The state capital of Mecklenburg-Vorpommern is Schwerin. Schwerin is the political center of the federal state and is known for Schwerin Castle."
+          "de": "Die Landeshauptstadt von Thüringen ist Erfurt. Erfurt ist bekannt für seinen mittelalterlichen Stadtkern, den Dom und die Krämerbrücke sowie als Sitz der Thüringer Landesregierung.",
+          "en": "The state capital of Thuringia is Erfurt. Erfurt is known for its medieval old town, the cathedral, the Krämer Bridge, and as the seat of the Thuringian state government."
         }
     },
     {
@@ -6586,8 +6586,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "In Niedersachsen darf man ab 16 Jahren an Kommunalwahlen teilnehmen. Das bedeutet, das aktive Wahlrecht bei Kommunalwahlen beginnt mit dem 16. Geburtstag.",
-        "en": "In Lower Saxony, you are allowed to vote in local elections from the age of 16. This means the right to vote in municipal elections begins on your 16th birthday."
+        "de": "Meinungsfreiheit ist ein Grundrecht nach Artikel 5 des Grundgesetzes. Waffenbesitz, Faustrecht und Selbstjustiz sind keine Grundrechte.",
+        "en": "Freedom of expression is a fundamental right under Article 5 of the Basic Law. Gun ownership, the law of the fist, and vigilante justice are not fundamental rights."
       }
     },
     {
@@ -6672,8 +6672,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "In Niedersachsen heißt die Regierungschefin oder der Regierungschef \"Ministerpräsidentin\" bzw. \"Ministerpräsident\". Sie oder er steht an der Spitze der Landesregierung und vertritt das Bundesland nach außen.",
-        "en": "In Lower Saxony, the head of government is called the ‘Ministerpräsidentin’ (female) or ‘Ministerpräsident’ (male). This person leads the state government and represents the federal state externally."
+        "de": "Eltern haben laut Grundgesetz sowohl das Recht als auch die Pflicht, ihre Kinder zu erziehen (Artikel 6 GG).",
+        "en": "According to the Basic Law, parents have both the right and the duty to raise their children (Article 6)."
       }
     },
     {
@@ -6760,8 +6760,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "In Nordrhein-Westfalen darf man ab 16 Jahren an Kommunalwahlen teilnehmen. Das bedeutet, das aktive Wahlrecht bei Kommunalwahlen beginnt mit dem 16. Geburtstag.",
-        "en": "In North Rhine-Westphalia, you are allowed to vote in local elections from the age of 16. This means the right to vote in municipal elections begins on your 16th birthday."
+        "de": "Meinungsfreiheit ist ein Grundrecht nach Artikel 5 des Grundgesetzes. Waffenbesitz, Faustrecht und Selbstjustiz sind keine Grundrechte.",
+        "en": "Freedom of expression is a fundamental right under Article 5 of the Basic Law. Gun ownership, the law of the fist, and vigilante justice are not fundamental rights."
       }
     },
     {
@@ -6811,8 +6811,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Die Landeshauptstadt von Nordrhein-Westfalen ist Düsseldorf. Düsseldorf ist das politische, wirtschaftliche und kulturelle Zentrum des Bundeslandes Nordrhein-Westfalen.",
-        "en": "The state capital of North Rhine-Westphalia is Düsseldorf. Düsseldorf is the political, economic, and cultural center of the federal state of North Rhine-Westphalia."
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
       }
     },
     {
@@ -6846,8 +6846,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "In Nordrhein-Westfalen heißt die Regierungschefin oder der Regierungschef \"Ministerpräsidentin\" bzw. \"Ministerpräsident\". Sie oder er steht an der Spitze der Landesregierung und vertritt das Bundesland nach außen.",
-        "en": "In North Rhine-Westphalia, the head of government is called the ‘Ministerpräsidentin’ (female) or ‘Ministerpräsident’ (male). This person leads the state government and represents the federal state externally."
+        "de": "Eltern haben laut Grundgesetz sowohl das Recht als auch die Pflicht, ihre Kinder zu erziehen (Artikel 6 GG).",
+        "en": "According to the Basic Law, parents have both the right and the duty to raise their children (Article 6)."
       }
     },
     {
@@ -7177,8 +7177,8 @@
       "correct": 1,
       "image": "/images/questions/SL_8.png",
       "explanation": {
-        "de": "Das Saarland ist eines der 16 Bundesländer der Bundesrepublik Deutschland. Es liegt im Südwesten des Landes an der Grenze zu Frankreich und Luxemburg.",
-        "en": "The Saarland is one of the 16 federal states of the Federal Republic of Germany. It is located in the southwest of the country, bordering France and Luxembourg."
+        "de": "In Deutschland herrscht Religionsfreiheit: Jeder darf seine Religion frei wählen und ausüben. Dieses Recht ist in Artikel 4 des Grundgesetzes verankert.",
+        "en": "Germany has freedom of religion: everyone may freely choose and practice their religion. This right is enshrined in Article 4 of the Basic Law."
       }
     },
     {
@@ -7368,8 +7368,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "In Sachsen heißt die Regierungschefin oder der Regierungschef 'Ministerpräsidentin' bzw. 'Ministerpräsident'. Diese Person steht an der Spitze der Landesregierung und vertritt das Bundesland nach außen.",
-        "en": "In Saxony, the head of government is called the 'Ministerpräsidentin' (female) or 'Ministerpräsident' (male). This person leads the state government and represents the federal state externally."
+        "de": "Eltern haben laut Grundgesetz sowohl das Recht als auch die Pflicht, ihre Kinder zu erziehen (Artikel 6 GG).",
+        "en": "According to the Basic Law, parents have both the right and the duty to raise their children (Article 6)."
       }
     },
     {
@@ -7542,8 +7542,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "In Sachsen-Anhalt heißt die Regierungschefin oder der Regierungschef 'Ministerpräsidentin' bzw. 'Ministerpräsident'. Diese Person steht an der Spitze der Landesregierung und vertritt das Bundesland nach außen.",
-        "en": "In Saxony-Anhalt, the head of government is called the 'Ministerpräsidentin' (female) or 'Ministerpräsident' (male). This person leads the state government and represents the federal state externally."
+        "de": "Eltern haben laut Grundgesetz sowohl das Recht als auch die Pflicht, ihre Kinder zu erziehen (Artikel 6 GG).",
+        "en": "According to the Basic Law, parents have both the right and the duty to raise their children (Article 6)."
       }
     },
     {
@@ -7890,8 +7890,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "In Thüringen heißt die Regierungschefin oder der Regierungschef 'Ministerpräsidentin' bzw. 'Ministerpräsident'. Diese Person steht an der Spitze der Landesregierung und vertritt das Bundesland nach außen.",
-        "en": "In Thuringia, the head of government is called the 'Ministerpräsidentin' (female) or 'Ministerpräsident' (male). This person leads the state government and represents the federal state externally."
+        "de": "Eltern haben laut Grundgesetz sowohl das Recht als auch die Pflicht, ihre Kinder zu erziehen (Artikel 6 GG).",
+        "en": "According to the Basic Law, parents have both the right and the duty to raise their children (Article 6)."
       }
     },
     {

@@ -788,8 +788,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Zu den Aufgaben des deutschen Staates gehört es, die öffentliche Infrastruktur bereitzustellen, zum Beispiel Straßen und Schulen zu bauen und zu unterhalten. Der Staat sorgt dafür, dass wichtige Einrichtungen für das Gemeinwohl zur Verfügung stehen.",
-        "en": "One of the tasks of the German state is to provide public infrastructure, such as building and maintaining roads and schools. The state ensures that important facilities for the common good are available."
+        "de": "In Deutschland wird die Staatsgewalt durch getrennte Organe ausgeübt: Bundestag (Legislative), Bundesregierung (Exekutive) und Gerichte (Judikative).",
+        "en": "In Germany, state power is exercised by separate organs: Bundestag (legislative), Federal Government (executive), and courts (judiciary)."
       }
     },
     {
@@ -2833,8 +2833,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Der Ruf ‚Wir sind das Volk‘ wurde 1989 bei den Montagsdemonstrationen in der DDR verwendet. Die Menschen protestierten friedlich gegen die SED-Diktatur und forderten mehr Freiheit, Demokratie und die Öffnung der Grenzen. Diese Demonstrationen trugen maßgeblich zum Fall der Berliner Mauer und zur Wiedervereinigung bei.",
-        "en": "The chant ‘We are the people’ (‘Wir sind das Volk’) was used during the Monday demonstrations in the GDR (East Germany) in 1989. People protested peacefully against the SED dictatorship, demanding more freedom, democracy, and the opening of the borders. These demonstrations played a key role in the fall of the Berlin Wall and German reunification."
+        "de": "Die richtige Antwort ist: bei den Montagsdemonstrationen 1989 in der DDR.",
+        "en": "The correct answer is: bei den Montagsdemonstrationen 1989 in der DDR."
       }
     },
     {
@@ -2889,9 +2889,9 @@
       }
     },
     {
-      "id": "nationalsozialismus_170",
+      "id": "general_170",
       "number": 170,
-      "category": "nationalsozialismus",
+      "category": "general",
       "question": "Was gab es während der Zeit des Nationalsozialismus in Deutschland?",
       "options": [
         "das Verbot von Parteien",
@@ -4154,8 +4154,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "In Deutschland muss eine Demonstration vorab bei der zuständigen Behörde angemeldet werden. Das Grundrecht auf Versammlungsfreiheit erlaubt Demonstrationen, aber die Anmeldung dient der Sicherheit und der Koordination mit Polizei und Stadtverwaltung.",
-        "en": "In Germany, a demonstration must be registered in advance with the relevant authorities. The right to freedom of assembly allows demonstrations, but registration is required for safety reasons and to coordinate with the police and local administration."
+        "de": "Die richtige Antwort ist: Sie müssen die Demonstration anmelden.",
+        "en": "The correct answer is: Sie müssen die Demonstration anmelden."
       }
     },
     {
@@ -4732,8 +4732,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Wenn eine Frau die Stelle nur deshalb nicht bekommt, weil sie Mutter ist, ist das ein Beispiel für Diskriminierung. In Deutschland ist es gesetzlich verboten, Menschen wegen ihres Geschlechts oder ihrer familiären Situation zu benachteiligen. Alle Bewerberinnen und Bewerber müssen fair behandelt werden.",
-        "en": "If a woman does not get the job only because she is a mother, this is an example of discrimination. In Germany, it is illegal to disadvantage people because of their gender or family situation. All applicants must be treated fairly."
+        "de": "Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie Mutter ist.",
+        "en": "The correct answer is: Mutter ist."
       }
     },
     {
@@ -4749,8 +4749,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Wenn ein Mann die Stelle nur deshalb nicht bekommt, weil er im Rollstuhl sitzt, ist das ein Beispiel für Diskriminierung. In Deutschland ist es gesetzlich verboten, Menschen wegen einer Behinderung zu benachteiligen. Alle Bewerberinnen und Bewerber müssen fair behandelt werden.",
-        "en": "If a man does not get the job only because he uses a wheelchair, this is an example of discrimination. In Germany, it is illegal to disadvantage people because of a disability. All applicants must be treated fairly."
+        "de": "Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er im Rollstuhl sitzt.",
+        "en": "The correct answer is: im Rollstuhl sitzt."
       }
     },
     {
@@ -4936,8 +4936,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Wenn ein Mann die Stelle nur deshalb nicht bekommt, weil er eine dunkle Hautfarbe hat, ist das ein Beispiel für Diskriminierung. In Deutschland ist es gesetzlich verboten, Menschen wegen ihrer Hautfarbe oder Herkunft zu benachteiligen. Alle Bewerberinnen und Bewerber müssen fair behandelt werden.",
-        "en": "If a man does not get the job only because he has dark skin, this is an example of discrimination. In Germany, it is illegal to disadvantage people because of their skin color or origin. All applicants must be treated fairly."
+        "de": "Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er eine dunkle Haut hat.",
+        "en": "The correct answer is: er eine dunkle Haut hat."
       }
     },
     {

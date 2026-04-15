@@ -121,10 +121,10 @@
         "Wohnung"
       ],
       "correct": 0,
-          "explanation": {
-            "de": "Das Grundgesetz garantiert unter anderem die Glaubens- und Gewissensfreiheit als Grundrecht. Jeder Mensch darf seinen Glauben und seine Überzeugungen frei wählen und ausüben.",
-            "en": "The Basic Law guarantees, among other things, freedom of belief and conscience as a fundamental right. Everyone is free to choose and practice their religion and beliefs."
-          }
+        "explanation": {
+          "de": "Die Landeshauptstadt von Rheinland-Pfalz ist Mainz. Mainz ist bekannt für seine römische Geschichte, den Mainzer Dom und als Sitz des rheinland-pfälzischen Landtags.",
+          "en": "The state capital of Rhineland-Palatinate is Mainz. Mainz is known for its Roman history, the Mainz Cathedral, and as the seat of the state parliament of Rhineland-Palatinate."
+        }
     },
     {
       "id": "general_8",
@@ -308,10 +308,10 @@
         "Meinungsfreiheit"
       ],
       "correct": 0,
-        "explanation": {
-          "de": "Artikel 1 des Grundgesetzes garantiert die Unantastbarkeit der Menschenwürde. Das bedeutet, dass jeder Mensch unabhängig von Herkunft, Religion oder Überzeugung mit Respekt behandelt werden muss. Die Achtung der Menschenwürde ist die Grundlage aller weiteren Grundrechte in Deutschland.",
-          "en": "Article 1 of the Basic Law guarantees the inviolability of human dignity. This means that every person must be treated with respect, regardless of origin, religion, or beliefs. Respect for human dignity is the foundation of all other fundamental rights in Germany."
-        }
+      "explanation": {
+        "de": "Im Grundgesetz steht: 'Die Würde des Menschen ist unantastbar.' (Artikel 1, Absatz 1 GG).",
+        "en": "The Basic Law states: 'Human dignity shall be inviolable.' (Article 1, Paragraph 1)."
+      }
     },
     {
       "id": "general_19",
@@ -5227,10 +5227,10 @@
         "bei den Kirchen"
       ],
       "correct": 2,
-          "explanation": {
-            "de": "In Baden-Württemberg informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-            "en": "In Baden-Württemberg, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-          }
+        "explanation": {
+          "de": "In Schleswig-Holstein informiert der/die Landesbeauftragte für politische Bildung Bürgerinnen und Bürger über politische Themen. Es werden Veranstaltungen, Publikationen und Beratungen zu politischen und gesellschaftlichen Fragen angeboten.",
+          "en": "In Schleswig-Holstein, the State Commissioner for Civic Education provides citizens with information on political topics. Events, publications, and advice on political and social issues are offered."
+        }
     },
     {
       "id": "BW_7",
@@ -5401,10 +5401,10 @@
         "bei den Kirchen"
       ],
       "correct": 1,
-          "explanation": {
-            "de": "In Bayern informiert die Landeszentrale für politische Bildungsarbeit Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-            "en": "In Bavaria, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-          }
+        "explanation": {
+          "de": "Im Saarland informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
+          "en": "In Saarland, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
+        }
     },
     {
       "id": "BY_7",
@@ -5575,10 +5575,10 @@
         "bei der Landeszentrale für politische Bildung"
       ],
       "correct": 3,
-          "explanation": {
-            "de": "In Berlin informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-            "en": "In Berlin, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-          }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "BE_7",
@@ -5766,10 +5766,10 @@
         "Frankfurt/Oder."
       ],
       "correct": 0,
-          "explanation": {
-            "de": "Die Landeshauptstadt von Brandenburg ist Potsdam. Potsdam ist bekannt für seine Schlösser und Gärten, insbesondere Schloss Sanssouci, und ist Sitz der brandenburgischen Landesregierung.",
-            "en": "The state capital of Brandenburg is Potsdam. Potsdam is known for its palaces and gardens, especially Sanssouci Palace, and is the seat of the Brandenburg state government."
-          }
+      "explanation": {
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
+      }
     },
     {
       "id": "BB_8",
@@ -6097,10 +6097,10 @@
         "bei der Landeszentrale für politische Bildung"
       ],
       "correct": 3,
-        "explanation": {
-          "de": "In Hamburg informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-          "en": "In Hamburg, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-        }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "HH_7",
@@ -6166,10 +6166,10 @@
         "Innensenatorin/Innensenator"
       ],
       "correct": 1,
-          "explanation": {
-            "de": "Hamburg hat, wie andere deutsche Bundesländer, keinen eigenen Senator oder eigene Senatorin für Außenbeziehungen. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt auf Bundesebene wahrgenommen.",
-            "en": "Hamburg, like other German federal states, does not have its own Senator for Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office."
-          }
+        "explanation": {
+          "de": "Niedersachsen hat, wie andere deutsche Bundesländer, keinen eigenen Außenminister oder eigene Außenministerin. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt auf Bundesebene wahrgenommen.",
+          "en": "Lower Saxony, like other German federal states, does not have its own Minister of Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office."
+        }
     },
     {
       "id": "HE_1",
@@ -6288,10 +6288,10 @@
         "Wiesbaden."
       ],
       "correct": 3,
-        "explanation": {
-          "de": "Die Landeshauptstadt von Hessen ist Wiesbaden. Wiesbaden ist bekannt für seine Thermalquellen, seine historische Architektur und als Sitz der hessischen Landesregierung.",
-          "en": "The state capital of Hesse is Wiesbaden. Wiesbaden is known for its thermal springs, historic architecture, and as the seat of the state government of Hesse."
-        }
+      "explanation": {
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
+      }
     },
     {
       "id": "HE_8",
@@ -6340,10 +6340,10 @@
         "Innenministerin/Innenminister"
       ],
       "correct": 1,
-          "explanation": {
-            "de": "Hessen hat, wie andere deutsche Bundesländer, keinen eigenen Außenminister oder eigene Außenministerin. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt auf Bundesebene wahrgenommen.",
-            "en": "Hesse, like other German federal states, does not have its own Minister of Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office."
-          }
+        "explanation": {
+          "de": "Sachsen hat, wie andere deutsche Bundesländer, keinen eigenen Außenminister oder eigene Außenministerin. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt auf Bundesebene wahrgenommen.",
+          "en": "Saxony, like other German federal states, does not have its own Minister of Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office."
+        }
     },
     {
       "id": "MV_1",
@@ -6445,10 +6445,10 @@
         "bei der Verbraucherzentrale"
       ],
       "correct": 0,
-          "explanation": {
-            "de": "In Mecklenburg-Vorpommern informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-            "en": "In Mecklenburg-Vorpommern, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-          }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "MV_7",
@@ -6462,10 +6462,10 @@
         "Wismar."
       ],
       "correct": 1,
-        "explanation": {
-          "de": "Die Landeshauptstadt von Thüringen ist Erfurt. Erfurt ist bekannt für seinen mittelalterlichen Stadtkern, den Dom und die Krämerbrücke sowie als Sitz der Thüringer Landesregierung.",
-          "en": "The state capital of Thuringia is Erfurt. Erfurt is known for its medieval old town, the cathedral, the Krämer Bridge, and as the seat of the Thuringian state government."
-        }
+      "explanation": {
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
+      }
     },
     {
       "id": "MV_8",
@@ -7036,10 +7036,10 @@
         "Innenministerin/Innenminister"
       ],
       "correct": 1,
-        "explanation": {
-          "de": "Schleswig-Holstein hat, wie andere deutsche Bundesländer, keinen eigenen Außenminister oder eigene Außenministerin. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt auf Bundesebene wahrgenommen.",
-          "en": "Schleswig-Holstein, like other German federal states, does not have its own Minister of Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office."
-        }
+      "explanation": {
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
+      }
     },
     {
       "id": "SL_1",
@@ -7663,10 +7663,10 @@
         "bei den Kirchen"
       ],
       "correct": 2,
-        "explanation": {
-          "de": "In Thüringen informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-          "en": "In Thuringia, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-        }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "SH_7",

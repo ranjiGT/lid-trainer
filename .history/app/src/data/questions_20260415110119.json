@@ -20,8 +20,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Im Grundgesetz steht nicht, dass alle gleich viel Geld haben sollen. Das Grundgesetz garantiert die Menschenwürde, Meinungsfreiheit und Gleichheit vor dem Gesetz, aber es schreibt keine wirtschaftliche Gleichverteilung vor.",
-        "en": "The Basic Law does not state that everyone should have the same amount of money. It guarantees human dignity, freedom of expression, and equality before the law, but it does not mandate economic equality."
+        "de": "Das Wappen von Niedersachsen zeigt ein weißes, aufsteigendes Pferd auf rotem Grund. Dieses sogenannte Sachsenross ist ein historisches Symbol und steht für die Tradition und Geschichte des Landes Niedersachsen.",
+        "en": "The coat of arms of Lower Saxony (Niedersachsen) features a white horse rearing on a red background. This so-called Saxon Steed is a historic symbol representing the tradition and history of the state of Lower Saxony."
       }
     },
     {
@@ -104,10 +104,10 @@
         "Grundgesetz"
       ],
       "correct": 3,
-        "explanation": {
-          "de": "Die deutsche Verfassung heißt ‚Grundgesetz‘. Es bildet die rechtliche und politische Grundordnung der Bundesrepublik Deutschland und garantiert die Grundrechte der Bürgerinnen und Bürger.",
-          "en": "The German constitution is called the 'Basic Law' (Grundgesetz). It forms the legal and political foundation of the Federal Republic of Germany and guarantees the fundamental rights of its citizens."
-        }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "general_7",
@@ -121,10 +121,10 @@
         "Wohnung"
       ],
       "correct": 0,
-          "explanation": {
-            "de": "Das Grundgesetz garantiert unter anderem die Glaubens- und Gewissensfreiheit als Grundrecht. Jeder Mensch darf seinen Glauben und seine Überzeugungen frei wählen und ausüben.",
-            "en": "The Basic Law guarantees, among other things, freedom of belief and conscience as a fundamental right. Everyone is free to choose and practice their religion and beliefs."
-          }
+      "explanation": {
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
+      }
     },
     {
       "id": "general_8",
@@ -173,8 +173,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Mit dem deutschen Grundgesetz ist die Geldstrafe vereinbar. Körperliche Strafen wie Prügelstrafe, Folter oder Todesstrafe sind nach dem Grundgesetz verboten, da sie gegen die Menschenwürde und die Grundrechte verstoßen.",
-        "en": "A monetary fine (Geldstrafe) is compatible with the German Basic Law. Physical punishments such as corporal punishment, torture, or the death penalty are prohibited by the Basic Law because they violate human dignity and fundamental rights."
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
       }
     },
     {
@@ -190,8 +190,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Die Verfassung der Bundesrepublik Deutschland wird ‚Grundgesetz‘ genannt. Das Grundgesetz regelt die grundlegenden Rechte und die staatliche Ordnung in Deutschland und gilt seit 1949.",
-        "en": "The constitution of the Federal Republic of Germany is called the 'Basic Law' (Grundgesetz). The Basic Law defines the fundamental rights and the structure of the state in Germany and has been in force since 1949."
+        "de": "Das Wahlrecht bedeutet, dass man bei politischen Wahlen seine Stimme abgeben und selbst kandidieren darf.",
+        "en": "The right to vote means one may cast their vote in political elections and also stand as a candidate."
       }
     },
     {
@@ -308,10 +308,10 @@
         "Meinungsfreiheit"
       ],
       "correct": 0,
-        "explanation": {
-          "de": "Artikel 1 des Grundgesetzes garantiert die Unantastbarkeit der Menschenwürde. Das bedeutet, dass jeder Mensch unabhängig von Herkunft, Religion oder Überzeugung mit Respekt behandelt werden muss. Die Achtung der Menschenwürde ist die Grundlage aller weiteren Grundrechte in Deutschland.",
-          "en": "Article 1 of the Basic Law guarantees the inviolability of human dignity. This means that every person must be treated with respect, regardless of origin, religion, or beliefs. Respect for human dignity is the foundation of all other fundamental rights in Germany."
-        }
+      "explanation": {
+        "de": "Im Grundgesetz steht: 'Die Würde des Menschen ist unantastbar.' (Artikel 1, Absatz 1 GG).",
+        "en": "The Basic Law states: 'Human dignity shall be inviolable.' (Article 1, Paragraph 1)."
+      }
     },
     {
       "id": "general_19",
@@ -1163,10 +1163,10 @@
         "weil es nach dem Grundgesetz seine Aufgabe ist"
       ],
       "correct": 3,
-        "explanation": {
-          "de": "Nach dem Grundgesetz ist die Kontrolle des Schulwesens eine staatliche Aufgabe, um sicherzustellen, dass Bildung im Einklang mit den Grundrechten und den gesellschaftlichen Zielen erfolgt. Der Staat sorgt so für Chancengleichheit, Qualität und die Einhaltung gesetzlicher Vorgaben im Bildungssystem.",
-          "en": "According to the Basic Law, oversight of the school system is a responsibility of the state to ensure that education aligns with fundamental rights and societal goals. The state ensures equal opportunities, quality, and compliance with legal requirements in the education system."
-        }
+      "explanation": {
+        "de": "Bei Bundestagswahlen haben deutsche Staatsbürger ab 18 Jahren zwei Stimmen: die Erststimme für einen Kandidaten und die Zweitstimme für eine Partei.",
+        "en": "In federal elections, German citizens aged 18+ have two votes: the first vote for a candidate and the second vote for a party."
+      }
     },
     {
       "id": "general_69",
@@ -3758,10 +3758,10 @@
         "an die Opfer des Nationalsozialismus (Tag der Befreiung des Vernichtungslagers Auschwitz)"
       ],
       "correct": 3,
-        "explanation": {
-          "de": "Der 27. Januar ist der Tag des Gedenkens an die Opfer des Nationalsozialismus. An diesem Tag wird insbesondere an die Befreiung des Konzentrationslagers Auschwitz am 27. Januar 1945 erinnert.",
-          "en": "January 27 is the Day of Remembrance for the Victims of National Socialism. On this day, people especially remember the liberation of the Auschwitz concentration camp on January 27, 1945."
-        }
+      "explanation": {
+        "de": "Die Luftbrücke (Berlin Blockade) fand 1948/49 statt, als die Westalliierten West-Berlin aus der Luft versorgten.",
+        "en": "The Berlin Airlift (Berlin Blockade) took place in 1948/49, when the Western Allies supplied West Berlin by air."
+      }
     },
     {
       "id": "general_221",
@@ -4919,8 +4919,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Deutschlands besondere Verantwortung für Israel ergibt sich aus den nationalsozialistischen Verbrechen gegen die Juden, insbesondere dem Holocaust. Aus der historischen Schuld und dem Gedenken an die Opfer leitet Deutschland eine besondere Verpflichtung ab, für das Existenzrecht Israels einzutreten und Antisemitismus entschieden entgegenzutreten.",
-        "en": "Germany's special responsibility for Israel is based on the Nazi crimes against the Jews, especially the Holocaust. From this historical guilt and remembrance of the victims, Germany derives a special obligation to support Israel's right to exist and to actively oppose antisemitism."
+        "de": "Die richtige Antwort ist: aus den nationalsozialistischen Verbrechen gegen Juden.",
+        "en": "The correct answer is: aus den nationalsozialistischen Verbrechen gegen Juden."
       }
     },
     {
@@ -5227,10 +5227,10 @@
         "bei den Kirchen"
       ],
       "correct": 2,
-          "explanation": {
-            "de": "In Baden-Württemberg informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-            "en": "In Baden-Württemberg, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-          }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "BW_7",
@@ -5244,10 +5244,10 @@
         "Mannheim."
       ],
       "correct": 1,
-        "explanation": {
-          "de": "Die Landeshauptstadt von Baden-Württemberg ist Stuttgart. Stuttgart ist bekannt als Zentrum der Automobilindustrie und Sitz des Landtags von Baden-Württemberg.",
-          "en": "The state capital of Baden-Württemberg is Stuttgart. Stuttgart is known as a center of the automotive industry and is the seat of the state parliament of Baden-Württemberg."
-        }
+      "explanation": {
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
+      }
     },
     {
       "id": "BW_8",
@@ -5296,10 +5296,10 @@
         "Außenministerin/Außenminister"
       ],
       "correct": 3,
-        "explanation": {
-          "de": "Baden-Württemberg hat, wie andere deutsche Bundesländer, keinen eigenen Außenminister oder eigene Außenministerin. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt auf Bundesebene wahrgenommen.",
-          "en": "Baden-Württemberg, like other German federal states, does not have its own Minister of Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office."
-        }
+      "explanation": {
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
+      }
     },
     {
       "id": "BY_1",
@@ -5401,10 +5401,10 @@
         "bei den Kirchen"
       ],
       "correct": 1,
-          "explanation": {
-            "de": "In Bayern informiert die Landeszentrale für politische Bildungsarbeit Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-            "en": "In Bavaria, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-          }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "BY_7",
@@ -5418,10 +5418,10 @@
         "München."
       ],
       "correct": 3,
-        "explanation": {
-          "de": "Die Landeshauptstadt von Bayern ist München. München ist die größte Stadt Bayerns und bekannt für das Oktoberfest, zahlreiche Museen und als Sitz der bayerischen Staatsregierung.",
-          "en": "The state capital of Bavaria is Munich. Munich is the largest city in Bavaria and is known for the Oktoberfest, numerous museums, and as the seat of the Bavarian state government."
-        }
+      "explanation": {
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
+      }
     },
     {
       "id": "BY_8",
@@ -5470,10 +5470,10 @@
         "Innenministerin/Innenminister"
       ],
       "correct": 1,
-          "explanation": {
-            "de": "Bayern hat, wie andere deutsche Bundesländer, keinen eigenen Außenminister oder eigene Außenministerin. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt auf Bundesebene wahrgenommen.",
-            "en": "Bavaria, like other German federal states, does not have its own Minister of Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office."
-          }
+      "explanation": {
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
+      }
     },
     {
       "id": "BE_1",
@@ -5575,10 +5575,10 @@
         "bei der Landeszentrale für politische Bildung"
       ],
       "correct": 3,
-          "explanation": {
-            "de": "In Berlin informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-            "en": "In Berlin, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-          }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "BE_7",
@@ -5644,10 +5644,10 @@
         "Justizsenatorin/Justizsenator"
       ],
       "correct": 2,
-        "explanation": {
-          "de": "In Berlin gibt es keinen eigenen Senator oder eigene Senatorin für Außenbeziehungen. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt auf Bundesebene wahrgenommen.",
-          "en": "In Berlin, there is no Senator for Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office."
-        }
+      "explanation": {
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
+      }
     },
     {
       "id": "BB_1",
@@ -5749,10 +5749,10 @@
         "bei der Verbraucherzentrale"
       ],
       "correct": 2,
-        "explanation": {
-          "de": "In Brandenburg informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-          "en": "In Brandenburg, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-        }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "BB_7",
@@ -5766,10 +5766,10 @@
         "Frankfurt/Oder."
       ],
       "correct": 0,
-          "explanation": {
-            "de": "Die Landeshauptstadt von Brandenburg ist Potsdam. Potsdam ist bekannt für seine Schlösser und Gärten, insbesondere Schloss Sanssouci, und ist Sitz der brandenburgischen Landesregierung.",
-            "en": "The state capital of Brandenburg is Potsdam. Potsdam is known for its palaces and gardens, especially Sanssouci Palace, and is the seat of the Brandenburg state government."
-          }
+      "explanation": {
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
+      }
     },
     {
       "id": "BB_8",
@@ -5819,8 +5819,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Brandenburg hat keine Außenministerin bzw. keinen Außenminister. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt wahrgenommen, nicht von den Bundesländern.",
-        "en": "Brandenburg does not have a Minister for Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office, not by the individual federal states."
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
       }
     },
     {
@@ -5924,8 +5924,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "In Bremen können Sie sich bei der Landeszentrale für politische Bildung über politische Themen informieren. Diese Einrichtung bietet Informationsmaterialien, Veranstaltungen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-        "en": "In Bremen, you can get information about political topics from the State Agency for Civic Education. This institution provides informational materials, events, and advice on political and social issues."
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
       }
     },
     {
@@ -6097,10 +6097,10 @@
         "bei der Landeszentrale für politische Bildung"
       ],
       "correct": 3,
-        "explanation": {
-          "de": "In Hamburg informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-          "en": "In Hamburg, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-        }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "HH_7",
@@ -6166,10 +6166,10 @@
         "Innensenatorin/Innensenator"
       ],
       "correct": 1,
-          "explanation": {
-            "de": "Hamburg hat, wie andere deutsche Bundesländer, keinen eigenen Senator oder eigene Senatorin für Außenbeziehungen. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt auf Bundesebene wahrgenommen.",
-            "en": "Hamburg, like other German federal states, does not have its own Senator for Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office."
-          }
+      "explanation": {
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
+      }
     },
     {
       "id": "HE_1",
@@ -6272,8 +6272,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "In Hessen können Sie sich bei der Landeszentrale für politische Bildung über politische Themen informieren. Diese Einrichtung bietet Informationsmaterialien, Veranstaltungen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-        "en": "In Hesse, you can get information about political topics from the State Agency for Civic Education. This institution provides informational materials, events, and advice on political and social issues."
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
       }
     },
     {
@@ -6288,10 +6288,10 @@
         "Wiesbaden."
       ],
       "correct": 3,
-        "explanation": {
-          "de": "Die Landeshauptstadt von Hessen ist Wiesbaden. Wiesbaden ist bekannt für seine Thermalquellen, seine historische Architektur und als Sitz der hessischen Landesregierung.",
-          "en": "The state capital of Hesse is Wiesbaden. Wiesbaden is known for its thermal springs, historic architecture, and as the seat of the state government of Hesse."
-        }
+      "explanation": {
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
+      }
     },
     {
       "id": "HE_8",
@@ -6340,10 +6340,10 @@
         "Innenministerin/Innenminister"
       ],
       "correct": 1,
-          "explanation": {
-            "de": "Hessen hat, wie andere deutsche Bundesländer, keinen eigenen Außenminister oder eigene Außenministerin. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt auf Bundesebene wahrgenommen.",
-            "en": "Hesse, like other German federal states, does not have its own Minister of Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office."
-          }
+      "explanation": {
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
+      }
     },
     {
       "id": "MV_1",
@@ -6445,10 +6445,10 @@
         "bei der Verbraucherzentrale"
       ],
       "correct": 0,
-          "explanation": {
-            "de": "In Mecklenburg-Vorpommern informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-            "en": "In Mecklenburg-Vorpommern, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-          }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "MV_7",
@@ -6462,10 +6462,10 @@
         "Wismar."
       ],
       "correct": 1,
-        "explanation": {
-          "de": "Die Landeshauptstadt von Thüringen ist Erfurt. Erfurt ist bekannt für seinen mittelalterlichen Stadtkern, den Dom und die Krämerbrücke sowie als Sitz der Thüringer Landesregierung.",
-          "en": "The state capital of Thuringia is Erfurt. Erfurt is known for its medieval old town, the cathedral, the Krämer Bridge, and as the seat of the Thuringian state government."
-        }
+      "explanation": {
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
+      }
     },
     {
       "id": "MV_8",
@@ -6515,8 +6515,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Mecklenburg-Vorpommern hat keine Außenministerin bzw. keinen Außenminister. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt wahrgenommen, nicht von den Bundesländern.",
-        "en": "Mecklenburg-Vorpommern does not have a Minister for Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office, not by the individual federal states."
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
       }
     },
     {
@@ -6637,8 +6637,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Die Landeshauptstadt von Niedersachsen ist Hannover. Hannover ist das politische und administrative Zentrum des Bundeslandes Niedersachsen.",
-        "en": "The state capital of Lower Saxony is Hanover. Hanover is the political and administrative center of the federal state of Lower Saxony."
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
       }
     },
     {
@@ -6688,10 +6688,10 @@
         "Innenministerin/Innenminister"
       ],
       "correct": 1,
-        "explanation": {
-          "de": "Rheinland-Pfalz hat, wie andere deutsche Bundesländer, keinen eigenen Außenminister oder eigene Außenministerin. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt auf Bundesebene wahrgenommen.",
-          "en": "Rhineland-Palatinate, like other German federal states, does not have its own Minister of Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office."
-        }
+      "explanation": {
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
+      }
     },
     {
       "id": "NW_1",
@@ -6794,8 +6794,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "In Nordrhein-Westfalen können Sie sich bei der Landeszentrale für politische Bildung über politische Themen informieren. Diese Einrichtung bietet Informationsmaterialien, Veranstaltungen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-        "en": "In North Rhine-Westphalia, you can get information about political topics from the State Agency for Civic Education. This institution provides informational materials, events, and advice on political and social issues."
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
       }
     },
     {
@@ -6863,8 +6863,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Nordrhein-Westfalen hat keine Außenministerin bzw. keinen Außenminister. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt wahrgenommen, nicht von den Bundesländern.",
-        "en": "North Rhine-Westphalia does not have a Minister for Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office, not by the individual federal states."
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
       }
     },
     {
@@ -7036,10 +7036,10 @@
         "Innenministerin/Innenminister"
       ],
       "correct": 1,
-        "explanation": {
-          "de": "Schleswig-Holstein hat, wie andere deutsche Bundesländer, keinen eigenen Außenminister oder eigene Außenministerin. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt auf Bundesebene wahrgenommen.",
-          "en": "Schleswig-Holstein, like other German federal states, does not have its own Minister of Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office."
-        }
+      "explanation": {
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
+      }
     },
     {
       "id": "SL_1",
@@ -7159,8 +7159,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Die Landeshauptstadt des Saarlandes ist Saarbrücken. Saarbrücken ist das politische und administrative Zentrum des Bundeslandes Saarland.",
-        "en": "The state capital of the Saarland is Saarbrücken. Saarbrücken is the political and administrative center of the federal state of Saarland."
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
       }
     },
     {
@@ -7211,8 +7211,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Das Saarland hat keine Außenministerin bzw. keinen Außenminister. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt wahrgenommen, nicht von den Bundesländern.",
-        "en": "The Saarland does not have a Minister for Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office, not by the individual federal states."
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
       }
     },
     {
@@ -7316,8 +7316,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "In Sachsen können Sie sich bei der Landeszentrale für politische Bildung über politische Themen informieren. Diese Einrichtung bietet Informationsmaterialien, Veranstaltungen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-        "en": "In Saxony, you can get information about political topics from the State Agency for Civic Education. This institution provides informational materials, events, and advice on political and social issues."
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
       }
     },
     {
@@ -7663,10 +7663,10 @@
         "bei den Kirchen"
       ],
       "correct": 2,
-        "explanation": {
-          "de": "In Thüringen informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-          "en": "In Thuringia, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-        }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "SH_7",
@@ -7681,8 +7681,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Die Landeshauptstadt von Schleswig-Holstein ist Kiel. Kiel ist das politische und administrative Zentrum des Bundeslandes Schleswig-Holstein.",
-        "en": "The state capital of Schleswig-Holstein is Kiel. Kiel is the political and administrative center of the federal state of Schleswig-Holstein."
+        "de": "Versammlungsfreiheit bedeutet, dass sich Menschen friedlich und ohne Waffen versammeln dürfen, ohne eine Genehmigung zu brauchen (Artikel 8 GG).",
+        "en": "Freedom of assembly means people may gather peacefully and without weapons, without needing a permit (Article 8 of the Basic Law)."
       }
     },
     {
@@ -7907,8 +7907,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Thüringen hat keine Außenministerin bzw. keinen Außenminister. Außenpolitik ist Aufgabe des Bundes und wird vom Auswärtigen Amt wahrgenommen, nicht von den Bundesländern.",
-        "en": "Thuringia does not have a Minister for Foreign Affairs. Foreign policy is the responsibility of the federal government and is handled by the Federal Foreign Office, not by the individual federal states."
+        "de": "In Deutschland darf der Staat die Meinungsäußerung in Kunst und Wissenschaft nicht einschränken. Dies garantiert Artikel 5 Absatz 3 des Grundgesetzes (Kunstfreiheit).",
+        "en": "In Germany, the state may not restrict expression in art and science. This is guaranteed by Article 5(3) of the Basic Law (freedom of art)."
       }
     }
   ]

@@ -5227,10 +5227,10 @@
         "bei den Kirchen"
       ],
       "correct": 2,
-          "explanation": {
-            "de": "In Baden-Württemberg informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-            "en": "In Baden-Württemberg, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-          }
+        "explanation": {
+          "de": "In Schleswig-Holstein informiert der/die Landesbeauftragte für politische Bildung Bürgerinnen und Bürger über politische Themen. Es werden Veranstaltungen, Publikationen und Beratungen zu politischen und gesellschaftlichen Fragen angeboten.",
+          "en": "In Schleswig-Holstein, the State Commissioner for Civic Education provides citizens with information on political topics. Events, publications, and advice on political and social issues are offered."
+        }
     },
     {
       "id": "BW_7",
@@ -5766,10 +5766,10 @@
         "Frankfurt/Oder."
       ],
       "correct": 0,
-          "explanation": {
-            "de": "Die Landeshauptstadt von Brandenburg ist Potsdam. Potsdam ist bekannt für seine Schlösser und Gärten, insbesondere Schloss Sanssouci, und ist Sitz der brandenburgischen Landesregierung.",
-            "en": "The state capital of Brandenburg is Potsdam. Potsdam is known for its palaces and gardens, especially Sanssouci Palace, and is the seat of the Brandenburg state government."
-          }
+        "explanation": {
+          "de": "Ein deutscher Stadtstaat ist ein Bundesland, das nur aus einer Stadt besteht. In Deutschland gibt es drei Stadtstaaten: Berlin, Hamburg und Bremen. Sie haben sowohl die Aufgaben einer Stadt als auch eines Bundeslandes.",
+          "en": "A German city-state is a federal state that consists of only one city. In Germany, there are three city-states: Berlin, Hamburg, and Bremen. They have the responsibilities of both a city and a federal state."
+        }
     },
     {
       "id": "BB_8",
@@ -6097,10 +6097,10 @@
         "bei der Landeszentrale für politische Bildung"
       ],
       "correct": 3,
-        "explanation": {
-          "de": "In Hamburg informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-          "en": "In Hamburg, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-        }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "HH_7",
@@ -7663,10 +7663,10 @@
         "bei den Kirchen"
       ],
       "correct": 2,
-        "explanation": {
-          "de": "In Thüringen informiert die Landeszentrale für politische Bildung Bürgerinnen und Bürger über politische Themen. Sie bietet Veranstaltungen, Publikationen und Beratung zu politischen und gesellschaftlichen Fragen an.",
-          "en": "In Thuringia, the State Agency for Civic Education provides citizens with information on political topics. It offers events, publications, and advice on political and social issues."
-        }
+      "explanation": {
+        "de": "Pressefreiheit bedeutet, dass Journalisten ohne staatliche Zensur berichten können. Der Staat darf die Presse nicht kontrollieren oder einschränken.",
+        "en": "Freedom of the press means journalists can report without state censorship. The state may not control or restrict the press."
+      }
     },
     {
       "id": "SH_7",

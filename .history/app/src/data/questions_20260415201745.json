@@ -550,8 +550,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "In Deutschland gibt es drei staatliche Gewalten: Gesetzgebung (Legislative), Regierung (Exekutive) und Rechtsprechung (Judikative). Die Presse ist keine staatliche Gewalt, sondern unabhängig und erfüllt eine wichtige Kontrollfunktion.",
-        "en": "In Germany, there are three branches of government: legislation (legislative), government (executive), and judiciary (judicial). The press is not a branch of government, but is independent and serves an important oversight function."
+        "de": "Wenn ein Gesetz die Meinungsfreiheit einschränkt, kann man vor dem Bundesverfassungsgericht klagen.",
+        "en": "If a law restricts freedom of expression, one can file a complaint with the Federal Constitutional Court."
       }
     },
     {
@@ -720,8 +720,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "In Deutschland beschließt das Parlament, also der Bundestag (und in bestimmten Fällen auch der Bundesrat), neue Gesetze. Die Abgeordneten beraten über Gesetzesvorschläge und stimmen darüber ab.",
-        "en": "In Germany, new laws are passed by parliament, that is, the Bundestag (and in certain cases also the Bundesrat). The members of parliament discuss legislative proposals and vote on them."
+        "de": "Wahlen in Deutschland sind geheim – niemand muss anderen mitteilen, wen er gewählt hat. Es gibt Wahlkabinen für die geheime Stimmabgabe.",
+        "en": "Elections in Germany are secret – no one has to tell others who they voted for. There are voting booths for secret ballot."
       }
     },
     {
@@ -924,8 +924,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "In Deutschland gibt es drei staatliche Gewalten: Legislative (gesetzgebende Gewalt), Exekutive (ausführende Gewalt) und Judikative (rechtsprechende Gewalt). ‘Direktive’ ist keine staatliche Gewalt.",
-        "en": "In Germany, there are three branches of government: legislative (law-making), executive (law-enforcing), and judiciary (law-interpreting). ‘Direktive’ is not a branch of government."
+        "de": "Deutschland ist eine föderale Republik: Das Land besteht aus 16 Bundesländern mit eigenen Regierungen und Parlamenten.",
+        "en": "Germany is a federal republic: the country consists of 16 federal states with their own governments and parliaments."
       }
     },
     {
@@ -1079,8 +1079,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Zur Exekutive gehören in Deutschland zum Beispiel die Polizei, das Finanzamt und die Ministerien. Die Gerichte gehören jedoch zur Judikative, also zur rechtsprechenden Gewalt, und nicht zur Exekutive.",
-        "en": "In Germany, the executive branch includes, for example, the police, the tax office, and the ministries. However, the courts belong to the judiciary (judicial branch) and not to the executive."
+        "de": "Die Abgeordneten des Deutschen Bundestages werden alle vier Jahre vom Volk gewählt.",
+        "en": "Members of the German Bundestag are elected by the people every four years."
       }
     },
     {
@@ -1319,8 +1319,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Die Bundeswehr ist die Armee der Bundesrepublik Deutschland. Sie umfasst das Heer, die Luftwaffe, die Marine sowie weitere militärische Bereiche und dient der Verteidigung des Landes.",
-        "en": "The Bundeswehr is the armed forces of the Federal Republic of Germany. It includes the army, air force, navy, and other military branches, and is responsible for the defense of the country."
+        "de": "EU-Bürger dürfen in Deutschland an Kommunalwahlen teilnehmen, wenn sie ihren Wohnsitz in der Gemeinde haben.",
+        "en": "EU citizens may vote in local elections in Germany if they are resident in the municipality."
       }
     },
     {
@@ -2255,8 +2255,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Ehrenamtliche Arbeit bedeutet, dass Menschen freiwillig und ohne Bezahlung Aufgaben übernehmen, zum Beispiel in Sportvereinen, sozialen Organisationen, der Feuerwehr oder bei Hilfsdiensten. Sie engagieren sich in ihrer Freizeit für das Gemeinwohl und helfen anderen, ohne dafür Geld zu bekommen.",
-        "en": "Voluntary work means that people take on tasks in their free time without being paid, for example in sports clubs, social organizations, the fire brigade, or aid services. They contribute to the common good and help others without receiving money for their efforts."
+        "de": "Die richtige Antwort ist: Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden.",
+        "en": "The correct answer is: Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden."
       }
     },
     {
@@ -2323,8 +2323,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Wenn Sie in Deutschland zum Beispiel eine ungerechtfertigte Kündigung erhalten oder andere arbeitsrechtliche Streitigkeiten mit Ihrer Arbeitgeberin/Ihrem Arbeitgeber haben, können Sie das Arbeitsgericht anrufen. Das Arbeitsgericht prüft solche Fälle und entscheidet unabhängig.",
-        "en": "If you receive an unjustified dismissal or have other labor law disputes with your employer in Germany, you can take your case to the labor court (Arbeitsgericht). The labor court reviews such cases and makes an independent decision."
+        "de": "Sie gehen in Deutschland zum Arbeitsgericht bei ungerechtfertigter Kündigung durch Ihre Chefin/Ihren Chef.",
+        "en": "The correct answer is: ungerechtfertigter Kündigung durch Ihre Chefin/Ihren Chef."
       }
     },
     {
@@ -2340,8 +2340,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Bei Streitigkeiten zwischen Arbeitnehmern und Arbeitgebern, zum Beispiel bei Kündigungen oder Lohnfragen, ist in Deutschland das Arbeitsgericht zuständig. Das Arbeitsgericht entscheidet unabhängig über arbeitsrechtliche Konflikte.",
-        "en": "In Germany, the labor court (Arbeitsgericht) is responsible for disputes between employees and employers, such as dismissals or wage issues. The labor court independently decides on labor law conflicts."
+        "de": "Die richtige Antwort ist: das Arbeitsgericht.",
+        "en": "The correct answer is: das Arbeitsgericht."
       }
     },
     {
@@ -2391,8 +2391,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Schöffinnen und Schöffen sind ehrenamtliche Richterinnen und Richter in Deutschland. Sie nehmen an Gerichtsverhandlungen teil und entscheiden gemeinsam mit den Berufsrichterinnen und Berufsrichtern über Schuld und Strafe eines Angeklagten.",
-        "en": "Lay judges (Schöffinnen and Schöffen) are honorary judges in Germany. They participate in court proceedings and, together with professional judges, decide on the guilt and sentence of a defendant."
+        "de": "Was macht eine Schöffin/ein Schöffe in Deutschland? Sie/Er entscheidet mit Richterinnen/Richtern über Schuld und Strafe.",
+        "en": "The correct answer is: entscheidet mit Richterinnen/Richtern über Schuld und Strafe."
       }
     },
     {
@@ -2408,8 +2408,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "In Deutschland beraten Rechtsanwältinnen und Rechtsanwälte Menschen bei rechtlichen Fragen und vertreten sie vor Gericht. Sie setzen sich für die Interessen ihrer Mandantinnen und Mandanten ein und helfen bei der Durchsetzung von Rechten.",
-        "en": "In Germany, lawyers (Rechtsanwältinnen and Rechtsanwälte) advise people on legal matters and represent them in court. They advocate for their clients' interests and help enforce their rights."
+        "de": "eine Rechtsanwältin/ein Rechtsanwalt.",
+        "en": "The correct answer is: eine Rechtsanwältin/ein Rechtsanwalt."
       }
     },
     {
@@ -2476,8 +2476,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "In Deutschland ist die Staatsgewalt aufgeteilt in Legislative (gesetzgebende Gewalt), Exekutive (ausführende Gewalt) und Judikative (rechtsprechende Gewalt). Richterinnen und Richter arbeiten für die Judikative, also die unabhängige Rechtsprechung.",
-        "en": "In Germany, state power is divided into the legislative (law-making), executive (law-enforcing), and judiciary (law-interpreting) branches. Judges work for the judiciary, which is responsible for independent administration of justice."
+        "de": "In Deutschland wird die Staatsgewalt geteilt. Für welche Staatsgewalt arbeitet eine Richterin/ein Richter? Für die Judikative.",
+        "en": "The correct answer is: Judikative."
       }
     },
     {
@@ -2527,8 +2527,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Eine wichtige Aufgabe der Polizei in Deutschland ist es, die Einhaltung von Gesetzen zu überwachen und für die öffentliche Sicherheit und Ordnung zu sorgen. Die Polizei schützt Bürgerinnen und Bürger, verhindert Straftaten und hilft in Notfällen.",
-        "en": "An important task of the police in Germany is to monitor compliance with laws and ensure public safety and order. The police protect citizens, prevent crimes, and assist in emergencies."
+        "de": "die Einhaltung von Gesetzen zu überwachen.",
+        "en": "The correct answer is: die Einhaltung von Gesetzen zu überwachen."
       }
     },
     {
@@ -2561,8 +2561,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Eine Gerichtsschöffin oder ein Gerichtsschöffe ist eine ehrenamtliche Richterin bzw. ein ehrenamtlicher Richter in Deutschland. Sie oder er nimmt ohne juristische Ausbildung an Gerichtsverhandlungen teil und entscheidet gemeinsam mit Berufsrichterinnen und Berufsrichtern über Schuld und Strafe.",
-        "en": "A lay judge (Schöffin or Schöffe) is an honorary judge in Germany. Without formal legal training, they participate in court proceedings and, together with professional judges, decide on the guilt and sentence of the accused."
+        "de": "Eine Schöffin/ein Schöffe ist eine ehrenamtliche Richterin/ein ehrenamtlicher Richter, die/der an Gerichtsverhandlungen teilnimmt und mitentscheidet.",
+        "en": "A Schöffe (lay judge) is a volunteer judge who participates in court hearings and helps decide cases."
       }
     },
     {

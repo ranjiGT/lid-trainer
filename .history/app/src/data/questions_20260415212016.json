@@ -431,8 +431,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Elsass-Lothringen ist kein Bundesland der Bundesrepublik Deutschland. Es ist eine Region in Frankreich. Die anderen genannten Optionen – Nordrhein-Westfalen, Mecklenburg-Vorpommern und Sachsen-Anhalt – sind Bundesländer in Deutschland.",
-        "en": "Alsace-Lorraine (Elsass-Lothringen) is not a federal state of the Federal Republic of Germany; it is a region in France. The other options – North Rhine-Westphalia, Mecklenburg-Western Pomerania, and Saxony-Anhalt – are federal states in Germany."
+        "de": "Die Bundesrepublik Deutschland wurde am 23. Mai 1949 gegründet. An diesem Tag trat das Grundgesetz in Kraft.",
+        "en": "The Federal Republic of Germany was founded on May 23, 1949. On this day, the Basic Law came into effect."
       }
     },
     {
@@ -977,8 +977,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Zur Präsidentin oder zum Präsidenten des Deutschen Bundestages wird in der Regel eine Abgeordnete oder ein Abgeordneter der stärksten Fraktion gewählt. Die stärkste Fraktion ist die Partei mit den meisten Sitzen im Bundestag. Die Präsidentin oder der Präsident leitet die Sitzungen und vertritt den Bundestag nach außen.",
-        "en": "The President of the German Bundestag is usually elected from among the members of the largest parliamentary group (faction). The largest group is the party with the most seats in the Bundestag. The President chairs the sessions and represents the Bundestag externally."
+        "de": "Meistens wird eine Abgeordnete oder ein Abgeordneter der stärksten Fraktion zur Präsidentin oder zum Präsidenten des Deutschen Bundestages gewählt.",
+        "en": "Usually, a member of the largest parliamentary group is elected as President of the German Bundestag."
       }
     },
     {
@@ -2850,8 +2850,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Nach dem Zweiten Weltkrieg wurde Deutschland von den vier Alliierten Besatzungsmächten USA, Sowjetunion, Großbritannien und Frankreich in Besatzungszonen aufgeteilt. Diese Länder übernahmen gemeinsam die Kontrolle über Deutschland und bestimmten die politische Entwicklung in den ersten Jahren nach dem Krieg.",
-        "en": "After World War II, Germany was divided into occupation zones controlled by the four Allied powers: the USA, the Soviet Union, Great Britain, and France. These countries jointly took control of Germany and shaped its political development in the years following the war."
+        "de": "Die richtige Antwort ist: USA, Sowjetunion, Großbritannien, Frankreich.",
+        "en": "The correct answer is: USA, Sowjetunion, Großbritannien, Frankreich."
       }
     },
     {
@@ -2867,8 +2867,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Japan war keine alliierte Besatzungsmacht in Deutschland nach dem Zweiten Weltkrieg. Die vier Alliierten Besatzungsmächte waren die USA, die Sowjetunion, Großbritannien und Frankreich. Sie teilten Deutschland in Besatzungszonen auf und bestimmten die politische Entwicklung nach dem Krieg.",
-        "en": "Japan was not an Allied occupying power in Germany after World War II. The four Allied occupying powers were the USA, the Soviet Union, Great Britain, and France. They divided Germany into occupation zones and shaped its political development after the war."
+        "de": "Die richtige Antwort ist: Japan.",
+        "en": "The correct answer is: Japan."
       }
     },
     {
@@ -3364,8 +3364,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Thüringen war bis 1990 Teil der Deutschen Demokratischen Republik (DDR). Nach der Wiedervereinigung Deutschlands wurde Thüringen wieder ein Bundesland der Bundesrepublik Deutschland. Die DDR bestand aus mehreren heutigen Bundesländern, darunter Thüringen, Sachsen, Brandenburg, Sachsen-Anhalt und Mecklenburg-Vorpommern.",
-        "en": "Thuringia (Thüringen) was part of the German Democratic Republic (GDR/DDR) until 1990. After the reunification of Germany, Thuringia became a federal state of the Federal Republic of Germany again. The GDR included several of today’s federal states, such as Thuringia, Saxony, Brandenburg, Saxony-Anhalt, and Mecklenburg-Western Pomerania."
+        "de": "Die richtige Antwort ist: Thüringen.",
+        "en": "The correct answer is: Thüringen."
       }
     },
     {
@@ -3381,8 +3381,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Sachsen gehörte bis 1990 zur Deutschen Demokratischen Republik (DDR). Nach der Wiedervereinigung Deutschlands 1990 wurde Sachsen wieder ein Bundesland der Bundesrepublik Deutschland. Die DDR bestand aus mehreren heutigen Bundesländern, darunter Sachsen, Brandenburg, Thüringen, Sachsen-Anhalt und Mecklenburg-Vorpommern.",
-        "en": "Saxony (Sachsen) was part of the German Democratic Republic (GDR/DDR) until 1990. After the reunification of Germany in 1990, Saxony became a federal state of the Federal Republic of Germany again. The GDR included several of today’s federal states, such as Saxony, Brandenburg, Thuringia, Saxony-Anhalt, and Mecklenburg-Western Pomerania."
+        "de": "Die richtige Antwort ist: Sachsen.",
+        "en": "The correct answer is: Sachsen."
       }
     },
     {
@@ -3415,8 +3415,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Mecklenburg-Vorpommern war bis 1990 Teil der Deutschen Demokratischen Republik (DDR). Nach der Wiedervereinigung Deutschlands wurde es wieder ein Bundesland der Bundesrepublik Deutschland. Die DDR bestand aus mehreren heutigen Bundesländern, darunter Mecklenburg-Vorpommern, Sachsen, Brandenburg, Thüringen und Sachsen-Anhalt.",
-        "en": "Mecklenburg-Western Pomerania (Mecklenburg-Vorpommern) was part of the German Democratic Republic (GDR/DDR) until 1990. After the reunification of Germany, it became a federal state of the Federal Republic of Germany again. The GDR included several of today’s federal states, such as Mecklenburg-Western Pomerania, Saxony, Brandenburg, Thuringia, and Saxony-Anhalt."
+        "de": "Mecklenburg-Vorpommern war ein Land der ehemaligen DDR und gehört seit der Wiedervereinigung 1990 zur Bundesrepublik.",
+        "en": "Mecklenburg-Western Pomerania was a state of the former GDR and has been part of the Federal Republic since reunification in 1990."
       }
     },
     {
@@ -3742,8 +3742,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Die heutigen Grenzen der Bundesrepublik Deutschland bestehen seit 1990. In diesem Jahr kam es zur Wiedervereinigung von West- und Ostdeutschland. Mit dem sogenannten ‚Zwei-plus-Vier-Vertrag‘ wurden die Grenzen Deutschlands völkerrechtlich anerkannt und festgelegt.",
-        "en": "The current borders of the Federal Republic of Germany have existed since 1990. In that year, West and East Germany were reunified. The so-called ‘Two Plus Four Agreement’ (Treaty on the Final Settlement) established and recognized Germany’s borders under international law."
+        "de": "Der Zweite Weltkrieg endete in Europa am 8. Mai 1945 mit der bedingungslosen Kapitulation Deutschlands.",
+        "en": "World War II in Europe ended on May 8, 1945 with Germany's unconditional surrender."
       }
     },
     {
@@ -3793,8 +3793,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Die Schweiz ist ein Nachbarland von Deutschland. Deutschland grenzt insgesamt an neun Länder: Dänemark, Polen, Tschechien, Österreich, Schweiz, Frankreich, Luxemburg, Belgien und die Niederlande.",
-        "en": "Switzerland is a neighboring country of Germany. In total, Germany shares borders with nine countries: Denmark, Poland, Czech Republic, Austria, Switzerland, France, Luxembourg, Belgium, and the Netherlands."
+        "de": "Der Marshallplan (1948) war ein US-amerikanisches Hilfsprogramm für den wirtschaftlichen Wiederaufbau Europas nach dem Zweiten Weltkrieg.",
+        "en": "The Marshall Plan (1948) was an American aid program for Europe's economic reconstruction after World War II."
       }
     },
     {
@@ -3810,8 +3810,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Polen ist ein Nachbarland von Deutschland. Deutschland grenzt insgesamt an neun Länder: Dänemark, Polen, Tschechien, Österreich, Schweiz, Frankreich, Luxemburg, Belgien und die Niederlande.",
-        "en": "Poland is a neighboring country of Germany. In total, Germany shares borders with nine countries: Denmark, Poland, Czech Republic, Austria, Switzerland, France, Luxembourg, Belgium, and the Netherlands."
+        "de": "Das Grundgesetz trat am 23. Mai 1949 in Kraft. Es ist die Verfassung der Bundesrepublik Deutschland.",
+        "en": "The Basic Law came into effect on May 23, 1949. It is the constitution of the Federal Republic of Germany."
       }
     },
     {
@@ -3844,8 +3844,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "In Österreich gibt es eine große deutschsprachige Bevölkerung. Deutsch ist dort die Amtssprache und wird von fast allen Einwohnerinnen und Einwohnern gesprochen. Auch in der Schweiz, in Liechtenstein, Luxemburg, Belgien und Teilen Italiens gibt es größere deutschsprachige Gemeinschaften.",
-        "en": "Austria has a large German-speaking population. German is the official language and is spoken by almost all residents. There are also significant German-speaking communities in Switzerland, Liechtenstein, Luxembourg, Belgium, and parts of Italy."
+        "de": "Am 1. Januar 2002 wurde der Euro als Bargeld in vielen EU-Ländern eingeführt.",
+        "en": "On January 1, 2002, the Euro was introduced as cash currency in many EU countries."
       }
     },
     {
@@ -3880,8 +3880,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Dänemark ist ein Nachbarland von Deutschland. Deutschland grenzt insgesamt an neun Länder: Dänemark, Polen, Tschechien, Österreich, Schweiz, Frankreich, Luxemburg, Belgien und die Niederlande.",
-        "en": "Denmark is a neighboring country of Germany. In total, Germany shares borders with nine countries: Denmark, Poland, Czech Republic, Austria, Switzerland, France, Luxembourg, Belgium, and the Netherlands."
+        "de": "Die NATO (Nordatlantikvertrag-Organisation) ist ein Verteidigungsbündnis westlicher Staaten, dem Deutschland seit 1955 angehört.",
+        "en": "NATO (North Atlantic Treaty Organization) is a defense alliance of Western states that Germany has been a member of since 1955."
       }
     },
     {
@@ -3914,8 +3914,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Luxemburg ist ein Nachbarland von Deutschland. Deutschland grenzt insgesamt an neun Länder: Dänemark, Polen, Tschechien, Österreich, Schweiz, Frankreich, Luxemburg, Belgien und die Niederlande.",
-        "en": "Luxembourg is a neighboring country of Germany. In total, Germany shares borders with nine countries: Denmark, Poland, Czech Republic, Austria, Switzerland, France, Luxembourg, Belgium, and the Netherlands."
+        "de": "Die richtige Antwort ist: Luxemburg.",
+        "en": "The correct answer is: Luxemburg."
       }
     },
     {
@@ -3982,8 +3982,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Tschechien ist ein Nachbarland von Deutschland. Deutschland grenzt insgesamt an neun Länder: Dänemark, Polen, Tschechien, Österreich, Schweiz, Frankreich, Luxemburg, Belgien und die Niederlande.",
-        "en": "Czech Republic is a neighboring country of Germany. In total, Germany shares borders with nine countries: Denmark, Poland, Czech Republic, Austria, Switzerland, France, Luxembourg, Belgium, and the Netherlands."
+        "de": "Die richtige Antwort ist: Tschechien.",
+        "en": "The correct answer is: Tschechien."
       }
     },
     {

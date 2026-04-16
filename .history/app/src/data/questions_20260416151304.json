@@ -737,8 +737,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "In Deutschland kann eine Partei verboten werden, wenn sie die freiheitlich-demokratische Grundordnung aktiv bekämpft oder die Abschaffung der Verfassung (des Grundgesetzes) anstrebt. Über ein Parteiverbot entscheidet ausschließlich das Bundesverfassungsgericht, um die Demokratie und den Rechtsstaat zu schützen.",
-        "en": "In Germany, a political party can be banned if it actively opposes the free democratic basic order or seeks to abolish the constitution (Basic Law). Only the Federal Constitutional Court can decide on banning a party, in order to protect democracy and the rule of law."
+        "de": "In Deutschland kann eine Partei verboten werden, wenn sie gegen die freiheitlich-demokratische Grundordnung kämpft oder die Verfassung (das Grundgesetz) ablehnt. Das Bundesverfassungsgericht entscheidet über ein Parteiverbot, um die Demokratie zu schützen.",
+        "en": "In Germany, a party can be banned if it fights against the free democratic basic order or rejects the constitution (Basic Law). The Federal Constitutional Court decides on party bans to protect democracy."
       }
     },
     {
@@ -1353,8 +1353,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "FDP steht für ‚Freie Demokratische Partei‘. Die FDP ist eine liberale Partei in Deutschland, die sich besonders für individuelle Freiheit, Bürgerrechte, Marktwirtschaft und eine geringe staatliche Regulierung einsetzt.",
-        "en": "FDP stands for ‘Freie Demokratische Partei’ (Free Democratic Party). The FDP is a liberal party in Germany that advocates for individual freedom, civil rights, a market economy, and limited government regulation."
+        "de": "Bundestagswahlen finden in der Regel alle vier Jahre statt.",
+        "en": "Federal elections generally take place every four years."
       }
     },
     {
@@ -2238,8 +2238,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "In Deutschland ist eine Bürgermeisterin oder ein Bürgermeister das Oberhaupt einer Gemeinde oder Stadt. Sie oder er leitet die Verwaltung, vertritt die Gemeinde nach außen und ist für die Umsetzung der Beschlüsse des Gemeinderats verantwortlich.",
-        "en": "In Germany, a mayor (‘Bürgermeisterin’ or ‘Bürgermeister’) is the head of a municipality or town. The mayor leads the administration, represents the municipality externally, and is responsible for implementing the decisions of the municipal council."
+        "de": "In Deutschland ist eine Bürgermeisterin/ein Bürgermeister das Oberhaupt einer Gemeinde.",
+        "en": "The correct answer is: das Oberhaupt einer Gemeinde."
       }
     },
     {
@@ -2374,8 +2374,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "In Deutschland kommt es zu einem Prozess vor Gericht, wenn jemand einer Straftat beschuldigt wird und eine Anklage erhoben wird. Auch bei zivilrechtlichen Streitigkeiten, zum Beispiel bei Vertrags- oder Familiensachen, kann es zu einem Gerichtsprozess kommen.",
-        "en": "In Germany, a court trial (‘Prozess’) takes place when someone is accused of a crime and charged. A trial can also occur in civil cases, for example in disputes over contracts or family matters."
+        "de": "Wann kommt es in Deutschland zu einem Prozess vor Gericht? Wenn jemand eine Straftat begangen hat und angeklagt wird.",
+        "en": "The correct answer is: eine Straftat begangen hat und angeklagt wird."
       }
     },
     {
@@ -2425,8 +2425,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Die Hauptaufgabe einer Richterin oder eines Richters in Deutschland ist es, unabhängig und nach geltendem Recht Urteile zu fällen. Richterinnen und Richter entscheiden in Gerichtsverfahren über Streitfälle, Straftaten oder andere rechtliche Fragen und sorgen dafür, dass das Recht angewendet und durchgesetzt wird.",
-        "en": "The main task of a judge in Germany is to make independent decisions and deliver judgments according to the law. Judges decide in court cases about disputes, criminal offenses, or other legal matters and ensure that the law is applied and enforced."
+        "de": "Was ist die Hauptaufgabe einer Richterin/eines Richters in Deutschland? Eine Richterin/ein Richter arbeitet an einem Gericht und spricht Urteile.",
+        "en": "The correct answer is: arbeitet an einem Gericht und spricht Urteile."
       }
     },
     {
@@ -2493,8 +2493,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Ein Verfahren vor einem Gericht nennt man in Deutschland ‚Prozess‘. In einem Prozess wird ein Streitfall oder eine Straftat vor Gericht verhandelt und durch ein Urteil entschieden.",
-        "en": "A legal proceeding before a court in Germany is called a ‘Prozess’ (trial or court case). In a Prozess, a dispute or criminal matter is heard and decided by a judge or court."
+        "de": "Prozess.",
+        "en": "The correct answer is: Prozess."
       }
     },
     {
@@ -3398,8 +3398,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Mit der Abkürzung ‚Stasi‘ meinte man in der DDR das Ministerium für Staatssicherheit. Die Stasi war der Geheimdienst und das Überwachungsorgan der DDR. Sie überwachte die Bevölkerung, sammelte Informationen und unterdrückte politische Gegner, um die Macht der SED zu sichern.",
-        "en": "In the GDR, ‘Stasi’ referred to the Ministry for State Security. The Stasi was the secret police and surveillance agency of East Germany. It monitored the population, collected information, and suppressed political opponents to maintain the power of the ruling Socialist Unity Party (SED)."
+        "de": "Mit der Abkürzung \"Stasi\" meinte man in der DDR das Ministerium für Staatssicherheit.",
+        "en": "The correct answer is: das Ministerium für Staatssicherheit."
       }
     },
     {
@@ -3575,9 +3575,9 @@
         }
     },
     {
-      "id": "ddr_210",
+      "id": "general_210",
       "number": 210,
-      "category": "ddr",
+      "category": "general",
       "question": "Was ereignete sich am 17. Juni 1953 in der DDR?",
       "options": [
         "der feierliche Beitritt zum Warschauer Pakt",
@@ -3587,8 +3587,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Am 17. Juni 1953 kam es in der DDR zu einem Volksaufstand. Hunderttausende Menschen protestierten in vielen Städten gegen die politischen und wirtschaftlichen Bedingungen. Die Proteste wurden von sowjetischen Panzern und der DDR-Polizei gewaltsam niedergeschlagen. Der 17. Juni wurde später in Westdeutschland als Tag der deutschen Einheit gefeiert.",
-        "en": "On June 17, 1953, there was a popular uprising in the GDR. Hundreds of thousands of people protested in many cities against the political and economic conditions. The protests were violently suppressed by Soviet tanks and the GDR police. June 17 later became a public holiday in West Germany, known as the Day of German Unity."
+        "de": "Die DDR wurde am 7. Oktober 1949 gegründet – wenige Monate nach der Bundesrepublik (23. Mai 1949).",
+        "en": "The GDR was founded on October 7, 1949 – a few months after the Federal Republic (May 23, 1949)."
       }
     },
     {
@@ -4375,8 +4375,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Um in Deutschland ein Restaurant zu eröffnen, benötigt man eine Gaststättenerlaubnis (Konzession) von der zuständigen Behörde. Diese Erlaubnis stellt sicher, dass bestimmte gesetzliche Anforderungen, wie Hygiene- und Sicherheitsvorschriften, eingehalten werden.",
-        "en": "To open a restaurant in Germany, you need a restaurant license (‘Gaststättenerlaubnis’) from the relevant authority. This license ensures that certain legal requirements, such as hygiene and safety regulations, are met."
+        "de": "In Deutschland gilt die Schulpflicht: Kinder müssen mindestens 9 Jahre lang die Schule besuchen.",
+        "en": "In Germany, compulsory schooling applies: children must attend school for at least 9 years."
       }
     },
     {

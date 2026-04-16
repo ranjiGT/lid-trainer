@@ -2544,8 +2544,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Antisemitisches Verhalten bedeutet, Juden oder jüdische Einrichtungen zu diskriminieren, zu beleidigen oder anzugreifen. Ein Beispiel ist das Leugnen des Holocausts, also das Bestreiten oder Verharmlosen der systematischen Ermordung von Millionen Juden durch die Nationalsozialisten.",
-        "en": "Antisemitic behavior means discriminating against, insulting, or attacking Jews or Jewish institutions. An example is Holocaust denial, which means denying or downplaying the systematic murder of millions of Jews by the Nazis."
+        "de": "den Holocaust leugnen.",
+        "en": "The correct answer is: den Holocaust leugnen."
       }
     },
     {
@@ -2765,8 +2765,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Claus Schenk Graf von Stauffenberg war ein deutscher Offizier und Widerstandskämpfer gegen den Nationalsozialismus. Er wurde bekannt als einer der Hauptakteure des Attentats auf Adolf Hitler am 20. Juli 1944. Ziel des Attentats war es, das NS-Regime zu stürzen und dem Krieg ein Ende zu setzen. Das Attentat scheiterte, und Stauffenberg wurde noch am selben Tag hingerichtet.",
-        "en": "Claus Schenk Graf von Stauffenberg was a German officer and resistance fighter against National Socialism. He became known as one of the main figures behind the assassination attempt on Adolf Hitler on July 20, 1944. The goal was to overthrow the Nazi regime and end the war. The attempt failed, and Stauffenberg was executed the same day."
+        "de": "Claus Schenk Graf von Stauffenberg wurde bekannt durch das Attentat auf Hitler am 20. Juli 1944.",
+        "en": "The correct answer is: das Attentat auf Hitler am 20. Juli 1944."
       }
     },
     {
@@ -3508,7 +3508,7 @@
       "id": "general_206",
       "number": 206,
       "category": "general",
-      "question": "Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
+      "question": "206. Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
       "options": [
         "an berühmte deutsche Politikerinnen und Politiker",
         "an die Opfer des Nationalsozialismus",
@@ -3517,8 +3517,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Die sogenannten ‚Stolpersteine‘ sind kleine Gedenktafeln im Boden vor Häusern. Sie erinnern an Menschen, die während der Zeit des Nationalsozialismus verfolgt, deportiert oder ermordet wurden – insbesondere an jüdische Opfer, aber auch an andere Verfolgte wie Sinti und Roma, politisch Verfolgte oder Homosexuelle.",
-        "en": "The so-called ‘Stolpersteine’ (‘stumbling stones’) are small memorial plaques set into the pavement in front of houses. They commemorate people who were persecuted, deported, or murdered during the National Socialist era—especially Jewish victims, but also other groups such as Sinti and Roma, political dissidents, or homosexuals."
+        "de": "Die richtige Antwort ist: an die Opfer des Nationalsozialismus.",
+        "en": "The correct answer is: an die Opfer des Nationalsozialismus."
       }
     },
     {

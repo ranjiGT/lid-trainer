@@ -2776,14 +2776,14 @@
       "question": "In welchem Jahr zerstörten die Nationalsozialisten Synagogen und jüdische Geschäfte in Deutschland?",
       "options": [
         "1925",
-        "1930",
         "1938",
-        "1945"
+        "1945",
+        "1949"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": {
-        "de": "Die richtige Antwort ist: 1938.",
-        "en": "The correct answer is: 1938."
+        "de": "Im Jahr 1938, in der sogenannten 'Reichspogromnacht' (auch 'Kristallnacht' genannt), organisierten die Nationalsozialisten gewaltsame Übergriffe auf jüdische Menschen, Synagogen und Geschäfte in ganz Deutschland. Diese Nacht markierte den Übergang von Diskriminierung zu offener, staatlich gelenkter Gewalt gegen Jüdinnen und Juden und war ein Vorbote des Holocaust.",
+        "en": "In 1938, during the so-called 'Reichspogromnacht' (also called 'Kristallnacht'), the National Socialists organized violent attacks on Jewish people, synagogues, and businesses throughout Germany. This night marked the transition from discrimination to open, state-led violence against Jews and was a precursor to the Holocaust."
       }
     },
     {

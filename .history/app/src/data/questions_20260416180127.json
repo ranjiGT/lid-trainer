@@ -2544,8 +2544,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Antisemitisches Verhalten bedeutet, Juden oder jüdische Einrichtungen zu diskriminieren, zu beleidigen oder anzugreifen. Ein Beispiel ist das Leugnen des Holocausts, also das Bestreiten oder Verharmlosen der systematischen Ermordung von Millionen Juden durch die Nationalsozialisten.",
-        "en": "Antisemitic behavior means discriminating against, insulting, or attacking Jews or Jewish institutions. An example is Holocaust denial, which means denying or downplaying the systematic murder of millions of Jews by the Nazis."
+        "de": "den Holocaust leugnen.",
+        "en": "The correct answer is: den Holocaust leugnen."
       }
     },
     {
@@ -2595,8 +2595,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Die Nationalsozialisten waren von 1933 bis 1945 in Deutschland an der Macht. In dieser Zeit herrschte eine Diktatur unter Adolf Hitler, die zu Krieg, Verfolgung und millionenfachem Leid führte.",
-        "en": "The National Socialists were in power in Germany from 1933 to 1945. During this time, there was a dictatorship under Adolf Hitler, which led to war, persecution, and the suffering of millions."
+        "de": "1933 bis 1945.",
+        "en": "The correct answer is: 1933 bis 1945."
       }
     },
     {
@@ -2680,8 +2680,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "de": "Die Nationalsozialisten unter Adolf Hitler errichteten 1933 in Deutschland eine Diktatur. Demokratie und Grundrechte wurden abgeschafft, politische Gegner verfolgt und das Land wurde totalitär regiert.",
-        "en": "In 1933, the National Socialists led by Adolf Hitler established a dictatorship in Germany. Democracy and basic rights were abolished, political opponents were persecuted, and the country was ruled in a totalitarian manner."
+        "de": "Die Nationalsozialisten mit Adolf Hitler errichteten 1933 in Deutschland eine Diktatur.",
+        "en": "The correct answer is: eine Diktatur."
       }
     },
     {
@@ -2765,8 +2765,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Claus Schenk Graf von Stauffenberg war ein deutscher Offizier und Widerstandskämpfer gegen den Nationalsozialismus. Er wurde bekannt als einer der Hauptakteure des Attentats auf Adolf Hitler am 20. Juli 1944. Ziel des Attentats war es, das NS-Regime zu stürzen und dem Krieg ein Ende zu setzen. Das Attentat scheiterte, und Stauffenberg wurde noch am selben Tag hingerichtet.",
-        "en": "Claus Schenk Graf von Stauffenberg was a German officer and resistance fighter against National Socialism. He became known as one of the main figures behind the assassination attempt on Adolf Hitler on July 20, 1944. The goal was to overthrow the Nazi regime and end the war. The attempt failed, and Stauffenberg was executed the same day."
+        "de": "Claus Schenk Graf von Stauffenberg wurde bekannt durch das Attentat auf Hitler am 20. Juli 1944.",
+        "en": "The correct answer is: das Attentat auf Hitler am 20. Juli 1944."
       }
     },
     {
@@ -3055,8 +3055,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Der Zweite Weltkrieg in Europa endete offiziell am 8. Mai 1945 mit der bedingungslosen Kapitulation Deutschlands. Dieser Tag wird als ‚Tag der Befreiung‘ oder ‚Kriegsende in Europa‘ bezeichnet.",
-        "en": "The Second World War in Europe officially ended on May 8, 1945, with Germany’s unconditional surrender. This day is known as ‘Victory in Europe Day’ or ‘VE Day.’"
+        "de": "durch die bedingungslose Kapitulation Deutschlands.",
+        "en": "The correct answer is: durch die bedingungslose Kapitulation Deutschlands."
       }
     },
     {
@@ -3508,7 +3508,7 @@
       "id": "general_206",
       "number": 206,
       "category": "general",
-      "question": "Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
+      "question": "206. Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
       "options": [
         "an berühmte deutsche Politikerinnen und Politiker",
         "an die Opfer des Nationalsozialismus",
@@ -3517,8 +3517,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Die sogenannten ‚Stolpersteine‘ sind kleine Gedenktafeln im Boden vor Häusern. Sie erinnern an Menschen, die während der Zeit des Nationalsozialismus verfolgt, deportiert oder ermordet wurden – insbesondere an jüdische Opfer, aber auch an andere Verfolgte wie Sinti und Roma, politisch Verfolgte oder Homosexuelle.",
-        "en": "The so-called ‘Stolpersteine’ (‘stumbling stones’) are small memorial plaques set into the pavement in front of houses. They commemorate people who were persecuted, deported, or murdered during the National Socialist era—especially Jewish victims, but also other groups such as Sinti and Roma, political dissidents, or homosexuals."
+        "de": "Die richtige Antwort ist: an die Opfer des Nationalsozialismus.",
+        "en": "The correct answer is: an die Opfer des Nationalsozialismus."
       }
     },
     {

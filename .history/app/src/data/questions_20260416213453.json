@@ -2935,8 +2935,8 @@
       ],
       "correct": 3,
       "explanation": {
-          "de": "Die DDR wurde 1949 in der sowjetischen Besatzungszone gegründet. Nach dem Zweiten Weltkrieg war Deutschland in vier Besatzungszonen aufgeteilt. Die sowjetische Zone bildete später das Gebiet der DDR.",
-          "en": "The GDR was founded in 1949 in the Soviet occupation zone. After World War II, Germany was divided into four occupation zones. The Soviet zone later became the territory of the GDR."
+        "de": "In welcher Besatzungszone wurde die DDR gegründet? In der sowjetischen Besatzungszone.",
+        "en": "The correct answer is: sowjetischen Besatzungszone."
       }
     },
     {
@@ -3176,8 +3176,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Am 17. Juni 1953 kam es in der DDR zu einem Volksaufstand gegen die Regierung, der von sowjetischen Truppen niedergeschlagen wurde. In der Bundesrepublik Deutschland wurde der 17. Juni als ‚Tag der deutschen Einheit‘ bis 1990 als nationaler Feiertag begangen, um an diesen Aufstand zu erinnern.",
-          "en": "On June 17, 1953, there was a popular uprising in the GDR against the government, which was suppressed by Soviet troops. In the Federal Republic of Germany, June 17 was observed as the 'Day of German Unity' and was a national holiday until 1990 to commemorate this uprising."
+        "de": "Die richtige Antwort ist: 17. Juni.",
+        "en": "The correct answer is: 17. Juni."
       }
     },
     {
@@ -3245,8 +3245,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Die Abkürzung DDR steht für ‚Deutsche Demokratische Republik‘. Die DDR war ein sozialistischer Staat, der von 1949 bis 1990 auf dem Gebiet der heutigen neuen Bundesländer existierte.",
-        "en": "The abbreviation DDR stands for ‘Deutsche Demokratische Republik’ (German Democratic Republic). The GDR was a socialist state that existed from 1949 to 1990 in what is now the new federal states of Germany."
+        "de": "Deutsche Demokratische Republik.",
+        "en": "The correct answer is: Deutsche Demokratische Republik."
       }
     },
     {
@@ -3262,8 +3262,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Die Berliner Mauer wurde am 9. November 1989 für alle geöffnet. Nach friedlichen Protesten und politischen Veränderungen in der DDR verkündete die Regierung überraschend die Öffnung der Grenze. Dieses Ereignis leitete das Ende der deutschen Teilung und den Beginn der Wiedervereinigung ein.",
-        "en": "The Berlin Wall was opened to everyone on November 9, 1989. After peaceful protests and political changes in the GDR, the government unexpectedly announced the opening of the border. This event marked the end of Germany’s division and the beginning of reunification."
+        "de": "1989.",
+        "en": "The correct answer is: 1989."
       }
     },
     {
@@ -3330,8 +3330,8 @@
       ],
       "correct": 1,
       "explanation": {
-          "de": "Sachsen-Anhalt gehörte bis 1990 zur Deutschen Demokratischen Republik (DDR). Nach der Wiedervereinigung Deutschlands wurde Sachsen-Anhalt wieder ein Bundesland der Bundesrepublik Deutschland. Die DDR bestand aus mehreren heutigen Bundesländern, darunter Sachsen-Anhalt, Brandenburg, Mecklenburg-Vorpommern, Sachsen und Thüringen.",
-          "en": "Saxony-Anhalt was part of the German Democratic Republic (GDR) until 1990. After German reunification, Saxony-Anhalt became a federal state of the Federal Republic of Germany again. The GDR consisted of several of today’s federal states, including Saxony-Anhalt, Brandenburg, Mecklenburg-Western Pomerania, Saxony, and Thuringia."
+        "de": "Die richtige Antwort ist: Sachsen-Anhalt.",
+        "en": "The correct answer is: Sachsen-Anhalt."
       }
     },
     {
@@ -3432,8 +3432,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Die Bundesländer Mecklenburg-Vorpommern, Brandenburg, Sachsen, Sachsen-Anhalt und Thüringen gehörten zum Gebiet der früheren DDR. Nach der Wiedervereinigung 1990 wurden sie Teil der Bundesrepublik Deutschland.",
-        "en": "The federal states of Mecklenburg-Western Pomerania, Brandenburg, Saxony, Saxony-Anhalt, and Thuringia were part of the former GDR. After reunification in 1990, they became part of the Federal Republic of Germany."
+        "de": "Die richtige Antwort ist: Mecklenburg-Vorpommern, Brandenburg, Sachsen, Sachsen-Anhalt, Thüringen.",
+        "en": "The correct answer is: Mecklenburg-Vorpommern, Brandenburg, Sachsen, Sachsen-Anhalt, Thüringen."
       }
     },
     {
@@ -3483,8 +3483,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Am 3. Oktober 1990 traten die fünf neu gegründeten östlichen Bundesländer (Brandenburg, Mecklenburg-Vorpommern, Sachsen, Sachsen-Anhalt und Thüringen) gemäß Artikel 23 des Grundgesetzes der Bundesrepublik Deutschland bei. Damit wurde die deutsche Wiedervereinigung vollzogen. Die DDR hörte auf zu existieren.",
-        "en": "On October 3, 1990, the five newly established eastern federal states (Brandenburg, Mecklenburg-Western Pomerania, Saxony, Saxony-Anhalt, and Thuringia) joined the Federal Republic of Germany under Article 23 of the Basic Law. This completed German reunification. The GDR ceased to exist."
+        "de": "Die heutigen fünf östlichen Bundesländer sind der Bundesrepublik Deutschland beigetreten.",
+        "en": "The correct answer is: Die heutigen fünf östlichen Bundesländer sind der Bundesrepublik Deutschland beigetreten."
       }
     },
     {
@@ -3551,8 +3551,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Die ‚Stasi‘ war das Ministerium für Staatssicherheit der DDR. Sie war der Geheimdienst und das wichtigste Überwachungsorgan des Staates. Die Stasi sammelte Informationen über die Bevölkerung, überwachte und unterdrückte politische Gegner, um die Macht der SED zu sichern.",
-        "en": "The 'Stasi' was the Ministry for State Security of the GDR. It was the secret police and the main surveillance agency of the state. The Stasi collected information about the population, monitored and suppressed political opponents to maintain the power of the ruling Socialist Unity Party (SED)."
+        "de": "der Geheimdienst der DDR.",
+        "en": "The correct answer is: der Geheimdienst der DDR."
       }
     },
     {
@@ -3708,8 +3708,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "de": "Die Deutsche Demokratische Republik (DDR) existierte von 1949 bis 1990. Sie wurde am 7. Oktober 1949 gegründet und bestand bis zur deutschen Wiedervereinigung am 3. Oktober 1990, als die DDR der Bundesrepublik Deutschland beitrat.",
-        "en": "The German Democratic Republic (GDR) existed from 1949 to 1990. It was founded on October 7, 1949, and lasted until German reunification on October 3, 1990, when the GDR joined the Federal Republic of Germany."
+        "de": "Die deutsche Wiedervereinigung fand am 3. Oktober 1990 statt. An diesem Tag traten die neuen Bundesländer der Bundesrepublik bei.",
+        "en": "German reunification took place on October 3, 1990. On this day, the new federal states joined the Federal Republic."
       }
     },
     {
@@ -3725,8 +3725,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "de": "Bei der Wiedervereinigung 1990 kamen fünf neue Bundesländer zur Bundesrepublik Deutschland hinzu: Brandenburg, Mecklenburg-Vorpommern, Sachsen, Sachsen-Anhalt und Thüringen. Außerdem wurde Berlin wiedervereinigt und erhielt einen eigenen Status.",
-        "en": "During reunification in 1990, five new federal states joined the Federal Republic of Germany: Brandenburg, Mecklenburg-Western Pomerania, Saxony, Saxony-Anhalt, and Thuringia. In addition, Berlin was reunified and received its own special status."
+        "de": "Die Weimarer Republik war die erste demokratische Staatsform Deutschlands (1918/1919–1933).",
+        "en": "The Weimar Republic was Germany's first democratic form of government (1918/1919–1933)."
       }
     },
     {
@@ -3897,8 +3897,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "de": "Der Beitritt der DDR zur Bundesrepublik Deutschland im Jahr 1990 wird allgemein als ‚Deutsche Wiedervereinigung‘ bezeichnet. Am 3. Oktober 1990 trat die DDR der Bundesrepublik bei, und Deutschland wurde wieder ein vereinigtes Land.",
-        "en": "The accession of the GDR to the Federal Republic of Germany in 1990 is generally called ‘German reunification.’ On October 3, 1990, the GDR joined the Federal Republic, and Germany became a unified country again."
+        "de": "Der Europarat wurde 1949 gegründet und setzt sich für Menschenrechte, Demokratie und Rechtsstaatlichkeit in Europa ein.",
+        "en": "The Council of Europe was founded in 1949 and promotes human rights, democracy, and the rule of law in Europe."
       }
     },
     {
@@ -5089,8 +5089,8 @@
       ],
       "correct": 0,
       "explanation": {
-          "de": "In der DDR lebten vor allem sogenannte Vertragsarbeiterinnen und Vertragsarbeiter aus Ländern wie Vietnam, Polen und Mosambik. Sie kamen im Rahmen von staatlichen Abkommen zum Arbeiten in die DDR, hatten aber meist nur befristete Aufenthaltsgenehmigungen und waren gesellschaftlich oft isoliert.",
-          "en": "In the GDR, most migrants were so-called contract workers from countries such as Vietnam, Poland, and Mozambique. They came to the GDR under state agreements to work, usually with limited residence permits, and were often socially isolated."
+        "de": "In der DDR lebten vor allem Migrantinnen und Migranten aus Vietnam, Polen, Mosambik.",
+        "en": "The correct answer is: Vietnam, Polen, Mosambik."
       }
     },
     {

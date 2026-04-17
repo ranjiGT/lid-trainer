@@ -1192,6 +1192,15 @@ export const topics: Topic[] = [
     illustration: "🗳️",
     relatedQuestionNumbers: [1, 5, 13, 15, 28, 30, 43, 62, 70, 93, 94, 95, 105, 106, 108, 109, 112, 113, 114, 115, 116, 119, 120, 122, 124, 125, 126, 127, 130, 133, 153, 159, 164, 232, 260, 268, 282],
     details: {
+      intro: {
+        de: "Wahlen sind das wichtigste Mittel der politischen Mitbestimmung in einer Demokratie. In Deutschland sind Wahlen allgemein, unmittelbar, frei, gleich und geheim (Art. 38 GG). Bei der Bundestagswahl hat jeder W\u00e4hler zwei Stimmen.",
+        en: "Elections are the most important means of political participation in a democracy. In Germany, elections are universal, direct, free, equal, and secret (Art. 38 GG). In federal elections, every voter has two votes.",
+      },
+      gallery: [
+        { src: "/images/topics/wahlen/wahlgrundsaetze.svg", alt: { de: "Die 5 Wahlgrunds\u00e4tze", en: "The 5 election principles" }, caption: { de: "Allgemein, unmittelbar, frei, gleich, geheim", en: "Universal, direct, free, equal, secret" } },
+        { src: "/images/topics/wahlen/stimmzettel.svg", alt: { de: "Erst- und Zweitstimme", en: "First and second vote" }, caption: { de: "Bundestagswahl: Erststimme (Person) + Zweitstimme (Partei)", en: "Federal election: first vote (person) + second vote (party)" } },
+        { src: "/images/topics/wahlen/bundestag-plenarsaal.jpg", alt: { de: "Plenarsaal des Deutschen Bundestages", en: "Plenary hall of the German Bundestag" }, caption: { de: "Plenarsaal des Bundestages in Berlin (Foto: Florian Gaertner, CC BY-SA 3.0)", en: "Plenary hall of the Bundestag in Berlin (Photo: Florian Gaertner, CC BY-SA 3.0)" } },
+      ],
       keyFacts: {
         title: { de: "Wer darf wählen?", en: "Who May Vote?" },
         items: [
@@ -1215,6 +1224,16 @@ export const topics: Topic[] = [
     illustration: "🏳️",
     relatedQuestionNumbers: [12, 13, 20, 30, 31, 41, 43, 53, 70, 78, 79, 85, 89, 91, 93, 113, 117, 121, 123, 127, 131, 164, 170, 199, 210, 250, 256],
     details: {
+      intro: {
+        de: "In Deutschland gibt es ein Mehrparteiensystem. Parteien sind durch Artikel 21 des Grundgesetzes gesch\u00fctzt und wirken bei der politischen Willensbildung des Volkes mit. Jeder B\u00fcrger darf eine Partei gr\u00fcnden, aber sie muss demokratisch organisiert sein.",
+        en: "Germany has a multi-party system. Parties are protected by Article 21 of the Basic Law and participate in the political decision-making of the people. Every citizen may found a party, but it must be democratically organized.",
+      },
+      gallery: [
+        { src: "/images/topics/parteien/parteienlandschaft.svg", alt: { de: "Parteienlandschaft in Deutschland", en: "Political landscape in Germany" }, caption: { de: "Die wichtigsten Parteien im \u00dcberblick", en: "Overview of the main parties" } },
+        { src: "/images/topics/parteien/fuenf-prozent-huerde.svg", alt: { de: "5%-H\u00fcrde und Parteiverbot", en: "5% threshold and party ban" }, caption: { de: "5%-H\u00fcrde f\u00fcr den Bundestag und Parteiverbot nach Art. 21 GG", en: "5% threshold for the Bundestag and party ban under Art. 21 GG" } },
+        { src: "/images/topics/parteien/reichstag.jpg", alt: { de: "Reichstagsgeb\u00e4ude in Berlin", en: "Reichstag building in Berlin" }, caption: { de: "Der Reichstag \u2013 Sitz des Deutschen Bundestages (Foto: Jürgen Matern, CC BY-SA 3.0)", en: "The Reichstag \u2013 seat of the German Bundestag (Photo: J\u00fcrgen Matern, CC BY-SA 3.0)" } },
+        { src: "/images/topics/parteien/konrad-adenauer-haus.jpg", alt: { de: "Konrad-Adenauer-Haus in Berlin", en: "Konrad Adenauer House in Berlin" }, caption: { de: "Das Konrad-Adenauer-Haus \u2013 CDU-Parteizentrale in Berlin (Foto: Wikimedia Commons, CC BY-SA 3.0)", en: "The Konrad Adenauer House \u2013 CDU party headquarters in Berlin (Photo: Wikimedia Commons, CC BY-SA 3.0)" } },
+      ],
       keyFacts: {
         title: { de: "Wichtige Fakten", en: "Key Facts" },
         items: [
@@ -1238,6 +1257,15 @@ export const topics: Topic[] = [
     illustration: "🤝",
     relatedQuestionNumbers: [13, 31, 88, 89, 93, 103],
     details: {
+      intro: {
+        de: "Wenn keine Partei allein die Mehrheit im Bundestag hat, schlie\u00dfen sich mehrere Parteien zu einer Koalition zusammen und bilden die Regierung. Die \u00fcbrigen Parteien bilden die Opposition und kontrollieren die Regierung.",
+        en: "When no party has a majority in the Bundestag on its own, several parties join together in a coalition to form the government. The remaining parties form the opposition and hold the government accountable.",
+      },
+      gallery: [
+        { src: "/images/topics/koalition-opposition/vergleich.svg", alt: { de: "Koalition vs. Opposition", en: "Coalition vs. Opposition" }, caption: { de: "Aufgaben von Koalition und Opposition im Vergleich", en: "Comparing the roles of coalition and opposition" } },
+        { src: "/images/topics/koalition-opposition/koalitionsbildung.svg", alt: { de: "Wie entsteht eine Koalition?", en: "How is a coalition formed?" }, caption: { de: "Von der Wahl zur Regierung \u2013 Koalitionsformen", en: "From election to government \u2013 coalition types" } },
+        { src: "/images/topics/koalition-opposition/koalitionsvertrag-2013.jpg", alt: { de: "Unterzeichnung des Koalitionsvertrages 2013", en: "Signing of the 2013 coalition agreement" }, caption: { de: "Unterzeichnung des Koalitionsvertrags der Gro\u00dfen Koalition 2013 im Reichstag (Foto: Martin Rulsch, CC BY-SA 4.0)", en: "Signing of the Grand Coalition agreement 2013 at the Reichstag (Photo: Martin Rulsch, CC BY-SA 4.0)" } },
+      ],
       table: {
         title: { de: "Vergleich", en: "Comparison" },
         rows: [
@@ -1260,6 +1288,15 @@ export const topics: Topic[] = [
     },
     illustration: "🏛️",
     relatedQuestionNumbers: [42, 52, 55, 58, 61, 63, 74, 80, 86, 136, 137, 139, 141, 142, 146, 150],    details: {
+      intro: {
+        de: "Das Bundesverfassungsgericht (BVerfG) in Karlsruhe ist das h\u00f6chste deutsche Gericht in Verfassungsfragen. Es besteht aus zwei Senaten mit je 8 Richtern und wacht \u00fcber die Einhaltung des Grundgesetzes.",
+        en: "The Federal Constitutional Court (BVerfG) in Karlsruhe is Germany\u2019s highest court for constitutional matters. It consists of two senates with 8 judges each and guards compliance with the Basic Law.",
+      },
+      gallery: [
+        { src: "/images/topics/verfassungsgericht/aufbau.svg", alt: { de: "Aufbau des Bundesverfassungsgerichts", en: "Structure of the Federal Constitutional Court" }, caption: { de: "Aufbau: 2 Senate mit je 8 Richtern", en: "Structure: 2 senates with 8 judges each" } },
+        { src: "/images/topics/verfassungsgericht/beschwerde.svg", alt: { de: "Verfassungsbeschwerde \u2013 Der Weg", en: "Constitutional complaint \u2013 The process" }, caption: { de: "Wie eine Verfassungsbeschwerde funktioniert", en: "How a constitutional complaint works" } },
+        { src: "/images/topics/verfassungsgericht/gebaeude-karlsruhe.jpg", alt: { de: "Bundesverfassungsgericht in Karlsruhe", en: "Federal Constitutional Court in Karlsruhe" }, caption: { de: "Das Bundesverfassungsgericht in Karlsruhe (Foto: Tobias Helfrich, CC BY-SA 3.0)", en: "The Federal Constitutional Court in Karlsruhe (Photo: Tobias Helfrich, CC BY-SA 3.0)" } },
+      ],
       keyFacts: {
         title: { de: "Wichtige Fakten", en: "Key Facts" },
         items: [

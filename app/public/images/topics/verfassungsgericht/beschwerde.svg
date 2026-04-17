@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 370">
+  <style>
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes growLine {
+      from { stroke-dashoffset: 200; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes slideRight {
+      from { opacity: 0; transform: translateX(-10px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    .step { animation: fadeSlideUp 0.5s ease-out both; }
+    .step1 { animation-delay: 0.3s; }
+    .step2 { animation-delay: 0.7s; }
+    .step3 { animation-delay: 1.1s; }
+    .step4 { animation-delay: 1.5s; }
+    .step5 { animation-delay: 1.9s; }
+    .arrow-line { stroke-dasharray: 200; animation: growLine 0.4s ease-out both; }
+    .arrow1 { animation-delay: 0.5s; }
+    .arrow2 { animation-delay: 0.9s; }
+    .arrow3 { animation-delay: 1.3s; }
+    .arrow4 { animation-delay: 1.7s; }
+    .result { animation: slideRight 0.5s ease-out both; animation-delay: 2.2s; }
+  </style>
+
+  <rect width="480" height="370" rx="16" fill="#F0FDF4"/>
+
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#16A34A"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="240" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D">Verfassungsbeschwerde &#x2013; Der Weg</text>
+  <text x="240" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Wie ein B&#xFC;rger seine Grundrechte sch&#xFC;tzen kann</text>
+
+  <!-- Step 1: Citizen -->
+  <g class="step step1">
+    <rect x="20" y="56" width="90" height="90" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="65" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18">&#x1F464;</text>
+    <text x="65" y="98" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">B&#xFC;rger/in</text>
+    <text x="65" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">f&#xFC;hlt sich in</text>
+    <text x="65" y="124" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Grundrechten</text>
+    <text x="65" y="136" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">verletzt</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <line x1="110" y1="101" x2="130" y2="101" stroke="#16A34A" stroke-width="2" marker-end="url(#arr)" class="arrow-line arrow1"/>
+
+  <!-- Step 2: Lower courts -->
+  <g class="step step2">
+    <rect x="132" y="56" width="90" height="90" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="177" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18">&#x1F3DB;&#xFE0F;</text>
+    <text x="177" y="98" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">Amtsgericht</text>
+    <text x="177" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Klage bei</text>
+    <text x="177" y="124" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">normalem</text>
+    <text x="177" y="136" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Gericht</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <line x1="222" y1="101" x2="242" y2="101" stroke="#16A34A" stroke-width="2" marker-end="url(#arr)" class="arrow-line arrow2"/>
+
+  <!-- Step 3: Appeal -->
+  <g class="step step3">
+    <rect x="244" y="56" width="90" height="90" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="289" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18">&#x1F4C4;</text>
+    <text x="289" y="98" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">Berufung</text>
+    <text x="289" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Alle Instanzen</text>
+    <text x="289" y="124" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">durchlaufen</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <line x1="334" y1="101" x2="352" y2="101" stroke="#16A34A" stroke-width="2" marker-end="url(#arr)" class="arrow-line arrow3"/>
+
+  <!-- Step 4: Constitutional complaint -->
+  <g class="step step4">
+    <rect x="354" y="56" width="110" height="90" rx="8" fill="#16A34A"/>
+    <text x="409" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18">&#x2696;&#xFE0F;</text>
+    <text x="409" y="98" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="white">Verfassungs-</text>
+    <text x="409" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="white">beschwerde</text>
+    <text x="409" y="126" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">beim BVerfG</text>
+    <text x="409" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">einreichen</text>
+  </g>
+
+  <!-- Arrow down to result -->
+  <line x1="409" y1="146" x2="409" y2="170" stroke="#16A34A" stroke-width="2" marker-end="url(#arr)" class="arrow-line arrow4"/>
+
+  <!-- Result box -->
+  <g class="step step5">
+    <rect x="324" y="172" width="140" height="40" rx="8" fill="#14532D"/>
+    <text x="394" y="190" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="white">BVerfG entscheidet</text>
+    <text x="394" y="204" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">Gesetz &#x2713; oder &#x2717;</text>
+  </g>
+
+  <!-- Bottom section: What can BVerfG do? -->
+  <text x="240" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D" class="result">Was pr&#xFC;ft das BVerfG?</text>
+
+  <!-- 4 competence cards -->
+  <g class="result">
+    <rect x="15" y="252" width="108" height="88" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <text x="69" y="274" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16">&#x1F4D6;</text>
+    <text x="69" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Normenkontrolle</text>
+    <text x="69" y="306" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Sind Gesetze</text>
+    <text x="69" y="318" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">verfassungskonform?</text>
+  </g>
+
+  <g class="result">
+    <rect x="130" y="252" width="108" height="88" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+    <text x="184" y="274" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16">&#x1F464;</text>
+    <text x="184" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Verfassungs-</text>
+    <text x="184" y="304" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">beschwerde</text>
+    <text x="184" y="318" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Grundrechte</text>
+    <text x="184" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">von B&#xFC;rgern</text>
+  </g>
+
+  <g class="result">
+    <rect x="245" y="252" width="108" height="88" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <text x="299" y="274" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16">&#x1F3DB;&#xFE0F;</text>
+    <text x="299" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Organstreit</text>
+    <text x="299" y="306" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Streit zwischen</text>
+    <text x="299" y="318" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Verfassungs-</text>
+    <text x="299" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">organen</text>
+  </g>
+
+  <g class="result">
+    <rect x="360" y="252" width="108" height="88" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+    <text x="414" y="274" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16">&#x1F6AB;</text>
+    <text x="414" y="292" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Parteiverbot</text>
+    <text x="414" y="306" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Verfassungs-</text>
+    <text x="414" y="318" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">widrige Parteien</text>
+    <text x="414" y="330" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">verbieten</text>
+  </g>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 340">
+  <style>
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes scaleIn {
+      from { opacity: 0; transform: scale(0.85); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    @keyframes slideRight {
+      from { opacity: 0; transform: translateX(-10px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    .title { animation: fadeIn 0.5s ease-out both; }
+    .koal { animation: scaleIn 0.5s ease-out both; animation-delay: 0.2s; }
+    .opp { animation: scaleIn 0.5s ease-out both; animation-delay: 0.5s; }
+    .vs { animation: fadeIn 0.4s ease-out both; animation-delay: 0.4s; }
+    .row { animation: slideRight 0.4s ease-out both; }
+    .r1 { animation-delay: 0.8s; }
+    .r2 { animation-delay: 1.0s; }
+    .r3 { animation-delay: 1.2s; }
+    .r4 { animation-delay: 1.4s; }
+    .footer { animation: fadeSlideUp 0.5s ease-out both; animation-delay: 1.6s; }
+  </style>
+
+  <rect width="500" height="340" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="250" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D" class="title">Koalition vs. Opposition</text>
+  <text x="250" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534" class="title">Zwei Seiten des Bundestags</text>
+
+  <!-- Koalition side -->
+  <g class="koal">
+    <rect x="18" y="58" width="218" height="80" rx="12" fill="#14532D"/>
+    <text x="127" y="82" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22">&#x1F91D;</text>
+    <text x="127" y="102" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="white">Koalition</text>
+    <text x="127" y="118" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#BBF7D0">Regierungsb&#xFC;ndnis</text>
+    <text x="127" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#BBF7D0">mehrerer Parteien</text>
+  </g>
+
+  <!-- VS badge -->
+  <g class="vs">
+    <circle cx="250" cy="98" r="16" fill="#16A34A"/>
+    <text x="250" y="103" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="white">vs.</text>
+  </g>
+
+  <!-- Opposition side -->
+  <g class="opp">
+    <rect x="264" y="58" width="218" height="80" rx="12" fill="#991B1B"/>
+    <text x="373" y="82" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22">&#x270B;</text>
+    <text x="373" y="102" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="white">Opposition</text>
+    <text x="373" y="118" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#FCA5A5">Parteien au&#xDF;erhalb</text>
+    <text x="373" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#FCA5A5">der Regierung</text>
+  </g>
+
+  <!-- Comparison rows -->
+  <g class="row r1">
+    <rect x="18" y="152" width="218" height="34" rx="6" fill="#DCFCE7" stroke="#16A34A" stroke-width="0.5"/>
+    <text x="127" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">&#x2705; Bildet die Regierung</text>
+    <text x="127" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Stellt Kanzler/in + Minister</text>
+
+    <rect x="264" y="152" width="218" height="34" rx="6" fill="#FEF2F2" stroke="#991B1B" stroke-width="0.5"/>
+    <text x="373" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#7F1D1D">&#x1F50D; Kontrolliert die Regierung</text>
+    <text x="373" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#991B1B">Stellt kritische Fragen</text>
+  </g>
+
+  <g class="row r2">
+    <rect x="18" y="192" width="218" height="34" rx="6" fill="#DCFCE7" stroke="#16A34A" stroke-width="0.5"/>
+    <text x="127" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">&#x1F4DD; Hat Mehrheit im Bundestag</text>
+    <text x="127" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Kann Gesetze verabschieden</text>
+
+    <rect x="264" y="192" width="218" height="34" rx="6" fill="#FEF2F2" stroke="#991B1B" stroke-width="0.5"/>
+    <text x="373" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#7F1D1D">&#x1F4E2; Schl&#xE4;gt Alternativen vor</text>
+    <text x="373" y="218" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#991B1B">Eigene Gesetzentw&#xFC;rfe</text>
+  </g>
+
+  <g class="row r3">
+    <rect x="18" y="232" width="218" height="34" rx="6" fill="#DCFCE7" stroke="#16A34A" stroke-width="0.5"/>
+    <text x="127" y="245" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">&#x1F4C4; Koalitionsvertrag</text>
+    <text x="127" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Gemeinsames Regierungsprogramm</text>
+
+    <rect x="264" y="232" width="218" height="34" rx="6" fill="#FEF2F2" stroke="#991B1B" stroke-width="0.5"/>
+    <text x="373" y="245" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#7F1D1D">&#x26A0;&#xFE0F; Misstrauensvotum</text>
+    <text x="373" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#991B1B">Kann Kanzler st&#xFC;rzen (Art. 67 GG)</text>
+  </g>
+
+  <!-- Footer -->
+  <g class="footer">
+    <rect x="18" y="280" width="464" height="46" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+    <text x="250" y="298" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">&#x1F3DB;&#xFE0F; Beide sind wichtig f&#xFC;r die Demokratie!</text>
+    <text x="250" y="314" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Die Opposition ist kein Gegner, sondern notwendiger Teil des demokratischen Systems.</text>
+  </g>
+</svg>

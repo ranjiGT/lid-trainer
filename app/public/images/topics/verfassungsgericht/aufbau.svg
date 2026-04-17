@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <style>
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes scaleIn {
+      from { opacity: 0; transform: scale(0.8); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .title { animation: fadeIn 0.5s ease-out both; }
+    .court-box { animation: scaleIn 0.5s ease-out both; animation-delay: 0.3s; }
+    .senate { animation: fadeSlideUp 0.5s ease-out both; }
+    .senate1 { animation-delay: 0.6s; }
+    .senate2 { animation-delay: 0.9s; }
+    .fact { animation: fadeSlideUp 0.4s ease-out both; }
+    .fact1 { animation-delay: 1.2s; }
+    .fact2 { animation-delay: 1.4s; }
+    .fact3 { animation-delay: 1.6s; }
+    .connector { animation: fadeIn 0.3s ease-out both; animation-delay: 0.5s; }
+  </style>
+
+  <rect width="480" height="360" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="240" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D" class="title">Bundesverfassungsgericht &#x2013; Aufbau</text>
+  <text x="240" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534" class="title">H&#xFC;ter des Grundgesetzes &#x2013; Sitz in Karlsruhe</text>
+
+  <!-- Main court box -->
+  <g class="court-box">
+    <rect x="140" y="56" width="200" height="50" rx="10" fill="#14532D"/>
+    <!-- Scale of justice icon -->
+    <g transform="translate(170,81)">
+      <line x1="0" y1="-8" x2="0" y2="8" stroke="white" stroke-width="1.5"/>
+      <line x1="-12" y1="-6" x2="12" y2="-6" stroke="white" stroke-width="1.5"/>
+      <circle cx="-12" cy="-6" r="2" fill="#BBF7D0"/>
+      <circle cx="12" cy="-6" r="2" fill="#BBF7D0"/>
+      <line x1="-4" y1="8" x2="4" y2="8" stroke="white" stroke-width="1.5"/>
+    </g>
+    <text x="260" y="77" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="white">Bundesverfassungs-</text>
+    <text x="260" y="92" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="white">gericht</text>
+  </g>
+
+  <!-- Connectors -->
+  <line x1="195" y1="106" x2="130" y2="130" stroke="#16A34A" stroke-width="2" class="connector"/>
+  <line x1="285" y1="106" x2="350" y2="130" stroke="#16A34A" stroke-width="2" class="connector"/>
+
+  <!-- Senate 1 -->
+  <g class="senate senate1">
+    <rect x="30" y="130" width="200" height="100" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="130" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Erster Senat</text>
+    <line x1="50" y1="160" x2="210" y2="160" stroke="#16A34A" stroke-width="0.5"/>
+    <text x="130" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Grundrechte</text>
+    <text x="130" y="192" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Verfassungsbeschwerden</text>
+    <text x="130" y="206" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">von B&#xFC;rgern</text>
+    <!-- 8 judge dots -->
+    <g transform="translate(130,222)">
+      <circle cx="-28" cy="0" r="3" fill="#16A34A"/>
+      <circle cx="-20" cy="0" r="3" fill="#16A34A"/>
+      <circle cx="-12" cy="0" r="3" fill="#16A34A"/>
+      <circle cx="-4" cy="0" r="3" fill="#16A34A"/>
+      <circle cx="4" cy="0" r="3" fill="#16A34A"/>
+      <circle cx="12" cy="0" r="3" fill="#16A34A"/>
+      <circle cx="20" cy="0" r="3" fill="#16A34A"/>
+      <circle cx="28" cy="0" r="3" fill="#16A34A"/>
+    </g>
+  </g>
+
+  <!-- Senate 2 -->
+  <g class="senate senate2">
+    <rect x="250" y="130" width="200" height="100" rx="10" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="350" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Zweiter Senat</text>
+    <line x1="270" y1="160" x2="430" y2="160" stroke="#16A34A" stroke-width="0.5"/>
+    <text x="350" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Staatsorganisationsrecht</text>
+    <text x="350" y="192" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Streitigkeiten zwischen</text>
+    <text x="350" y="206" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Bund und L&#xE4;ndern</text>
+    <!-- 8 judge dots -->
+    <g transform="translate(350,222)">
+      <circle cx="-28" cy="0" r="3" fill="#14532D"/>
+      <circle cx="-20" cy="0" r="3" fill="#14532D"/>
+      <circle cx="-12" cy="0" r="3" fill="#14532D"/>
+      <circle cx="-4" cy="0" r="3" fill="#14532D"/>
+      <circle cx="4" cy="0" r="3" fill="#14532D"/>
+      <circle cx="12" cy="0" r="3" fill="#14532D"/>
+      <circle cx="20" cy="0" r="3" fill="#14532D"/>
+      <circle cx="28" cy="0" r="3" fill="#14532D"/>
+    </g>
+  </g>
+
+  <!-- Key facts section -->
+  <text x="240" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D" class="fact fact1">Wichtige Merkmale</text>
+
+  <g class="fact fact1">
+    <rect x="20" y="268" width="140" height="74" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <text x="90" y="288" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16">&#x2696;&#xFE0F;</text>
+    <text x="90" y="304" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">16 Richter</text>
+    <text x="90" y="316" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">2 Senate &#xE0; 8 Richter</text>
+    <text x="90" y="328" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Amtszeit: 12 Jahre</text>
+  </g>
+
+  <g class="fact fact2">
+    <rect x="170" y="268" width="140" height="74" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+    <text x="240" y="288" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16">&#x1F4DC;</text>
+    <text x="240" y="304" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Aufgaben</text>
+    <text x="240" y="316" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Gesetze pr&#xFC;fen</text>
+    <text x="240" y="328" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Grundrechte sch&#xFC;tzen</text>
+  </g>
+
+  <g class="fact fact3">
+    <rect x="320" y="268" width="140" height="74" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <text x="390" y="288" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16">&#x1F3DB;&#xFE0F;</text>
+    <text x="390" y="304" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Sitz: Karlsruhe</text>
+    <text x="390" y="316" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Nicht in Berlin!</text>
+    <text x="390" y="328" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Bewusst getrennt</text>
+  </g>
+</svg>

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <style>
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes scaleIn {
+      from { opacity: 0; transform: scale(0.85); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .title { animation: fadeIn 0.5s ease-out both; }
+    .step { animation: fadeSlideUp 0.5s ease-out both; }
+    .s1 { animation-delay: 0.2s; }
+    .s2 { animation-delay: 0.5s; }
+    .s3 { animation-delay: 0.8s; }
+    .s4 { animation-delay: 1.1s; }
+    .s5 { animation-delay: 1.4s; }
+    .arrow { animation: fadeIn 0.3s ease-out both; }
+    .a1 { animation-delay: 0.4s; }
+    .a2 { animation-delay: 0.7s; }
+    .a3 { animation-delay: 1.0s; }
+    .a4 { animation-delay: 1.3s; }
+    .example { animation: slideDown 0.5s ease-out both; animation-delay: 1.7s; }
+  </style>
+
+  <rect width="500" height="300" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="250" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D" class="title">Wie entsteht eine Koalition?</text>
+  <text x="250" y="42" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534" class="title">Der Weg von der Wahl zur Regierung</text>
+
+  <!-- Step 1: Wahl -->
+  <g class="step s1">
+    <rect x="14" y="56" width="86" height="72" rx="8" fill="#14532D"/>
+    <text x="57" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18">&#x1F5F3;&#xFE0F;</text>
+    <text x="57" y="96" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="white">1. Wahl</text>
+    <text x="57" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">Bundestag</text>
+    <text x="57" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">wird gew&#xE4;hlt</text>
+  </g>
+
+  <!-- Arrow -->
+  <text x="106" y="96" font-family="system-ui, sans-serif" font-size="14" fill="#16A34A" class="arrow a1">&#x27A1;</text>
+
+  <!-- Step 2: Ergebnis -->
+  <g class="step s2">
+    <rect x="118" y="56" width="86" height="72" rx="8" fill="#16A34A"/>
+    <text x="161" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18">&#x1F4CA;</text>
+    <text x="161" y="96" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="white">2. Ergebnis</text>
+    <text x="161" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">Keine Partei hat</text>
+    <text x="161" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">allein Mehrheit</text>
+  </g>
+
+  <!-- Arrow -->
+  <text x="210" y="96" font-family="system-ui, sans-serif" font-size="14" fill="#16A34A" class="arrow a2">&#x27A1;</text>
+
+  <!-- Step 3: Sondierung -->
+  <g class="step s3">
+    <rect x="222" y="56" width="86" height="72" rx="8" fill="#14532D"/>
+    <text x="265" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18">&#x1F50D;</text>
+    <text x="265" y="96" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="white">3. Sondierung</text>
+    <text x="265" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">Parteien reden</text>
+    <text x="265" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">miteinander</text>
+  </g>
+
+  <!-- Arrow -->
+  <text x="314" y="96" font-family="system-ui, sans-serif" font-size="14" fill="#16A34A" class="arrow a3">&#x27A1;</text>
+
+  <!-- Step 4: Verhandlung -->
+  <g class="step s4">
+    <rect x="326" y="56" width="86" height="72" rx="8" fill="#16A34A"/>
+    <text x="369" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18">&#x1F4DD;</text>
+    <text x="369" y="96" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="white">4. Vertrag</text>
+    <text x="369" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">Koalitions-</text>
+    <text x="369" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">vertrag</text>
+  </g>
+
+  <!-- Arrow -->
+  <text x="418" y="96" font-family="system-ui, sans-serif" font-size="14" fill="#16A34A" class="arrow a4">&#x27A1;</text>
+
+  <!-- Step 5: Regierung -->
+  <g class="step s5">
+    <rect x="430" y="56" width="56" height="72" rx="8" fill="#14532D"/>
+    <text x="458" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18">&#x1F3DB;&#xFE0F;</text>
+    <text x="458" y="96" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="white">5.</text>
+    <text x="458" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">Regie-</text>
+    <text x="458" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">rung</text>
+  </g>
+
+  <!-- Example: Koalitionsarten -->
+  <g class="example">
+    <rect x="14" y="144" width="472" height="142" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <text x="250" y="166" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Typische Koalitionsformen</text>
+
+    <!-- Große Koalition -->
+    <rect x="28" y="178" width="138" height="94" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="0.5"/>
+    <text x="97" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14">&#x1F3E0;</text>
+    <text x="97" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">Gro&#xDF;e Koalition</text>
+    <text x="97" y="232" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">(GroKo)</text>
+    <text x="97" y="248" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#14532D">CDU/CSU + SPD</text>
+    <text x="97" y="264" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">z.B. 2013&#x2013;2021</text>
+
+    <!-- Ampel -->
+    <rect x="180" y="178" width="138" height="94" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="0.5"/>
+    <text x="249" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14">&#x1F6A6;</text>
+    <text x="249" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">Ampel</text>
+    <text x="249" y="232" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">(Rot-Gelb-Gr&#xFC;n)</text>
+    <text x="249" y="248" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#14532D">SPD + FDP + Gr&#xFC;ne</text>
+    <text x="249" y="264" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">z.B. 2021&#x2013;2025</text>
+
+    <!-- Jamaika -->
+    <rect x="332" y="178" width="138" height="94" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="0.5"/>
+    <text x="401" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14">&#x1F1EF;&#x1F1F2;</text>
+    <text x="401" y="216" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">Jamaika</text>
+    <text x="401" y="232" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">(Schwarz-Gelb-Gr&#xFC;n)</text>
+    <text x="401" y="248" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#14532D">CDU/CSU + FDP + Gr&#xFC;ne</text>
+    <text x="401" y="264" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">z.B. Schleswig-Holstein</text>
+  </g>
+</svg>

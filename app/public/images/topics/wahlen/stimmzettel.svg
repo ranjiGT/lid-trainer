@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <style>
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideRight {
+      from { opacity: 0; transform: translateX(-10px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    .title { animation: fadeIn 0.5s ease-out both; }
+    .ballot { animation: fadeSlideUp 0.5s ease-out both; }
+    .erst { animation-delay: 0.3s; }
+    .zweit { animation-delay: 0.7s; }
+    .info { animation: slideRight 0.4s ease-out both; }
+    .i1 { animation-delay: 1.1s; }
+    .i2 { animation-delay: 1.3s; }
+    .i3 { animation-delay: 1.5s; }
+    .summary { animation: fadeIn 0.5s ease-out both; animation-delay: 1.8s; }
+  </style>
+
+  <rect width="480" height="320" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="240" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D" class="title">Bundestagswahl &#x2013; Erst- und Zweitstimme</text>
+  <text x="240" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534" class="title">Jeder W&#xE4;hler hat 2 Stimmen auf dem Stimmzettel</text>
+
+  <!-- Erststimme -->
+  <g class="ballot erst">
+    <rect x="20" y="60" width="210" height="160" rx="12" fill="#14532D"/>
+    <rect x="30" y="68" width="190" height="30" rx="6" fill="#16A34A"/>
+    <text x="125" y="88" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="white">Erststimme</text>
+
+    <!-- Person icon -->
+    <circle cx="125" cy="120" r="16" fill="#16A34A"/>
+    <text x="125" y="126" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="white">&#x1F464;</text>
+
+    <text x="125" y="150" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="white">Direktkandidat/in</text>
+    <text x="125" y="166" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#BBF7D0">W&#xE4;hle eine Person</text>
+    <text x="125" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#BBF7D0">aus deinem Wahlkreis</text>
+
+    <!-- Checkboxes -->
+    <g transform="translate(50,192)">
+      <rect x="0" y="0" width="10" height="10" rx="2" fill="none" stroke="#BBF7D0" stroke-width="1"/>
+      <text x="15" y="9" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">Kandidat A</text>
+      <rect x="80" y="0" width="10" height="10" rx="2" fill="#16A34A" stroke="#BBF7D0" stroke-width="1"/>
+      <text x="82" y="8" font-family="system-ui, sans-serif" font-size="8" fill="white">&#x2713;</text>
+      <text x="95" y="9" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">Kandidat B</text>
+    </g>
+
+    <text x="125" y="214" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">299 Wahlkreise = 299 Sitze</text>
+  </g>
+
+  <!-- Zweitstimme -->
+  <g class="ballot zweit">
+    <rect x="250" y="60" width="210" height="160" rx="12" fill="#16A34A"/>
+    <rect x="260" y="68" width="190" height="30" rx="6" fill="#14532D"/>
+    <text x="355" y="88" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="white">Zweitstimme</text>
+
+    <!-- Party icon -->
+    <circle cx="355" cy="120" r="16" fill="#14532D"/>
+    <text x="355" y="126" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="white">&#x1F3DB;&#xFE0F;</text>
+
+    <text x="355" y="150" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="white">Partei</text>
+    <text x="355" y="166" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#DCFCE7">W&#xE4;hle eine Partei</text>
+    <text x="355" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#DCFCE7">&#xFC;ber die Landesliste</text>
+
+    <!-- Checkboxes -->
+    <g transform="translate(280,192)">
+      <rect x="0" y="0" width="10" height="10" rx="2" fill="#14532D" stroke="#DCFCE7" stroke-width="1"/>
+      <text x="2" y="8" font-family="system-ui, sans-serif" font-size="8" fill="white">&#x2713;</text>
+      <text x="15" y="9" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">Partei X</text>
+      <rect x="80" y="0" width="10" height="10" rx="2" fill="none" stroke="#DCFCE7" stroke-width="1"/>
+      <text x="95" y="9" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">Partei Y</text>
+    </g>
+
+    <text x="355" y="214" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">Bestimmt Sitzverteilung im Bundestag</text>
+  </g>
+
+  <!-- Bottom summary -->
+  <g class="summary">
+    <rect x="20" y="234" width="440" height="72" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <text x="240" y="256" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Zusammenfassung</text>
+
+    <rect x="36" y="264" width="200" height="30" rx="6" fill="#BBF7D0" stroke="#16A34A" stroke-width="0.5"/>
+    <text x="136" y="278" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#14532D">&#x1F464; Erststimme = Person</text>
+    <text x="136" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">(Direktmandat im Wahlkreis)</text>
+
+    <rect x="248" y="264" width="200" height="30" rx="6" fill="#BBF7D0" stroke="#16A34A" stroke-width="0.5"/>
+    <text x="348" y="278" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#14532D">&#x1F3DB;&#xFE0F; Zweitstimme = Partei</text>
+    <text x="348" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">(Sitzverteilung &#xFC;ber Landesliste)</text>
+  </g>
+</svg>

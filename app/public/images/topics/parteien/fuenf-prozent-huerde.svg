@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330">
+  <style>
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes growWidth {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes scaleIn {
+      from { opacity: 0; transform: scale(0.85); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .title { animation: fadeIn 0.5s ease-out both; }
+    .section { animation: fadeSlideUp 0.5s ease-out both; }
+    .s1 { animation-delay: 0.2s; }
+    .s2 { animation-delay: 0.6s; }
+    .bar { animation: fadeIn 0.4s ease-out both; }
+    .b1 { animation-delay: 0.4s; }
+    .b2 { animation-delay: 0.5s; }
+    .b3 { animation-delay: 0.6s; }
+    .step { animation: scaleIn 0.4s ease-out both; }
+    .st1 { animation-delay: 0.8s; }
+    .st2 { animation-delay: 1.0s; }
+    .st3 { animation-delay: 1.2s; }
+    .st4 { animation-delay: 1.4s; }
+  </style>
+
+  <rect width="480" height="330" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="240" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D" class="title">5%-H&#xFC;rde &amp; Parteiverbot</text>
+  <text x="240" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534" class="title">Wichtige Regeln f&#xFC;r Parteien in Deutschland</text>
+
+  <!-- Section 1: 5% Hürde -->
+  <g class="section s1">
+    <rect x="16" y="56" width="448" height="130" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <text x="240" y="76" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">&#x1F6A7; Die 5%-H&#xFC;rde (Sperrklausel)</text>
+    <text x="240" y="92" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Nur Parteien mit mindestens 5% der Zweitstimmen ziehen in den Bundestag ein</text>
+
+    <!-- Bar chart illustration -->
+    <g class="bar b1">
+      <rect x="40" y="104" width="200" height="18" rx="4" fill="#14532D"/>
+      <text x="46" y="116" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="white">Partei A: 28%</text>
+      <text x="248" y="116" font-family="system-ui, sans-serif" font-size="8" fill="#14532D">&#x2705; Im Bundestag</text>
+    </g>
+    <g class="bar b2">
+      <rect x="40" y="126" width="80" height="18" rx="4" fill="#16A34A"/>
+      <text x="46" y="138" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="white">Partei B: 8%</text>
+      <text x="248" y="138" font-family="system-ui, sans-serif" font-size="8" fill="#14532D">&#x2705; Im Bundestag</text>
+    </g>
+    <g class="bar b3">
+      <rect x="40" y="148" width="26" height="18" rx="4" fill="#BBF7D0" stroke="#16A34A" stroke-width="0.5"/>
+      <text x="46" y="160" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">3%</text>
+      <text x="74" y="160" font-family="system-ui, sans-serif" font-size="8" fill="#14532D">Partei C</text>
+      <text x="248" y="160" font-family="system-ui, sans-serif" font-size="8" fill="#991B1B">&#x274C; Nicht im Bundestag</text>
+    </g>
+
+    <!-- 5% line -->
+    <line x1="72" y1="100" x2="72" y2="172" stroke="#991B1B" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <text x="74" y="178" font-family="system-ui, sans-serif" font-size="7" fill="#991B1B">5%</text>
+  </g>
+
+  <!-- Section 2: Parteiverbot -->
+  <g class="section s2">
+    <rect x="16" y="198" width="448" height="120" rx="10" fill="#14532D"/>
+    <text x="240" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="white">&#x26D4; Parteiverbot &#x2013; Art. 21 Abs. 2 GG</text>
+    <text x="240" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#BBF7D0">Verfassungswidrige Parteien k&#xF6;nnen verboten werden</text>
+
+    <!-- Steps -->
+    <g class="step st1">
+      <rect x="26" y="250" width="98" height="54" rx="6" fill="#16A34A"/>
+      <text x="75" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="white">1. Antrag</text>
+      <text x="75" y="284" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">Bundestag,</text>
+      <text x="75" y="296" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">Bundesrat o. BReg</text>
+    </g>
+
+    <!-- Arrow -->
+    <text x="130" y="280" font-family="system-ui, sans-serif" font-size="12" fill="#BBF7D0">&#x27A1;</text>
+
+    <g class="step st2">
+      <rect x="140" y="250" width="98" height="54" rx="6" fill="#16A34A"/>
+      <text x="189" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="white">2. Pr&#xFC;fung</text>
+      <text x="189" y="284" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">Bundesverfas-</text>
+      <text x="189" y="296" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">sungsgericht</text>
+    </g>
+
+    <!-- Arrow -->
+    <text x="244" y="280" font-family="system-ui, sans-serif" font-size="12" fill="#BBF7D0">&#x27A1;</text>
+
+    <g class="step st3">
+      <rect x="254" y="250" width="98" height="54" rx="6" fill="#16A34A"/>
+      <text x="303" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="white">3. Entscheidung</text>
+      <text x="303" y="284" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">Ist die Partei</text>
+      <text x="303" y="296" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#DCFCE7">verfassungswidrig?</text>
+    </g>
+
+    <!-- Arrow -->
+    <text x="358" y="280" font-family="system-ui, sans-serif" font-size="12" fill="#BBF7D0">&#x27A1;</text>
+
+    <g class="step st4">
+      <rect x="368" y="250" width="86" height="54" rx="6" fill="#991B1B"/>
+      <text x="411" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="white">4. Verbot</text>
+      <text x="411" y="284" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#FCA5A5">Partei wird</text>
+      <text x="411" y="296" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#FCA5A5">aufgel&#xF6;st</text>
+    </g>
+  </g>
+</svg>

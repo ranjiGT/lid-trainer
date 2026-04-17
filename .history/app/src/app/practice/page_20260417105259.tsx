@@ -13,6 +13,7 @@ import QuestionCard from "../../components/QuestionCard";
 import LanguageToggle from "../../components/LanguageToggle";
 import ThemeToggle from "../../components/ThemeToggle";
 import Link from "next/link";
+import Image from "next/image";
 import { STATE_NAMES } from "../../lib/types";
 import { basePath } from "../../lib/basePath";
 
@@ -119,7 +120,7 @@ export default function PracticePage() {
                     onClick={() => startPractice(code)}
                     className="p-3 bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-md transition-shadow border-2 border-transparent hover:border-blue-300 dark:hover:border-blue-600 text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col items-center"
                   >
-                    <img
+                    <Image
                       src={`${basePath}/images/coats-of-arms/${code}.png`}
                       alt={names[lang]}
                       width={48}

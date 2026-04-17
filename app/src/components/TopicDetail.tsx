@@ -1,6 +1,6 @@
 "use client";
 
-
+import { useState } from "react";
 import { Topic } from "../data/topics";
 import { Language } from "../lib/types";
 import { basePath } from "../lib/basePath";
@@ -19,9 +19,31 @@ export default function TopicDetail({
   onPractice,
 }: TopicDetailProps) {
   const details = topic.details;
+  const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
 
   return (
     <div className="max-w-3xl mx-auto">
+      {/* Lightbox modal */}
+      {lightboxSrc && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm cursor-pointer"
+          onClick={() => setLightboxSrc(null)}
+        >
+          <button
+            onClick={() => setLightboxSrc(null)}
+            className="absolute top-4 right-4 text-white/80 hover:text-white text-3xl font-light z-10"
+            aria-label="Close"
+          >
+            ✕
+          </button>
+          <img
+            src={lightboxSrc}
+            alt=""
+            className="max-w-[90vw] max-h-[90vh] object-contain rounded-xl shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
       {/* Back button */}
       <button
         onClick={onBack}
@@ -75,7 +97,10 @@ export default function TopicDetail({
         {/* Image (if present) */}
         {details?.image && (
           <div className="mb-6 flex flex-col items-center">
-            <div className="rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50">
+            <div
+              className="rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50 cursor-pointer hover:shadow-lg transition-shadow"
+              onClick={() => setLightboxSrc(`${basePath}${details.image!.src}`)}
+            >
               <img
                 src={`${basePath}${details.image.src}`}
                 alt={details.image.alt[lang]}
@@ -95,7 +120,10 @@ export default function TopicDetail({
           <div className="mb-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
             {details.gallery.map((img, i) => (
               <div key={i} className="flex flex-col items-center">
-                <div className="rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50 w-full p-2">
+                <div
+                  className="rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800/50 w-full p-2 cursor-pointer hover:shadow-lg transition-shadow"
+                  onClick={() => setLightboxSrc(`${basePath}${img.src}`)}
+                >
                   <img
                     src={`${basePath}${img.src}`}
                     alt={img.alt[lang]}
@@ -154,12 +182,13 @@ export default function TopicDetail({
                       {row.images?.map((img, j) => (
                         <td
                           key={`img-${j}`}
-                          className="px-4 py-3 border-r border-gray-200 dark:border-gray-700"
+                          className="px-4 py-3 text-center border-r border-gray-200 dark:border-gray-700"
                         >
                           <img
                             src={`${basePath}${img.src}`}
                             alt={img.alt[lang]}
-                            className="w-12 h-12 object-contain"
+                            className="w-12 h-12 object-contain mx-auto cursor-pointer hover:scale-110 transition-transform"
+                            onClick={() => setLightboxSrc(`${basePath}${img.src}`)}
                           />
                         </td>
                       ))}
@@ -169,7 +198,8 @@ export default function TopicDetail({
                             <img
                               src={`${basePath}${row.image}`}
                               alt={row.value[lang]}
-                              className="w-20 h-20 rounded-lg object-cover flex-shrink-0 border border-gray-200 dark:border-gray-600 shadow-sm"
+                              className="w-20 h-20 rounded-lg object-cover flex-shrink-0 border border-gray-200 dark:border-gray-600 shadow-sm cursor-pointer hover:scale-105 transition-transform"
+                              onClick={() => setLightboxSrc(`${basePath}${row.image}`)}
                             />
                           )}
                           <span>{row.value[lang]}</span>

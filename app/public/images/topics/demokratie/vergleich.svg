@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-size="13" fill="#1F2937" font-weight="bold">Demokratie vs. Diktatur</text>
+  <!-- Demokratie side -->
+  <rect x="15" y="40" width="175" height="245" rx="12" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+  <rect x="15" y="40" width="175" height="30" rx="12" fill="#2563EB"/>
+  <rect x="15" y="58" width="175" height="12" fill="#2563EB"/>
+  <text x="102" y="60" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold">Demokratie &#x2713;</text>
+  <!-- Demokratie items -->
+  <circle cx="40" cy="95" r="8" fill="#10B981"/>
+  <text x="40" y="99" text-anchor="middle" font-size="11" fill="#FFF">&#x2713;</text>
+  <text x="55" y="99" font-size="9" fill="#1F2937">Freie Wahlen</text>
+  <circle cx="40" cy="120" r="8" fill="#10B981"/>
+  <text x="40" y="124" text-anchor="middle" font-size="11" fill="#FFF">&#x2713;</text>
+  <text x="55" y="124" font-size="9" fill="#1F2937">Meinungsfreiheit</text>
+  <circle cx="40" cy="145" r="8" fill="#10B981"/>
+  <text x="40" y="149" text-anchor="middle" font-size="11" fill="#FFF">&#x2713;</text>
+  <text x="55" y="149" font-size="9" fill="#1F2937">Pressefreiheit</text>
+  <circle cx="40" cy="170" r="8" fill="#10B981"/>
+  <text x="40" y="174" text-anchor="middle" font-size="11" fill="#FFF">&#x2713;</text>
+  <text x="55" y="174" font-size="9" fill="#1F2937">Gewaltenteilung</text>
+  <circle cx="40" cy="195" r="8" fill="#10B981"/>
+  <text x="40" y="199" text-anchor="middle" font-size="11" fill="#FFF">&#x2713;</text>
+  <text x="55" y="199" font-size="9" fill="#1F2937">Mehrere Parteien</text>
+  <circle cx="40" cy="220" r="8" fill="#10B981"/>
+  <text x="40" y="224" text-anchor="middle" font-size="11" fill="#FFF">&#x2713;</text>
+  <text x="55" y="224" font-size="9" fill="#1F2937">Grundrechte</text>
+  <circle cx="40" cy="245" r="8" fill="#10B981"/>
+  <text x="40" y="249" text-anchor="middle" font-size="11" fill="#FFF">&#x2713;</text>
+  <text x="55" y="249" font-size="9" fill="#1F2937">Opposition erlaubt</text>
+  <circle cx="40" cy="270" r="8" fill="#10B981"/>
+  <text x="40" y="274" text-anchor="middle" font-size="11" fill="#FFF">&#x2713;</text>
+  <text x="55" y="274" font-size="9" fill="#1F2937">Unabh. Gerichte</text>
+  <!-- Diktatur side -->
+  <rect x="210" y="40" width="175" height="245" rx="12" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
+  <rect x="210" y="40" width="175" height="30" rx="12" fill="#DC2626"/>
+  <rect x="210" y="58" width="175" height="12" fill="#DC2626"/>
+  <text x="297" y="60" text-anchor="middle" font-size="12" fill="#FFFFFF" font-weight="bold">Diktatur &#x2717;</text>
+  <!-- Diktatur items -->
+  <circle cx="235" cy="95" r="8" fill="#EF4444"/>
+  <text x="235" y="99" text-anchor="middle" font-size="11" fill="#FFF">&#x2717;</text>
+  <text x="250" y="99" font-size="9" fill="#1F2937">Keine freien Wahlen</text>
+  <circle cx="235" cy="120" r="8" fill="#EF4444"/>
+  <text x="235" y="124" text-anchor="middle" font-size="11" fill="#FFF">&#x2717;</text>
+  <text x="250" y="124" font-size="9" fill="#1F2937">Zensur</text>
+  <circle cx="235" cy="145" r="8" fill="#EF4444"/>
+  <text x="235" y="149" text-anchor="middle" font-size="11" fill="#FFF">&#x2717;</text>
+  <text x="250" y="149" font-size="9" fill="#1F2937">Staatliche Medien</text>
+  <circle cx="235" cy="170" r="8" fill="#EF4444"/>
+  <text x="235" y="174" text-anchor="middle" font-size="11" fill="#FFF">&#x2717;</text>
+  <text x="250" y="174" font-size="9" fill="#1F2937">Alle Macht beim F&#252;hrer</text>
+  <circle cx="235" cy="195" r="8" fill="#EF4444"/>
+  <text x="235" y="199" text-anchor="middle" font-size="11" fill="#FFF">&#x2717;</text>
+  <text x="250" y="199" font-size="9" fill="#1F2937">Einparteiensystem</text>
+  <circle cx="235" cy="220" r="8" fill="#EF4444"/>
+  <text x="235" y="224" text-anchor="middle" font-size="11" fill="#FFF">&#x2717;</text>
+  <text x="250" y="224" font-size="9" fill="#1F2937">Keine Grundrechte</text>
+  <circle cx="235" cy="245" r="8" fill="#EF4444"/>
+  <text x="235" y="249" text-anchor="middle" font-size="11" fill="#FFF">&#x2717;</text>
+  <text x="250" y="249" font-size="9" fill="#1F2937">Opposition verboten</text>
+  <circle cx="235" cy="270" r="8" fill="#EF4444"/>
+  <text x="235" y="274" text-anchor="middle" font-size="11" fill="#FFF">&#x2717;</text>
+  <text x="250" y="274" font-size="9" fill="#1F2937">Politische Justiz</text>
+</svg>

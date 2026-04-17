@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#16A34A"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#14532D"/>
+    </marker>
+  </defs>
+
+  <rect width="400" height="440" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="200" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="bold" fill="#14532D">Rechtsweg in Deutschland</text>
+  <text x="200" y="43" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Jeder B&#xFC;rger kann den Rechtsweg beschreiten (Art. 19 Abs. 4 GG)</text>
+
+  <!-- === Top row: Process flow === -->
+  <!-- Step 1: Conflict -->
+  <rect x="15" y="56" width="105" height="52" rx="10" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="67" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#991B1B">Konflikt /</text>
+  <text x="67" y="86" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#991B1B">Rechtsverletzung</text>
+  <text x="67" y="103" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14">&#x26A0;</text>
+
+  <!-- Arrow 1 -->
+  <line x1="120" y1="82" x2="146" y2="82" stroke="#16A34A" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 2: Anwalt -->
+  <rect x="148" y="56" width="105" height="52" rx="10" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="200" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">Rechtsanwalt</text>
+  <text x="200" y="86" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">(Beratung)</text>
+  <text x="200" y="103" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14">&#x1F464;</text>
+
+  <!-- Arrow 2 -->
+  <line x1="253" y1="82" x2="279" y2="82" stroke="#16A34A" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 3: Klage -->
+  <rect x="281" y="56" width="105" height="52" rx="10" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="333" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">Klage einreichen</text>
+  <text x="333" y="86" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">(beim Gericht)</text>
+  <text x="333" y="103" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14">&#x1F4DC;</text>
+
+  <!-- Separator -->
+  <line x1="30" y1="120" x2="370" y2="120" stroke="#16A34A" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="200" y="136" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">&#x2191; Instanzenweg (von unten nach oben) &#x2191;</text>
+
+  <!-- === Court hierarchy: vertical stack, bottom to top === -->
+  <!-- Each box is 40px tall, with 20px arrow gap between them -->
+
+  <!-- Level 1 (bottom): Amtsgericht — y=390 -->
+  <rect x="50" y="390" width="240" height="40" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="170" y="415" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#14532D">Amtsgericht</text>
+  <text x="310" y="415" text-anchor="start" font-family="system-ui, sans-serif" font-size="9" fill="#166534">1. Instanz</text>
+
+  <!-- Arrow up from Amtsgericht to Landgericht -->
+  <line x1="170" y1="390" x2="170" y2="370" stroke="#16A34A" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Level 2: Landgericht — y=330 -->
+  <rect x="50" y="330" width="240" height="40" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="170" y="355" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#14532D">Landgericht</text>
+  <text x="310" y="355" text-anchor="start" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Berufung</text>
+
+  <!-- Arrow up from Landgericht to OLG -->
+  <line x1="170" y1="330" x2="170" y2="310" stroke="#16A34A" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Level 3: Oberlandesgericht — y=270 -->
+  <rect x="50" y="270" width="240" height="40" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="170" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#14532D">Oberlandesgericht</text>
+  <text x="310" y="295" text-anchor="start" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Revision</text>
+
+  <!-- Arrow up from OLG to BGH -->
+  <line x1="170" y1="270" x2="170" y2="250" stroke="#16A34A" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Level 4: Bundesgerichtshof — y=210 -->
+  <rect x="50" y="210" width="240" height="40" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="170" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#14532D">Bundesgerichtshof</text>
+  <text x="310" y="235" text-anchor="start" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Letzte Instanz</text>
+
+  <!-- Arrow up from BGH to BVerfG -->
+  <line x1="170" y1="210" x2="170" y2="190" stroke="#14532D" stroke-width="2" marker-end="url(#arrowhead2)"/>
+
+  <!-- Level 5 (top): Bundesverfassungsgericht — y=148 -->
+  <rect x="30" y="148" width="280" height="42" rx="8" fill="#14532D"/>
+  <text x="170" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="white">Bundesverfassungsgericht</text>
+  <text x="170" y="183" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#BBF7D0">(Verfassungsbeschwerde)</text>
+  <text x="325" y="174" text-anchor="start" font-family="system-ui, sans-serif" font-size="18">&#x2696;</text>
+</svg>

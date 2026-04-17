@@ -807,6 +807,23 @@ export const topics: Topic[] = [
     },
     illustration: "🏛️",
     relatedQuestionNumbers: [30, 34, 41, 52, 61, 125, 158, 161, 196],    details: {
+      gallery: [
+        {
+          src: "/images/topics/demokratie/prinzipien.svg",
+          alt: { de: "Merkmale der Demokratie", en: "Features of Democracy" },
+          caption: { de: "Die wichtigsten Merkmale der deutschen Demokratie: Alle Staatsgewalt geht vom Volk aus", en: "Key features of German democracy: All state authority emanates from the people" },
+        },
+        {
+          src: "/images/topics/demokratie/vergleich.svg",
+          alt: { de: "Demokratie vs. Diktatur", en: "Democracy vs. Dictatorship" },
+          caption: { de: "Vergleich: Demokratie garantiert Freiheiten \u2013 eine Diktatur unterdr\u00fcckt sie", en: "Comparison: Democracy guarantees freedoms \u2013 a dictatorship suppresses them" },
+        },
+        {
+          src: "/images/topics/demokratie/bundestag-plenarsaal.jpg",
+          alt: { de: "Plenarsaal des Deutschen Bundestages", en: "Plenary chamber of the German Bundestag" },
+          caption: { de: "Plenarsaal des Deutschen Bundestages im Reichstagsgebäude, Berlin (Foto: Times, CC BY-SA 3.0)", en: "Plenary chamber of the German Bundestag in the Reichstag building, Berlin (Photo: Times, CC BY-SA 3.0)" },
+        },
+      ],
       keyFacts: {
         title: { de: "Merkmale der Demokratie", en: "Features of Democracy" },
         items: [
@@ -829,6 +846,23 @@ export const topics: Topic[] = [
     illustration: "⚖️",
     relatedQuestionNumbers: [3, 20, 34, 51, 53],
     details: {
+      gallery: [
+        {
+          src: "/images/topics/rechtsstaat/saeulen.svg",
+          alt: { de: "Säulen des Rechtsstaats", en: "Pillars of the Rule of Law" },
+          caption: { de: "Die fünf Säulen des Rechtsstaats: Gesetzbindung, Grundrechte, Gewaltenteilung, unabhängige Gerichte und Rechtssicherheit", en: "The five pillars of the rule of law: binding law, fundamental rights, separation of powers, independent courts, and legal certainty" },
+        },
+        {
+          src: "/images/topics/rechtsstaat/rechtsweg.svg",
+          alt: { de: "Rechtsweg in Deutschland", en: "Legal recourse in Germany" },
+          caption: { de: "Jeder Bürger kann den Rechtsweg beschreiten \u2013 vom Amtsgericht bis zum Bundesverfassungsgericht", en: "Every citizen can seek legal recourse \u2013 from district court to the Federal Constitutional Court" },
+        },
+        {
+          src: "/images/topics/rechtsstaat/bundesverfassungsgericht.jpg",
+          alt: { de: "Bundesverfassungsgericht in Karlsruhe", en: "Federal Constitutional Court in Karlsruhe" },
+          caption: { de: "Bibliothek und Gerichtssaal des Bundesverfassungsgerichts in Karlsruhe (Foto: Asmodea Oaktree, CC BY 4.0)", en: "Library and courtroom of the Federal Constitutional Court in Karlsruhe (Photo: Asmodea Oaktree, CC BY 4.0)" },
+        },
+      ],
       keyFacts: {
         title: { de: "Merkmale des Rechtsstaats", en: "Features of the Rule of Law" },
         items: [
@@ -897,6 +931,23 @@ export const topics: Topic[] = [
         de: "Ein „Schöffe“ ist ein Laienrichter. Er oder sie ist kein Jurist, sondern ein einfacher Bürger. Schöffen arbeiten mit Berufsrichtern zusammen und entscheiden gemeinsam über Schuld und Strafe.",
         en: "A “Schöffe” is a lay judge. He or she is not a lawyer, but an ordinary citizen. Lay judges work alongside professional judges and decide jointly on guilt and punishment.",
       },
+      gallery: [
+        {
+          src: "/images/topics/schoffe/gerichtssaal.svg",
+          alt: { de: "Schöffengericht – Laienrichter und Berufsrichter", en: "Lay judge court – lay judges and professional judge" },
+          caption: { de: "Ein Schöffengericht: Zwei Schöffen (Laienrichter) sitzen neben dem Berufsrichter", en: "A Schöffen court: Two lay judges sit alongside the professional judge" },
+        },
+        {
+          src: "/images/topics/schoffe/auswahlverfahren.svg",
+          alt: { de: "Auswahlverfahren für Schöffen", en: "Selection process for lay judges" },
+          caption: { de: "Der Weg zum Schöffen: Bewerbung, Vorschlag durch die Gemeinde, Ernennung durch das Gericht", en: "The path to becoming a lay judge: application, nomination by the municipality, appointment by the court" },
+        },
+        {
+          src: "/images/topics/schoffe/schoeffengerichtssaal-luebeck.jpg",
+          alt: { de: "Historischer Schöffengerichtssaal in Lübeck", en: "Historic lay judge courtroom in Lübeck" },
+          caption: { de: "Historischer Schöffengerichtssaal im Europäischen Hansemuseum, Lübeck (Foto: Olaf Malzahn, CC BY 4.0)", en: "Historic lay judge courtroom at the European Hanseatic Museum, Lübeck (Photo: Olaf Malzahn, CC BY 4.0)" },
+        },
+      ],
       keyFacts: {
         title: { de: "Wichtige Fakten", en: "Key Facts" },
         items: [

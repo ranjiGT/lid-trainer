@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- Courtroom wall -->
+  <rect x="20" y="20" width="360" height="200" rx="8" fill="#F5F5DC"/>
+  <rect x="20" y="20" width="360" height="30" rx="8" fill="#8B7355"/>
+  <!-- German coat of arms on wall -->
+  <circle cx="200" cy="70" r="18" fill="#FCD34D" stroke="#B45309" stroke-width="2"/>
+  <text x="200" y="76" text-anchor="middle" font-size="20" fill="#B45309">&#x1F985;</text>
+  <!-- Judge bench (elevated) -->
+  <rect x="60" y="110" width="280" height="15" rx="4" fill="#92400E"/>
+  <rect x="60" y="125" width="280" height="60" rx="4" fill="#A0522D"/>
+  <rect x="70" y="130" width="260" height="50" rx="3" fill="#8B4513"/>
+  <!-- Professional judge (center, with robe) -->
+  <circle cx="200" cy="100" r="14" fill="#FDDCB5"/>
+  <rect x="188" y="112" width="24" height="28" rx="4" fill="#1F2937"/>
+  <rect x="192" y="112" width="16" height="6" rx="2" fill="#FFFFFF"/>
+  <text x="200" y="170" text-anchor="middle" font-size="8" fill="#FFFFFF" font-weight="bold">Richter</text>
+  <!-- Lay judge left (Schöffe, no robe - civilian clothes) -->
+  <circle cx="130" cy="100" r="13" fill="#FDDCB5"/>
+  <rect x="119" y="111" width="22" height="26" rx="4" fill="#3B82F6"/>
+  <rect x="123" y="111" width="14" height="5" rx="2" fill="#DBEAFE"/>
+  <text x="130" y="170" text-anchor="middle" font-size="7" fill="#FFFFFF" font-weight="bold">Sch&#246;ffe</text>
+  <!-- Lay judge right (Schöffe) -->
+  <circle cx="270" cy="100" r="13" fill="#FDDCB5"/>
+  <rect x="259" y="111" width="22" height="26" rx="4" fill="#3B82F6"/>
+  <rect x="263" y="111" width="14" height="5" rx="2" fill="#DBEAFE"/>
+  <text x="270" y="170" text-anchor="middle" font-size="7" fill="#FFFFFF" font-weight="bold">Sch&#246;ffe</text>
+  <!-- Gavel -->
+  <rect x="215" y="133" width="25" height="8" rx="3" fill="#78350F"/>
+  <rect x="225" y="128" width="8" height="18" rx="2" fill="#78350F"/>
+  <!-- Audience area / lower section -->
+  <rect x="20" y="220" width="360" height="60" rx="8" fill="#E5E7EB"/>
+  <!-- Defendant stand -->
+  <rect x="150" y="200" width="100" height="15" rx="3" fill="#9CA3AF"/>
+  <circle cx="200" cy="195" r="10" fill="#FDDCB5"/>
+  <rect x="192" y="203" width="16" height="14" rx="3" fill="#6B7280"/>
+  <!-- Audience silhouettes -->
+  <circle cx="70" cy="245" r="8" fill="#9CA3AF"/>
+  <rect x="63" y="252" width="14" height="16" rx="3" fill="#9CA3AF"/>
+  <circle cx="120" cy="245" r="8" fill="#9CA3AF"/>
+  <rect x="113" y="252" width="14" height="16" rx="3" fill="#9CA3AF"/>
+  <circle cx="280" cy="245" r="8" fill="#9CA3AF"/>
+  <rect x="273" y="252" width="14" height="16" rx="3" fill="#9CA3AF"/>
+  <circle cx="330" cy="245" r="8" fill="#9CA3AF"/>
+  <rect x="323" y="252" width="14" height="16" rx="3" fill="#9CA3AF"/>
+  <!-- Labels -->
+  <rect x="105" y="82" width="50" height="12" rx="3" fill="#2563EB" opacity="0.9"/>
+  <text x="130" y="91" text-anchor="middle" font-size="7" fill="#FFFFFF" font-weight="bold">Laienrichter</text>
+  <rect x="245" y="82" width="50" height="12" rx="3" fill="#2563EB" opacity="0.9"/>
+  <text x="270" y="91" text-anchor="middle" font-size="7" fill="#FFFFFF" font-weight="bold">Laienrichter</text>
+  <rect x="175" y="82" width="50" height="12" rx="3" fill="#1F2937" opacity="0.9"/>
+  <text x="200" y="91" text-anchor="middle" font-size="7" fill="#FFFFFF" font-weight="bold">Berufsrichter</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340">
+  <rect width="520" height="340" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="260" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" font-weight="bold" fill="#14532D">S&#xE4;ulen des Rechtsstaats</text>
+
+  <!-- Roof / Pediment -->
+  <polygon points="260,44 35,82 485,82" fill="#16A34A" opacity="0.15"/>
+  <text x="260" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#14532D">Rechtsstaat</text>
+  <line x1="35" y1="82" x2="485" y2="82" stroke="#16A34A" stroke-width="3"/>
+
+  <!-- Foundation bar -->
+  <rect x="35" y="295" width="450" height="32" rx="6" fill="#14532D"/>
+  <text x="260" y="316" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="white">Grundgesetz (Art. 20 GG)</text>
+
+  <!-- Pillar dimensions: width=82, gap=10, total = 5*82 + 4*10 = 450, start x=35 -->
+
+  <!-- Pillar 1: Gesetzbindung -->
+  <rect x="35" y="88" width="82" height="200" rx="6" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="76" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Gesetz-</text>
+  <text x="76" y="124" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">bindung</text>
+  <!-- Icon: paragraph symbol (pure text, no emoji) -->
+  <text x="76" y="170" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="#16A34A">&#xA7;</text>
+  <text x="76" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Alle m&#xFC;ssen</text>
+  <text x="76" y="217" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">sich an die</text>
+  <text x="76" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Gesetze halten</text>
+
+  <!-- Pillar 2: Grundrechte -->
+  <rect x="127" y="88" width="82" height="200" rx="6" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="168" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Grund-</text>
+  <text x="168" y="124" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">rechte</text>
+  <!-- Icon: shield shape -->
+  <g transform="translate(168,165)">
+    <path d="M0,-18 L14,-10 L14,4 C14,12 0,20 0,20 C0,20 -14,12 -14,4 L-14,-10 Z" fill="#16A34A" opacity="0.3" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="0" y="4" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#14532D">&#x2713;</text>
+  </g>
+  <text x="168" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Schutz der</text>
+  <text x="168" y="217" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Menschenw&#xFC;rde</text>
+  <text x="168" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">und Freiheiten</text>
+
+  <!-- Pillar 3: Gewaltenteilung -->
+  <rect x="219" y="88" width="82" height="200" rx="6" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="260" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Gewalten-</text>
+  <text x="260" y="124" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">teilung</text>
+  <!-- Icon: three branches (SVG circles) -->
+  <g transform="translate(260,163)">
+    <circle cx="-16" cy="-6" r="8" fill="#16A34A" opacity="0.25" stroke="#16A34A" stroke-width="1"/>
+    <circle cx="16" cy="-6" r="8" fill="#16A34A" opacity="0.25" stroke="#16A34A" stroke-width="1"/>
+    <circle cx="0" cy="12" r="8" fill="#16A34A" opacity="0.25" stroke="#16A34A" stroke-width="1"/>
+    <text x="-16" y="-2" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#14532D">L</text>
+    <text x="16" y="-2" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#14532D">E</text>
+    <text x="0" y="16" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#14532D">J</text>
+  </g>
+  <text x="260" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Legislative</text>
+  <text x="260" y="217" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Exekutive</text>
+  <text x="260" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Judikative</text>
+
+  <!-- Pillar 4: Unabhängige Gerichte -->
+  <rect x="311" y="88" width="82" height="200" rx="6" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="352" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Unabh&#xE4;ngige</text>
+  <text x="352" y="124" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Gerichte</text>
+  <!-- Icon: scales of justice (SVG) -->
+  <g transform="translate(352,162)">
+    <line x1="0" y1="-14" x2="0" y2="8" stroke="#16A34A" stroke-width="2"/>
+    <line x1="-18" y1="-10" x2="18" y2="-10" stroke="#16A34A" stroke-width="2"/>
+    <path d="M-18,-10 L-24,2 L-12,2 Z" fill="#16A34A" opacity="0.3" stroke="#16A34A" stroke-width="1"/>
+    <path d="M18,-10 L12,2 L24,2 Z" fill="#16A34A" opacity="0.3" stroke="#16A34A" stroke-width="1"/>
+    <line x1="-6" y1="8" x2="6" y2="8" stroke="#16A34A" stroke-width="2"/>
+  </g>
+  <text x="352" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Richter sind</text>
+  <text x="352" y="217" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">unabh&#xE4;ngig und</text>
+  <text x="352" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">nur dem Gesetz</text>
+  <text x="352" y="241" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">unterworfen</text>
+
+  <!-- Pillar 5: Rechtssicherheit -->
+  <rect x="403" y="88" width="82" height="200" rx="6" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="444" y="110" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Rechts-</text>
+  <text x="444" y="124" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">sicherheit</text>
+  <!-- Icon: checkmark in circle (SVG) -->
+  <g transform="translate(444,160)">
+    <circle cx="0" cy="0" r="16" fill="#16A34A" opacity="0.15" stroke="#16A34A" stroke-width="1.5"/>
+    <polyline points="-8,0 -3,6 9,-6" fill="none" stroke="#16A34A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="444" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Klare Regeln</text>
+  <text x="444" y="217" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">f&#xFC;r alle,</text>
+  <text x="444" y="229" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Vertrauen</text>
+  <text x="444" y="241" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">in das Recht</text>
+</svg>

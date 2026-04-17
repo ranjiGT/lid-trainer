@@ -118,8 +118,26 @@ export default function TopicDetail({
             <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-3">
               {details.table.title[lang]}
             </h2>
-            <div className="overflow-hidden rounded-xl border border-gray-200 dark:border-gray-700">
+            <div className="overflow-x-auto rounded-xl border border-gray-200 dark:border-gray-700">
               <table className="w-full text-sm">
+                {details.table.headers && (
+                  <thead>
+                    <tr className="bg-gray-100 dark:bg-gray-700">
+                      {details.table.headers.map((header, i) => (
+                        <th
+                          key={i}
+                          className={`px-4 py-2 text-left font-semibold text-gray-700 dark:text-gray-300 ${
+                            i < details.table!.headers!.length - 1
+                              ? "border-r border-gray-200 dark:border-gray-600"
+                              : ""
+                          }`}
+                        >
+                          {header[lang]}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                )}
                 <tbody>
                   {details.table.rows.map((row, i) => (
                     <tr
@@ -130,10 +148,22 @@ export default function TopicDetail({
                           : "bg-white dark:bg-gray-800"
                       }
                     >
-                      <td className="px-4 py-3 font-semibold text-gray-700 dark:text-gray-300 whitespace-nowrap w-1/3 border-r border-gray-200 dark:border-gray-700">
+                      <td className="px-4 py-3 font-semibold text-gray-700 dark:text-gray-300 whitespace-nowrap border-r border-gray-200 dark:border-gray-700">
                         {row.label[lang]}
                       </td>
-                      <td className="px-4 py-3 text-gray-900 dark:text-gray-100">
+                      {row.images?.map((img, j) => (
+                        <td
+                          key={`img-${j}`}
+                          className="px-4 py-3 border-r border-gray-200 dark:border-gray-700"
+                        >
+                          <img
+                            src={`${basePath}${img.src}`}
+                            alt={img.alt[lang]}
+                            className="w-12 h-12 object-contain"
+                          />
+                        </td>
+                      ))}
+                      <td className={`px-4 py-3 text-gray-900 dark:text-gray-100${row.extras ? " border-r border-gray-200 dark:border-gray-700" : ""}`}>
                         <div className="flex items-center gap-3">
                           {row.image && (
                             <img
@@ -145,6 +175,18 @@ export default function TopicDetail({
                           <span>{row.value[lang]}</span>
                         </div>
                       </td>
+                      {row.extras?.map((extra, j) => (
+                        <td
+                          key={j}
+                          className={`px-4 py-3 text-gray-700 dark:text-gray-300 whitespace-nowrap text-center${
+                            j < row.extras!.length - 1
+                              ? " border-r border-gray-200 dark:border-gray-700"
+                              : ""
+                          }`}
+                        >
+                          {extra[lang]}
+                        </td>
+                      ))}
                     </tr>
                   ))}
                 </tbody>

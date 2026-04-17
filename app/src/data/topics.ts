@@ -2,6 +2,8 @@ export interface TopicTableRow {
   label: { de: string; en: string };
   value: { de: string; en: string };
   image?: string;
+  images?: { src: string; alt: { de: string; en: string } }[];
+  extras?: { de: string; en: string }[];
 }
 
 export interface TopicKeyFact {
@@ -22,6 +24,7 @@ export interface TopicDetails {
   }[];
   table?: {
     title: { de: string; en: string };
+    headers?: { de: string; en: string }[];
     rows: TopicTableRow[];
   };
   keyFacts?: {
@@ -956,23 +959,29 @@ export const topics: Topic[] = [
     details: {
       table: {
         title: { de: "Die 16 Bundesländer", en: "The 16 Federal States" },
+        headers: [
+          { de: "Kürzel", en: "Code" },
+          { de: "Wappen", en: "Coat of Arms" },
+          { de: "Bundesland (Hauptstadt)", en: "Federal State (Capital)" },
+          { de: "Lage", en: "Location" },
+        ],
         rows: [
-          { label: { de: "BW", en: "BW" }, value: { de: "Baden-Württemberg (Stuttgart)", en: "Baden-Württemberg (Stuttgart)" } },
-          { label: { de: "BY", en: "BY" }, value: { de: "Bayern (München)", en: "Bavaria (Munich)" } },
-          { label: { de: "BE", en: "BE" }, value: { de: "Berlin", en: "Berlin" } },
-          { label: { de: "BB", en: "BB" }, value: { de: "Brandenburg (Potsdam)", en: "Brandenburg (Potsdam)" } },
-          { label: { de: "HB", en: "HB" }, value: { de: "Bremen", en: "Bremen" } },
-          { label: { de: "HH", en: "HH" }, value: { de: "Hamburg", en: "Hamburg" } },
-          { label: { de: "HE", en: "HE" }, value: { de: "Hessen (Wiesbaden)", en: "Hesse (Wiesbaden)" } },
-          { label: { de: "MV", en: "MV" }, value: { de: "Mecklenburg-Vorpommern (Schwerin)", en: "Mecklenburg-Western Pomerania (Schwerin)" } },
-          { label: { de: "NI", en: "NI" }, value: { de: "Niedersachsen (Hannover)", en: "Lower Saxony (Hanover)" } },
-          { label: { de: "NW", en: "NW" }, value: { de: "Nordrhein-Westfalen (Düsseldorf)", en: "North Rhine-Westphalia (Düsseldorf)" } },
-          { label: { de: "RP", en: "RP" }, value: { de: "Rheinland-Pfalz (Mainz)", en: "Rhineland-Palatinate (Mainz)" } },
-          { label: { de: "SL", en: "SL" }, value: { de: "Saarland (Saarbrücken)", en: "Saarland (Saarbrücken)" } },
-          { label: { de: "SN", en: "SN" }, value: { de: "Sachsen (Dresden)", en: "Saxony (Dresden)" } },
-          { label: { de: "ST", en: "ST" }, value: { de: "Sachsen-Anhalt (Magdeburg)", en: "Saxony-Anhalt (Magdeburg)" } },
-          { label: { de: "SH", en: "SH" }, value: { de: "Schleswig-Holstein (Kiel)", en: "Schleswig-Holstein (Kiel)" } },
-          { label: { de: "TH", en: "TH" }, value: { de: "Thüringen (Erfurt)", en: "Thuringia (Erfurt)" } },
+          { label: { de: "BW", en: "BW" }, value: { de: "Baden-Württemberg (Stuttgart)", en: "Baden-Württemberg (Stuttgart)" }, images: [{ src: "/images/coats-of-arms/BW.png", alt: { de: "Wappen Baden-Württemberg", en: "Coat of arms Baden-Württemberg" } }, { src: "/images/states-map/BW.png", alt: { de: "Lage Baden-Württemberg", en: "Location Baden-Württemberg" } }] },
+          { label: { de: "BY", en: "BY" }, value: { de: "Bayern (München)", en: "Bavaria (Munich)" }, images: [{ src: "/images/coats-of-arms/BY.png", alt: { de: "Wappen Bayern", en: "Coat of arms Bavaria" } }, { src: "/images/states-map/BY.png", alt: { de: "Lage Bayern", en: "Location Bavaria" } }] },
+          { label: { de: "BE", en: "BE" }, value: { de: "Berlin", en: "Berlin" }, images: [{ src: "/images/coats-of-arms/BE.png", alt: { de: "Wappen Berlin", en: "Coat of arms Berlin" } }, { src: "/images/states-map/BE.png", alt: { de: "Lage Berlin", en: "Location Berlin" } }] },
+          { label: { de: "BB", en: "BB" }, value: { de: "Brandenburg (Potsdam)", en: "Brandenburg (Potsdam)" }, images: [{ src: "/images/coats-of-arms/BB.png", alt: { de: "Wappen Brandenburg", en: "Coat of arms Brandenburg" } }, { src: "/images/states-map/BB.png", alt: { de: "Lage Brandenburg", en: "Location Brandenburg" } }] },
+          { label: { de: "HB", en: "HB" }, value: { de: "Bremen", en: "Bremen" }, images: [{ src: "/images/coats-of-arms/HB.png", alt: { de: "Wappen Bremen", en: "Coat of arms Bremen" } }, { src: "/images/states-map/HB.png", alt: { de: "Lage Bremen", en: "Location Bremen" } }] },
+          { label: { de: "HH", en: "HH" }, value: { de: "Hamburg", en: "Hamburg" }, images: [{ src: "/images/coats-of-arms/HH.png", alt: { de: "Wappen Hamburg", en: "Coat of arms Hamburg" } }, { src: "/images/states-map/HH.png", alt: { de: "Lage Hamburg", en: "Location Hamburg" } }] },
+          { label: { de: "HE", en: "HE" }, value: { de: "Hessen (Wiesbaden)", en: "Hesse (Wiesbaden)" }, images: [{ src: "/images/coats-of-arms/HE.png", alt: { de: "Wappen Hessen", en: "Coat of arms Hesse" } }, { src: "/images/states-map/HE.png", alt: { de: "Lage Hessen", en: "Location Hesse" } }] },
+          { label: { de: "MV", en: "MV" }, value: { de: "Mecklenburg-Vorpommern (Schwerin)", en: "Mecklenburg-Western Pomerania (Schwerin)" }, images: [{ src: "/images/coats-of-arms/MV.png", alt: { de: "Wappen Mecklenburg-Vorpommern", en: "Coat of arms Mecklenburg-Western Pomerania" } }, { src: "/images/states-map/MV.png", alt: { de: "Lage Mecklenburg-Vorpommern", en: "Location Mecklenburg-Western Pomerania" } }] },
+          { label: { de: "NI", en: "NI" }, value: { de: "Niedersachsen (Hannover)", en: "Lower Saxony (Hanover)" }, images: [{ src: "/images/coats-of-arms/NI.png", alt: { de: "Wappen Niedersachsen", en: "Coat of arms Lower Saxony" } }, { src: "/images/states-map/NI.png", alt: { de: "Lage Niedersachsen", en: "Location Lower Saxony" } }] },
+          { label: { de: "NW", en: "NW" }, value: { de: "Nordrhein-Westfalen (Düsseldorf)", en: "North Rhine-Westphalia (Düsseldorf)" }, images: [{ src: "/images/coats-of-arms/NW.png", alt: { de: "Wappen Nordrhein-Westfalen", en: "Coat of arms North Rhine-Westphalia" } }, { src: "/images/states-map/NW.png", alt: { de: "Lage Nordrhein-Westfalen", en: "Location North Rhine-Westphalia" } }] },
+          { label: { de: "RP", en: "RP" }, value: { de: "Rheinland-Pfalz (Mainz)", en: "Rhineland-Palatinate (Mainz)" }, images: [{ src: "/images/coats-of-arms/RP.png", alt: { de: "Wappen Rheinland-Pfalz", en: "Coat of arms Rhineland-Palatinate" } }, { src: "/images/states-map/RP.png", alt: { de: "Lage Rheinland-Pfalz", en: "Location Rhineland-Palatinate" } }] },
+          { label: { de: "SL", en: "SL" }, value: { de: "Saarland (Saarbrücken)", en: "Saarland (Saarbrücken)" }, images: [{ src: "/images/coats-of-arms/SL.png", alt: { de: "Wappen Saarland", en: "Coat of arms Saarland" } }, { src: "/images/states-map/SL.png", alt: { de: "Lage Saarland", en: "Location Saarland" } }] },
+          { label: { de: "SN", en: "SN" }, value: { de: "Sachsen (Dresden)", en: "Saxony (Dresden)" }, images: [{ src: "/images/coats-of-arms/SN.png", alt: { de: "Wappen Sachsen", en: "Coat of arms Saxony" } }, { src: "/images/states-map/SN.png", alt: { de: "Lage Sachsen", en: "Location Saxony" } }] },
+          { label: { de: "ST", en: "ST" }, value: { de: "Sachsen-Anhalt (Magdeburg)", en: "Saxony-Anhalt (Magdeburg)" }, images: [{ src: "/images/coats-of-arms/ST.png", alt: { de: "Wappen Sachsen-Anhalt", en: "Coat of arms Saxony-Anhalt" } }, { src: "/images/states-map/ST.png", alt: { de: "Lage Sachsen-Anhalt", en: "Location Saxony-Anhalt" } }] },
+          { label: { de: "SH", en: "SH" }, value: { de: "Schleswig-Holstein (Kiel)", en: "Schleswig-Holstein (Kiel)" }, images: [{ src: "/images/coats-of-arms/SH.png", alt: { de: "Wappen Schleswig-Holstein", en: "Coat of arms Schleswig-Holstein" } }, { src: "/images/states-map/SH.png", alt: { de: "Lage Schleswig-Holstein", en: "Location Schleswig-Holstein" } }] },
+          { label: { de: "TH", en: "TH" }, value: { de: "Thüringen (Erfurt)", en: "Thuringia (Erfurt)" }, images: [{ src: "/images/coats-of-arms/TH.png", alt: { de: "Wappen Thüringen", en: "Coat of arms Thuringia" } }, { src: "/images/states-map/TH.png", alt: { de: "Lage Thüringen", en: "Location Thuringia" } }] },
         ],
       },
     },
@@ -1005,16 +1014,22 @@ export const topics: Topic[] = [
       },
       table: {
         title: { de: "Die 9 Nachbarländer", en: "The 9 Neighboring Countries" },
+        headers: [
+          { de: "Richtung", en: "Direction" },
+          { de: "Land", en: "Country" },
+          { de: "Entfernung", en: "Distance" },
+          { de: "Flugzeit ✈️", en: "Flight Time ✈️" },
+        ],
         rows: [
-          { label: { de: "Norden", en: "North" }, value: { de: "Dänemark 🇩🇰", en: "Denmark 🇩🇰" } },
-          { label: { de: "Nordosten", en: "Northeast" }, value: { de: "Polen 🇵🇱", en: "Poland 🇵🇱" } },
-          { label: { de: "Osten", en: "East" }, value: { de: "Tschechien 🇨🇿", en: "Czech Republic 🇨🇿" } },
-          { label: { de: "Südosten", en: "Southeast" }, value: { de: "Österreich 🇦🇹", en: "Austria 🇦🇹" } },
-          { label: { de: "Süden", en: "South" }, value: { de: "Schweiz 🇨🇭", en: "Switzerland 🇨🇭" } },
-          { label: { de: "Südwesten", en: "Southwest" }, value: { de: "Frankreich 🇫🇷", en: "France 🇫🇷" } },
-          { label: { de: "Westen", en: "West" }, value: { de: "Luxemburg 🇱🇺", en: "Luxembourg 🇱🇺" } },
-          { label: { de: "Westen", en: "West" }, value: { de: "Belgien 🇧🇪", en: "Belgium 🇧🇪" } },
-          { label: { de: "Nordwesten", en: "Northwest" }, value: { de: "Niederlande 🇳🇱", en: "Netherlands 🇳🇱" } },
+          { label: { de: "Norden", en: "North" }, value: { de: "Dänemark 🇩🇰", en: "Denmark 🇩🇰" }, extras: [{ de: "~355 km", en: "~220 mi" }, { de: "~1h 10min", en: "~1h 10min" }] },
+          { label: { de: "Nordosten", en: "Northeast" }, value: { de: "Polen 🇵🇱", en: "Poland 🇵🇱" }, extras: [{ de: "~575 km", en: "~357 mi" }, { de: "~1h 20min", en: "~1h 20min" }] },
+          { label: { de: "Osten", en: "East" }, value: { de: "Tschechien 🇨🇿", en: "Czech Republic 🇨🇿" }, extras: [{ de: "~350 km", en: "~217 mi" }, { de: "~1h 05min", en: "~1h 05min" }] },
+          { label: { de: "Südosten", en: "Southeast" }, value: { de: "Österreich 🇦🇹", en: "Austria 🇦🇹" }, extras: [{ de: "~680 km", en: "~423 mi" }, { de: "~1h 20min", en: "~1h 20min" }] },
+          { label: { de: "Süden", en: "South" }, value: { de: "Schweiz 🇨🇭", en: "Switzerland 🇨🇭" }, extras: [{ de: "~750 km", en: "~466 mi" }, { de: "~1h 25min", en: "~1h 25min" }] },
+          { label: { de: "Südwesten", en: "Southwest" }, value: { de: "Frankreich 🇫🇷", en: "France 🇫🇷" }, extras: [{ de: "~1,050 km", en: "~652 mi" }, { de: "~1h 45min", en: "~1h 45min" }] },
+          { label: { de: "Westen", en: "West" }, value: { de: "Luxemburg 🇱🇺", en: "Luxembourg 🇱🇺" }, extras: [{ de: "~590 km", en: "~367 mi" }, { de: "~1h 15min", en: "~1h 15min" }] },
+          { label: { de: "Westen", en: "West" }, value: { de: "Belgien 🇧🇪", en: "Belgium 🇧🇪" }, extras: [{ de: "~760 km", en: "~472 mi" }, { de: "~1h 25min", en: "~1h 25min" }] },
+          { label: { de: "Nordwesten", en: "Northwest" }, value: { de: "Niederlande 🇳🇱", en: "Netherlands 🇳🇱" }, extras: [{ de: "~660 km", en: "~410 mi" }, { de: "~1h 20min", en: "~1h 20min" }] },
         ],
       },
       keyFacts: {

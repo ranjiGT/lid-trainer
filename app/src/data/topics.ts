@@ -702,6 +702,23 @@ export const topics: Topic[] = [
         de: "Das Grundgesetz wurde am 23. Mai 1949 verkündet. Es ist die Verfassung der Bundesrepublik Deutschland.",
         en: "The Basic Law was promulgated on May 23, 1949. It is the constitution of the Federal Republic of Germany.",
       },
+      gallery: [
+        {
+          src: "/images/topics/grundgesetz/aufbau.svg",
+          alt: { de: "Aufbau des Grundgesetzes", en: "Structure of the Basic Law" },
+          caption: { de: "Der Aufbau des Grundgesetzes: von den Grundrechten (Art. 1\u201319) bis zu den \u00dcbergangsbestimmungen", en: "The structure of the Basic Law: from fundamental rights (Art. 1\u201319) to transitional provisions" },
+        },
+        {
+          src: "/images/topics/grundgesetz/artikel.svg",
+          alt: { de: "Die wichtigsten Grundrechte", en: "The most important fundamental rights" },
+          caption: { de: "Die pr\u00fcfungsrelevanten Artikel des Grundgesetzes auf einen Blick", en: "The exam-relevant articles of the Basic Law at a glance" },
+        },
+        {
+          src: "/images/topics/grundgesetz/grundgesetz-1949.jpg",
+          alt: { de: "Faksimile des Grundgesetzes von 1949", en: "Facsimile of the Basic Law from 1949" },
+          caption: { de: "Originalfaksimile des Grundgesetzes von 1949 (Foto: Andreas Praefcke, gemeinfrei)", en: "Original facsimile of the 1949 Basic Law (Photo: Andreas Praefcke, public domain)" },
+        },
+      ],
       keyFacts: {
         title: { de: "Wichtige Artikel", en: "Key Articles" },
         items: [
@@ -1531,6 +1548,23 @@ export const topics: Topic[] = [
         de: "1957 unterzeichneten in Rom sechs Länder (Belgien, Deutschland, Frankreich, Italien, Luxemburg und die Niederlande) die Römischen Verträge. Damit gründeten sie die Europäische Wirtschaftsgemeinschaft (EWG) und die Europäische Atomgemeinschaft (Euratom). Ziel war ein gemeinsamer Markt ohne Zölle.",
         en: "In 1957, six countries (Belgium, Germany, France, Italy, Luxembourg, and the Netherlands) signed the Treaty of Rome in Rome. They thus established the European Economic Community (EEC) and the European Atomic Energy Community (Euratom). The goal was a common market without tariffs.",
       },
+      gallery: [
+        {
+          src: "/images/topics/ewg-roemische-vertraege/gruenderstaaten.svg",
+          alt: { de: "Die 6 Gründerstaaten der EWG", en: "The 6 founding states of the EEC" },
+          caption: { de: "Die 6 Gründerstaaten der EWG: Belgien, Deutschland, Frankreich, Italien, Luxemburg und die Niederlande.", en: "The 6 founding states of the EEC: Belgium, Germany, France, Italy, Luxembourg, and the Netherlands." },
+        },
+        {
+          src: "/images/topics/ewg-roemische-vertraege/zeitstrahl.svg",
+          alt: { de: "Von der EWG zur EU – Zeitstrahl", en: "From EEC to EU – Timeline" },
+          caption: { de: "Die Entwicklung von der EGKS (1951) über die EWG (1957) und EG (1967) bis zur heutigen EU mit 27 Mitgliedstaaten.", en: "The development from the ECSC (1951) through the EEC (1957) and EC (1967) to today's EU with 27 member states." },
+        },
+        {
+          src: "/images/topics/ewg-roemische-vertraege/roemische-vertraege-1957.jpg",
+          alt: { de: "Unterzeichnung der Römischen Verträge 1957", en: "Signing of the Treaty of Rome 1957" },
+          caption: { de: "Bundeskanzler Adenauer, Staatssekretär Hallstein und der italienische Ministerpräsident Segni bei der Unterzeichnung der Römischen Verträge in Rom, 25. März 1957. (Bundesarchiv, CC BY-SA 3.0 DE)", en: "Chancellor Adenauer, State Secretary Hallstein, and Italian Prime Minister Segni at the signing of the Treaty of Rome in Rome, March 25, 1957. (Bundesarchiv, CC BY-SA 3.0 DE)" },
+        },
+      ],
       keyFacts: {
         title: { de: "Wichtige Fakten", en: "Key Facts" },
         items: [
@@ -1557,6 +1591,23 @@ export const topics: Topic[] = [
         de: "Die Europ\u00e4ische Gemeinschaft (EG) entstand 1967 durch die Zusammenlegung der EWG, Euratom (Europ\u00e4ische Atomgemeinschaft) und EGKS (Europ\u00e4ische Gemeinschaft f\u00fcr Kohle und Stahl).",
         en: "The European Community (EC) was created in 1967 through the merger of the EEC, Euratom (European Atomic Energy Community), and ECSC (European Coal and Steel Community).",
       },
+      gallery: [
+        {
+          src: "/images/topics/eg-1967/fusionsvertrag.svg",
+          alt: { de: "Fusionsvertrag 1967 – Drei werden eins", en: "Merger Treaty 1967 – Three become one" },
+          caption: { de: "Der Fusionsvertrag vereinigte EGKS, EWG und Euratom zu einer Europäischen Gemeinschaft mit gemeinsamen Organen.", en: "The Merger Treaty united the ECSC, EEC, and Euratom into one European Community with shared institutions." },
+        },
+        {
+          src: "/images/topics/eg-1967/zeitstrahl.svg",
+          alt: { de: "Von der EG zur EU – Zeitstrahl", en: "From EC to EU – Timeline" },
+          caption: { de: "Die Entwicklung von der EGKS (1951) über EWG und EG bis zur heutigen EU – und was der Fusionsvertrag änderte.", en: "The development from the ECSC (1951) through EEC and EC to today's EU – and what the Merger Treaty changed." },
+        },
+        {
+          src: "/images/topics/eg-1967/berlaymont-bruessel.jpg",
+          alt: { de: "Berlaymont-Gebäude in Brüssel", en: "Berlaymont building in Brussels" },
+          caption: { de: "Das Berlaymont-Gebäude in Brüssel – Sitz der Europäischen Kommission, die seit dem Fusionsvertrag 1967 als einheitliches Organ dient. (Cbliu, CC BY-SA 4.0)", en: "The Berlaymont building in Brussels – seat of the European Commission, which has served as a unified institution since the 1967 Merger Treaty. (Cbliu, CC BY-SA 4.0)" },
+        },
+      ],
       keyFacts: {
         title: { de: "Wichtige Fakten", en: "Key Facts" },
         items: [
@@ -1582,6 +1633,23 @@ export const topics: Topic[] = [
         de: "Die Ostvertr\u00e4ge verbesserten das Verh\u00e4ltnis zwischen der Bundesrepublik Deutschland und den Staaten Osteuropas (besonders Polen und die Sowjetunion). Sie geh\u00f6rten zur Entspannungspolitik w\u00e4hrend des Kalten Krieges.",
         en: "The Eastern Treaties improved relations between the Federal Republic of Germany and the states of Eastern Europe (especially Poland and the Soviet Union). They were part of the policy of d\u00e9tente during the Cold War.",
       },
+      gallery: [
+        {
+          src: "/images/topics/ostvertraege/ostpolitik-karte.svg",
+          alt: { de: "Karte der Ostpolitik", en: "Map of Ostpolitik" },
+          caption: { de: "Diplomatische Ann\u00e4herung der BRD an Polen, die DDR und die Sowjetunion", en: "Diplomatic rapprochement of West Germany with Poland, the GDR and the Soviet Union" },
+        },
+        {
+          src: "/images/topics/ostvertraege/zeitstrahl.svg",
+          alt: { de: "Zeitstrahl der Ostpolitik", en: "Timeline of Ostpolitik" },
+          caption: { de: "Von den Moskauer und Warschauer Vertr\u00e4gen zum Grundlagenvertrag", en: "From the Moscow and Warsaw Treaties to the Basic Treaty" },
+        },
+        {
+          src: "/images/topics/ostvertraege/kniefall-denkmal-warschau.jpg",
+          alt: { de: "Willy-Brandt-Denkmal in Warschau", en: "Willy Brandt monument in Warsaw" },
+          caption: { de: "Denkmal f\u00fcr Willy Brandts Kniefall in Warschau \u2013 Symbol der Vers\u00f6hnung (Foto: A.fiedler, CC BY-SA 3.0)", en: "Memorial of Willy Brandt's genuflection in Warsaw \u2013 symbol of reconciliation (Photo: A.fiedler, CC BY-SA 3.0)" },
+        },
+      ],
       keyFacts: {
         title: { de: "Wichtige Fakten", en: "Key Facts" },
         items: [
@@ -1668,6 +1736,27 @@ export const topics: Topic[] = [
     illustration: "🇩🇪",
     relatedQuestionNumbers: [189, 217, 218, 219, 220, 228],
     details: {
+      intro: {
+        de: "Am 3. Oktober 1990 wurde Deutschland wiedervereinigt. Die DDR trat dem Geltungsbereich des Grundgesetzes bei. F\u00fcnf neue Bundesl\u00e4nder wurden gegr\u00fcndet. Der 3. Oktober ist seitdem der Tag der Deutschen Einheit \u2013 Deutschlands Nationalfeiertag.",
+        en: "On October 3, 1990, Germany was reunified. The GDR joined the jurisdiction of the Basic Law. Five new federal states were established. October 3 has since been the Day of German Unity \u2013 Germany\u2019s national holiday.",
+      },
+      gallery: [
+        {
+          src: "/images/topics/wiedervereinigung/zeitstrahl.svg",
+          alt: { de: "Zeitstrahl der Wiedervereinigung", en: "Timeline of German Reunification" },
+          caption: { de: "Vom Mauerfall zur Wiedervereinigung \u2013 die wichtigsten Schritte", en: "From the fall of the Wall to reunification \u2013 the key steps" },
+        },
+        {
+          src: "/images/topics/wiedervereinigung/vereinigung.svg",
+          alt: { de: "BRD + DDR = Deutschland", en: "FRG + GDR = Germany" },
+          caption: { de: "Von zwei deutschen Staaten zu einem vereinten Deutschland mit 16 Bundesl\u00e4ndern", en: "From two German states to one united Germany with 16 federal states" },
+        },
+        {
+          src: "/images/topics/wiedervereinigung/brandenburger-tor-1989.jpg",
+          alt: { de: "Menschen am Brandenburger Tor 1989", en: "People at the Brandenburg Gate 1989" },
+          caption: { de: "West- und Ostdeutsche feiern am Brandenburger Tor, 1989 (Foto: Lear 21, CC BY-SA 3.0)", en: "West and East Germans celebrate at the Brandenburg Gate, 1989 (Photo: Lear 21, CC BY-SA 3.0)" },
+        },
+      ],
       table: {
         title: { de: "Zeitleiste", en: "Timeline" },
         rows: [

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340">
+  <rect width="520" height="340" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="260" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D">Zeitstrahl der Ostpolitik</text>
+
+  <!-- Timeline line -->
+  <line x1="30" y1="80" x2="490" y2="80" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Event 1: Moskauer Vertrag Aug 1970 -->
+  <circle cx="80" cy="80" r="6" fill="#16A34A"/>
+  <rect x="48" y="42" width="64" height="22" rx="6" fill="#16A34A"/>
+  <text x="80" y="57" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="white">1970</text>
+  <line x1="80" y1="88" x2="80" y2="108" stroke="#16A34A" stroke-width="1.5"/>
+  <rect x="20" y="108" width="120" height="52" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+  <text x="80" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">Moskauer Vertrag</text>
+  <text x="80" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">12. August 1970</text>
+  <text x="80" y="151" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">BRD &#x2013; Sowjetunion</text>
+
+  <!-- Event 2: Warschauer Vertrag Dez 1970 -->
+  <circle cx="210" cy="80" r="6" fill="#16A34A"/>
+  <rect x="178" y="42" width="64" height="22" rx="6" fill="#16A34A"/>
+  <text x="210" y="57" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="white">1970</text>
+  <line x1="210" y1="88" x2="210" y2="108" stroke="#16A34A" stroke-width="1.5"/>
+  <rect x="150" y="108" width="120" height="52" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+  <text x="210" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">Warschauer Vertrag</text>
+  <text x="210" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">7. Dezember 1970</text>
+  <text x="210" y="151" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">BRD &#x2013; Polen</text>
+
+  <!-- Event 3: Friedensnobelpreis 1971 -->
+  <circle cx="340" cy="80" r="6" fill="#F59E0B"/>
+  <rect x="308" y="42" width="64" height="22" rx="6" fill="#F59E0B"/>
+  <text x="340" y="57" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="white">1971</text>
+  <line x1="340" y1="88" x2="340" y2="108" stroke="#F59E0B" stroke-width="1.5"/>
+  <rect x="280" y="108" width="120" height="52" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="340" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#92400E">Friedensnobelpreis</text>
+  <text x="340" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#92400E">f&#xFC;r Willy Brandt</text>
+  <text x="340" y="151" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#92400E">Oktober 1971</text>
+
+  <!-- Event 4: Grundlagenvertrag 1972 -->
+  <circle cx="460" cy="80" r="6" fill="#14532D"/>
+  <rect x="428" y="42" width="64" height="22" rx="6" fill="#14532D"/>
+  <text x="460" y="57" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="white">1972</text>
+  <line x1="460" y1="88" x2="460" y2="108" stroke="#14532D" stroke-width="1.5"/>
+  <rect x="400" y="108" width="120" height="52" rx="8" fill="#DCFCE7" stroke="#14532D" stroke-width="1.5"/>
+  <text x="460" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">Grundlagenvertrag</text>
+  <text x="460" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">21. Dezember 1972</text>
+  <text x="460" y="151" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">BRD &#x2013; DDR</text>
+
+  <!-- Bottom section: Key results -->
+  <text x="260" y="188" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Ergebnisse der Ostpolitik</text>
+
+  <rect x="20" y="200" width="155" height="55" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+  <circle cx="40" cy="220" r="8" fill="#16A34A"/>
+  <text x="40" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="white">1</text>
+  <text x="110" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Gewaltverzicht</text>
+  <text x="110" y="234" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">Frieden statt</text>
+  <text x="110" y="246" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">Konfrontation</text>
+
+  <rect x="185" y="200" width="155" height="55" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+  <circle cx="205" cy="220" r="8" fill="#16A34A"/>
+  <text x="205" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="white">2</text>
+  <text x="275" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Anerkennung</text>
+  <text x="275" y="234" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">Bestehende Grenzen</text>
+  <text x="275" y="246" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">akzeptiert</text>
+
+  <rect x="350" y="200" width="155" height="55" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+  <circle cx="370" cy="220" r="8" fill="#16A34A"/>
+  <text x="370" y="224" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="white">3</text>
+  <text x="440" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Entspannung</text>
+  <text x="440" y="234" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">Weg zur deutschen</text>
+  <text x="440" y="246" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">Wiedervereinigung</text>
+
+  <!-- Footer -->
+  <text x="260" y="285" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" font-style="italic" fill="#14532D">&#x201E;Wandel durch Ann&#xE4;herung&#x201C;</text>
+  <text x="260" y="300" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Egon Bahr, 1963 &#x2013; Leitmotiv der Ostpolitik</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <rect width="480" height="360" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="240" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#14532D">Aufbau des Grundgesetzes</text>
+  <text x="240" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Verk&#xFC;ndet am 23. Mai 1949</text>
+
+  <!-- Section I: Grundrechte (Art. 1-19) — most prominent -->
+  <rect x="30" y="58" width="420" height="52" rx="10" fill="#14532D"/>
+  <text x="240" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="white">I. Grundrechte (Art. 1&#x2013;19)</text>
+  <text x="240" y="98" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#BBF7D0">Menschenw&#xFC;rde &#x2022; Freiheit &#x2022; Gleichheit &#x2022; Meinungsfreiheit</text>
+
+  <!-- Section II: Bund und Länder -->
+  <rect x="30" y="116" width="420" height="36" rx="8" fill="#16A34A"/>
+  <text x="240" y="139" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="white">II. Bund und L&#xE4;nder (Art. 20&#x2013;37)</text>
+
+  <!-- Section III-VI: State organs -->
+  <rect x="30" y="158" width="200" height="36" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="130" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">III. Bundestag (Art. 38&#x2013;49)</text>
+
+  <rect x="250" y="158" width="200" height="36" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="350" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">IV. Bundesrat (Art. 50&#x2013;53)</text>
+
+  <rect x="30" y="200" width="200" height="36" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="130" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">V. Bundespr&#xE4;sident</text>
+  <text x="130" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">(Art. 54&#x2013;61)</text>
+
+  <rect x="250" y="200" width="200" height="36" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="350" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">VI. Bundesregierung</text>
+  <text x="350" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">(Art. 62&#x2013;69)</text>
+
+  <!-- Section VII-IX -->
+  <rect x="30" y="242" width="130" height="36" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="95" y="257" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">VII. Gesetzgebung</text>
+  <text x="95" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">(Art. 70&#x2013;82)</text>
+
+  <rect x="170" y="242" width="140" height="36" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="240" y="257" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">VIII. Verwaltung</text>
+  <text x="240" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">(Art. 83&#x2013;91)</text>
+
+  <rect x="320" y="242" width="130" height="36" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="385" y="257" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">IX. Rechtsprechung</text>
+  <text x="385" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">(Art. 92&#x2013;104)</text>
+
+  <!-- Section X-XI and Übergangsbestimmungen -->
+  <rect x="30" y="284" width="200" height="36" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="130" y="299" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">X. Finanzwesen (Art. 104a&#x2013;115)</text>
+  <text x="130" y="312" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Steuern, Haushalt</text>
+
+  <rect x="250" y="284" width="200" height="36" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="350" y="299" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">XI. &#xDC;bergangsbestimmungen</text>
+  <text x="350" y="312" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">(Art. 116&#x2013;146)</text>
+
+  <!-- Ewigkeitsklausel badge -->
+  <rect x="30" y="330" width="420" height="22" rx="6" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1"/>
+  <text x="240" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#854D0E">&#x26A0; Ewigkeitsklausel (Art. 79 Abs. 3): Art. 1 und Art. 20 d&#xFC;rfen nicht ge&#xE4;ndert werden!</text>
+</svg>

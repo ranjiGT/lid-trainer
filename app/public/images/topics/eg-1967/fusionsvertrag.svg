@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+  <style>
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes scaleIn {
+      from { opacity: 0; transform: scale(0.7); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .src-box { animation: fadeSlideUp 0.5s ease-out both; }
+    .src1 { animation-delay: 0.2s; }
+    .src2 { animation-delay: 0.5s; }
+    .src3 { animation-delay: 0.8s; }
+    .arrow-down { animation: fadeIn 0.3s ease-out both; }
+    .arrow-d1 { animation-delay: 1.1s; }
+    .arrow-d2 { animation-delay: 1.2s; }
+    .arrow-d3 { animation-delay: 1.3s; }
+    .year-badge { animation: scaleIn 0.4s ease-out both; animation-delay: 1.4s; }
+    .result-box { animation: slideDown 0.6s ease-out both; animation-delay: 1.6s; }
+  </style>
+
+  <rect width="480" height="300" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="240" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D">Fusionsvertrag 1967 &#x2013; Drei werden eins</text>
+  <text x="240" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Zusammenlegung der drei Europ&#xE4;ischen Gemeinschaften</text>
+
+  <!-- Three source boxes -->
+  <!-- EGKS -->
+  <g class="src-box src1">
+    <rect x="20" y="60" width="130" height="90" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="85" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D">EGKS</text>
+    <text x="85" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Kohle und Stahl</text>
+    <text x="85" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">seit 1951</text>
+    <!-- Gear icon (industry) -->
+    <g transform="translate(85,135)">
+      <circle r="7" fill="none" stroke="#166534" stroke-width="1.5"/>
+      <circle r="2.5" fill="#166534"/>
+      <rect x="-1.5" y="-10" width="3" height="4" rx="0.5" fill="#166534"/>
+      <rect x="-1.5" y="6" width="3" height="4" rx="0.5" fill="#166534"/>
+      <rect x="-10" y="-1.5" width="4" height="3" rx="0.5" fill="#166534"/>
+      <rect x="6" y="-1.5" width="4" height="3" rx="0.5" fill="#166534"/>
+      <rect x="-1.5" y="-10" width="3" height="4" rx="0.5" fill="#166534" transform="rotate(45)"/>
+      <rect x="-1.5" y="6" width="3" height="4" rx="0.5" fill="#166534" transform="rotate(45)"/>
+      <rect x="-10" y="-1.5" width="4" height="3" rx="0.5" fill="#166534" transform="rotate(45)"/>
+      <rect x="6" y="-1.5" width="4" height="3" rx="0.5" fill="#166534" transform="rotate(45)"/>
+    </g>
+  </g>
+
+  <!-- EWG -->
+  <g class="src-box src2">
+    <rect x="175" y="60" width="130" height="90" rx="10" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="240" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D">EWG</text>
+    <text x="240" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Wirtschafts-</text>
+    <text x="240" y="111" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">gemeinschaft</text>
+    <text x="240" y="123" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">seit 1957</text>
+    <!-- Euro sign (economy) -->
+    <g transform="translate(240,137)">
+      <path d="M5 -8 A9 9 0 0 0 5 8" fill="none" stroke="#166534" stroke-width="2" stroke-linecap="round"/>
+      <line x1="-5" y1="-2" x2="4" y2="-2" stroke="#166534" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-5" y1="2" x2="4" y2="2" stroke="#166534" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- EURATOM -->
+  <g class="src-box src3">
+    <rect x="330" y="60" width="130" height="90" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="395" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D">EURATOM</text>
+    <text x="395" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Atomenergie-</text>
+    <text x="395" y="111" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">gemeinschaft</text>
+    <text x="395" y="123" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">seit 1957</text>
+    <!-- Atom symbol: nucleus + 3 electron orbits -->
+    <g transform="translate(395,138)">
+      <circle r="2" fill="#166534"/>
+      <ellipse rx="12" ry="4" fill="none" stroke="#166534" stroke-width="1.2"/>
+      <ellipse rx="12" ry="4" fill="none" stroke="#166534" stroke-width="1.2" transform="rotate(60)"/>
+      <ellipse rx="12" ry="4" fill="none" stroke="#166534" stroke-width="1.2" transform="rotate(120)"/>
+    </g>
+  </g>
+
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#16A34A"/>
+    </marker>
+  </defs>
+
+  <!-- Arrows pointing down to EG box -->
+  <line x1="85" y1="152" x2="145" y2="198" stroke="#16A34A" stroke-width="2.5" marker-end="url(#arr)" class="arrow-down arrow-d1"/>
+  <line x1="240" y1="152" x2="240" y2="198" stroke="#16A34A" stroke-width="2.5" marker-end="url(#arr)" class="arrow-down arrow-d2"/>
+  <line x1="395" y1="152" x2="335" y2="198" stroke="#16A34A" stroke-width="2.5" marker-end="url(#arr)" class="arrow-down arrow-d3"/>
+
+  <!-- Year label -->
+  <g class="year-badge">
+    <rect x="200" y="164" width="80" height="24" rx="12" fill="#14532D"/>
+    <text x="240" y="181" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="white">1967</text>
+  </g>
+
+  <!-- Result: EG box -->
+  <g class="result-box">
+    <rect x="120" y="200" width="240" height="80" rx="12" fill="#14532D"/>
+    <text x="240" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="white">EG</text>
+    <text x="240" y="248" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#BBF7D0">Europ&#xE4;ische Gemeinschaft</text>
+    <text x="240" y="264" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#BBF7D0">Gemeinsame Organe &#x2013; eine Kommission, ein Rat</text>
+  </g>
+</svg>

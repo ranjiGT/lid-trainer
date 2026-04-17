@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+  <rect width="480" height="300" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="240" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="bold" fill="#14532D">Von der EWG zur EU</text>
+  <text x="240" y="42" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Die Entwicklung der europ&#xE4;ischen Integration</text>
+
+  <!-- Timeline line -->
+  <line x1="40" y1="80" x2="440" y2="80" stroke="#16A34A" stroke-width="3"/>
+
+  <!-- Year markers -->
+  <!-- 1951: EGKS -->
+  <circle cx="60" cy="80" r="6" fill="#14532D"/>
+  <text x="60" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">1951</text>
+  <rect x="20" y="110" width="80" height="60" rx="6" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+  <text x="60" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">EGKS</text>
+  <text x="60" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Kohle und</text>
+  <text x="60" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Stahl</text>
+  <text x="60" y="164" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">6 L&#xE4;nder</text>
+
+  <!-- 1957: EWG (highlighted) -->
+  <circle cx="145" cy="80" r="8" fill="#16A34A" stroke="#14532D" stroke-width="2"/>
+  <text x="145" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">1957</text>
+  <rect x="105" y="110" width="80" height="74" rx="6" fill="#14532D"/>
+  <text x="145" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="white">EWG</text>
+  <text x="145" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#BBF7D0">R&#xF6;mische</text>
+  <text x="145" y="153" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#BBF7D0">Vertr&#xE4;ge</text>
+  <text x="145" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">Gemeinsamer</text>
+  <text x="145" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">Markt</text>
+
+  <!-- 1967: EG -->
+  <circle cx="225" cy="80" r="6" fill="#14532D"/>
+  <text x="225" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">1967</text>
+  <rect x="185" y="110" width="80" height="60" rx="6" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+  <text x="225" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">EG</text>
+  <text x="225" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">EWG+Euratom</text>
+  <text x="225" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">+EGKS</text>
+  <text x="225" y="164" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">zusammengelegt</text>
+
+  <!-- 1993: EU -->
+  <circle cx="330" cy="80" r="6" fill="#14532D"/>
+  <text x="330" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">1993</text>
+  <rect x="290" y="110" width="80" height="60" rx="6" fill="#16A34A"/>
+  <text x="330" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="white">EU</text>
+  <text x="330" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">Vertrag von</text>
+  <text x="330" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">Maastricht</text>
+  <text x="330" y="164" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">12 L&#xE4;nder</text>
+
+  <!-- 2009/heute -->
+  <circle cx="420" cy="80" r="6" fill="#14532D"/>
+  <text x="420" y="100" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">Heute</text>
+  <rect x="380" y="110" width="80" height="60" rx="6" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+  <text x="420" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">EU-27</text>
+  <text x="420" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">27 Mitglied-</text>
+  <text x="420" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">staaten</text>
+  <text x="420" y="164" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Lissabon 2009</text>
+
+  <!-- Arrows between boxes -->
+  <text x="100" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#16A34A">&#x2192;</text>
+  <text x="182" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#16A34A">&#x2192;</text>
+  <text x="277" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#16A34A">&#x2192;</text>
+  <text x="375" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#16A34A">&#x2192;</text>
+
+  <!-- Bottom: Goals of the EWG -->
+  <text x="240" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#14532D">Ziele der R&#xF6;mischen Vertr&#xE4;ge (1957)</text>
+
+  <!-- Goal cards -->
+  <rect x="20" y="222" width="140" height="64" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+  <text x="90" y="245" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">Gemeinsamer</text>
+  <text x="90" y="259" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">Markt</text>
+  <text x="90" y="276" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Keine Z&#xF6;lle</text>
+
+  <rect x="170" y="222" width="140" height="64" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+  <text x="240" y="245" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">Freier Handel</text>
+  <text x="240" y="259" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Waren, Personen,</text>
+  <text x="240" y="273" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Dienstleistungen</text>
+
+  <rect x="320" y="222" width="140" height="64" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+  <text x="390" y="245" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">Frieden und</text>
+  <text x="390" y="259" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">Wohlstand</text>
+  <text x="390" y="276" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">durch Zusammenarbeit</text>
+</svg>

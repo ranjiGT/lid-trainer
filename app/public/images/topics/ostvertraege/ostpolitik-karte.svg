@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340">
+  <rect width="480" height="340" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="240" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D">Ostpolitik &#x2013; Neue Beziehungen nach Osten</text>
+  <text x="240" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">Bundeskanzler Willy Brandt und die Entspannungspolitik</text>
+
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F59E0B"/>
+    </marker>
+  </defs>
+
+  <!-- BRD (left, tall) -->
+  <rect x="40" y="70" width="120" height="150" rx="12" fill="#16A34A"/>
+  <text x="100" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="white">BRD</text>
+  <text x="100" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#BBF7D0">Bundesrepublik</text>
+  <text x="100" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#BBF7D0">Deutschland</text>
+
+  <!-- Arrow 1: BRD → DDR -->
+  <line x1="162" y1="100" x2="278" y2="100" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="8,4" marker-end="url(#arrowhead)"/>
+
+  <!-- Arrow 2: BRD → Polen -->
+  <line x1="162" y1="145" x2="278" y2="145" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="8,4" marker-end="url(#arrowhead)"/>
+
+  <!-- Arrow 3: BRD → Sowjetunion -->
+  <line x1="162" y1="190" x2="278" y2="190" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="8,4" marker-end="url(#arrowhead)"/>
+
+  <!-- DDR (right column, top) -->
+  <rect x="290" y="78" width="150" height="42" rx="10" fill="#166534"/>
+  <text x="365" y="98" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="white">DDR</text>
+  <text x="365" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#86EFAC">Grundlagenvertrag 1972</text>
+
+  <!-- Polen (right column, middle) -->
+  <rect x="290" y="125" width="150" height="42" rx="10" fill="#14532D"/>
+  <text x="365" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="white">Polen</text>
+  <text x="365" y="159" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">Warschauer Vertrag 1970</text>
+
+  <!-- Sowjetunion (right column, bottom) -->
+  <rect x="290" y="172" width="150" height="42" rx="10" fill="#14532D"/>
+  <text x="365" y="192" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="white">Sowjetunion</text>
+  <text x="365" y="206" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#BBF7D0">Moskauer Vertrag 1970</text>
+
+  <!-- Legend -->
+  <line x1="55" y1="243" x2="90" y2="243" stroke="#F59E0B" stroke-width="2.5" stroke-dasharray="8,4" marker-end="url(#arrowhead)"/>
+  <text x="105" y="247" font-family="system-ui, sans-serif" font-size="8" fill="#92400E">Diplomatische Ann&#xE4;herung</text>
+
+  <!-- Quote -->
+  <text x="240" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-style="italic" fill="#166534">&#x201E;Wandel durch Ann&#xE4;herung&#x201C;</text>
+
+  <!-- Bottom info boxes -->
+  <rect x="30" y="288" width="200" height="40" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+  <text x="130" y="305" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Moskauer Vertrag (12. Aug. 1970)</text>
+  <text x="130" y="318" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Gewaltverzicht &#x2013; Anerkennung der Grenzen</text>
+
+  <rect x="250" y="288" width="200" height="40" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+  <text x="350" y="305" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Warschauer Vertrag (7. Dez. 1970)</text>
+  <text x="350" y="318" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Anerkennung der Oder-Nei&#xDF;e-Grenze</text>
+</svg>

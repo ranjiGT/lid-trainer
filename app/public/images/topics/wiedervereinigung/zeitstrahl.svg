@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 340">
+  <style>
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes growLine {
+      from { stroke-dashoffset: 480; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes pulse {
+      0%, 100% { r: 7; }
+      50% { r: 10; }
+    }
+    .evt { animation: fadeSlideUp 0.5s ease-out both; }
+    .evt1 { animation-delay: 0.3s; }
+    .evt2 { animation-delay: 0.7s; }
+    .evt3 { animation-delay: 1.1s; }
+    .evt4 { animation-delay: 1.5s; }
+    .timeline-line { stroke-dasharray: 480; animation: growLine 1.5s ease-out both; animation-delay: 0.1s; }
+    .dot-pulse { animation: pulse 2s ease-in-out infinite; animation-delay: 2s; }
+    .land { animation: fadeSlideUp 0.4s ease-out both; }
+    .land1 { animation-delay: 2.0s; }
+    .land2 { animation-delay: 2.2s; }
+    .land3 { animation-delay: 2.4s; }
+    .land4 { animation-delay: 2.6s; }
+    .land5 { animation-delay: 2.8s; }
+    .footer { animation: fadeIn 0.6s ease-out both; animation-delay: 3.2s; }
+  </style>
+
+  <rect width="570" height="340" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="285" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D">Der Weg zur Wiedervereinigung</text>
+
+  <!-- Timeline line -->
+  <line x1="40" y1="80" x2="530" y2="80" stroke="#16A34A" stroke-width="3" stroke-linecap="round" class="timeline-line"/>
+
+  <!-- Event 1: Mauerfall -->
+  <g class="evt evt1">
+    <circle cx="80" cy="80" r="7" fill="#16A34A"/>
+    <rect x="38" y="40" width="84" height="24" rx="7" fill="#16A34A"/>
+    <text x="80" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="white">9.11.1989</text>
+    <line x1="80" y1="89" x2="80" y2="108" stroke="#16A34A" stroke-width="1.5"/>
+    <rect x="18" y="108" width="124" height="50" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+    <text x="80" y="127" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">Mauerfall</text>
+    <text x="80" y="141" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Fall der Berliner</text>
+    <text x="80" y="153" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Mauer</text>
+  </g>
+
+  <!-- Event 2: Freie Wahl -->
+  <g class="evt evt2">
+    <circle cx="220" cy="80" r="7" fill="#16A34A"/>
+    <rect x="170" y="40" width="100" height="24" rx="7" fill="#16A34A"/>
+    <text x="220" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="white">18.03.1990</text>
+    <line x1="220" y1="89" x2="220" y2="108" stroke="#16A34A" stroke-width="1.5"/>
+    <rect x="158" y="108" width="124" height="50" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+    <text x="220" y="127" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">Freie Wahl</text>
+    <text x="220" y="141" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Erste freie Volks-</text>
+    <text x="220" y="153" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">kammerwahl (DDR)</text>
+  </g>
+
+  <!-- Event 3: Währungsunion -->
+  <g class="evt evt3">
+    <circle cx="360" cy="80" r="7" fill="#16A34A"/>
+    <rect x="310" y="40" width="100" height="24" rx="7" fill="#16A34A"/>
+    <text x="360" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="white">01.07.1990</text>
+    <line x1="360" y1="89" x2="360" y2="108" stroke="#16A34A" stroke-width="1.5"/>
+    <rect x="298" y="108" width="124" height="50" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+    <text x="360" y="127" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#14532D">W&#xE4;hrungsunion</text>
+    <text x="360" y="141" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">D-Mark wird</text>
+    <text x="360" y="153" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Zahlungsmittel</text>
+  </g>
+
+  <!-- Event 4: Wiedervereinigung (highlighted) -->
+  <g class="evt evt4">
+    <circle cx="490" cy="80" r="8" fill="#14532D" class="dot-pulse"/>
+    <rect x="438" y="38" width="104" height="26" rx="8" fill="#14532D"/>
+    <text x="490" y="55" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="white">03.10.1990</text>
+    <line x1="490" y1="90" x2="490" y2="108" stroke="#14532D" stroke-width="2"/>
+    <rect x="420" y="108" width="140" height="50" rx="8" fill="#DCFCE7" stroke="#14532D" stroke-width="2"/>
+    <text x="490" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Wiederver-</text>
+    <text x="490" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">einigung</text>
+    <text x="490" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" fill="#166534">Tag der Dt. Einheit</text>
+  </g>
+
+  <!-- Section: 5 neue Bundesländer -->
+  <text x="285" y="188" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#14532D">Die 5 neuen Bundesl&#xE4;nder</text>
+
+  <!-- Brandenburg -->
+  <g class="land land1">
+    <rect x="10" y="198" width="100" height="60" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <image x="48" y="200" width="24" height="30" href="data:image/png;base64,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"/>
+    <text x="60" y="242" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Brandenburg</text>
+    <text x="60" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Potsdam</text>
+  </g>
+
+  <!-- Mecklenburg-Vorpommern -->
+  <g class="land land2">
+    <rect x="118" y="198" width="100" height="60" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <image x="156" y="200" width="24" height="30" href="data:image/png;base64,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"/>
+    <text x="168" y="242" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" font-weight="bold" fill="#14532D">Mecklenburg-</text>
+    <text x="168" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Vorpommern</text>
+  </g>
+
+  <!-- Sachsen -->
+  <g class="land land3">
+    <rect x="226" y="198" width="90" height="60" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <image x="259" y="200" width="24" height="30" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAeCAYAAADD0FVVAAAEv0lEQVR42u2WW2wUVRzGf+ecmdlddtluYcvSyqXQFoiAWkGRmxETRUQeMNZIUIMPCjGRBI2GFyWSaGKCLyY+IER4MgQSvCAIInJJxKCkAQlFSGkplGtblrbsfef8fdiCgBTwxSe/yX9OMpn55jvf+f5nRjlBZxqx0BRbEREQZY9cAK3BWhygdLonCKBEOKXMQ0M/cSoHvmeNxj/ehaqOobIFGBik+FMr5PP8S+x1/G7J+hOivpvs9bmcNrYijExIoE93M3ykoswoxCoUcjeZVmulk0lJOctmdqqmMs/s8BN4D1ca7WruU720ei47Py8y9hHgqoAGRO7EqoiI/mq91k68QrPqqYs0rfY4WxXDbU2yeMR5GsMD+WhPgpXqHIEBCikIKmj65xTQYehIKpRSamUsqt7P+/j5GbWGRIRgWxf+yBjpIz2EnTw6nQXPQU50cAcXrAKdK8h2R0RIdvdd3tEKs8fgV8VQJ7txjrWTmjMOHTDQm8M2dgL2riFwFr3g8voCwfqCcnwam1tZ+kstJhGBcUMIZHPkojF0Z5ofvxRCMY3Ng1LcpFoAHYJt2xXO+DqYNtcHK2AV059LMyDWxpt7aiiOGsTgTC+L606y140QH+5RPy0LPqAoLd6NrGFIXtQ46zdbGo8alJR4lYGQ7iXa3ErPlNFcPpunsTlNayTGYx8bnq/sQIoWZQWdL5TIry2UAy2nwDl63Ofo8dt5k4RLbfB0Nd+3G7jaC82X2BCtgysZKAjsP3FbV51H6w3T6kv6/46houCD0V3sy4Q4PDhBoJClGDAot0CxOkqs5SyvvKzBgNg+T1049ic4L83VsuzDYkm/vcUjDwrN7cxc5fK7Uw6ey2iTJl6WIzDe4bOVAoMAv0+NBz+s0+IcPBo0X69No0Wwt2TQWhhQBi9WnOHwKYd8IkzqUgdL6jv4om048z+Is6i+Az+vUCKYqGbnbm1Uebzq7WTn+U9BfKD/llEGnh2LijjIuTSEXTjRBVUx6M3B1bzPyfMmEBq0ySmPBn+LeA4iRd1vq4hCfItqauHcpDF4w0LIoQtIKo3UDcPNB+F4B/GhGhUI7FewLrh59dIjc+ddrSkmEa3RtycG7QlrtkRYuq8OT+XwOzMkRnicy4R5tbZdlk+/kpu3fOpEA98Wq0fEvakPpmcHXXyxSiv+eWilEFFMnZDnSluBX1NxrA9TIkmWTO4stuUGmGNNgY07tjatVYBOPPBOKNqz9lAq01ML2jda+vfWKDyxnIkMRj0xElq7bWW0QJs/OCe7yibSs7ul7zaIV06cpHQg1RemQt/YT6nSWF1V5LXJvn5ynIy9v3ahBmgo8QEYrfFHjRo/a86M9o3z56bihYy12ayyIkrL9WYEBYIggYDFcTHvbhlhz7eVLek8cHiNbcCwCf/6rBoaSnF6641ZNZvXxr/r+sMTSSOSRSR1Q2VKlW9xZdeG2IEls0fNvPH5vhff7Bjgg6Z+4vjHF86/sGBcTW5m+cDCsICT14WiS3fG7Th5OnRw289lG7buPPENKOFWhbdiBWiRa7FSgCh4pgLCCZg6BMS7tucZAytWoO/5O9vQgNm9G8fo0oZ8rbQGEUzfdNVtm+8e+FU/Pw7/4z/EX8Q9DWJ6vT7EAAAAAElFTkSuQmCC"/>
+    <text x="271" y="242" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Sachsen</text>
+    <text x="271" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Dresden</text>
+  </g>
+
+  <!-- Sachsen-Anhalt -->
+  <g class="land land4">
+    <rect x="324" y="198" width="100" height="60" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <image x="362" y="200" width="24" height="30" href="data:image/png;base64,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"/>
+    <text x="374" y="242" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Sachsen-Anhalt</text>
+    <text x="374" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Magdeburg</text>
+  </g>
+
+  <!-- Thüringen -->
+  <g class="land land5">
+    <rect x="432" y="198" width="100" height="60" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+    <image x="470" y="200" width="24" height="30" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAdCAYAAACwuqxLAAAJYElEQVR42p2TaXRU9RnGn///3jv7mkyWySQkEMxCIEAQExDZFQ4iizZYFRBQrHhaKdYWATVAVKSI9RQX3OKCiBhAUUSQHW3YtySEBAhkmSxDZpJZMsu9d+799wNg2w/thz7nvOf99vye95znJU6n0+Ah+mmqxqQBFAaAQFUZtCYKqIAYUUEZgZIM6MyA3w/oOICzAbgBqN0MgplAkRkUiVAAICpTqY7A395M0gFXxxNrrimDxmgQCQKEAIIO2p42gFJI1hQwmWJ4+Hv4WDJGGc+gRU6DrHLoRBIareOg919HXGOErDUCjAGEglACtvOdXTwBGGzJvbCn2DhBoyo6K8y9nTcKNOIspuGFSwLdGrT3TfCqw8hCeR0ZlelFR68el3029VV+A+xi3D1AKz4Vg9ynXpf4llYS9UQKK77UHB5GS5QHAMgShRyjCngGsYvQcI96bOP8c2fSIIx9eC+DLsDlnbjIJvs7qdXIMSfpheOGSOY4d9DP7ri759SKufvaAYtjw+k3ZldvoX+r2cRKJq+n1VoT5Q0AVEYxwbsVCbXtXJapFRsKXnTaF+34Byin0SqKI9bVgpWNO6lGtCFRIxAtIegf83JfpYYh27Nyk1dt3ZcmmFPyOy4a57cfU4M6MwvobSBKHLwBANUKRPVwsVfq94QbzU7x75mRtGDWkCGqSlBYu1tZWL9PfcuUG25LMBmWhmqiQ7h4nGdaEiaClumMhpApZeIzJz/1zuo4yR1x3Umnji3jvM5ckNi34BsAZox5CEkVxYVFD38tQzhUfOGbq1ei9zzls2XMrR44yeDOLobNXbPLFA8e2N4qHdhpMkl3RLqUE6l5azieLCiu2Xl/S2J6/sTieasjDG59PCbzcjQ3TjnwGQC5zKcoVYmj7CXkx9nnw8MvRz+YWQlsXDR49ft7LyrhKd2c0d/tKhyNHvfZ6i8XN+OWzEsmal3Vu14/lGnZg+TpPxhi/q6qyhkjRhwPRixrdrWEBL2OjwCgkIiocbDDjrnmKRfemL5+fF7OBV2Sy376y2he9EYTVRTZJxhOiZw2S71/5NtxjiO2WIg9Hg8Pb0gqzNy5/5OPVpRkxmudheTFOxcXyCXasMrrKJiq3mwRUwknRYmxq6ntzOBpY9edEcfO6zyJEi0g6PWAAKSrCqBGbkZnHCD7kdPrwdmsopwdA2aMOvTTsviMe19xHO0/+aBWCkvhhHQD5FiMxgCVkyVdWmfdS1MbdpdEOLKz4q7HY70aI/yUx/WoHGqOycFmSQ01SWq4WVKDzbG4r0tkAbfWFocYxGf5U7Fg9F/4jQfKo3mt54mos2qpFAE4gecJwAgB0ROx7YvNH7WlLh/ljxeM0z0/8OHt8z1Hv++0pHaHfL46AKCeayGjyWpkrmxnX3+rt96Zu9nU407Kc59etytpwNTjk9cOfbD+mwV9u866z6YMn9MBtZBkAGnuxe/XsX53CrrA9UuxxKyBQqDjA3n5A8/ily7zzFCzaeTOvyZaujv1qYOGeyv4dGbRmfT5giiv7Ek/5IiHf+5c9dijs2bPL95+7/LjcnfzlFRf+2iFEyZ5f9l9lThgcErPvnxltLMjFmqx1bkQbVh/5M0PL6UN1GtUqupqz8rjF256JOjIGpp99fDWVy5+Vy8TFjXIMtkwcNryX+6YMMwZ7nwvoDFPCJlTRz19cO1rnw+b+9tIn8JsfP7SNj4DEVJLzXJC/cWE9y5UFkkGfcnm/pOeLPC7EY1HUT7xD3DJUfz+0reA131PityLgXoKlaeYXPuZtD7QoqnIn7bSxOvw+r5VjI9LK963uhQa7lFVQglfD8CudsKRHCIV2XnG63YLO5cyRL0Wn02Z1Yqpneew58QagCgAp4GfJ7gciuMuqwEw2zQve47i0dYq+MArJ9MGc0uLF4FnMidzJoCpjB+hBzmlWvBmdjkS+14FL0aIxzKC6JpONZbU7a8qu7bDXqe3MpFBChOafEOjdaSg92qNwkFUCCyKwJ7LffCeA0MessbESFt/b91S5m2wt6YXrVM5XuCn6xGqIvooEQSb/4bFa44qVzhtdxFnMCt+wj7Or2o6AgBYvt2JVNdhRPwxvDB52u1vxnObHeiT1QZrEk1oOedren3RZhng9a/9sNZi0vfyf+pGUBvucVMWT825uufxyx+v221ZWvF5T8HYOXXWlMPpKf0ee2KwbdeXNW2lVyxDc3iOx93PrZ1xOLP64HvC3dx+X7vxQK/+eoDX5wQ15n72ZRU7bEaHSRb0gsbbep5XABi6mqokWRquzRiQ/5vnVzQcsTpcJBZRJPDqn68f/rC0tjE4i2qFmgvb2OKiJ8kU99lNHzb4eguUTWQmicldcegCEMh+S19T+filM5nRAr7+OOvTePIgz0CQVb//0wsDxy2uzSh8o5GzLWUJjiQqhZHoc3MLfNWCiecNTjmAa7CzXqOdlRcvMolUMPX3XMKxE+sxSCCA6Mc+pQ+YEpeYqnDGa2d+PtbScY5H6VbuTOWs8/bze7f4+g19JGRzJc1rKQ+UXAzEFNnABagmdhl84sfGHM2745ZwsDoAKcogGMilfiPx44Uv/GNj3tAuPjP11aI5AjNaqHDtHJdRs7+MgDCKyllMLWN05NFNSwxVO9phtoPjNR3ZduGBZ3bvcS4rLJg/cfRLyrtTXiZ6KKKxuzVCBB2xhVtEV/OJ75bmThtwYoL3wfLxj0RVZ75EokHefmzbO7WXao6idCtHAajASnwfJp7snzY+pD25O3w4/dG8LVmmV13LP/kk5tBt70kdYDJLAX/xjdOT7vOfG2sMeT3Dgj8G3e3zlzRb1wX2hoY+lpLCWyDFNUk/bdztObDtj6z0aw6Vs1Tya91KSzlUVipFLldJ7b2LNvHDx/SPWLOA7k5GdPq4wdvU9fx3Tw9aedzdq12zvz6Lu5I4vXvLlqg1qfBt7co8RDvsyT9XfOrZ89XvCGMyCAEA9i/Av0FeAOwf3Td7WTiveJ6UOShJMScChMLY426nTImHErP7GGUPIMtQvR4IbY01zmNfrL5S17BNJRRgKgHAAOA/AQBQVkaxulwlTMUMwHl2xMTJ0YwBo0VzUoHEaZPijBE9UaNEFN2Cv/OUrfH43uba80dkAChjFKsIu23+v0RQ+jV3m08A8LeGAyDc2r+mI/Tm9f+HKMaM4VFWxoMxAkIByt00ZIxiTBl/y5j8N4N/Aga6WZSZSp+IAAAAAElFTkSuQmCC"/>
+    <text x="482" y="242" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#14532D">Th&#xFC;ringen</text>
+    <text x="482" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="#166534">Erfurt</text>
+  </g>
+
+  <!-- Footer -->
+  <g class="footer">
+    <rect x="30" y="278" width="510" height="48" rx="8" fill="#BBF7D0" stroke="#16A34A" stroke-width="1"/>
+    <text x="285" y="298" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#14532D">Die DDR trat dem Geltungsbereich des Grundgesetzes bei (Art. 23 GG a.F.)</text>
+    <text x="285" y="314" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#166534">Kein neuer Staat &#x2013; die 5 L&#xE4;nder traten der bestehenden Bundesrepublik bei</text>
+  </g>
+</svg>

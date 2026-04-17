@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340">
+  <rect width="480" height="340" rx="16" fill="#F0FDF4"/>
+
+  <!-- Title -->
+  <text x="240" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#14532D">Von zwei Staaten zu einem Land</text>
+  <text x="240" y="42" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#166534">3. Oktober 1990 &#x2013; Tag der Deutschen Einheit</text>
+
+  <!-- LEFT: BRD -->
+  <rect x="30" y="60" width="170" height="120" rx="12" fill="#16A34A"/>
+  <text x="115" y="95" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="white">BRD</text>
+  <text x="115" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#BBF7D0">Bundesrepublik</text>
+  <text x="115" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#BBF7D0">Deutschland</text>
+  <text x="115" y="146" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#DCFCE7">seit 1949</text>
+  <text x="115" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#BBF7D0">11 Bundesl&#xE4;nder</text>
+
+  <!-- RIGHT: DDR -->
+  <rect x="280" y="60" width="170" height="120" rx="12" fill="#166534"/>
+  <text x="365" y="95" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="white">DDR</text>
+  <text x="365" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#86EFAC">Deutsche Demokratische</text>
+  <text x="365" y="128" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#86EFAC">Republik</text>
+  <text x="365" y="146" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#DCFCE7">1949 &#x2013; 1990</text>
+  <text x="365" y="168" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#86EFAC">5 neue Bundesl&#xE4;nder</text>
+
+  <!-- Plus sign between -->
+  <circle cx="240" cy="120" r="16" fill="#F59E0B"/>
+  <text x="240" y="127" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="white">+</text>
+
+  <!-- Arrow down -->
+  <line x1="240" y1="185" x2="240" y2="210" stroke="#14532D" stroke-width="3"/>
+  <polygon points="240,218 232,208 248,208" fill="#14532D"/>
+
+  <!-- RESULT: Vereintes Deutschland -->
+  <rect x="80" y="222" width="320" height="100" rx="14" fill="#14532D"/>
+
+  <!-- German flag stripe at top of result box -->
+  <rect x="180" y="230" width="40" height="5" rx="2" fill="#1A1A1A"/>
+  <rect x="220" y="230" width="40" height="5" rx="2" fill="#DD0000"/>
+  <rect x="260" y="230" width="40" height="5" rx="2" fill="#FFCC00"/>
+
+  <text x="240" y="258" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="white">Deutschland</text>
+  <text x="240" y="278" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#BBF7D0">Vereint seit dem 3. Oktober 1990</text>
+  <text x="240" y="296" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#BBF7D0">16 Bundesl&#xE4;nder &#x2013; eine Hauptstadt: Berlin</text>
+  <text x="240" y="312" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="#86EFAC">Grundgesetz gilt f&#xFC;r das gesamte Deutschland</text>
+</svg>

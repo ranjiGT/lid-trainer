@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- Equal sign / balance scale -->
+  <!-- Base -->
+  <rect x="185" y="220" width="30" height="60" rx="4" fill="#6B7280"/>
+  <rect x="150" y="270" width="100" height="10" rx="4" fill="#4B5563"/>
+  <!-- Beam -->
+  <rect x="80" y="105" width="240" height="8" rx="3" fill="#6B7280"/>
+  <!-- Pivot -->
+  <polygon points="192,105 208,105 200,90" fill="#4B5563"/>
+  <!-- Left pan -->
+  <path d="M80 113 L110 180 L140 180 L170 113" stroke="#3B82F6" stroke-width="2" fill="#DBEAFE"/>
+  <ellipse cx="125" cy="180" rx="32" ry="6" fill="#3B82F6" opacity="0.3"/>
+  <!-- Male symbol on left -->
+  <circle cx="125" cy="145" r="12" fill="#2563EB"/>
+  <line x1="125" y1="157" x2="125" y2="172" stroke="#2563EB" stroke-width="3"/>
+  <!-- Right pan -->
+  <path d="M230 113 L260 180 L290 180 L320 113" stroke="#EC4899" stroke-width="2" fill="#FCE7F3"/>
+  <ellipse cx="275" cy="180" rx="32" ry="6" fill="#EC4899" opacity="0.3"/>
+  <!-- Female symbol on right -->
+  <circle cx="275" cy="145" r="12" fill="#DB2777"/>
+  <line x1="275" y1="157" x2="275" y2="172" stroke="#DB2777" stroke-width="3"/>
+  <line x1="268" y1="165" x2="282" y2="165" stroke="#DB2777" stroke-width="2"/>
+  <!-- Equals sign -->
+  <rect x="185" y="50" width="30" height="8" rx="2" fill="#16A34A"/>
+  <rect x="185" y="65" width="30" height="8" rx="2" fill="#16A34A"/>
+  <!-- Text -->
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#166534">Gleichberechtigung in der Ehe</text>
+</svg>

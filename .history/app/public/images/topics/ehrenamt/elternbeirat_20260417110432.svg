@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- School building -->
+  <rect x="100" y="100" width="200" height="140" rx="4" fill="#FDE68A"/>
+  <rect x="100" y="100" width="200" height="140" stroke="#D97706" stroke-width="2" rx="4" fill="none"/>
+  <!-- Roof -->
+  <polygon points="90,105 200,50 310,105" fill="#DC2626" stroke="#B91C1C" stroke-width="2"/>
+  <!-- Windows -->
+  <rect x="120" y="120" width="35" height="35" rx="3" fill="#BFDBFE" stroke="#6B7280" stroke-width="1"/>
+  <rect x="120" y="175" width="35" height="35" rx="3" fill="#BFDBFE" stroke="#6B7280" stroke-width="1"/>
+  <rect x="245" y="120" width="35" height="35" rx="3" fill="#BFDBFE" stroke="#6B7280" stroke-width="1"/>
+  <rect x="245" y="175" width="35" height="35" rx="3" fill="#BFDBFE" stroke="#6B7280" stroke-width="1"/>
+  <!-- Door -->
+  <rect x="180" y="180" width="40" height="60" rx="4" fill="#92400E"/>
+  <circle cx="212" cy="210" r="3" fill="#F59E0B"/>
+  <!-- People (parents) -->
+  <!-- Parent 1 -->
+  <circle cx="60" cy="170" r="12" fill="#F59E0B"/>
+  <rect x="52" y="182" width="16" height="25" rx="4" fill="#3B82F6"/>
+  <!-- Parent 2 -->
+  <circle cx="340" cy="170" r="12" fill="#F59E0B"/>
+  <rect x="332" y="182" width="16" height="25" rx="4" fill="#EC4899"/>
+  <!-- Child 1 -->
+  <circle cx="60" cy="215" r="8" fill="#F59E0B"/>
+  <rect x="54" y="223" width="12" height="18" rx="3" fill="#22C55E"/>
+  <!-- Child 2 -->
+  <circle cx="340" cy="215" r="8" fill="#F59E0B"/>
+  <rect x="334" y="223" width="12" height="18" rx="3" fill="#A855F7"/>
+  <!-- Clock -->
+  <circle cx="200" cy="85" r="12" fill="white" stroke="#6B7280" stroke-width="2"/>
+  <line x1="200" y1="85" x2="200" y2="77" stroke="#1F2937" stroke-width="2"/>
+  <line x1="200" y1="85" x2="207" y2="85" stroke="#1F2937" stroke-width="1.5"/>
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#166534">Elternbeirat</text>
+</svg>

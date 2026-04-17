@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#FEE2E2"/>
+  <!-- Cross symbol -->
+  <circle cx="200" cy="130" r="60" fill="white" stroke="#DC2626" stroke-width="3"/>
+  <rect x="188" y="85" width="24" height="90" rx="4" fill="#DC2626"/>
+  <rect x="155" y="118" width="90" height="24" rx="4" fill="#DC2626"/>
+  <!-- Ambulance body -->
+  <rect x="80" y="200" width="200" height="60" rx="8" fill="white" stroke="#DC2626" stroke-width="2"/>
+  <!-- Ambulance cross -->
+  <rect x="165" y="210" width="10" height="30" rx="2" fill="#DC2626"/>
+  <rect x="150" y="220" width="40" height="10" rx="2" fill="#DC2626"/>
+  <!-- Cabin -->
+  <rect x="240" y="185" width="60" height="75" rx="8" fill="white" stroke="#DC2626" stroke-width="2"/>
+  <rect x="250" y="195" width="40" height="25" rx="4" fill="#BFDBFE"/>
+  <!-- Wheels -->
+  <circle cx="120" cy="265" r="16" fill="#1F2937"/>
+  <circle cx="120" cy="265" r="7" fill="#6B7280"/>
+  <circle cx="260" cy="265" r="16" fill="#1F2937"/>
+  <circle cx="260" cy="265" r="7" fill="#6B7280"/>
+  <!-- Light -->
+  <rect x="255" y="176" width="20" height="10" rx="5" fill="#3B82F6"/>
+  <!-- Text -->
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#991B1B">Rettungsdienst (DRK)</text>
+</svg>

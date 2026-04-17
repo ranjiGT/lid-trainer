@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#FEF9C3"/>
+  <!-- School building -->
+  <rect x="80" y="80" width="240" height="160" rx="6" fill="#FDE68A" stroke="#D97706" stroke-width="2"/>
+  <!-- Roof -->
+  <polygon points="70,85 200,25 330,85" fill="#DC2626" stroke="#B91C1C" stroke-width="2"/>
+  <!-- Bell tower -->
+  <rect x="185" y="15" width="30" height="20" rx="2" fill="#DC2626" stroke="#B91C1C" stroke-width="1"/>
+  <circle cx="200" cy="22" r="5" fill="#F59E0B"/>
+  <!-- Windows row 1 -->
+  <rect x="100" y="100" width="40" height="35" rx="3" fill="#BFDBFE" stroke="#6B7280" stroke-width="1"/>
+  <line x1="120" y1="100" x2="120" y2="135" stroke="#6B7280" stroke-width="1"/>
+  <rect x="160" y="100" width="40" height="35" rx="3" fill="#BFDBFE" stroke="#6B7280" stroke-width="1"/>
+  <line x1="180" y1="100" x2="180" y2="135" stroke="#6B7280" stroke-width="1"/>
+  <rect x="260" y="100" width="40" height="35" rx="3" fill="#BFDBFE" stroke="#6B7280" stroke-width="1"/>
+  <line x1="280" y1="100" x2="280" y2="135" stroke="#6B7280" stroke-width="1"/>
+  <!-- Door -->
+  <rect x="180" y="180" width="40" height="60" rx="4" fill="#92400E"/>
+  <circle cx="212" cy="210" r="3" fill="#F59E0B"/>
+  <!-- "SCHULE" sign -->
+  <rect x="140" y="148" width="120" height="22" rx="4" fill="white" stroke="#D97706" stroke-width="1"/>
+  <text x="200" y="164" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#92400E">SCHULE</text>
+  <!-- Students -->
+  <circle cx="115" cy="255" r="8" fill="#F59E0B"/>
+  <rect x="109" y="263" width="12" height="16" rx="3" fill="#3B82F6"/>
+  <circle cx="145" cy="255" r="8" fill="#F59E0B"/>
+  <rect x="139" y="263" width="12" height="16" rx="3" fill="#22C55E"/>
+  <circle cx="255" cy="255" r="8" fill="#F59E0B"/>
+  <rect x="249" y="263" width="12" height="16" rx="3" fill="#EC4899"/>
+  <circle cx="285" cy="255" r="8" fill="#F59E0B"/>
+  <rect x="279" y="263" width="12" height="16" rx="3" fill="#A855F7"/>
+  <!-- Text -->
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#92400E">Schulpflicht – mind. 9 Jahre</text>
+</svg>

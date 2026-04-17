@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#DBEAFE"/>
+  <!-- Field -->
+  <rect x="60" y="100" width="280" height="150" rx="8" fill="#22C55E"/>
+  <rect x="60" y="100" width="280" height="150" rx="8" fill="#16A34A" opacity="0.3"/>
+  <!-- Field lines -->
+  <line x1="200" y1="100" x2="200" y2="250" stroke="white" stroke-width="2"/>
+  <circle cx="200" cy="175" r="30" stroke="white" stroke-width="2" fill="none"/>
+  <rect x="60" y="100" width="280" height="150" rx="8" stroke="white" stroke-width="2" fill="none"/>
+  <!-- Goals -->
+  <rect x="55" y="145" width="15" height="60" rx="2" stroke="white" stroke-width="2" fill="none"/>
+  <rect x="330" y="145" width="15" height="60" rx="2" stroke="white" stroke-width="2" fill="none"/>
+  <!-- Players -->
+  <circle cx="140" cy="165" r="10" fill="#DC2626"/>
+  <circle cx="160" cy="195" r="10" fill="#DC2626"/>
+  <circle cx="120" cy="190" r="10" fill="#DC2626"/>
+  <circle cx="240" cy="160" r="10" fill="#2563EB"/>
+  <circle cx="260" cy="185" r="10" fill="#2563EB"/>
+  <circle cx="220" cy="195" r="10" fill="#2563EB"/>
+  <!-- Ball -->
+  <circle cx="200" cy="175" r="6" fill="white" stroke="#1F2937" stroke-width="1"/>
+  <!-- Coach figure -->
+  <circle cx="200" cy="68" r="14" fill="#F59E0B"/>
+  <rect x="192" y="82" width="16" height="12" rx="3" fill="#F59E0B"/>
+  <!-- Whistle -->
+  <circle cx="215" cy="78" r="5" fill="#6B7280"/>
+  <line x1="210" y1="78" x2="215" y2="78" stroke="#6B7280" stroke-width="2"/>
+  <!-- Text -->
+  <text x="200" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1E40AF">Sportverein</text>
+</svg>

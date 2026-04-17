@@ -1168,28 +1168,6 @@ export const topics: Topic[] = [
     illustration: "👨‍👩‍👧‍👦",
     relatedQuestionNumbers: [2, 47, 95, 97, 106, 242, 248, 249, 254, 255, 258, 269, 272, 273, 275, 284],
     details: {
-      gallery: [
-        {
-          src: "/images/topics/erziehung/familie.svg",
-          alt: { de: "Familie unter dem Schutz des Grundgesetzes", en: "Family under the protection of the Basic Law" },
-          caption: { de: "Art. 6 GG: Ehe und Familie stehen unter dem besonderen Schutz des Staates.", en: "Art. 6 GG: Marriage and family are under the special protection of the state." },
-        },
-        {
-          src: "/images/topics/erziehung/schulpflicht.svg",
-          alt: { de: "Schulpflicht in Deutschland", en: "Compulsory education in Germany" },
-          caption: { de: "In Deutschland gilt die Schulpflicht für mindestens 9 Jahre.", en: "In Germany, compulsory education applies for at least 9 years." },
-        },
-        {
-          src: "/images/topics/erziehung/gleichberechtigung.svg",
-          alt: { de: "Gleichberechtigung in der Ehe", en: "Equal rights in marriage" },
-          caption: { de: "Mann und Frau sind in der Ehe gleichberechtigt.", en: "Men and women have equal rights in marriage." },
-        },
-        {
-          src: "/images/topics/erziehung/gewaltfrei.svg",
-          alt: { de: "Gewaltfreie Erziehung", en: "Non-violent upbringing" },
-          caption: { de: "Kinder haben ein Recht auf gewaltfreie Erziehung.", en: "Children have a right to non-violent upbringing." },
-        },
-      ],
       keyFacts: {
         title: { de: "Wichtige Fakten", en: "Key Facts" },
         items: [

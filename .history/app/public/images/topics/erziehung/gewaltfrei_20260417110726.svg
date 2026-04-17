@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#FEF2F2"/>
+  <!-- Shield / protection symbol -->
+  <path d="M200 40 L280 80 L280 160 C280 220 200 260 200 260 C200 260 120 220 120 160 L120 80 Z" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+  <!-- Child figure inside shield -->
+  <circle cx="200" cy="120" r="18" fill="#F59E0B"/>
+  <rect x="188" y="138" width="24" height="32" rx="6" fill="#22C55E"/>
+  <rect x="188" y="170" width="10" height="22" rx="4" fill="#15803D"/>
+  <rect x="202" y="170" width="10" height="22" rx="4" fill="#15803D"/>
+  <!-- Arms reaching up -->
+  <line x1="188" y1="148" x2="170" y2="135" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/>
+  <line x1="212" y1="148" x2="230" y2="135" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/>
+  <!-- Checkmark -->
+  <path d="M185 210 L195 220 L220 195" stroke="#16A34A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- No violence X -->
+  <circle cx="320" cy="70" r="25" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+  <line x1="308" y1="58" x2="332" y2="82" stroke="#DC2626" stroke-width="3" stroke-linecap="round"/>
+  <line x1="332" y1="58" x2="308" y2="82" stroke="#DC2626" stroke-width="3" stroke-linecap="round"/>
+  <!-- Text -->
+  <text x="200" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#991B1B">Gewaltfreie Erziehung – Recht des Kindes</text>
+</svg>

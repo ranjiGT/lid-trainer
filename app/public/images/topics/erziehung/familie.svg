@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none">
+  <!-- Background -->
+  <rect width="400" height="320" rx="16" fill="#EFF6FF"/>
+  <!-- Family group -->
+  <!-- Father -->
+  <circle cx="120" cy="80" r="22" fill="#F59E0B"/>
+  <rect x="105" y="102" width="30" height="40" rx="6" fill="#2563EB"/>
+  <rect x="105" y="142" width="13" height="30" rx="4" fill="#1E3A5F"/>
+  <rect x="122" y="142" width="13" height="30" rx="4" fill="#1E3A5F"/>
+  <!-- Mother -->
+  <circle cx="200" cy="80" r="22" fill="#F59E0B"/>
+  <path d="M178 76 C178 62, 222 62, 222 76" fill="#92400E"/>
+  <rect x="185" y="102" width="30" height="45" rx="6" fill="#EC4899"/>
+  <rect x="185" y="147" width="13" height="25" rx="4" fill="#831843"/>
+  <rect x="202" y="147" width="13" height="25" rx="4" fill="#831843"/>
+  <!-- Child (girl) -->
+  <circle cx="280" cy="105" r="16" fill="#F59E0B"/>
+  <path d="M264 102 C264 92, 296 92, 296 102" fill="#92400E"/>
+  <rect x="270" y="121" width="20" height="28" rx="5" fill="#A855F7"/>
+  <rect x="270" y="149" width="9" height="20" rx="3" fill="#581C87"/>
+  <rect x="281" y="149" width="9" height="20" rx="3" fill="#581C87"/>
+  <!-- Heart -->
+  <path d="M190 200 C190 190, 175 180, 175 195 C175 210, 190 220, 200 230 C210 220, 225 210, 225 195 C225 180, 210 190, 210 200 C210 205, 200 215, 200 215 C200 215, 190 205, 190 200Z" fill="#F43F5E" opacity="0.7"/>
+  <!-- Article 6 GG badge -->
+  <rect x="80" y="260" width="240" height="36" rx="10" fill="#1E40AF"/>
+  <text x="200" y="284" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="white">Art. 6 GG – Schutz der Familie</text>
+</svg>

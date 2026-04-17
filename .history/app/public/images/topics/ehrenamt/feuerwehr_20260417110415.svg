@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#FEF3C7"/>
+  <!-- Fire truck body -->
+  <rect x="60" y="140" width="240" height="80" rx="8" fill="#DC2626"/>
+  <rect x="60" y="160" width="240" height="40" rx="4" fill="#B91C1C"/>
+  <!-- Cabin -->
+  <rect x="240" y="110" width="80" height="110" rx="8" fill="#DC2626"/>
+  <rect x="255" y="120" width="50" height="35" rx="4" fill="#BFDBFE"/>
+  <!-- Wheels -->
+  <circle cx="110" cy="225" r="22" fill="#1F2937"/>
+  <circle cx="110" cy="225" r="10" fill="#6B7280"/>
+  <circle cx="270" cy="225" r="22" fill="#1F2937"/>
+  <circle cx="270" cy="225" r="10" fill="#6B7280"/>
+  <!-- Ladder -->
+  <rect x="80" y="125" width="140" height="6" rx="2" fill="#F59E0B"/>
+  <rect x="80" y="138" width="140" height="6" rx="2" fill="#F59E0B"/>
+  <rect x="90" y="125" width="4" height="19" fill="#F59E0B"/>
+  <rect x="110" y="125" width="4" height="19" fill="#F59E0B"/>
+  <rect x="130" y="125" width="4" height="19" fill="#F59E0B"/>
+  <rect x="150" y="125" width="4" height="19" fill="#F59E0B"/>
+  <rect x="170" y="125" width="4" height="19" fill="#F59E0B"/>
+  <rect x="190" y="125" width="4" height="19" fill="#F59E0B"/>
+  <!-- Light -->
+  <rect x="270" y="98" width="20" height="14" rx="7" fill="#3B82F6"/>
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#92400E">Freiwillige Feuerwehr</text>
+</svg>

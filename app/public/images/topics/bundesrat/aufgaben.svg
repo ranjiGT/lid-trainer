@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1E3A5F">Aufgaben des Bundesrats</text>
+  <!-- Central Bundesrat box -->
+  <rect x="140" y="110" width="120" height="50" rx="10" fill="#E2E8F0" stroke="#475569" stroke-width="2"/>
+  <text x="200" y="133" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1E40AF">Bundesrat</text>
+  <text x="200" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">69 Stimmen</text>
+  <!-- Task 1: Gesetzgebung (top-left) -->
+  <path d="M160,110 L160,80 L95,80 L95,55" stroke="#2563EB" stroke-width="1.5" fill="none"/>
+  <polygon points="90,55 100,55 95,45" fill="#2563EB"/>
+  <rect x="15" y="45" width="160" height="45" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="95" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1E40AF">Gesetzgebung</text>
+  <text x="95" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2563EB">Mitwirkung an Bundesgesetzen</text>
+  <text x="95" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="6.5" fill="#64748B">Zustimmungs- und Einspruchsgesetze</text>
+  <!-- Task 2: EU-Angelegenheiten (top-right) -->
+  <path d="M240,110 L240,80 L305,80 L305,55" stroke="#16A34A" stroke-width="1.5" fill="none"/>
+  <polygon points="300,55 310,55 305,45" fill="#16A34A"/>
+  <rect x="225" y="45" width="160" height="45" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+  <text x="305" y="63" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#166534">EU-Angelegenheiten</text>
+  <text x="305" y="77" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#16A34A">Mitwirkung in EU-Fragen</text>
+  <text x="305" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="6.5" fill="#64748B">wenn Landesinteressen betroffen</text>
+  <!-- Task 3: Verfassungsaenderung (bottom-left) -->
+  <path d="M160,160 L160,190 L95,190 L95,215" stroke="#7C3AED" stroke-width="1.5" fill="none"/>
+  <polygon points="90,215 100,215 95,225" fill="#7C3AED"/>
+  <rect x="15" y="225" width="160" height="45" rx="8" fill="#F3E8FF" stroke="#7C3AED" stroke-width="2"/>
+  <text x="95" y="243" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#5B21B6">Verfassungsänderung</text>
+  <text x="95" y="257" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#7C3AED">2/3-Mehrheit erforderlich</text>
+  <text x="95" y="267" text-anchor="middle" font-family="Arial, sans-serif" font-size="6.5" fill="#64748B">im Bundesrat und Bundestag</text>
+  <!-- Task 4: Verwaltung (bottom-right) -->
+  <path d="M240,160 L240,190 L305,190 L305,215" stroke="#CA8A04" stroke-width="1.5" fill="none"/>
+  <polygon points="300,215 310,215 305,225" fill="#CA8A04"/>
+  <rect x="225" y="225" width="160" height="45" rx="8" fill="#FEF3C7" stroke="#CA8A04" stroke-width="2"/>
+  <text x="305" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#92400E">Verwaltungsvorschriften</text>
+  <text x="305" y="254" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#CA8A04">Zustimmung zu Verordnungen</text>
+  <text x="305" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="6.5" fill="#64748B">der Bundesregierung</text>
+  <!-- Bottom note -->
+  <rect x="55" y="278" width="290" height="18" rx="5" fill="#FEE2E2" stroke="#DC2626" stroke-width="1"/>
+  <text x="200" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#991B1B">Kein Parlament &#8211; keine Debatten wie im Bundestag</text>
+</svg>

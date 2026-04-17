@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1E3A5F">Bundesrat: Vertretung der Länder</text>
+  <!-- Central Bundesrat building -->
+  <rect x="120" y="90" width="160" height="80" rx="8" fill="#E2E8F0" stroke="#475569" stroke-width="2"/>
+  <!-- Columns -->
+  <rect x="155" y="70" width="8" height="20" fill="#CBD5E1" stroke="#475569" stroke-width="1"/>
+  <rect x="175" y="70" width="8" height="20" fill="#CBD5E1" stroke="#475569" stroke-width="1"/>
+  <rect x="218" y="70" width="8" height="20" fill="#CBD5E1" stroke="#475569" stroke-width="1"/>
+  <rect x="238" y="70" width="8" height="20" fill="#CBD5E1" stroke="#475569" stroke-width="1"/>
+  <!-- Pediment -->
+  <polygon points="120,70 200,48 280,70" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+  <text x="200" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#475569">BUNDESRAT</text>
+  <!-- Label -->
+  <text x="200" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1E40AF">Bundesrat</text>
+  <text x="200" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#475569">Leipziger Str. 3-4, Berlin</text>
+  <text x="200" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#64748B">16 Bundesländer senden Vertreter</text>
+  <!-- Surrounding state delegates - arranged in a circle -->
+  <!-- Top -->
+  <circle cx="200" cy="195" r="0" fill="none"/>
+  <!-- State icons around the building -->
+  <g transform="translate(40, 45)">
+    <circle cx="12" cy="8" r="7" fill="#F59E0B"/><rect x="5" y="16" width="14" height="10" rx="2" fill="#92400E"/>
+    <text x="12" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#475569">BW</text>
+  </g>
+  <g transform="translate(80, 30)">
+    <circle cx="12" cy="8" r="7" fill="#F59E0B"/><rect x="5" y="16" width="14" height="10" rx="2" fill="#92400E"/>
+    <text x="12" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#475569">BY</text>
+  </g>
+  <g transform="translate(290, 30)">
+    <circle cx="12" cy="8" r="7" fill="#F59E0B"/><rect x="5" y="16" width="14" height="10" rx="2" fill="#92400E"/>
+    <text x="12" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#475569">BE</text>
+  </g>
+  <g transform="translate(335, 45)">
+    <circle cx="12" cy="8" r="7" fill="#F59E0B"/><rect x="5" y="16" width="14" height="10" rx="2" fill="#92400E"/>
+    <text x="12" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#475569">BB</text>
+  </g>
+  <g transform="translate(20, 100)">
+    <circle cx="12" cy="8" r="7" fill="#F59E0B"/><rect x="5" y="16" width="14" height="10" rx="2" fill="#92400E"/>
+    <text x="12" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#475569">HB</text>
+  </g>
+  <g transform="translate(20, 150)">
+    <circle cx="12" cy="8" r="7" fill="#F59E0B"/><rect x="5" y="16" width="14" height="10" rx="2" fill="#92400E"/>
+    <text x="12" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#475569">HH</text>
+  </g>
+  <g transform="translate(355, 100)">
+    <circle cx="12" cy="8" r="7" fill="#F59E0B"/><rect x="5" y="16" width="14" height="10" rx="2" fill="#92400E"/>
+    <text x="12" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#475569">HE</text>
+  </g>
+  <g transform="translate(355, 150)">
+    <circle cx="12" cy="8" r="7" fill="#F59E0B"/><rect x="5" y="16" width="14" height="10" rx="2" fill="#92400E"/>
+    <text x="12" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#475569">MV</text>
+  </g>
+  <!-- Connecting lines -->
+  <line x1="55" y1="62" x2="120" y2="100" stroke="#CA8A04" stroke-width="1" opacity="0.4"/>
+  <line x1="95" y1="48" x2="120" y2="95" stroke="#CA8A04" stroke-width="1" opacity="0.4"/>
+  <line x1="305" y1="48" x2="280" y2="95" stroke="#CA8A04" stroke-width="1" opacity="0.4"/>
+  <line x1="350" y1="62" x2="280" y2="100" stroke="#CA8A04" stroke-width="1" opacity="0.4"/>
+  <line x1="35" y1="115" x2="120" y2="120" stroke="#CA8A04" stroke-width="1" opacity="0.4"/>
+  <line x1="35" y1="165" x2="120" y2="140" stroke="#CA8A04" stroke-width="1" opacity="0.4"/>
+  <line x1="370" y1="115" x2="280" y2="120" stroke="#CA8A04" stroke-width="1" opacity="0.4"/>
+  <line x1="370" y1="165" x2="280" y2="140" stroke="#CA8A04" stroke-width="1" opacity="0.4"/>
+  <!-- Key info boxes at bottom -->
+  <rect x="20" y="215" width="170" height="70" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="105" y="237" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#1E40AF">Mitglieder</text>
+  <text x="105" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2563EB">Vertreter der</text>
+  <text x="105" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2563EB">Landesregierungen</text>
+  <text x="105" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#64748B">(nicht direkt gewählt)</text>
+  <rect x="210" y="215" width="170" height="70" rx="10" fill="#FEF3C7" stroke="#CA8A04" stroke-width="1.5"/>
+  <text x="295" y="237" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#92400E">Präsidentschaft</text>
+  <text x="295" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#CA8A04">Vorsitz wechselt</text>
+  <text x="295" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#CA8A04">jährlich zwischen</text>
+  <text x="295" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#CA8A04">den Bundesländern</text>
+</svg>

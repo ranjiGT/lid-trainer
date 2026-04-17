@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1E3A5F">Die 6 Gründerstaaten (1957)</text>
+  <!-- EU flag circle in center -->
+  <circle cx="200" cy="145" r="45" fill="#003399" opacity="0.15"/>
+  <circle cx="200" cy="145" r="45" fill="none" stroke="#003399" stroke-width="2"/>
+  <!-- Stars arranged in circle -->
+  <g fill="#FFD700" transform="translate(200,145)">
+    <polygon points="0,-38 2,-31 9,-31 3,-27 5,-20 0,-24 -5,-20 -3,-27 -9,-31 -2,-31" transform="rotate(0)"/>
+    <polygon points="0,-38 2,-31 9,-31 3,-27 5,-20 0,-24 -5,-20 -3,-27 -9,-31 -2,-31" transform="rotate(30)"/>
+    <polygon points="0,-38 2,-31 9,-31 3,-27 5,-20 0,-24 -5,-20 -3,-27 -9,-31 -2,-31" transform="rotate(60)"/>
+    <polygon points="0,-38 2,-31 9,-31 3,-27 5,-20 0,-24 -5,-20 -3,-27 -9,-31 -2,-31" transform="rotate(90)"/>
+    <polygon points="0,-38 2,-31 9,-31 3,-27 5,-20 0,-24 -5,-20 -3,-27 -9,-31 -2,-31" transform="rotate(120)"/>
+    <polygon points="0,-38 2,-31 9,-31 3,-27 5,-20 0,-24 -5,-20 -3,-27 -9,-31 -2,-31" transform="rotate(150)"/>
+    <polygon points="0,-38 2,-31 9,-31 3,-27 5,-20 0,-24 -5,-20 -3,-27 -9,-31 -2,-31" transform="rotate(180)"/>
+    <polygon points="0,-38 2,-31 9,-31 3,-27 5,-20 0,-24 -5,-20 -3,-27 -9,-31 -2,-31" transform="rotate(210)"/>
+    <polygon points="0,-38 2,-31 9,-31 3,-27 5,-20 0,-24 -5,-20 -3,-27 -9,-31 -2,-31" transform="rotate(240)"/>
+    <polygon points="0,-38 2,-31 9,-31 3,-27 5,-20 0,-24 -5,-20 -3,-27 -9,-31 -2,-31" transform="rotate(270)"/>
+    <polygon points="0,-38 2,-31 9,-31 3,-27 5,-20 0,-24 -5,-20 -3,-27 -9,-31 -2,-31" transform="rotate(300)"/>
+    <polygon points="0,-38 2,-31 9,-31 3,-27 5,-20 0,-24 -5,-20 -3,-27 -9,-31 -2,-31" transform="rotate(330)"/>
+  </g>
+  <!-- Country boxes around the circle -->
+  <!-- Top row -->
+  <rect x="20" y="50" width="95" height="30" rx="6" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="67" y="69" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#1E40AF">🇩🇪 Deutschland</text>
+  <line x1="115" y1="80" x2="170" y2="115" stroke="#2563EB" stroke-width="1" opacity="0.5"/>
+  <rect x="152" y="50" width="95" height="30" rx="6" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="200" y="69" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#166534">🇫🇷 Frankreich</text>
+  <line x1="200" y1="80" x2="200" y2="100" stroke="#16A34A" stroke-width="1" opacity="0.5"/>
+  <rect x="285" y="50" width="95" height="30" rx="6" fill="#FEF3C7" stroke="#CA8A04" stroke-width="1.5"/>
+  <text x="332" y="69" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#92400E">🇮🇹 Italien</text>
+  <line x1="285" y1="80" x2="230" y2="115" stroke="#CA8A04" stroke-width="1" opacity="0.5"/>
+  <!-- Bottom row -->
+  <rect x="20" y="215" width="100" height="30" rx="6" fill="#F3E8FF" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="70" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#5B21B6">🇧🇪 Belgien</text>
+  <line x1="120" y1="215" x2="170" y2="175" stroke="#7C3AED" stroke-width="1" opacity="0.5"/>
+  <rect x="150" y="215" width="100" height="30" rx="6" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="200" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#991B1B">🇳🇱 Niederlande</text>
+  <line x1="200" y1="215" x2="200" y2="190" stroke="#DC2626" stroke-width="1" opacity="0.5"/>
+  <rect x="280" y="215" width="100" height="30" rx="6" fill="#CFFAFE" stroke="#0891B2" stroke-width="1.5"/>
+  <text x="330" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#155E75">🇱🇺 Luxemburg</text>
+  <line x1="280" y1="215" x2="230" y2="175" stroke="#0891B2" stroke-width="1" opacity="0.5"/>
+  <!-- Bottom info -->
+  <rect x="80" y="260" width="240" height="30" rx="8" fill="#E0E7FF" stroke="#4F46E5" stroke-width="1.5"/>
+  <text x="200" y="277" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#3730A3">Römische Verträge &#8211; 25. März 1957</text>
+  <text x="200" y="288" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#4F46E5">Gründung der EWG und Euratom</text>
+</svg>

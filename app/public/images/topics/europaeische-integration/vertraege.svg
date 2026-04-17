@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1E3A5F">Wichtige EU-Verträge</text>
+  <!-- Treaty cards -->
+  <!-- Card 1: Römische Verträge -->
+  <rect x="15" y="45" width="175" height="75" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="102" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1E40AF">Römische Verträge</text>
+  <text x="102" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2563EB">1957</text>
+  <text x="102" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Gründung von EWG und Euratom</text>
+  <text x="102" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">6 Gründerstaaten</text>
+  <!-- Card 2: Fusionsvertrag -->
+  <rect x="210" y="45" width="175" height="75" rx="10" fill="#FEF3C7" stroke="#CA8A04" stroke-width="2"/>
+  <text x="297" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400E">Fusionsvertrag</text>
+  <text x="297" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#CA8A04">1967</text>
+  <text x="297" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">EGKS + EWG + Euratom = EG</text>
+  <text x="297" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Gemeinsame Institutionen</text>
+  <!-- Card 3: Maastricht -->
+  <rect x="15" y="135" width="175" height="75" rx="10" fill="#F3E8FF" stroke="#7C3AED" stroke-width="2"/>
+  <text x="102" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#5B21B6">Vertrag von Maastricht</text>
+  <text x="102" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#7C3AED">1992</text>
+  <text x="102" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Gründung der EU (1993 in Kraft)</text>
+  <text x="102" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Euro beschlossen</text>
+  <!-- Card 4: Lissabon -->
+  <rect x="210" y="135" width="175" height="75" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+  <text x="297" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#166534">Vertrag von Lissabon</text>
+  <text x="297" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#16A34A">2007</text>
+  <text x="297" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Reform der EU-Institutionen</text>
+  <text x="297" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Stärkung des EU-Parlaments</text>
+  <!-- Card 5: Schengen -->
+  <rect x="15" y="225" width="175" height="60" rx="10" fill="#CFFAFE" stroke="#0891B2" stroke-width="2"/>
+  <text x="102" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#155E75">Schengen-Abkommen</text>
+  <text x="102" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0891B2">1985</text>
+  <text x="102" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Offene Grenzen ohne Kontrollen</text>
+  <!-- Card 6: Einheitliche Europäische Akte -->
+  <rect x="210" y="225" width="175" height="60" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+  <text x="297" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#991B1B">Einheitliche Europ. Akte</text>
+  <text x="297" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#DC2626">1986</text>
+  <text x="297" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Binnenmarkt bis 1993</text>
+</svg>

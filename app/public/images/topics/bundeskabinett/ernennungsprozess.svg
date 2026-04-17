@@ -34,5 +34,5 @@
   <rect x="317" y="64" width="16" height="18" rx="3" fill="#7C3AED"/>
   <text x="325" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#5B21B6">Präsident/in</text>
   <!-- Dashed line from Präsident to ernennt -->
-  <line x1="325" y1="100" x2="325" y2="220" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <path d="M325,100 L325,245 L310,245" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="6,4" fill="none"/>
 </svg>

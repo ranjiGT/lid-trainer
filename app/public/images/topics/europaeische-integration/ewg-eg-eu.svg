@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1E3A5F">Von der EWG zur EU</text>
+  <!-- Step 1: EWG -->
+  <rect x="20" y="50" width="110" height="70" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="75" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1E40AF">EWG</text>
+  <text x="75" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2563EB">1957</text>
+  <text x="75" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Wirtschafts-</text>
+  <text x="75" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">gemeinschaft</text>
+  <!-- Arrow -->
+  <line x1="130" y1="85" x2="148" y2="85" stroke="#475569" stroke-width="2"/>
+  <polygon points="148,80 158,85 148,90" fill="#475569"/>
+  <!-- Step 2: EG -->
+  <rect x="158" y="50" width="110" height="70" rx="10" fill="#FEF3C7" stroke="#CA8A04" stroke-width="2"/>
+  <text x="213" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#92400E">EG</text>
+  <text x="213" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#CA8A04">1967</text>
+  <text x="213" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Europäische</text>
+  <text x="213" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Gemeinschaft</text>
+  <!-- Arrow -->
+  <line x1="268" y1="85" x2="286" y2="85" stroke="#475569" stroke-width="2"/>
+  <polygon points="286,80 296,85 286,90" fill="#475569"/>
+  <!-- Step 3: EU -->
+  <rect x="296" y="50" width="85" height="70" rx="10" fill="#F3E8FF" stroke="#7C3AED" stroke-width="2"/>
+  <text x="338" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#5B21B6">EU</text>
+  <text x="338" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7C3AED">1993</text>
+  <text x="338" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Europäische</text>
+  <text x="338" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Union</text>
+  <!-- What changed at each step -->
+  <!-- EWG details -->
+  <line x1="75" y1="120" x2="75" y2="145" stroke="#2563EB" stroke-width="1.5"/>
+  <polygon points="70,145 80,145 75,155" fill="#2563EB"/>
+  <rect x="10" y="157" width="130" height="55" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="1"/>
+  <text x="75" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#1E40AF">Gemeinsamer Markt</text>
+  <text x="75" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2563EB">Freier Warenverkehr</text>
+  <text x="75" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#2563EB">Zollunion</text>
+  <text x="75" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">6 Mitglieder</text>
+  <!-- EG details -->
+  <line x1="213" y1="120" x2="213" y2="145" stroke="#CA8A04" stroke-width="1.5"/>
+  <polygon points="208,145 218,145 213,155" fill="#CA8A04"/>
+  <rect x="148" y="157" width="130" height="55" rx="8" fill="#FFFBEB" stroke="#CA8A04" stroke-width="1"/>
+  <text x="213" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#92400E">Fusionsvertrag</text>
+  <text x="213" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#CA8A04">EGKS + EWG + Euratom</text>
+  <text x="213" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#CA8A04">vereinigt</text>
+  <text x="213" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Gemeinsame Organe</text>
+  <!-- EU details -->
+  <line x1="338" y1="120" x2="338" y2="145" stroke="#7C3AED" stroke-width="1.5"/>
+  <polygon points="333,145 343,145 338,155" fill="#7C3AED"/>
+  <rect x="278" y="157" width="110" height="55" rx="8" fill="#FAF5FF" stroke="#7C3AED" stroke-width="1"/>
+  <text x="333" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="7.5" font-weight="bold" fill="#5B21B6">Maastricht-Vertrag</text>
+  <text x="333" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#7C3AED">Politische Union</text>
+  <text x="333" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#7C3AED">Gemeinsame Währung</text>
+  <text x="333" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">27 Mitglieder heute</text>
+  <!-- Bottom: Goals -->
+  <rect x="40" y="230" width="320" height="55" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+  <text x="200" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#166534">Ziele der Europäischen Integration</text>
+  <text x="200" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#16A34A">🕊️ Frieden    🗽 Freiheit    💶 Wohlstand    🤝 Zusammenarbeit</text>
+  <text x="200" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#64748B">Vier Grundfreiheiten: Waren, Personen, Dienstleistungen, Kapital</text>
+</svg>

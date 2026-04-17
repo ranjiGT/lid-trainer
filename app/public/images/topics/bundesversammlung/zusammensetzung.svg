@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1E3A5F">Zusammensetzung der Bundesversammlung</text>
+  <!-- Left group: Bundestag -->
+  <rect x="20" y="50" width="160" height="190" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="100" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1E40AF">Bundestagsabgeordnete</text>
+  <!-- Row 1 of people -->
+  <g transform="translate(35, 85)">
+    <circle cx="12" cy="8" r="7" fill="#3B82F6"/><rect x="5" y="16" width="14" height="12" rx="3" fill="#1E40AF"/>
+    <circle cx="42" cy="8" r="7" fill="#3B82F6"/><rect x="35" y="16" width="14" height="12" rx="3" fill="#1E40AF"/>
+    <circle cx="72" cy="8" r="7" fill="#3B82F6"/><rect x="65" y="16" width="14" height="12" rx="3" fill="#1E40AF"/>
+    <circle cx="102" cy="8" r="7" fill="#3B82F6"/><rect x="95" y="16" width="14" height="12" rx="3" fill="#1E40AF"/>
+  </g>
+  <!-- Row 2 -->
+  <g transform="translate(35, 120)">
+    <circle cx="12" cy="8" r="7" fill="#3B82F6"/><rect x="5" y="16" width="14" height="12" rx="3" fill="#1E40AF"/>
+    <circle cx="42" cy="8" r="7" fill="#3B82F6"/><rect x="35" y="16" width="14" height="12" rx="3" fill="#1E40AF"/>
+    <circle cx="72" cy="8" r="7" fill="#3B82F6"/><rect x="65" y="16" width="14" height="12" rx="3" fill="#1E40AF"/>
+    <circle cx="102" cy="8" r="7" fill="#3B82F6"/><rect x="95" y="16" width="14" height="12" rx="3" fill="#1E40AF"/>
+  </g>
+  <!-- Row 3 -->
+  <g transform="translate(35, 155)">
+    <circle cx="12" cy="8" r="7" fill="#3B82F6"/><rect x="5" y="16" width="14" height="12" rx="3" fill="#1E40AF"/>
+    <circle cx="42" cy="8" r="7" fill="#3B82F6"/><rect x="35" y="16" width="14" height="12" rx="3" fill="#1E40AF"/>
+    <circle cx="72" cy="8" r="7" fill="#3B82F6"/><rect x="65" y="16" width="14" height="12" rx="3" fill="#1E40AF"/>
+    <circle cx="102" cy="8" r="7" fill="#3B82F6"/><rect x="95" y="16" width="14" height="12" rx="3" fill="#1E40AF"/>
+  </g>
+  <text x="100" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2563EB">736 Mitglieder</text>
+  <text x="100" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#64748B">(20. Bundestag)</text>
+  <!-- Plus sign -->
+  <text x="195" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#16A34A">+</text>
+  <!-- Right group: Länderdelegierte -->
+  <rect x="220" y="50" width="160" height="190" rx="12" fill="#FEF3C7" stroke="#CA8A04" stroke-width="2"/>
+  <text x="300" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#92400E">Länderdelegierte</text>
+  <!-- Row 1 -->
+  <g transform="translate(235, 85)">
+    <circle cx="12" cy="8" r="7" fill="#F59E0B"/><rect x="5" y="16" width="14" height="12" rx="3" fill="#92400E"/>
+    <circle cx="42" cy="8" r="7" fill="#F59E0B"/><rect x="35" y="16" width="14" height="12" rx="3" fill="#92400E"/>
+    <circle cx="72" cy="8" r="7" fill="#F59E0B"/><rect x="65" y="16" width="14" height="12" rx="3" fill="#92400E"/>
+    <circle cx="102" cy="8" r="7" fill="#F59E0B"/><rect x="95" y="16" width="14" height="12" rx="3" fill="#92400E"/>
+  </g>
+  <!-- Row 2 -->
+  <g transform="translate(235, 120)">
+    <circle cx="12" cy="8" r="7" fill="#F59E0B"/><rect x="5" y="16" width="14" height="12" rx="3" fill="#92400E"/>
+    <circle cx="42" cy="8" r="7" fill="#F59E0B"/><rect x="35" y="16" width="14" height="12" rx="3" fill="#92400E"/>
+    <circle cx="72" cy="8" r="7" fill="#F59E0B"/><rect x="65" y="16" width="14" height="12" rx="3" fill="#92400E"/>
+    <circle cx="102" cy="8" r="7" fill="#F59E0B"/><rect x="95" y="16" width="14" height="12" rx="3" fill="#92400E"/>
+  </g>
+  <!-- Row 3 -->
+  <g transform="translate(235, 155)">
+    <circle cx="12" cy="8" r="7" fill="#F59E0B"/><rect x="5" y="16" width="14" height="12" rx="3" fill="#92400E"/>
+    <circle cx="42" cy="8" r="7" fill="#F59E0B"/><rect x="35" y="16" width="14" height="12" rx="3" fill="#92400E"/>
+    <circle cx="72" cy="8" r="7" fill="#F59E0B"/><rect x="65" y="16" width="14" height="12" rx="3" fill="#92400E"/>
+    <circle cx="102" cy="8" r="7" fill="#F59E0B"/><rect x="95" y="16" width="14" height="12" rx="3" fill="#92400E"/>
+  </g>
+  <text x="300" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#CA8A04">gleiche Anzahl</text>
+  <text x="300" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#64748B">(von Landtagen gewählt)</text>
+  <!-- Bottom: Equals total -->
+  <rect x="100" y="255" width="200" height="35" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+  <text x="200" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#166534">= 1.472 Mitglieder (2022)</text>
+  <text x="200" y="287" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#16A34A">Größtes parlamentarisches Gremium</text>
+</svg>

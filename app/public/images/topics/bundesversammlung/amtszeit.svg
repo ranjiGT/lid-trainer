@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1E3A5F">Amtszeit des Bundespräsidenten</text>
+  <!-- Timeline -->
+  <line x1="40" y1="160" x2="360" y2="160" stroke="#94A3B8" stroke-width="3"/>
+  <!-- 5-year marks -->
+  <g>
+    <!-- Year 0 -->
+    <line x1="60" y1="150" x2="60" y2="170" stroke="#475569" stroke-width="2"/>
+    <text x="60" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#475569">Wahl</text>
+    <circle cx="60" cy="160" r="6" fill="#16A34A"/>
+    <!-- Year 5 -->
+    <line x1="200" y1="150" x2="200" y2="170" stroke="#475569" stroke-width="2"/>
+    <text x="200" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#475569">5 Jahre</text>
+    <circle cx="200" cy="160" r="6" fill="#F59E0B"/>
+    <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#CA8A04">Wiederwahl möglich</text>
+    <!-- Year 10 -->
+    <line x1="340" y1="150" x2="340" y2="170" stroke="#475569" stroke-width="2"/>
+    <text x="340" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#475569">10 Jahre</text>
+    <circle cx="340" cy="160" r="6" fill="#DC2626"/>
+    <text x="340" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#DC2626">max. 2 Amtszeiten</text>
+  </g>
+  <!-- First term bracket -->
+  <path d="M60,135 L60,125 L200,125 L200,135" stroke="#16A34A" stroke-width="1.5" fill="none"/>
+  <text x="130" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#16A34A">1. Amtszeit</text>
+  <!-- Second term bracket -->
+  <path d="M200,135 L200,125 L340,125 L340,135" stroke="#F59E0B" stroke-width="1.5" fill="none"/>
+  <text x="270" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#CA8A04">2. Amtszeit</text>
+  <!-- President icon in center top -->
+  <circle cx="200" cy="60" r="18" fill="#F59E0B"/>
+  <rect x="190" y="78" width="20" height="20" rx="4" fill="#7C3AED"/>
+  <text x="200" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#5B21B6">Bundespräsident/in</text>
+  <!-- Info boxes -->
+  <rect x="30" y="225" width="150" height="55" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="105" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#166534">Mindestalter</text>
+  <text x="105" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#16A34A">40</text>
+  <text x="105" y="273" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#166534">Jahre</text>
+  <rect x="220" y="225" width="150" height="55" rx="8" fill="#F3E8FF" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="295" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#5B21B6">Amtssitz</text>
+  <text x="295" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7C3AED">Schloss Bellevue</text>
+  <text x="295" y="273" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#5B21B6">Berlin</text>
+</svg>

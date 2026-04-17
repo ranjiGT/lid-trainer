@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1E3A5F">Gesetzgebung: Rolle des Bundesrats</text>
+  <!-- Step 1: Bundestag beschließt Gesetz -->
+  <rect x="20" y="50" width="150" height="50" rx="10" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="95" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1E40AF">Bundestag</text>
+  <text x="95" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2563EB">beschließt Gesetz</text>
+  <!-- Arrow right -->
+  <line x1="170" y1="75" x2="200" y2="75" stroke="#475569" stroke-width="2"/>
+  <polygon points="200,70 210,75 200,80" fill="#475569"/>
+  <!-- Step 2: Bundesrat prüft -->
+  <rect x="210" y="50" width="170" height="50" rx="10" fill="#FEF9C3" stroke="#CA8A04" stroke-width="2"/>
+  <text x="295" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400E">Bundesrat</text>
+  <text x="295" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#CA8A04">prüft das Gesetz</text>
+  <!-- Split into two paths -->
+  <!-- Left path: Zustimmungsgesetz -->
+  <line x1="260" y1="100" x2="260" y2="120" stroke="#CA8A04" stroke-width="1.5"/>
+  <rect x="30" y="120" width="200" height="40" rx="8" fill="#FEF3C7" stroke="#CA8A04" stroke-width="1.5"/>
+  <text x="130" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#92400E">Zustimmungsgesetz</text>
+  <text x="130" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#CA8A04">Bundesrat muss zustimmen</text>
+  <!-- Right path: Einspruchsgesetz -->
+  <line x1="330" y1="100" x2="330" y2="120" stroke="#CA8A04" stroke-width="1.5"/>
+  <rect x="240" y="120" width="145" height="40" rx="8" fill="#E0E7FF" stroke="#4F46E5" stroke-width="1.5"/>
+  <text x="312" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#3730A3">Einspruchsgesetz</text>
+  <text x="312" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#4F46E5">Bundesrat kann Einspruch einlegen</text>
+  <!-- Zustimmungsgesetz outcomes -->
+  <line x1="80" y1="160" x2="80" y2="180" stroke="#16A34A" stroke-width="1.5"/>
+  <rect x="20" y="180" width="120" height="35" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="80" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#166534">Zustimmung</text>
+  <text x="80" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#16A34A">Gesetz tritt in Kraft</text>
+  <line x1="180" y1="160" x2="180" y2="180" stroke="#DC2626" stroke-width="1.5"/>
+  <rect x="145" y="180" width="100" height="35" rx="8" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="195" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#991B1B">Ablehnung</text>
+  <text x="195" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#DC2626">Gesetz gescheitert</text>
+  <!-- Einspruchsgesetz outcomes -->
+  <line x1="312" y1="160" x2="312" y2="180" stroke="#F59E0B" stroke-width="1.5"/>
+  <rect x="252" y="180" width="120" height="35" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="312" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#92400E">Einspruch</text>
+  <text x="312" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#CA8A04">Bundestag kann überstimmen</text>
+  <!-- Vermittlungsausschuss -->
+  <line x1="200" y1="215" x2="200" y2="240" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="80" y="240" width="240" height="45" rx="10" fill="#F3E8FF" stroke="#7C3AED" stroke-width="2"/>
+  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#5B21B6">Vermittlungsausschuss</text>
+  <text x="200" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7C3AED">Bei Meinungsverschiedenheiten: gemeinsames Gremium</text>
+</svg>

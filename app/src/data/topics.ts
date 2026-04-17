@@ -424,6 +424,28 @@ export const topics: Topic[] = [
           { fact: { de: "Gr\u00f6\u00dftes parlamentarisches Gremium Deutschlands", en: "Largest parliamentary body in Germany" } },
         ],
       },
+      gallery: [
+        {
+          src: "/images/topics/bundesversammlung/zusammensetzung.svg",
+          alt: { de: "Zusammensetzung", en: "Composition" },
+          caption: { de: "Die Bundesversammlung besteht aus Bundestagsabgeordneten und einer gleichen Anzahl von Länderdelegierten.", en: "The Federal Assembly consists of Bundestag members and an equal number of state delegates." },
+        },
+        {
+          src: "/images/topics/bundesversammlung/wahlprozess.svg",
+          alt: { de: "Wahlprozess", en: "Election process" },
+          caption: { de: "Die Bundesversammlung wählt den Bundespräsidenten in geheimer Abstimmung. In den ersten zwei Wahlgängen ist die absolute Mehrheit nötig.", en: "The Federal Assembly elects the Federal President by secret ballot. An absolute majority is needed in the first two rounds." },
+        },
+        {
+          src: "/images/topics/bundesversammlung/reichstag.svg",
+          alt: { de: "Reichstagsgebäude", en: "Reichstag building" },
+          caption: { de: "Die Bundesversammlung tagt alle 5 Jahre im Reichstagsgebäude in Berlin.", en: "The Federal Assembly meets every 5 years in the Reichstag building in Berlin." },
+        },
+        {
+          src: "/images/topics/bundesversammlung/amtszeit.svg",
+          alt: { de: "Amtszeit", en: "Term of office" },
+          caption: { de: "Der Bundespräsident wird für 5 Jahre gewählt und kann einmal wiedergewählt werden. Das Mindestalter beträgt 40 Jahre.", en: "The Federal President is elected for 5 years and can be re-elected once. The minimum age is 40." },
+        },
+      ],
     },
   },
   {
@@ -447,6 +469,28 @@ export const topics: Topic[] = [
           { fact: { de: "Vorsitz wechselt jährlich zwischen den Bundesländern", en: "Presidency rotates annually among the federal states" } },
         ],
       },
+      gallery: [
+        {
+          src: "/images/topics/bundesrat/vertretung.svg",
+          alt: { de: "Vertretung der Länder", en: "Representation of the states" },
+          caption: { de: "Der Bundesrat besteht aus Vertretern der 16 Landesregierungen. Die Mitglieder werden nicht direkt gewählt.", en: "The Bundesrat consists of representatives of the 16 state governments. Members are not directly elected." },
+        },
+        {
+          src: "/images/topics/bundesrat/stimmenverteilung.svg",
+          alt: { de: "Stimmenverteilung", en: "Vote distribution" },
+          caption: { de: "Jedes Bundesland hat je nach Einwohnerzahl 3 bis 6 Stimmen. Insgesamt gibt es 69 Stimmen.", en: "Each federal state has 3 to 6 votes depending on its population. There are 69 votes in total." },
+        },
+        {
+          src: "/images/topics/bundesrat/gesetzgebung.svg",
+          alt: { de: "Gesetzgebung", en: "Legislation" },
+          caption: { de: "Der Bundesrat wirkt bei der Gesetzgebung mit. Bei Zustimmungsgesetzen muss er zustimmen, bei Einspruchsgesetzen kann er Einspruch einlegen.", en: "The Bundesrat participates in legislation. It must approve consent laws and can object to objection laws." },
+        },
+        {
+          src: "/images/topics/bundesrat/aufgaben.svg",
+          alt: { de: "Aufgaben", en: "Tasks" },
+          caption: { de: "Der Bundesrat wirkt an der Gesetzgebung, bei EU-Angelegenheiten, Verfassungsänderungen und Verwaltungsvorschriften mit.", en: "The Bundesrat participates in legislation, EU affairs, constitutional amendments, and administrative regulations." },
+        },
+      ],
     },
   },
   {
@@ -599,6 +643,43 @@ export const topics: Topic[] = [
           { fact: { de: "Ziel: Frieden, Freiheit und Wohlstand in Europa", en: "Goal: peace, freedom and prosperity in Europe" } },
         ],
       },
+      gallery: [
+        {
+          src: "/images/topics/europaeische-integration/zeitstrahl.svg",
+          alt: { de: "Zeitstrahl", en: "Timeline" },
+          caption: { de: "Von der EGKS (1951) über die EWG und EG bis zur heutigen EU mit 27 Mitgliedstaaten.", en: "From the ECSC (1951) through the EEC and EC to today's EU with 27 member states." },
+        },
+        {
+          src: "/images/topics/europaeische-integration/gruenderstaaten.svg",
+          alt: { de: "Gründerstaaten", en: "Founding states" },
+          caption: { de: "Die 6 Gründerstaaten der EWG: Deutschland, Frankreich, Italien, Belgien, Niederlande und Luxemburg.", en: "The 6 founding states of the EEC: Germany, France, Italy, Belgium, Netherlands, and Luxembourg." },
+        },
+        {
+          src: "/images/topics/europaeische-integration/ewg-eg-eu.svg",
+          alt: { de: "Von der EWG zur EU", en: "From EEC to EU" },
+          caption: { de: "Die Entwicklung von der Wirtschaftsgemeinschaft (EWG) über die EG zur politischen Union (EU).", en: "The evolution from the economic community (EEC) through the EC to the political union (EU)." },
+        },
+        {
+          src: "/images/topics/europaeische-integration/vertraege.svg",
+          alt: { de: "Wichtige EU-Verträge", en: "Important EU treaties" },
+          caption: { de: "Die wichtigsten Verträge der europäischen Integration: Römische Verträge, Maastricht, Schengen und Lissabon.", en: "The most important treaties of European integration: Treaty of Rome, Maastricht, Schengen, and Lisbon." },
+        },
+        {
+          src: "/images/topics/europaeische-integration/eu-flagge.svg",
+          alt: { de: "Europaflagge", en: "European flag" },
+          caption: { de: "Die Europaflagge mit 12 goldenen Sternen auf blauem Grund – Symbol der europäischen Einheit. (Public Domain, Wikimedia Commons)", en: "The European flag with 12 golden stars on a blue background – symbol of European unity. (Public Domain, Wikimedia Commons)" },
+        },
+        {
+          src: "/images/topics/europaeische-integration/eu-karte.svg",
+          alt: { de: "Karte der EU-Mitgliedstaaten", en: "Map of EU member states" },
+          caption: { de: "Karte der Europäischen Union mit ihren Mitgliedstaaten. (Public Domain, Ssolbergj via Wikimedia Commons)", en: "Map of the European Union with its member states. (Public Domain, Ssolbergj via Wikimedia Commons)" },
+        },
+        {
+          src: "/images/topics/europaeische-integration/euro-muenzen-scheine.jpg",
+          alt: { de: "Euro-Münzen und -Scheine", en: "Euro coins and banknotes" },
+          caption: { de: "Euro-Münzen und -Banknoten – die gemeinsame Währung der Eurozone seit 2002. (Public Domain, Avij via Wikimedia Commons)", en: "Euro coins and banknotes – the common currency of the Eurozone since 2002. (Public Domain, Avij via Wikimedia Commons)" },
+        },
+      ],
     },
   },
 

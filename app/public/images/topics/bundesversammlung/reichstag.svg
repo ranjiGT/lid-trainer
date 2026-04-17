@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" rx="16" fill="#F0FDF4"/>
+  <!-- Title -->
+  <text x="200" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1E3A5F">Alle 5 Jahre – im Reichstag</text>
+  <!-- Reichstag building simplified -->
+  <!-- Base -->
+  <rect x="80" y="170" width="240" height="70" rx="4" fill="#E2E8F0" stroke="#475569" stroke-width="2"/>
+  <!-- Columns -->
+  <rect x="105" y="140" width="12" height="30" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+  <rect x="135" y="140" width="12" height="30" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+  <rect x="165" y="140" width="12" height="30" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+  <rect x="225" y="140" width="12" height="30" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+  <rect x="255" y="140" width="12" height="30" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+  <rect x="285" y="140" width="12" height="30" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+  <!-- Pediment / triangle -->
+  <polygon points="90,140 200,100 310,140" fill="#CBD5E1" stroke="#475569" stroke-width="2"/>
+  <!-- Inscription -->
+  <text x="200" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#475569">DEM DEUTSCHEN VOLKE</text>
+  <!-- Dome -->
+  <ellipse cx="200" cy="95" rx="35" ry="25" fill="#BFDBFE" stroke="#475569" stroke-width="1.5" opacity="0.7"/>
+  <ellipse cx="200" cy="95" rx="20" ry="15" fill="#DBEAFE" stroke="#475569" stroke-width="1" opacity="0.5"/>
+  <!-- Entrance -->
+  <rect x="175" y="200" width="50" height="40" rx="3" fill="#94A3B8"/>
+  <path d="M175,200 Q200,185 225,200" fill="#94A3B8" stroke="#475569" stroke-width="1.5"/>
+  <!-- Flag -->
+  <line x1="200" y1="70" x2="200" y2="50" stroke="#475569" stroke-width="1.5"/>
+  <rect x="200" y="50" width="20" height="4" fill="#1E1E1E"/>
+  <rect x="200" y="54" width="20" height="4" fill="#DC2626"/>
+  <rect x="200" y="58" width="20" height="4" fill="#F59E0B"/>
+  <!-- Calendar icon -->
+  <rect x="30" y="60" width="45" height="40" rx="5" fill="white" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="30" y="60" width="45" height="14" rx="5" fill="#7C3AED"/>
+  <text x="52" y="71" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="white">alle</text>
+  <text x="52" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#7C3AED">5</text>
+  <text x="52" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7C3AED">Jahre</text>
+  <!-- Location pin -->
+  <g transform="translate(330, 60)">
+    <path d="M20,0 C30,0 35,10 35,18 C35,30 20,42 20,42 C20,42 5,30 5,18 C5,10 10,0 20,0Z" fill="#DC2626" opacity="0.8"/>
+    <circle cx="20" cy="17" r="6" fill="white"/>
+  </g>
+  <text x="350" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#DC2626">Berlin</text>
+  <!-- Info text bottom -->
+  <rect x="50" y="255" width="300" height="35" rx="8" fill="#F3E8FF" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="200" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#5B21B6">Tagungsort: Reichstagsgebäude, Berlin</text>
+  <text x="200" y="284" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7C3AED">Einziger Zweck: Wahl des Bundespräsidenten</text>
+</svg>

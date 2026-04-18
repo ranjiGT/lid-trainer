@@ -2,7 +2,7 @@
 
 A modern, interactive web app for preparing for the German citizenship test (*Einbürgerungstest / "Leben in Deutschland"*). Built with Next.js and deployed as a static site on GitHub Pages.
 
-**[Live Demo →](https://ranjigt.github.io/LebenInDeutschland/)**
+**[Live Demo →](https://ranjigt.github.io/lid-trainer/)**
 
 ---
 
@@ -20,9 +20,23 @@ A modern, interactive web app for preparing for the German citizenship test (*Ei
 
 ## Screenshots
 
-| Light Mode | Dark Mode |
-|:---:|:---:|
-| Practice with coat of arms | Topic illustrations |
+### Home
+![Home page](screenshots/home.png)
+
+### Practice Mode
+![Practice mode with coat of arms](screenshots/practice.png)
+
+### Exam Simulation
+![Exam simulation with state selection](screenshots/exam.png)
+
+### Topics Overview
+![Topics browser with categories](screenshots/topics.png)
+
+### Topic Detail
+![Topic detail page – Nachbarländer](screenshots/topic-detail.png)
+
+### Image Questions
+![Image questions mode](screenshots/images.png)
 
 ## Getting Started
 
@@ -44,7 +58,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000/LebenInDeutschland](http://localhost:3000/LebenInDeutschland)
+Open [http://localhost:3000/lid-trainer](http://localhost:3000/lid-trainer)
 
 ### Build
 

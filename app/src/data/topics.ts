@@ -1794,7 +1794,7 @@ export const topics: Topic[] = [
     },
   },
   {
-    id: "ostvertr\u00e4ge",
+    id: "ostvertraege",
     category: "geschichte",
     title: { de: "Ostvertr\u00e4ge (1972)", en: "Eastern Treaties (1972)" },
     description: {

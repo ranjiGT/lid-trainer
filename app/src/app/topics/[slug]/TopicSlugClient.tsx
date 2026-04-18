@@ -1,40 +1,41 @@
 "use client";
 
-import { useState, useCallback, useMemo } from "react";
-import { Question } from "../../lib/types";
-import { getAllQuestions, shuffleArray } from "../../lib/questions";
-import { useLanguage } from "../../components/LanguageProvider";
-import { t } from "../../lib/i18n";
-import QuestionCard from "../../components/QuestionCard";
-import TopicCard from "../../components/TopicCard";
-import LanguageToggle from "../../components/LanguageToggle";
-import ThemeToggle from "../../components/ThemeToggle";
+import { useState, useMemo, useCallback, use } from "react";
 import Link from "next/link";
-import { topics, topicCategories, Topic } from "../../data/topics";
+import { topics } from "../../../data/topics";
+import { Question } from "../../../lib/types";
+import { getAllQuestions, shuffleArray } from "../../../lib/questions";
+import { useLanguage } from "../../../components/LanguageProvider";
+import { t } from "../../../lib/i18n";
+import TopicDetail from "../../../components/TopicDetail";
+import QuestionCard from "../../../components/QuestionCard";
+import LanguageToggle from "../../../components/LanguageToggle";
+import ThemeToggle from "../../../components/ThemeToggle";
 
-export default function TopicsPage() {
+export default function TopicSlugClient({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = use(params);
   const { lang } = useLanguage();
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [activeTopic, setActiveTopic] = useState<Topic | null>(null);
+
+  const topic = useMemo(() => topics.find((t) => t.id === slug), [slug]);
+
+  const allQuestions = useMemo(() => getAllQuestions(), []);
+  const [activePractice, setActivePractice] = useState(false);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [stats, setStats] = useState({ correct: 0, total: 0 });
 
-  const allQuestions = useMemo(() => getAllQuestions(), []);
-
-  const filteredTopics = useMemo(() => {
-    if (!selectedCategory) return topics;
-    return topics.filter((topic) => topic.category === selectedCategory);
-  }, [selectedCategory]);
-
   const startPractice = useCallback(
-    (questionNumbers: number[], topic: Topic) => {
+    (questionNumbers: number[]) => {
       const qs = allQuestions.filter((q) =>
         questionNumbers.includes(q.number)
       );
-      setActiveTopic(topic);
+      setActivePractice(true);
       setQuestions(shuffleArray(qs));
       setCurrentIndex(0);
       setSelectedAnswer(null);
@@ -66,8 +67,26 @@ export default function TopicsPage() {
     }
   };
 
-  // Practice mode for a specific topic
-  if (activeTopic && questions.length > 0) {
+  if (!topic) {
+    return (
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+            {lang === "de" ? "Thema nicht gefunden" : "Topic not found"}
+          </h1>
+          <Link
+            href="/topics"
+            className="text-amber-600 hover:text-amber-700 dark:text-amber-400 dark:hover:text-amber-300 font-semibold"
+          >
+            ← {lang === "de" ? "Zurück zu Themen" : "Back to Topics"}
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
+  // Practice mode
+  if (activePractice && questions.length > 0) {
     const currentQuestion = questions[currentIndex];
 
     return (
@@ -75,10 +94,10 @@ export default function TopicsPage() {
         <header className="border-b border-gray-200 dark:border-gray-700 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm sticky top-0 z-10">
           <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
             <button
-              onClick={() => setActiveTopic(null)}
+              onClick={() => setActivePractice(false)}
               className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
             >
-              ← {lang === "de" ? "Zurück zu Themen" : "Back to Topics"}
+              ← {lang === "de" ? "Zurück zum Thema" : "Back to Topic"}
             </button>
             <div className="flex items-center gap-4">
               <span className="text-sm text-gray-500 dark:text-gray-400">
@@ -89,7 +108,6 @@ export default function TopicsPage() {
             </div>
           </div>
 
-          {/* Progress bar */}
           <div className="h-1 bg-gray-200 dark:bg-gray-700">
             <div
               className="h-full bg-amber-500 transition-all duration-300"
@@ -101,12 +119,11 @@ export default function TopicsPage() {
         </header>
 
         <main className="max-w-4xl mx-auto px-4 py-8">
-          {/* Topic context banner */}
           <div className="mb-6 flex items-center gap-3 p-4 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-800">
-            <span className="text-2xl">{activeTopic.illustration}</span>
+            <span className="text-2xl">{topic.illustration}</span>
             <div>
               <h2 className="font-bold text-amber-900 dark:text-amber-200">
-                {activeTopic.title[lang]}
+                {topic.title[lang]}
               </h2>
               <p className="text-xs text-amber-700 dark:text-amber-400">
                 {questions.length}{" "}
@@ -144,7 +161,7 @@ export default function TopicsPage() {
                   </button>
                 ) : (
                   <button
-                    onClick={() => setActiveTopic(null)}
+                    onClick={() => setActivePractice(false)}
                     className="px-8 py-3 bg-green-600 text-white font-semibold rounded-xl hover:bg-green-700 transition-colors"
                   >
                     {t("examComplete", lang)} - {stats.correct}/{stats.total} ✓
@@ -158,16 +175,16 @@ export default function TopicsPage() {
     );
   }
 
-  // Topic browser
+  // Topic detail view
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
       <header className="border-b border-gray-200 dark:border-gray-700 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm sticky top-0 z-10">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
           <Link
-            href="/"
+            href="/topics"
             className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
           >
-            ← {t("backToHome", lang)}
+            ← {lang === "de" ? "Zurück zu Themen" : "Back to Topics"}
           </Link>
           <div className="flex items-center gap-2">
             <ThemeToggle />
@@ -176,92 +193,13 @@ export default function TopicsPage() {
         </div>
       </header>
 
-      <main className="max-w-5xl mx-auto px-4 py-12">
-        <div className="mb-10">
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
-            {lang === "de" ? "Themen & Grundlagen" : "Topics & Basics"}
-          </h1>
-          <p className="text-gray-600 dark:text-gray-400">
-            {lang === "de"
-              ? "Lernen Sie wichtige Begriffe und Konzepte kennen. Jedes Thema ist mit den zugehörigen Prüfungsfragen verknüpft."
-              : "Learn important terms and concepts. Each topic is linked to related exam questions."}
-          </p>
-        </div>
-
-        {/* Category filter pills */}
-        <div className="flex flex-wrap gap-2 mb-8">
-          <button
-            onClick={() => setSelectedCategory(null)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-              selectedCategory === null
-                ? "bg-amber-600 text-white"
-                : "bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700"
-            }`}
-          >
-            {lang === "de" ? "Alle" : "All"} ({topics.length})
-          </button>
-          {topicCategories.map((cat) => {
-            const count = topics.filter((t) => t.category === cat.id).length;
-            return (
-              <button
-                key={cat.id}
-                onClick={() =>
-                  setSelectedCategory(
-                    selectedCategory === cat.id ? null : cat.id
-                  )
-                }
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                  selectedCategory === cat.id
-                    ? "bg-amber-600 text-white"
-                    : "bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700"
-                }`}
-              >
-                {cat.icon} {cat.title[lang]} ({count})
-              </button>
-            );
-          })}
-        </div>
-
-        {/* Topics grid by category */}
-        {selectedCategory === null ? (
-          // Show grouped by category
-          <div className="space-y-10">
-            {topicCategories.map((cat) => {
-              const catTopics = topics.filter((t) => t.category === cat.id);
-              if (catTopics.length === 0) return null;
-              return (
-                <section key={cat.id}>
-                  <h2 className="text-xl font-bold text-gray-800 dark:text-gray-200 mb-4 flex items-center gap-2">
-                    <span>{cat.icon}</span>
-                    {cat.title[lang]}
-                  </h2>
-                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {catTopics.map((topic) => (
-                      <TopicCard
-                        key={topic.id}
-                        topic={topic}
-                        lang={lang}
-                        onPractice={(nums) => startPractice(nums, topic)}
-                      />
-                    ))}
-                  </div>
-                </section>
-              );
-            })}
-          </div>
-        ) : (
-          // Show filtered flat grid
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {filteredTopics.map((topic) => (
-              <TopicCard
-                key={topic.id}
-                topic={topic}
-                lang={lang}
-                onPractice={(nums) => startPractice(nums, topic)}
-              />
-            ))}
-          </div>
-        )}
+      <main className="px-4 py-8">
+        <TopicDetail
+          topic={topic}
+          lang={lang}
+          onBack={() => {}}
+          onPractice={(nums) => startPractice(nums)}
+        />
       </main>
     </div>
   );

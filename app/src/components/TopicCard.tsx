@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Topic } from "../data/topics";
 import { Language } from "../lib/types";
 
@@ -7,15 +8,15 @@ interface TopicCardProps {
   topic: Topic;
   lang: Language;
   onPractice: (questionNumbers: number[]) => void;
-  onViewDetail: (topic: Topic) => void;
+  onViewDetail?: (topic: Topic) => void;
 }
 
-export default function TopicCard({ topic, lang, onPractice, onViewDetail }: TopicCardProps) {
+export default function TopicCard({ topic, lang, onPractice }: TopicCardProps) {
   return (
     <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-md hover:shadow-lg transition-shadow p-6 border border-gray-100 dark:border-gray-700 flex flex-col">
-      <div
+      <Link
+        href={`/topics/${topic.id}`}
         className="cursor-pointer"
-        onClick={() => onViewDetail(topic)}
       >
         <div className="flex items-start gap-4 mb-4">
           <span className="text-4xl flex-shrink-0">{topic.illustration}</span>
@@ -34,7 +35,7 @@ export default function TopicCard({ topic, lang, onPractice, onViewDetail }: Top
         <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed mb-4 flex-grow">
           {topic.description[lang]}
         </p>
-      </div>
+      </Link>
 
       <div className="flex items-center justify-between mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
         <span className="text-xs text-gray-500 dark:text-gray-500">
@@ -43,12 +44,12 @@ export default function TopicCard({ topic, lang, onPractice, onViewDetail }: Top
         </span>
         <div className="flex items-center gap-3">
           {topic.details && (
-            <button
-              onClick={() => onViewDetail(topic)}
+            <Link
+              href={`/topics/${topic.id}`}
               className="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors inline-flex items-center gap-1"
             >
               {lang === "de" ? "Mehr" : "Learn"} →
-            </button>
+            </Link>
           )}
           <button
             onClick={() => onPractice(topic.relatedQuestionNumbers)}

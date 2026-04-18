@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { Topic } from "../data/topics";
 import { Language } from "../lib/types";
 import { basePath } from "../lib/basePath";
@@ -45,12 +46,12 @@ export default function TopicDetail({
         </div>
       )}
       {/* Back button */}
-      <button
-        onClick={onBack}
+      <Link
+        href="/topics"
         className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 mb-6 inline-flex items-center gap-1"
       >
         ← {lang === "de" ? "Zurück zu Themen" : "Back to Topics"}
-      </button>
+      </Link>
 
       {/* Header card */}
       <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 border border-gray-100 dark:border-gray-700 mb-6">

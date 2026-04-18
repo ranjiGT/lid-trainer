@@ -4,8 +4,8 @@ import path from "path";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/LebenInDeutschland',
-  assetPrefix: '/LebenInDeutschland',
+  basePath: '/lid-trainer',
+  assetPrefix: '/lid-trainer',
   turbopack: {
     root: path.resolve(__dirname),
   },

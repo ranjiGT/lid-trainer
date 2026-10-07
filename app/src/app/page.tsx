@@ -182,10 +182,23 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 mt-auto">
-        <div className="max-w-4xl mx-auto px-4 py-6 text-center text-sm text-gray-500 dark:text-gray-500">
-          {lang === "de"
-            ? "Basierend auf dem offiziellen Gesamtfragenkatalog des BAMF. Keine Gewähr für Richtigkeit."
-            : "Based on the official BAMF question catalog. No guarantee of correctness."}
+        <div className="max-w-4xl mx-auto px-4 py-6 text-center text-sm text-gray-500 dark:text-gray-500 space-y-3">
+          <p>
+            {lang === "de"
+              ? "Basierend auf dem offiziellen Gesamtfragenkatalog des BAMF. Keine Gewähr für Richtigkeit."
+              : "Based on the official BAMF question catalog. No guarantee of correctness."}
+          </p>
+          <a
+            href="https://github.com/sponsors/ranjiGT"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 font-semibold text-pink-600 hover:text-pink-700 dark:text-pink-400 dark:hover:text-pink-300"
+          >
+            <span aria-hidden="true">♥</span>
+            {lang === "de"
+              ? "Gefällt Ihnen das Projekt? Unterstützen Sie es auf GitHub Sponsors."
+              : "Enjoy this project? Support it on GitHub Sponsors."}
+          </a>
         </div>
       </footer>
     </div>

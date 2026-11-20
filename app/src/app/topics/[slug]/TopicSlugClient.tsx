@@ -32,9 +32,15 @@ export default function TopicSlugClient({
 
   const startPractice = useCallback(
     (questionNumbers: number[]) => {
-      const qs = allQuestions.filter((q) =>
-        questionNumbers.includes(q.number)
-      );
+      // Get questions for the requested numbers, but only the first occurrence of each number
+      const seenNumbers = new Set<number>();
+      const qs = allQuestions.filter((q) => {
+        if (questionNumbers.includes(q.number) && !seenNumbers.has(q.number)) {
+          seenNumbers.add(q.number);
+          return true;
+        }
+        return false;
+      });
       setActivePractice(true);
       setQuestions(shuffleArray(qs));
       setCurrentIndex(0);
